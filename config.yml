@@ -86,7 +86,7 @@ params:
   homeInfoParams:
     Title: "Hi there👋"
     Content: >
-      👋 **Welcome to my technical blog!**
+      - **Welcome to my technical blog!**
 
       - Here I write content about Computer Science, Data Structures Algorithms, Networking, Artificial Intelligence and Coding Interview Preparation.
 
