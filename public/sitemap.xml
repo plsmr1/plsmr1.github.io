@@ -257,7 +257,7 @@
     <loc>https://samirpaulb.github.io/tags/study-plan/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/0-1-string/</loc>
+    <loc>https://samirpaulb.github.io/problems/0-1-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/0002-add-two-numbers/</loc>
@@ -1664,10 +1664,10 @@
     <loc>https://samirpaulb.github.io/problems/2-keys-keyboard/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/2-sum/</loc>
+    <loc>https://samirpaulb.github.io/problems/2-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/2-sum-binary-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/2-sum-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/20-valid-parentheses/</loc>
@@ -1919,10 +1919,10 @@
     <loc>https://samirpaulb.github.io/problems/3-longest-substring-without-repeating-characters/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/3-sum/</loc>
+    <loc>https://samirpaulb.github.io/problems/3-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/3-sum-zero/</loc>
+    <loc>https://samirpaulb.github.io/problems/3-sum-zero/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/300-longest-increasing-subsequence/</loc>
@@ -2012,7 +2012,7 @@
     <loc>https://samirpaulb.github.io/problems/4-median-of-two-sorted-arrays/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/4-sum/</loc>
+    <loc>https://samirpaulb.github.io/problems/4-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/40-combination-sum-ii/</loc>
@@ -2486,37 +2486,46 @@
     <loc>https://samirpaulb.github.io/problems/997-find-the-town-judge/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/absolute-value/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/accounts-merge/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/actors-and-their-movies/</loc>
+    <loc>https://samirpaulb.github.io/problems/actors-and-their-movies/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/add-binary-strings/</loc>
+    <loc>https://samirpaulb.github.io/problems/add-binary-strings/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/add-one-to-number/</loc>
+    <loc>https://samirpaulb.github.io/problems/add-one-to-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/add-two-numbers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/add-two-numbers-as-lists/</loc>
+    <loc>https://samirpaulb.github.io/problems/add-two-numbers-as-lists/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/add-two-numbers-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/addition-of-two-numbers/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/advantage-shuffle/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/aggressive-cows/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/test/aggressive-cows/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/aggressive-cows1/</loc>
+    <loc>https://samirpaulb.github.io/problems/aggressive-cows1/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/all-factors/</loc>
+    <loc>https://samirpaulb.github.io/problems/all-factors/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/all-nodes-distance-k-in-binary-tree/</loc>
@@ -2525,43 +2534,49 @@
     <loc>https://samirpaulb.github.io/problems/all-possible-full-binary-trees/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/allocate-books/</loc>
+    <loc>https://samirpaulb.github.io/problems/allocate-books/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/amazing-subarrays/</loc>
+    <loc>https://samirpaulb.github.io/test/allocate-minimum-number-of-pages/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/amortized2/</loc>
+    <loc>https://samirpaulb.github.io/problems/amazing-subarrays/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/anagram-substring-search/</loc>
+    <loc>https://samirpaulb.github.io/problems/amortized2/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/anagrams/</loc>
+    <loc>https://samirpaulb.github.io/problems/anagram-substring-search/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/another-chocolate-game/</loc>
+    <loc>https://samirpaulb.github.io/problems/anagrams/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/another-coin-problem/</loc>
+    <loc>https://samirpaulb.github.io/problems/another-chocolate-game/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/anti-diagonals/</loc>
+    <loc>https://samirpaulb.github.io/problems/another-coin-problem/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/arrange-cubes/</loc>
+    <loc>https://samirpaulb.github.io/problems/anti-diagonals/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/arrange-ii/</loc>
+    <loc>https://samirpaulb.github.io/problems/arrange-cubes/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/arrange-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/arranging-coins/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/array-3-pointers/</loc>
+    <loc>https://samirpaulb.github.io/problems/array-3-pointers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/array-and-prime-divisors/</loc>
+    <loc>https://samirpaulb.github.io/problems/array-and-prime-divisors/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/array-pair-sum-divisibility-problem/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/as-far-from-land-as-possible/</loc>
@@ -2570,13 +2585,13 @@
     <loc>https://samirpaulb.github.io/problems/assign-cookies/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/assign-mice-to-holes/</loc>
+    <loc>https://samirpaulb.github.io/problems/assign-mice-to-holes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/asteroid-collision/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/atoi/</loc>
+    <loc>https://samirpaulb.github.io/problems/atoi/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/average-of-levels-in-binary-tree/</loc>
@@ -2588,9 +2603,6 @@
     <loc>https://samirpaulb.github.io/problems/balanced-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/balanced-binary-tree/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/beautiful-arrangement-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -2600,7 +2612,7 @@
     <loc>https://samirpaulb.github.io/problems/best-time-to-buy-and-sell-stock/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/best-time-to-buy-and-sell-stock-atmost-b-times/</loc>
+    <loc>https://samirpaulb.github.io/problems/best-time-to-buy-and-sell-stock-atmost-b-times/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/best-time-to-buy-and-sell-stock-iii/</loc>
@@ -2612,13 +2624,16 @@
     <loc>https://samirpaulb.github.io/problems/best-time-to-buy-and-sell-stock-with-cooldown/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/best-time-to-buy-and-sell-stocks-i/</loc>
+    <loc>https://samirpaulb.github.io/problems/best-time-to-buy-and-sell-stocks-i/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/best-time-to-buy-and-sell-stocks-ii/</loc>
+    <loc>https://samirpaulb.github.io/problems/best-time-to-buy-and-sell-stocks-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/best-time-to-buy-and-sell-stocks-iii/</loc>
+    <loc>https://samirpaulb.github.io/problems/best-time-to-buy-and-sell-stocks-iii/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/binary-array-sorting/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/binary-search/</loc>
@@ -2636,7 +2651,7 @@
     <loc>https://samirpaulb.github.io/problems/binary-tree-cameras/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/binary-tree-from-inorder-and-postorder/</loc>
+    <loc>https://samirpaulb.github.io/problems/binary-tree-from-inorder-and-postorder/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/binary-tree-inorder-traversal/</loc>
@@ -2663,7 +2678,13 @@
     <loc>https://samirpaulb.github.io/problems/bitwise-and-of-numbers-range/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/black-shapes/</loc>
+    <loc>https://samirpaulb.github.io/test/bitwise-operators/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/black-and-white/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/black-shapes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/boats-to-save-people/</loc>
@@ -2672,25 +2693,34 @@
     <loc>https://samirpaulb.github.io/problems/bottom-view-of-binary-tree---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/bst-iterator/</loc>
+    <loc>https://samirpaulb.github.io/problems/bst-iterator/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/build-identical-trees/</loc>
+    <loc>https://samirpaulb.github.io/problems/build-identical-trees/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/bulbs/</loc>
+    <loc>https://samirpaulb.github.io/problems/bulbs/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/burst-balloons/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/burst-balloons/</loc>
+    <loc>https://samirpaulb.github.io/problems/bus-and-passenger/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/bus-and-passenger/</loc>
+    <loc>https://samirpaulb.github.io/problems/byes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/byes/</loc>
+    <loc>https://samirpaulb.github.io/test/cpp-data-types/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/cpp-if-else-decision-making/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/cpp-strings/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/cpp-switch-case-statement/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/camelcase-matching/</loc>
@@ -2702,7 +2732,7 @@
     <loc>https://samirpaulb.github.io/problems/capacity-to-ship-packages-within-d-days/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/capture-regions-on-board/</loc>
+    <loc>https://samirpaulb.github.io/problems/capture-regions-on-board/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/car-pooling/</loc>
@@ -2717,10 +2747,25 @@
     <loc>https://samirpaulb.github.io/problems/check-if-a-string-can-break-another-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/check-if-array-is-sorted/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/check-if-binary-string-has-at-most-one-segment-of-ones/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/check-whether-the-graph-is-bipartide-or-not/</loc>
+    <loc>https://samirpaulb.github.io/test/check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/check-if-linked-list-is-palindrome/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/check-if-two-arrays-are-equal-or-not/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/check-whether-k-th-bit-is-set-or-not/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/check-whether-the-graph-is-bipartide-or-not/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/checking-existence-of-edge-length-limited-paths/</loc>
@@ -2741,7 +2786,7 @@
     <loc>https://samirpaulb.github.io/problems/circular-array-loop/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/city-tour/</loc>
+    <loc>https://samirpaulb.github.io/problems/city-tour/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/climbing-stairs/</loc>
@@ -2750,28 +2795,25 @@
     <loc>https://samirpaulb.github.io/problems/clone-graph/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/clone-graph/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/coin-change/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/coin-sum-infinite/</loc>
+    <loc>https://samirpaulb.github.io/problems/coin-sum-infinite/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/coins-in-a-line/</loc>
+    <loc>https://samirpaulb.github.io/problems/coins-in-a-line/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/colorful-number/</loc>
+    <loc>https://samirpaulb.github.io/problems/colorful-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/column-name-from-a-given-column-number---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/combination-sum/</loc>
+    <loc>https://samirpaulb.github.io/problems/combination-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/combination-sum-ii/</loc>
+    <loc>https://samirpaulb.github.io/problems/combination-sum-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/combination-sum-iii/</loc>
@@ -2780,25 +2822,22 @@
     <loc>https://samirpaulb.github.io/problems/combinations/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/combinations/</loc>
+    <loc>https://samirpaulb.github.io/problems/common-nodes-in-two-binary-search-trees/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/common-nodes-in-two-binary-search-trees/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/commutable-islands/</loc>
+    <loc>https://samirpaulb.github.io/problems/commutable-islands/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/compare-version-numbers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/compare-version-numbers/</loc>
+    <loc>https://samirpaulb.github.io/test/complete-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/concatenated-words/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/connect-ropes-with-minimum-length/</loc>
+    <loc>https://samirpaulb.github.io/problems/connect-ropes-with-minimum-length/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/consecutive-1s-not-allowed---gfg/</loc>
@@ -2810,7 +2849,7 @@
     <loc>https://samirpaulb.github.io/problems/construct-binary-tree-from-inorder-and-postorder-traversal/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/construct-binary-tree-from-inorder-and-preorder/</loc>
+    <loc>https://samirpaulb.github.io/problems/construct-binary-tree-from-inorder-and-preorder/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/construct-binary-tree-from-preorder-and-inorder-traversal/</loc>
@@ -2822,7 +2861,7 @@
     <loc>https://samirpaulb.github.io/problems/construct-string-from-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/container-with-most-water/</loc>
+    <loc>https://samirpaulb.github.io/problems/container-with-most-water/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/contiguous-array/</loc>
@@ -2834,7 +2873,7 @@
     <loc>https://samirpaulb.github.io/problems/convert-bst-to-greater-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/convert-integer-to-roman-number/</loc>
+    <loc>https://samirpaulb.github.io/problems/convert-integer-to-roman-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/convert-sorted-array-to-binary-search-tree/</loc>
@@ -2843,19 +2882,19 @@
     <loc>https://samirpaulb.github.io/problems/convert-sorted-list-to-binary-search-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/convert-sorted-list-to-binary-search-tree/</loc>
+    <loc>https://samirpaulb.github.io/test/convert-string-to-lowercase/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/copy-list/</loc>
+    <loc>https://samirpaulb.github.io/problems/copy-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/copy-list-with-random-pointer/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/count-and-say/</loc>
+    <loc>https://samirpaulb.github.io/problems/count-and-say/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/count-element-occurence/</loc>
+    <loc>https://samirpaulb.github.io/problems/count-element-occurence/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/count-good-meals/</loc>
@@ -2864,25 +2903,40 @@
     <loc>https://samirpaulb.github.io/problems/count-good-nodes-in-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/count-of-pairs-with-the-given-sum/</loc>
+    <loc>https://samirpaulb.github.io/test/count-leaves-in-binary-tree/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/count-nodes-of-linked-list/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/count-odd-even/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/count-odd-factors/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/count-of-camel-case-characters/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/count-of-pairs-with-the-given-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/count-of-range-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/count-of-range-sum/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/count-of-rectangles-with-area-less-than-the-given-number/</loc>
+    <loc>https://samirpaulb.github.io/problems/count-of-rectangles-with-area-less-than-the-given-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/count-of-smaller-numbers-after-self/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/count-permutations-of-bst/</loc>
+    <loc>https://samirpaulb.github.io/problems/count-permutations-of-bst/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/count-right-triangles/</loc>
+    <loc>https://samirpaulb.github.io/problems/count-right-triangles/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/count-total-set-bits/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/count-vowels-permutation/</loc>
@@ -2891,7 +2945,7 @@
     <loc>https://samirpaulb.github.io/problems/counting-bits/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/counting-triangles/</loc>
+    <loc>https://samirpaulb.github.io/problems/counting-triangles/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/course-schedule/</loc>
@@ -2909,25 +2963,28 @@
     <loc>https://samirpaulb.github.io/problems/cousins-in-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/cows/</loc>
+    <loc>https://samirpaulb.github.io/problems/cows/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/cows2/</loc>
+    <loc>https://samirpaulb.github.io/problems/cows2/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/cross-the-bridge/</loc>
+    <loc>https://samirpaulb.github.io/problems/cross-the-bridge/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/cross-the-bridge-ii/</loc>
+    <loc>https://samirpaulb.github.io/problems/cross-the-bridge-ii/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/cumulative-frequency-of-count-of-each-element-in-an-unsorted-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/custom-sort-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/custom-sort-string/</loc>
+    <loc>https://samirpaulb.github.io/problems/daily-temperatures/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/problems/daily-temperatures/</loc>
+    <loc>https://samirpaulb.github.io/test/data-type/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/decode-string/</loc>
@@ -2942,10 +2999,16 @@
     <loc>https://samirpaulb.github.io/problems/deepest-leaves-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/delete-and-conquer/</loc>
+    <loc>https://samirpaulb.github.io/test/delete-a-node-in-single-linked-list/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/delete-and-conquer/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/delete-duplicate-emails/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/delete-middle-of-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/delete-node-in-a-bst/</loc>
@@ -2957,22 +3020,25 @@
     <loc>https://samirpaulb.github.io/problems/delete-nodes-and-return-forest/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/delete-without-head-pointer/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/department-highest-salary/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/design-hashset/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/design-linked-list/</loc>
+    <loc>https://samirpaulb.github.io/problems/design-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/detect-and-remove-loop-from-a-linked-list/</loc>
+    <loc>https://samirpaulb.github.io/problems/detect-and-remove-loop-from-a-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/deterministic-finite-automaton/</loc>
+    <loc>https://samirpaulb.github.io/problems/deterministic-finite-automaton/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/device-crossover/</loc>
+    <loc>https://samirpaulb.github.io/problems/device-crossover/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/diameter-of-a-binary-tree---gfg/</loc>
@@ -2981,25 +3047,28 @@
     <loc>https://samirpaulb.github.io/problems/diameter-of-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/different-bits-sum-pairwise/</loc>
+    <loc>https://samirpaulb.github.io/problems/different-bits-sum-pairwise/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/diffk/</loc>
+    <loc>https://samirpaulb.github.io/problems/diffk/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/diffk-ii/</loc>
+    <loc>https://samirpaulb.github.io/problems/diffk-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/distinct-numbers-in-window/</loc>
+    <loc>https://samirpaulb.github.io/test/display-longest-name/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/distance-of-nearest-cell-having-1/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/distinct-numbers-in-window/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/distinct-subsequences/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/distinct-subsequences/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/distribute-candy/</loc>
+    <loc>https://samirpaulb.github.io/problems/distribute-candy/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/distribute-coins-in-binary-tree/</loc>
@@ -3008,28 +3077,25 @@
     <loc>https://samirpaulb.github.io/problems/divide-array-in-sets-of-k-consecutive-numbers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/divide-integers/</loc>
+    <loc>https://samirpaulb.github.io/problems/divide-integers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/divisor-sequences/</loc>
+    <loc>https://samirpaulb.github.io/problems/divisor-sequences/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/domino-and-tromino-tiling/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/dungeon-princess/</loc>
+    <loc>https://samirpaulb.github.io/problems/dungeon-princess/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/edible-strings/</loc>
+    <loc>https://samirpaulb.github.io/problems/edible-strings/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/edit-distance/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/edit-distance/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/elements-which-have-at-least-two-greater-elements/</loc>
+    <loc>https://samirpaulb.github.io/problems/elements-which-have-at-least-two-greater-elements/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/employee-importance/</loc>
@@ -3041,10 +3107,10 @@
     <loc>https://samirpaulb.github.io/problems/encode-and-decode-tinyurl/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/equal/</loc>
+    <loc>https://samirpaulb.github.io/problems/equal/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/equal-average-partition/</loc>
+    <loc>https://samirpaulb.github.io/problems/equal-average-partition/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/equal-sum-arrays-with-minimum-number-of-operations/</loc>
@@ -3053,25 +3119,28 @@
     <loc>https://samirpaulb.github.io/problems/evaluate-division/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/evaluate-expression/</loc>
+    <loc>https://samirpaulb.github.io/problems/evaluate-expression/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/evaluate-expression-to-true/</loc>
+    <loc>https://samirpaulb.github.io/problems/evaluate-expression-to-true/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/excel-column-number/</loc>
+    <loc>https://samirpaulb.github.io/problems/excel-column-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/excel-column-title/</loc>
+    <loc>https://samirpaulb.github.io/problems/excel-column-title/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/falling-dominoes/</loc>
+    <loc>https://samirpaulb.github.io/test/factorial/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/falling-squares/</loc>
+    <loc>https://samirpaulb.github.io/problems/falling-dominoes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/find-a-peak-element/</loc>
+    <loc>https://samirpaulb.github.io/problems/falling-squares/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/find-a-peak-element/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/find-all-anagrams-in-a-string/</loc>
@@ -3089,7 +3158,7 @@
     <loc>https://samirpaulb.github.io/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/find-duplicate-in-array/</loc>
+    <loc>https://samirpaulb.github.io/problems/find-duplicate-in-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/find-eventual-safe-states/</loc>
@@ -3098,7 +3167,7 @@
     <loc>https://samirpaulb.github.io/problems/find-first-and-last-position-of-element-in-sorted-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/find-if-there-is-a-sub-array-with-0-sum/</loc>
+    <loc>https://samirpaulb.github.io/problems/find-if-there-is-a-sub-array-with-0-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/find-k-closest-elements/</loc>
@@ -3110,22 +3179,28 @@
     <loc>https://samirpaulb.github.io/problems/find-median-from-data-stream/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/find-minimum-and-maximum-element-in-an-array/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/find-minimum-in-rotated-sorted-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/find-n-unique-integers-sum-up-to-zero/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/find-permutation/</loc>
+    <loc>https://samirpaulb.github.io/test/find-patterns/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/find-permutation/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/find-right-interval/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/find-sub-array-with-the-given-sum/</loc>
+    <loc>https://samirpaulb.github.io/problems/find-sub-array-with-the-given-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/find-subsequence/</loc>
+    <loc>https://samirpaulb.github.io/problems/find-subsequence/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/</loc>
@@ -3134,7 +3209,19 @@
     <loc>https://samirpaulb.github.io/problems/find-the-duplicate-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/find-the-next/</loc>
+    <loc>https://samirpaulb.github.io/test/find-the-element-that-appears-once/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/find-the-element-that-appears-once-in-sorted-array/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/find-the-frequency/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/find-the-median/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/find-the-next/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/find-the-smallest-divisor-given-a-threshold/</loc>
@@ -3143,43 +3230,49 @@
     <loc>https://samirpaulb.github.io/problems/find-the-town-judge/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/find-triplets-with-zero-sum/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/finding-middle-element-in-a-linked-list/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/first-and-last-occurrences-of-x/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/first-bad-version/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/first-missing-integer/</loc>
+    <loc>https://samirpaulb.github.io/problems/first-missing-integer/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/first-missing-positive/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/first-negative-integer-in-window-size-b/</loc>
+    <loc>https://samirpaulb.github.io/problems/first-negative-integer-in-window-size-b/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/first-non-repeating-character-in-a-stream-of-characters/</loc>
+    <loc>https://samirpaulb.github.io/problems/first-non-repeating-character-in-a-stream-of-characters/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/fizzbuzz/</loc>
+    <loc>https://samirpaulb.github.io/problems/fizzbuzz/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/flatten-binary-tree-to-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/flatten-binary-tree-to-linked-list/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/flattening-a-linked-list---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/flip/</loc>
+    <loc>https://samirpaulb.github.io/problems/flip/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/flip-array/</loc>
+    <loc>https://samirpaulb.github.io/problems/flip-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/flower-planting-with-no-adjacent/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/fraction/</loc>
+    <loc>https://samirpaulb.github.io/problems/fraction/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/frog-jump/</loc>
@@ -3194,40 +3287,49 @@
     <loc>https://samirpaulb.github.io/problems/gas-station/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/gas-station/</loc>
+    <loc>https://samirpaulb.github.io/test/gcd-of-two-numbers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/generate-all-parentheses-ii/</loc>
+    <loc>https://samirpaulb.github.io/tags/geeksforgeeks/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/series/geeksforgeeks/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/generate-all-parentheses-ii/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/generate-ip-addresses/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/generate-parentheses/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/get-mode-array-updates/</loc>
+    <loc>https://samirpaulb.github.io/problems/get-mode-array-updates/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/gold-mine-problem---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/good-subarrays/</loc>
+    <loc>https://samirpaulb.github.io/problems/good-subarrays/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/gray-code/</loc>
+    <loc>https://samirpaulb.github.io/problems/gray-code/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/greatest-common-divisor/</loc>
+    <loc>https://samirpaulb.github.io/problems/greatest-common-divisor/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/grep/</loc>
+    <loc>https://samirpaulb.github.io/problems/grep/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/grid-illumination/</loc>
+    <loc>https://samirpaulb.github.io/problems/grid-illumination/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/grid-unique-paths/</loc>
+    <loc>https://samirpaulb.github.io/problems/grid-unique-paths/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/grid-unique-paths-ii/</loc>
+    <loc>https://samirpaulb.github.io/problems/grid-unique-paths-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/group-the-people-given-the-group-size-they-belong-to/</loc>
@@ -3245,13 +3347,13 @@
     <loc>https://samirpaulb.github.io/problems/heaters/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/highest-product/</loc>
+    <loc>https://samirpaulb.github.io/problems/highest-product/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/hotel-bookings-possible/</loc>
+    <loc>https://samirpaulb.github.io/problems/hotel-bookings-possible/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/hotel-reviews/</loc>
+    <loc>https://samirpaulb.github.io/problems/hotel-reviews/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/house-robber/</loc>
@@ -3263,13 +3365,13 @@
     <loc>https://samirpaulb.github.io/problems/house-robber-iii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/identical-binary-trees/</loc>
+    <loc>https://samirpaulb.github.io/problems/identical-binary-trees/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/implement-power-function/</loc>
+    <loc>https://samirpaulb.github.io/problems/implement-power-function/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/implement-strstr/</loc>
+    <loc>https://samirpaulb.github.io/problems/implement-strstr/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/implement-trie-prefix-tree/</loc>
@@ -3278,13 +3380,16 @@
     <loc>https://samirpaulb.github.io/problems/increasing-triplet-subsequence/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/infinite-string/</loc>
+    <loc>https://samirpaulb.github.io/problems/infinite-string/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/inorder-traversal/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/test/inorder-traversal/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/inorder-traversal-of-cartesian-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/inorder-traversal-of-cartesian-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/insert-delete-getrandom-o1/</loc>
@@ -3296,22 +3401,19 @@
     <loc>https://samirpaulb.github.io/problems/insertion-sort-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/insertion-sort-list/</loc>
+    <loc>https://samirpaulb.github.io/problems/integer-to-roman/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/integer-to-roman/</loc>
+    <loc>https://samirpaulb.github.io/problems/interleaving-strings/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/interleaving-strings/</loc>
+    <loc>https://samirpaulb.github.io/problems/intersecting-chords-in-a-circle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/intersecting-chords-in-a-circle/</loc>
+    <loc>https://samirpaulb.github.io/problems/intersection-of-linked-lists/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/intersection-of-linked-lists/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/intersection-of-sorted-arrays/</loc>
+    <loc>https://samirpaulb.github.io/problems/intersection-of-sorted-arrays/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/intersection-of-two-linked-lists/</loc>
@@ -3326,13 +3428,13 @@
     <loc>https://samirpaulb.github.io/series/interviewbit/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/inversions/</loc>
+    <loc>https://samirpaulb.github.io/problems/inversions/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/invert-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/invert-the-binary-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/invert-the-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/is-graph-bipartite/</loc>
@@ -3347,7 +3449,7 @@
     <loc>https://samirpaulb.github.io/problems/jump-game/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/jump-game-array/</loc>
+    <loc>https://samirpaulb.github.io/problems/jump-game-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/jump-game-ii/</loc>
@@ -3359,22 +3461,25 @@
     <loc>https://samirpaulb.github.io/problems/jump-game-v/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/justified-text/</loc>
+    <loc>https://samirpaulb.github.io/problems/justified-text/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/k-closest-points-to-origin/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/k-reverse-linked-list/</loc>
+    <loc>https://samirpaulb.github.io/test/k-largest-elements/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/k-reverse-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/keys-and-rooms/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/kingdom-war/</loc>
+    <loc>https://samirpaulb.github.io/problems/kingdom-war/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/knight-on-chess-board/</loc>
+    <loc>https://samirpaulb.github.io/problems/knight-on-chess-board/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/knight-probability-in-chessboard/</loc>
@@ -3383,52 +3488,61 @@
     <loc>https://samirpaulb.github.io/problems/koko-eating-bananas/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/kth-manhattan-distance-neighbourhood/</loc>
+    <loc>https://samirpaulb.github.io/problems/kth-manhattan-distance-neighbourhood/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/kth-permutation-sequence/</loc>
+    <loc>https://samirpaulb.github.io/problems/kth-permutation-sequence/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/kth-row-of-pascals-triangle/</loc>
+    <loc>https://samirpaulb.github.io/problems/kth-row-of-pascals-triangle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/kth-smallest-element-in-a-sorted-matrix/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/kth-smallest-element-in-the-array/</loc>
+    <loc>https://samirpaulb.github.io/problems/kth-smallest-element-in-the-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/kth-smallest-element-in-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/kth-smallest-element-in-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/largest-area-of-rectangle-with-permutations/</loc>
+    <loc>https://samirpaulb.github.io/problems/largest-area-of-rectangle-with-permutations/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/largest-bst---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/largest-continuous-sequence-zero-sum/</loc>
+    <loc>https://samirpaulb.github.io/problems/largest-continuous-sequence-zero-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/largest-coprime-divisor/</loc>
+    <loc>https://samirpaulb.github.io/problems/largest-coprime-divisor/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/largest-distance-between-nodes-of-a-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/largest-distance-between-nodes-of-a-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/largest-number/</loc>
+    <loc>https://samirpaulb.github.io/test/largest-element-in-array/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/largest-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/largest-rectangle-in-histogram/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/largest-rectangle-in-histogram/</loc>
+    <loc>https://samirpaulb.github.io/test/leaders-in-an-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/least-common-ancestor/</loc>
+    <loc>https://samirpaulb.github.io/problems/least-common-ancestor/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/leaves-to-dll---gfg/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/left-most-and-right-most-index/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/left-view-of-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/left-view-of-binary-tree---gfg/</loc>
@@ -3437,13 +3551,13 @@
     <loc>https://samirpaulb.github.io/problems/lemonade-change/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/length-of-last-word/</loc>
+    <loc>https://samirpaulb.github.io/problems/length-of-last-word/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/length-of-longest-consecutive-ones/</loc>
+    <loc>https://samirpaulb.github.io/problems/length-of-longest-consecutive-ones/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/length-of-longest-subsequence/</loc>
+    <loc>https://samirpaulb.github.io/problems/length-of-longest-subsequence/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/letter-case-permutation/</loc>
@@ -3452,31 +3566,28 @@
     <loc>https://samirpaulb.github.io/problems/letter-combinations-of-a-phone-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/letter-phone/</loc>
+    <loc>https://samirpaulb.github.io/problems/letter-phone/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/level-order/</loc>
+    <loc>https://samirpaulb.github.io/problems/level-order/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/lexographically-greater-strings/</loc>
+    <loc>https://samirpaulb.github.io/problems/lexographically-greater-strings/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/lines-in-a-given-range/</loc>
+    <loc>https://samirpaulb.github.io/problems/lines-in-a-given-range/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/linked-list-cycle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/list-cycle/</loc>
+    <loc>https://samirpaulb.github.io/problems/list-cycle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/longest-arithmetic-progression/</loc>
+    <loc>https://samirpaulb.github.io/problems/longest-arithmetic-progression/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/longest-common-prefix/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/longest-common-prefix/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/longest-common-subsequence/</loc>
@@ -3485,16 +3596,10 @@
     <loc>https://samirpaulb.github.io/problems/longest-consecutive-sequence/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/longest-consecutive-sequence/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/longest-increasing-path-in-a-matrix/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/longest-increasing-subsequence/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/longest-increasing-subsequence/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/longest-palindromic-subsequence/</loc>
@@ -3503,10 +3608,7 @@
     <loc>https://samirpaulb.github.io/problems/longest-palindromic-substring/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/longest-palindromic-substring/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/longest-pallindromic-subsequence/</loc>
+    <loc>https://samirpaulb.github.io/problems/longest-pallindromic-subsequence/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/longest-repeating-character-replacement/</loc>
@@ -3515,7 +3617,7 @@
     <loc>https://samirpaulb.github.io/problems/longest-substring-with-at-least-k-repeating-characters/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/longest-substring-without-repeat/</loc>
+    <loc>https://samirpaulb.github.io/problems/longest-substring-without-repeat/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/longest-substring-without-repeating-characters/</loc>
@@ -3524,10 +3626,7 @@
     <loc>https://samirpaulb.github.io/problems/longest-valid-parentheses/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/longest-valid-parentheses/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/loop_cmpl/</loc>
+    <loc>https://samirpaulb.github.io/problems/loop_cmpl/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/loud-and-rich/</loc>
@@ -3542,16 +3641,10 @@
     <loc>https://samirpaulb.github.io/problems/lru-cache/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/lru-cache/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/magician-and-chocolates/</loc>
+    <loc>https://samirpaulb.github.io/problems/magician-and-chocolates/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/majority-element/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/majority-element/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/majority-element-ii/</loc>
@@ -3563,52 +3656,55 @@
     <loc>https://samirpaulb.github.io/problems/map-sum-pairs/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/matrix-chain-multiplication/</loc>
+    <loc>https://samirpaulb.github.io/problems/matrix-chain-multiplication/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/matrix-median/</loc>
+    <loc>https://samirpaulb.github.io/problems/matrix-median/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/matrix-permutation/</loc>
+    <loc>https://samirpaulb.github.io/problems/matrix-permutation/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/matrix-search/</loc>
+    <loc>https://samirpaulb.github.io/problems/matrix-search/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/max-consecutive-ones/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-continuous-series-of-1s/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-continuous-series-of-1s/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-continuous-series-of-1s-my/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-continuous-series-of-1s-my/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-depth-of-binary-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-depth-of-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-distance/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-distance/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-non-negative-subarray/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-non-negative-subarray/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-product-subarray/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-product-subarray/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-rectangle-in-binary-matrix/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-rectangle-in-binary-matrix/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-sum-contiguous-subarray/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-sum-contiguous-subarray/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-sum-path-in-binary-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-sum-path-in-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/max-sum-without-adjacent-elements/</loc>
+    <loc>https://samirpaulb.github.io/test/max-sum-subarray-of-size-k/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/maximise-the-coins-by-popping-balloons/</loc>
+    <loc>https://samirpaulb.github.io/problems/max-sum-without-adjacent-elements/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/maximise-the-coins-by-popping-balloons/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/maximize-distance-to-closest-person/</loc>
@@ -3617,13 +3713,13 @@
     <loc>https://samirpaulb.github.io/problems/maximize-xor---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/maximum-absolute-difference/</loc>
+    <loc>https://samirpaulb.github.io/problems/maximum-absolute-difference/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/maximum-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/maximum-consecutive-gap/</loc>
+    <loc>https://samirpaulb.github.io/problems/maximum-consecutive-gap/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/maximum-depth-of-binary-tree/</loc>
@@ -3632,25 +3728,25 @@
     <loc>https://samirpaulb.github.io/problems/maximum-erasure-value/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/maximum-frequency-stack/</loc>
+    <loc>https://samirpaulb.github.io/problems/maximum-frequency-stack/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/maximum-gap/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/maximum-height-of-the-staircase/</loc>
+    <loc>https://samirpaulb.github.io/problems/maximum-height-of-the-staircase/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/maximum-path-sum-in-matrix---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/maximum-product-of-an-increasing-subsequence-of-size-3/</loc>
+    <loc>https://samirpaulb.github.io/problems/maximum-product-of-an-increasing-subsequence-of-size-3/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/maximum-product-subarray/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/maximum-rectangle/</loc>
+    <loc>https://samirpaulb.github.io/problems/maximum-rectangle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/maximum-score-from-removing-substrings/</loc>
@@ -3671,7 +3767,7 @@
     <loc>https://samirpaulb.github.io/problems/maximum-sum-rectangle---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/maximum-unsorted-subarray/</loc>
+    <loc>https://samirpaulb.github.io/problems/maximum-unsorted-subarray/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/maximum-width-of-binary-tree/</loc>
@@ -3683,13 +3779,16 @@
     <loc>https://samirpaulb.github.io/problems/maximum-xor-with-an-element-from-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/maxspprod/</loc>
+    <loc>https://samirpaulb.github.io/problems/maxspprod/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/median-of-array/</loc>
+    <loc>https://samirpaulb.github.io/test/median-of-2-sorted-arrays-of-different-sizes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/median-of-stream-of-running-integers/</loc>
+    <loc>https://samirpaulb.github.io/problems/median-of-array/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/median-of-stream-of-running-integers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/median-of-two-sorted-arrays/</loc>
@@ -3698,67 +3797,61 @@
     <loc>https://samirpaulb.github.io/problems/merge-intervals/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/merge-intervals/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/merge-k-sorted-lists/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/merge-k-sorted-lists/</loc>
+    <loc>https://samirpaulb.github.io/problems/merge-overlapping-intervals/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/merge-overlapping-intervals/</loc>
+    <loc>https://samirpaulb.github.io/test/merge-sort-for-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/merge-sorted-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/merge-two-bsts/</loc>
+    <loc>https://samirpaulb.github.io/problems/merge-two-bsts/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/merge-two-sorted-linked-lists/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/merge-two-sorted-lists/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/merge-two-sorted-lists/</loc>
+    <loc>https://samirpaulb.github.io/problems/merge-two-sorted-lists-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/merge-two-sorted-lists-ii/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/middle-element-of-linked-list/</loc>
+    <loc>https://samirpaulb.github.io/problems/middle-element-of-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/middle-of-the-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/min-depth-of-binary-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/min-depth-of-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/min-jumps-array/</loc>
+    <loc>https://samirpaulb.github.io/problems/min-jumps-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/min-stack/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/min-stack/</loc>
+    <loc>https://samirpaulb.github.io/problems/min-steps-in-infinite-grid/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/min-steps-in-infinite-grid/</loc>
+    <loc>https://samirpaulb.github.io/problems/min-sum-path-in-matrix/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/min-sum-path-in-matrix/</loc>
+    <loc>https://samirpaulb.github.io/problems/min-sum-path-in-triangle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/min-sum-path-in-triangle/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/min-xor-value/</loc>
+    <loc>https://samirpaulb.github.io/problems/min-xor-value/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/minesweeper/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/minimize-the-absolute-difference/</loc>
+    <loc>https://samirpaulb.github.io/problems/minimize-the-absolute-difference/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/minimum-absolute-sum-difference/</loc>
@@ -3770,10 +3863,10 @@
     <loc>https://samirpaulb.github.io/problems/minimum-ascii-delete-sum-for-two-strings/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/minimum-characters-required-to-make-a-string-palindromic/</loc>
+    <loc>https://samirpaulb.github.io/problems/minimum-characters-required-to-make-a-string-palindromic/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/minimum-cost-to-hire-k-workers/</loc>
+    <loc>https://samirpaulb.github.io/problems/minimum-cost-to-hire-k-workers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/</loc>
@@ -3803,7 +3896,7 @@
     <loc>https://samirpaulb.github.io/problems/minimum-number-of-k-consecutive-bit-flips/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/minimum-operations-of-given-type-to-make-all-elements-of-a-matrix-equal/</loc>
+    <loc>https://samirpaulb.github.io/problems/minimum-operations-of-given-type-to-make-all-elements-of-a-matrix-equal/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/minimum-operations-to-reduce-x-to-zero/</loc>
@@ -3821,13 +3914,10 @@
     <loc>https://samirpaulb.github.io/problems/minimum-size-subarray-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/minimum-size-subarray-sum/</loc>
+    <loc>https://samirpaulb.github.io/problems/minimum-swaps-2/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/minimum-swaps-2/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together/</loc>
+    <loc>https://samirpaulb.github.io/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/minimum-swaps-to-make-sequences-increasing/</loc>
@@ -3839,22 +3929,22 @@
     <loc>https://samirpaulb.github.io/problems/mirror-tree---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/most-stones-removed/</loc>
+    <loc>https://samirpaulb.github.io/problems/most-stones-removed/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/most-stones-removed-with-same-row-or-column/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/move-all-zeroes-to-end-of-array/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/move-all-zeroes-to-end-of-array---gfg/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/movie-character/</loc>
+    <loc>https://samirpaulb.github.io/problems/movie-character/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/multiply-strings/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/multiply-strings/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/n-ary-tree-level-order-traversal/</loc>
@@ -3863,13 +3953,13 @@
     <loc>https://samirpaulb.github.io/problems/n-ary-tree-preorder-traversal/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/n-digit-numbers-with-digit-sum-s/</loc>
+    <loc>https://samirpaulb.github.io/problems/n-digit-numbers-with-digit-sum-s/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/n-integers-containing-only-1-2-and-3/</loc>
+    <loc>https://samirpaulb.github.io/problems/n-integers-containing-only-1-2-and-3/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/n-max-pair-combinations/</loc>
+    <loc>https://samirpaulb.github.io/problems/n-max-pair-combinations/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/n-meetings-in-one-room---gfg/</loc>
@@ -3878,43 +3968,46 @@
     <loc>https://samirpaulb.github.io/problems/n-queens/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/n3-repeat-number/</loc>
+    <loc>https://samirpaulb.github.io/problems/n3-repeat-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/nearest-smaller-element/</loc>
+    <loc>https://samirpaulb.github.io/test/natural-sum/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/nearest-smaller-element/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/network-delay-time/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/neutral-reviewers/</loc>
+    <loc>https://samirpaulb.github.io/problems/neutral-reviewers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/next-greater-element-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/next-greater-number-bst/</loc>
+    <loc>https://samirpaulb.github.io/problems/next-greater-number-bst/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/next-permutation/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/next-permutation/</loc>
+    <loc>https://samirpaulb.github.io/problems/next-pointer-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/next-pointer-binary-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/nextgreater/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/nextgreater/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/noble-integer/</loc>
+    <loc>https://samirpaulb.github.io/problems/noble-integer/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/non-overlapping-intervals/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/nqueens/</loc>
+    <loc>https://samirpaulb.github.io/problems/nqueens/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/nth-fibonacci-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/nth-highest-salary/</loc>
@@ -3935,16 +4028,16 @@
     <loc>https://samirpaulb.github.io/problems/number-of-dice-rolls-with-target-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/number-of-divisors/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/number-of-enclaves/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/number-of-hosts-per-subnet/</loc>
+    <loc>https://samirpaulb.github.io/problems/number-of-hosts-per-subnet/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/number-of-islands/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/number-of-islands/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/number-of-longest-increasing-subsequence/</loc>
@@ -3965,13 +4058,16 @@
     <loc>https://samirpaulb.github.io/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/numbers-of-length-n-and-value-less-than-k/</loc>
+    <loc>https://samirpaulb.github.io/problems/numbers-of-length-n-and-value-less-than-k/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/odd-even-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/order-of-people-heights/</loc>
+    <loc>https://samirpaulb.github.io/test/odd-or-even/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/order-of-people-heights/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/out-of-boundary-paths/</loc>
@@ -3980,31 +4076,31 @@
     <loc>https://samirpaulb.github.io/problems/pacific-atlantic-water-flow/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/painters-partition-problem/</loc>
+    <loc>https://samirpaulb.github.io/problems/painters-partition-problem/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/palindrome-integer/</loc>
+    <loc>https://samirpaulb.github.io/test/palindrome/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/palindrome-integer/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/palindrome-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/palindrome-list/</loc>
+    <loc>https://samirpaulb.github.io/problems/palindrome-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/palindrome-pairs/</loc>
+    <loc>https://samirpaulb.github.io/problems/palindrome-pairs/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/palindrome-partitioning/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/palindrome-partitioning/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/palindrome-partitioning-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/palindrome-partitioning-ii/</loc>
+    <loc>https://samirpaulb.github.io/problems/palindrome-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/test/palindrome-string/</loc>
@@ -4013,10 +4109,10 @@
     <loc>https://samirpaulb.github.io/problems/palindromic-substrings/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/palindromic-substrings-count/</loc>
+    <loc>https://samirpaulb.github.io/problems/palindromic-substrings-count/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/parity-queries/</loc>
+    <loc>https://samirpaulb.github.io/problems/parity-queries/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/partition-equal-subset-sum/</loc>
@@ -4025,13 +4121,13 @@
     <loc>https://samirpaulb.github.io/problems/partition-labels/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/partition-list/</loc>
+    <loc>https://samirpaulb.github.io/problems/partition-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/partition-to-k-equal-sum-subsets/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/pascal-triangle/</loc>
+    <loc>https://samirpaulb.github.io/problems/pascal-triangle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/pascals-triangle/</loc>
@@ -4046,13 +4142,13 @@
     <loc>https://samirpaulb.github.io/problems/path-sum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/path-sum/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/path-sum-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/path-sum-iii/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/peak-element/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/perfect-squares/</loc>
@@ -4064,19 +4160,16 @@
     <loc>https://samirpaulb.github.io/problems/permutations/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/permutations/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/permutations-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/plates-between-candles/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/points-on-the-straight-line/</loc>
+    <loc>https://samirpaulb.github.io/problems/points-on-the-straight-line/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/populate-next-right-pointers-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/populate-next-right-pointers-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/populating-next-right-pointers-in-each-node/</loc>
@@ -4085,13 +4178,16 @@
     <loc>https://samirpaulb.github.io/problems/populating-next-right-pointers-in-each-node-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/possibility-of-finishing-all-courses-given-pre-requisites/</loc>
+    <loc>https://samirpaulb.github.io/problems/possibility-of-finishing-all-courses-given-pre-requisites/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/possible-bipartition/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/postorder-traversal/</loc>
+    <loc>https://samirpaulb.github.io/problems/postorder-traversal/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/power-of-2/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/test/power-of-2/</loc>
@@ -4100,13 +4196,19 @@
     <loc>https://samirpaulb.github.io/problems/power-of-four/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/power-of-numbers/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/power-of-three/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/power-of-two/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/power-of-two-integers/</loc>
+    <loc>https://samirpaulb.github.io/problems/power-of-two-integers/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/power-set/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/power-set---gfg/</loc>
@@ -4115,28 +4217,46 @@
     <loc>https://samirpaulb.github.io/problems/powx-n/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/problems/preorder-traversal/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/test/preorder-traversal/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/pretty-json/</loc>
+    <loc>https://samirpaulb.github.io/problems/pretty-json/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/prettyprint/</loc>
+    <loc>https://samirpaulb.github.io/problems/prettyprint/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/previous-permutation-with-one-swap/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/prime-sum/</loc>
+    <loc>https://samirpaulb.github.io/test/prime-number/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/prime-sum/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/print-1-to-n-without-loop/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/print-1-to-n-without-using-loops/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/print-elements-of-array/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/print-leaf-nodes-from-preorder-traversal-of-bst/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/product-array-puzzle/</loc>
+    <loc>https://samirpaulb.github.io/problems/product-array-puzzle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/queen-attack/</loc>
+    <loc>https://samirpaulb.github.io/problems/queen-attack/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/queries-on-a-permutation-with-key/</loc>
@@ -4145,34 +4265,40 @@
     <loc>https://samirpaulb.github.io/problems/queue-reconstruction-by-height/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/quick-left-rotation/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/rabbits-in-forest/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/rain-water-trapped/</loc>
+    <loc>https://samirpaulb.github.io/problems/rain-water-trapped/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/range-sum-query-mutable/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/ratio-of-boys-and-girls/</loc>
+    <loc>https://samirpaulb.github.io/problems/ratio-of-boys-and-girls/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/reach-a-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/rearrange-array/</loc>
+    <loc>https://samirpaulb.github.io/problems/rearrange-array/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/rearrange-array-alternately/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/reconstruct-itinerary/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/recover-binary-search-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/recover-binary-search-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/reduce-array-size-to-the-half/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/redundant-braces/</loc>
+    <loc>https://samirpaulb.github.io/problems/redundant-braces/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/redundant-connection/</loc>
@@ -4181,10 +4307,10 @@
     <loc>https://samirpaulb.github.io/problems/regions-cut-by-slashes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/regular-expression-ii/</loc>
+    <loc>https://samirpaulb.github.io/problems/regular-expression-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/regular-expression-match/</loc>
+    <loc>https://samirpaulb.github.io/problems/regular-expression-match/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/regular-expression-matching/</loc>
@@ -4196,19 +4322,31 @@
     <loc>https://samirpaulb.github.io/problems/remove-all-adjacent-duplicates-in-string-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/remove-duplicates-from-sorted-array/</loc>
+    <loc>https://samirpaulb.github.io/test/remove-all-occurences-of-duplicates-in-a-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/remove-duplicates-from-sorted-array-ii/</loc>
+    <loc>https://samirpaulb.github.io/test/remove-duplicate-element-from-sorted-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/remove-duplicates-from-sorted-list/</loc>
+    <loc>https://samirpaulb.github.io/test/remove-duplicate-elements-from-sorted-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/remove-duplicates-from-sorted-list-ii/</loc>
+    <loc>https://samirpaulb.github.io/test/remove-duplicates-from-an-unsorted-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/remove-element-from-array/</loc>
+    <loc>https://samirpaulb.github.io/problems/remove-duplicates-from-sorted-array/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/remove-duplicates-from-sorted-array-ii/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/remove-duplicates-from-sorted-list/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/remove-duplicates-from-sorted-list-ii/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/remove-element-from-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/remove-invalid-parentheses/</loc>
@@ -4217,16 +4355,16 @@
     <loc>https://samirpaulb.github.io/problems/remove-k-digits/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/remove-nth-element/</loc>
+    <loc>https://samirpaulb.github.io/problems/remove-nth-element/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/remove-nth-node-from-end-of-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/remove-nth-node-from-list-end/</loc>
+    <loc>https://samirpaulb.github.io/problems/remove-nth-node-from-list-end/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/remove-punctuations/</loc>
+    <loc>https://samirpaulb.github.io/problems/remove-punctuations/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/remove-sub-folders-from-the-filesystem/</loc>
@@ -4244,31 +4382,34 @@
     <loc>https://samirpaulb.github.io/problems/reorganize-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/repeat-and-missing-number-array/</loc>
+    <loc>https://samirpaulb.github.io/problems/repeat-and-missing-number-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/repeating-sub-sequence/</loc>
+    <loc>https://samirpaulb.github.io/problems/repeating-sub-sequence/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/reverse-a-linked-list/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/reverse-a-string/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/reverse-an-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/reverse-bits/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/reverse-bits/</loc>
+    <loc>https://samirpaulb.github.io/problems/reverse-integer/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/reverse-integer/</loc>
+    <loc>https://samirpaulb.github.io/problems/reverse-link-list-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/reverse-link-list-ii/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/reverse-link-list-recursion/</loc>
+    <loc>https://samirpaulb.github.io/problems/reverse-link-list-recursion/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/reverse-linked-list/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/reverse-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/reverse-linked-list-ii/</loc>
@@ -4280,25 +4421,31 @@
     <loc>https://samirpaulb.github.io/problems/reverse-pairs/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/reverse-pairs/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/reverse-substrings-between-each-pair-of-parentheses/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/reverse-the-string/</loc>
+    <loc>https://samirpaulb.github.io/problems/reverse-the-string/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/right-view-of-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/robot-bounded-in-circle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/rod-cutting/</loc>
+    <loc>https://samirpaulb.github.io/problems/rod-cutting/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/roman-to-integer/</loc>
+    <loc>https://samirpaulb.github.io/problems/roman-to-integer/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/root-to-leaf-paths-with-sum/</loc>
+    <loc>https://samirpaulb.github.io/problems/root-to-leaf-paths-with-sum/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/rope-cutting/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/rotate-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/rotate-image/</loc>
@@ -4307,19 +4454,19 @@
     <loc>https://samirpaulb.github.io/problems/rotate-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/rotate-list/</loc>
+    <loc>https://samirpaulb.github.io/problems/rotate-matrix/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/rotate-matrix/</loc>
+    <loc>https://samirpaulb.github.io/problems/rotated-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/rotated-array/</loc>
+    <loc>https://samirpaulb.github.io/problems/rotated-sorted-array-search/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/rotated-sorted-array-search/</loc>
+    <loc>https://samirpaulb.github.io/test/rotation/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/rotten-oranges/</loc>
+    <loc>https://samirpaulb.github.io/problems/rotten-oranges/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/rotting-oranges/</loc>
@@ -4334,10 +4481,10 @@
     <loc>https://samirpaulb.github.io/problems/score-of-parentheses/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/scores/</loc>
+    <loc>https://samirpaulb.github.io/problems/scores/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/scramble-string/</loc>
+    <loc>https://samirpaulb.github.io/problems/scramble-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/search-a-2d-matrix/</loc>
@@ -4346,13 +4493,22 @@
     <loc>https://samirpaulb.github.io/problems/search-a-2d-matrix-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/search-for-a-range/</loc>
+    <loc>https://samirpaulb.github.io/test/search-an-element-in-an-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/search-for-a-range-test/</loc>
+    <loc>https://samirpaulb.github.io/test/search-an-element-in-sorted-and-rotated-array/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/search-for-a-range/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/search-for-a-range-test/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/search-in-a-binary-search-tree/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/search-in-linked-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/search-in-rotated-sorted-array/</loc>
@@ -4361,7 +4517,10 @@
     <loc>https://samirpaulb.github.io/problems/search-in-rotated-sorted-array-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/seats/</loc>
+    <loc>https://samirpaulb.github.io/problems/seats/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/second-largest/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/serialize-and-deserialize-binary-tree/</loc>
@@ -4370,16 +4529,16 @@
     <loc>https://samirpaulb.github.io/problems/set-matrix-zeroes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/set-matrix-zeros/</loc>
+    <loc>https://samirpaulb.github.io/problems/set-matrix-zeros/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/short-films/</loc>
+    <loc>https://samirpaulb.github.io/problems/short-films/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/shortest-common-supersequence/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/shortest-common-superstring/</loc>
+    <loc>https://samirpaulb.github.io/problems/shortest-common-superstring/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/shortest-completing-word/</loc>
@@ -4397,34 +4556,31 @@
     <loc>https://samirpaulb.github.io/problems/shortest-subarray-with-sum-at-least-k/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/shortest-unique-prefix/</loc>
+    <loc>https://samirpaulb.github.io/problems/shortest-unique-prefix/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/sieve-of-eratosthenes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/similar-string-groups/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/simple-queries/</loc>
+    <loc>https://samirpaulb.github.io/test/simple-interest/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/simplify-directory-path/</loc>
+    <loc>https://samirpaulb.github.io/problems/simple-queries/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/simplify-directory-path/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/single-element-in-a-sorted-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/single-element-in-a-sorted-array/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/single-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/single-number/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/single-number-ii/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/single-number-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/single-number-iii/</loc>
@@ -4433,25 +4589,25 @@
     <loc>https://samirpaulb.github.io/problems/sliding-window-maximum/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sliding-window-maximum/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/smallest-multiple-with-0-and-1/</loc>
+    <loc>https://samirpaulb.github.io/problems/smallest-multiple-with-0-and-1/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/smallest-range-covering-elements-from-k-lists/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/smallest-sequence-with-given-primes/</loc>
+    <loc>https://samirpaulb.github.io/problems/smallest-sequence-with-given-primes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/smallest-subtree-with-all-the-deepest-nodes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sort-by-color/</loc>
+    <loc>https://samirpaulb.github.io/test/sort-an-array-of-0s-1s-and-2s/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sort-by-frequency/</loc>
+    <loc>https://samirpaulb.github.io/problems/sort-by-color/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/sort-by-frequency/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/sort-characters-by-frequency/</loc>
@@ -4463,22 +4619,28 @@
     <loc>https://samirpaulb.github.io/problems/sort-list/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sort-list/</loc>
+    <loc>https://samirpaulb.github.io/problems/sort-stack-using-another-stack/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sort-stack-using-another-stack/</loc>
+    <loc>https://samirpaulb.github.io/test/sort-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sorted-array-to-balanced-bst/</loc>
+    <loc>https://samirpaulb.github.io/test/sort-the-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sorted-insert-position/</loc>
+    <loc>https://samirpaulb.github.io/test/sort-the-string-in-descending-order/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sorted-permutation-rank/</loc>
+    <loc>https://samirpaulb.github.io/problems/sorted-array-to-balanced-bst/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sorted-permutation-rank-with-repeats/</loc>
+    <loc>https://samirpaulb.github.io/problems/sorted-insert-position/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/sorted-permutation-rank/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/sorted-permutation-rank-with-repeats/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/soup-servings/</loc>
@@ -4487,10 +4649,10 @@
     <loc>https://samirpaulb.github.io/problems/spiral-matrix/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/spiral-order-matrix-i/</loc>
+    <loc>https://samirpaulb.github.io/problems/spiral-order-matrix-i/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/spiral-order-matrix-ii/</loc>
+    <loc>https://samirpaulb.github.io/problems/spiral-order-matrix-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/split-linked-list-in-parts/</loc>
@@ -4502,37 +4664,43 @@
     <loc>https://samirpaulb.github.io/problems/sqrtx/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/square-root-of-integer/</loc>
+    <loc>https://samirpaulb.github.io/test/square-root-of-a-number/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/square-root-of-integer/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/squares-of-a-sorted-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/stairs/</loc>
+    <loc>https://samirpaulb.github.io/problems/stairs/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/starting-indices-of-the-substrings-in-string/</loc>
+    <loc>https://samirpaulb.github.io/problems/starting-indices-of-the-substrings-in-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/stepping-numbers/</loc>
+    <loc>https://samirpaulb.github.io/problems/stepping-numbers/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/stock-buy-and-sell/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/stone-game-iii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/string-count/</loc>
+    <loc>https://samirpaulb.github.io/problems/string-count/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/string-without-aaa-or-bbb/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/stringoholics/</loc>
+    <loc>https://samirpaulb.github.io/problems/stringoholics/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sub-matrices-with-sum-zero/</loc>
+    <loc>https://samirpaulb.github.io/problems/sub-matrices-with-sum-zero/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sub-matrix-sum-queries/</loc>
+    <loc>https://samirpaulb.github.io/problems/sub-matrix-sum-queries/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/subarray-product-less-than-k/</loc>
@@ -4541,61 +4709,76 @@
     <loc>https://samirpaulb.github.io/problems/subarray-sum-equals-k/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/subarrays-with-b-different-integers/</loc>
+    <loc>https://samirpaulb.github.io/problems/subarrays-with-b-different-integers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/subarrays-with-k-different-integers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/subarrays-xor-less-than-b/</loc>
+    <loc>https://samirpaulb.github.io/problems/subarrays-xor-less-than-b/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/subdomain-visit-count/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/subset/</loc>
+    <loc>https://samirpaulb.github.io/problems/subset/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/subsets/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://samirpaulb.github.io/test/subsets/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://samirpaulb.github.io/problems/subsets-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/subsets-ii/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/substring-concatenation/</loc>
+    <loc>https://samirpaulb.github.io/problems/substring-concatenation/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/substring-with-concatenation-of-all-words/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/subtract/</loc>
+    <loc>https://samirpaulb.github.io/problems/subtract/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/subtree-of-another-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sudoku/</loc>
+    <loc>https://samirpaulb.github.io/problems/sudoku/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/sudoku-solver/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sum-of-all-submatrices/</loc>
+    <loc>https://samirpaulb.github.io/problems/sum-of-all-submatrices/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sum-of-fibonacci-numbers/</loc>
+    <loc>https://samirpaulb.github.io/test/sum-of-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k/</loc>
+    <loc>https://samirpaulb.github.io/test/sum-of-digits/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/sum-of-fibonacci-numbers/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/sum-of-fifth-powers-of-the-first-n-natural-numbers/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/sum-of-first-n-terms/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/sum-of-mutated-array-closest-to-target/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sum-of-pairwise-hamming-distance/</loc>
+    <loc>https://samirpaulb.github.io/problems/sum-of-pairwise-hamming-distance/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/sum-of-primes/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/sum-of-root-to-leaf-binary-numbers/</loc>
@@ -4610,22 +4793,19 @@
     <loc>https://samirpaulb.github.io/problems/sum-root-to-leaf-numbers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/sum-root-to-leaf-numbers/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/surrounded-regions/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/swap-forward-and-backward-slash/</loc>
+    <loc>https://samirpaulb.github.io/problems/swap-forward-and-backward-slash/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/swap-list-nodes-in-pairs/</loc>
+    <loc>https://samirpaulb.github.io/problems/swap-list-nodes-in-pairs/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/swap-nodes-in-pairs/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/symmetric-binary-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/symmetric-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/symmetric-tree/</loc>
@@ -4637,25 +4817,22 @@
     <loc>https://samirpaulb.github.io/problems/task-scheduler/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/task-scheduler/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/test/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/the-square-game/</loc>
+    <loc>https://samirpaulb.github.io/test/the-nth-fibonnaci/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/the-square-game/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/the-time-when-the-network-becomes-idle/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/tiling-problem/</loc>
+    <loc>https://samirpaulb.github.io/problems/tiling-problem/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/time-based-key-value-store/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/time-based-key-value-store/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/time-needed-to-inform-all-employees/</loc>
@@ -4664,7 +4841,7 @@
     <loc>https://samirpaulb.github.io/problems/top-k-frequent-elements/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/top-view/</loc>
+    <loc>https://samirpaulb.github.io/problems/top-view/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/top-view-of-binary-tree---gfg/</loc>
@@ -4676,10 +4853,16 @@
     <loc>https://samirpaulb.github.io/problems/tower-of-hanoi/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/trailing-zeros-in-factorial/</loc>
+    <loc>https://samirpaulb.github.io/test/tower-of-hanoi/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/transform-csv/</loc>
+    <loc>https://samirpaulb.github.io/test/trailing-zeroes-in-factorial/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/trailing-zeros-in-factorial/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/transform-csv/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/trapping-rain-water/</loc>
@@ -4694,13 +4877,19 @@
     <loc>https://samirpaulb.github.io/problems/trim-a-binary-search-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/triplets-with-sum-between-given-range/</loc>
+    <loc>https://samirpaulb.github.io/test/triplet-sum-in-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/tushars-birthday-bombs/</loc>
+    <loc>https://samirpaulb.github.io/problems/triplets-with-sum-between-given-range/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/tushars-birthday-party/</loc>
+    <loc>https://samirpaulb.github.io/problems/tushars-birthday-bombs/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/tushars-birthday-party/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/test/two-numbers-with-odd-occurrences/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/two-sum/</loc>
@@ -4709,13 +4898,10 @@
     <loc>https://samirpaulb.github.io/problems/two-sum-iv-input-is-a-bst/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/unique-binary-search-trees/</loc>
+    <loc>https://samirpaulb.github.io/problems/unique-binary-search-trees/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/unique-binary-search-trees-ii/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/unique-binary-search-trees-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/unique-email-addresses/</loc>
@@ -4727,34 +4913,31 @@
     <loc>https://samirpaulb.github.io/problems/unique-paths-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/unique-paths-in-a-grid/</loc>
+    <loc>https://samirpaulb.github.io/problems/unique-paths-in-a-grid/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/unreliable-rover/</loc>
+    <loc>https://samirpaulb.github.io/problems/unreliable-rover/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/valid-binary-search-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/valid-binary-search-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/valid-email-address/</loc>
+    <loc>https://samirpaulb.github.io/problems/valid-email-address/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/valid-ip-addresses/</loc>
+    <loc>https://samirpaulb.github.io/problems/valid-ip-addresses/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/valid-number/</loc>
+    <loc>https://samirpaulb.github.io/problems/valid-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/valid-path/</loc>
+    <loc>https://samirpaulb.github.io/problems/valid-path/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/valid-phone-number/</loc>
+    <loc>https://samirpaulb.github.io/problems/valid-phone-number/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/valid-sudoku/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/valid-sudoku/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/validate-binary-search-tree/</loc>
@@ -4772,28 +4955,31 @@
     <loc>https://samirpaulb.github.io/problems/verifying-an-alien-dictionary/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/vertex-cover-problem/</loc>
+    <loc>https://samirpaulb.github.io/problems/vertex-cover-problem/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/vertical-order-traversal-of-a-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/vertical-order-traversal-of-binary-tree/</loc>
+    <loc>https://samirpaulb.github.io/problems/vertical-order-traversal-of-binary-tree/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/wave-array/</loc>
+    <loc>https://samirpaulb.github.io/test/vowel-or-not/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/ways-to-color-a-3xn-board/</loc>
+    <loc>https://samirpaulb.github.io/problems/wave-array/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/ways-to-decode/</loc>
+    <loc>https://samirpaulb.github.io/problems/ways-to-color-a-3xn-board/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/ways-to-form-max-heap/</loc>
+    <loc>https://samirpaulb.github.io/problems/ways-to-decode/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/wifi-routers/</loc>
+    <loc>https://samirpaulb.github.io/problems/ways-to-form-max-heap/</loc>
+    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://samirpaulb.github.io/problems/wifi-routers/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/wiggle-subsequence/</loc>
@@ -4802,52 +4988,43 @@
     <loc>https://samirpaulb.github.io/problems/wildcard-matching/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/window-string/</loc>
+    <loc>https://samirpaulb.github.io/problems/window-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/word-break/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/word-break/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/word-break-ii/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://samirpaulb.github.io/test/word-break-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/word-ladder/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/word-ladder-i/</loc>
+    <loc>https://samirpaulb.github.io/problems/word-ladder-i/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/word-ladder-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/word-ladder-ii/</loc>
-    <lastmod>2020-06-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://samirpaulb.github.io/problems/word-search/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/word-search-board/</loc>
+    <loc>https://samirpaulb.github.io/problems/word-search-board/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/word-search-ii/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/world-trips/</loc>
+    <loc>https://samirpaulb.github.io/problems/world-trips/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/problems/xor-queries-of-a-subarray/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/zigzag-level-order-traversal-bt/</loc>
+    <loc>https://samirpaulb.github.io/problems/zigzag-level-order-traversal-bt/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://samirpaulb.github.io/test/zigzag-string/</loc>
+    <loc>https://samirpaulb.github.io/problems/zigzag-string/</loc>
     <lastmod>2020-06-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://samirpaulb.github.io/about/</loc>
