@@ -4,7 +4,7 @@ Live Demo: \
 👉 **https://samirpaulb.github.io** 
 
 
-Created using [Hugo](https://gohugo.io/getting-started/installing/) and [PaperMod](https://github.com/SamirPaul1/hugo-PaperMod).
+Created using [Hugo](https://gohugo.io/getting-started/installing/) and [PaperMod](https://github.com/SamirPaulb/hugo-PaperMod).
 
 Steps:
 1. [Install Hugo](https://gohugo.io/installation/).
