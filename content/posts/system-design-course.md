@@ -15,9 +15,9 @@ cover:
   hiddenInList: true
   hiddenInSingle: false
 ---
-
+  
 > Learn how to design systems at scale and prepare for system design interviews.
-
+ 
 <p align="center">
 <a class="btn-lang" href="https://spcdn.pages.dev/system-design.pdf" target = "_blank">Download PDF</a>
 </p>
