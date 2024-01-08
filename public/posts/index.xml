@@ -182,9 +182,7 @@
       <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://samirpaulb.github.io/posts/system-design-course/</guid>
       <description>System Design Course</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="https://spcdn.pages.dev/img/Getting-Started-with-System-Design-samirpaulb-assets.webp" alt="System Design Course"  />
-{: width=&ldquo;auto&rdquo; height=&ldquo;auto&rdquo; }</p>
-<blockquote>
+      <content:encoded><![CDATA[<blockquote>
 <p>Learn how to design systems at scale and prepare for system design interviews.</p>
 </blockquote>
 <p align="center">
@@ -772,15 +770,13 @@ $$</p>
 <p>If a service consists of multiple components prone to failure, the service&rsquo;s overall availability depends on whether the components are in sequence or in parallel.</p>
 <h3 id="sequence">Sequence</h3>
 <p>Overall availability decreases when two components are in sequence.</p>
-<p>$$
-Availability \space (Total) = Availability \space (Foo) * Availability \space (Bar)
-$$</p>
+<p><img loading="lazy" src="https://github.com/SamirPaul1/assets/assets/77569653/2020264a-b819-412b-b040-63a7bfc18f43" alt="image"  />
+</p>
 <p>For example, if both <code>Foo</code> and <code>Bar</code> each had 99.9% availability, their total availability in sequence would be 99.8%.</p>
 <h3 id="parallel">Parallel</h3>
 <p>Overall availability increases when two components are in parallel.</p>
-<p>$$
-Availability \space (Total) = 1 - (1 - Availability \space (Foo)) * (1 - Availability \space (Bar))
-$$</p>
+<p><img loading="lazy" src="https://github.com/SamirPaul1/assets/assets/77569653/09685b33-6656-4403-86c4-b7467ab28481" alt="image"  />
+</p>
 <p>For example, if both <code>Foo</code> and <code>Bar</code> each had 99.9% availability, their total availability in parallel would be 99.9999%.</p>
 <h2 id="availability-vs-reliability">Availability vs Reliability</h2>
 <p>If a system is reliable, it is available. However, if it is available, it is not necessarily reliable. In other words, high reliability contributes to high availability, but it is possible to achieve high availability even with an unreliable system.</p>
@@ -1596,15 +1592,8 @@ MongoDB is an example of a CP database. It’s a NoSQL database management syste
 <p>In traditional hashing-based distribution methods, we use a hash function to hash our partition keys (i.e. request ID or IP). Then if we use the modulo against the total number of nodes (server or databases). This will give us the node where we want to route our request.</p>
 <p><img loading="lazy" src="https://spcdn.pages.dev/assets/img/system-design/simple-hashing.jpg" alt="simple-hashing"  />
 </p>
-<p>$$
-\begin{align*}
-&amp; Hash(key_1) \to H_1 \bmod N = Node_0 \
-&amp; Hash(key_2) \to H_2 \bmod N = Node_1 \
-&amp; Hash(key_3) \to H_3 \bmod N = Node_2 \
-&amp; &hellip; \
-&amp; Hash(key_n) \to H_n \bmod N = Node_{n-1}
-\end{align*}
-$$</p>
+<p><img loading="lazy" src="https://github.com/SamirPaul1/assets/assets/77569653/994ad536-f4d5-4575-95a5-77a049583dd1" alt="hashing"  />
+</p>
 <p>Where,</p>
 <p><code>key</code>: Request ID or IP.</p>
 <p><code>H</code>: Hash function result.</p>
@@ -1627,15 +1616,8 @@ $$</p>
 <p><code>K</code>: Number of partition keys.</p>
 <p><code>N</code>: Number of nodes.</p>
 <p>The output of the hash function is a range let&rsquo;s say <code>0...m-1</code> which we can represent on our hash ring. We hash the requests and distribute them on the ring depending on what the output was. Similarly, we also hash the node and distribute them on the same ring as well.</p>
-<p>$$
-\begin{align*}
-&amp; Hash(key_1) = P_1 \
-&amp; Hash(key_2) = P_2 \
-&amp; Hash(key_3) = P_3 \
-&amp; &hellip; \
-&amp; Hash(key_n) = P_{m-1}
-\end{align*}
-$$</p>
+<p><img loading="lazy" src="https://github.com/SamirPaul1/assets/assets/77569653/d479b60a-4001-4e84-b452-721cf782cd58" alt="image"  />
+</p>
 <p>Where,</p>
 <p><code>key</code>: Request/Node ID or IP.</p>
 <p><code>P</code>: Position on the hash ring.</p>
@@ -1649,15 +1631,8 @@ $$</p>
 <p><img loading="lazy" src="https://spcdn.pages.dev/assets/img/system-design/virtual-nodes.jpg" alt="virtual-nodes"  />
 </p>
 <p>For this, we can use <code>k</code> number of hash functions.</p>
-<p>$$
-\begin{align*}
-&amp; Hash_1(key_1) = P_1 \
-&amp; Hash_2(key_2) = P_2 \
-&amp; Hash_3(key_3) = P_3 \
-&amp; . . . \
-&amp; Hash_k(key_n) = P_{m-1}
-\end{align*}
-$$</p>
+<p><img loading="lazy" src="https://github.com/SamirPaul1/assets/assets/77569653/3a73152c-7da9-4e9b-bfe1-ace8950c24fe" alt="image"  />
+</p>
 <p>Where,</p>
 <p><code>key</code>: Request/Node ID or IP.</p>
 <p><code>k</code>: Number of hash functions.</p>
