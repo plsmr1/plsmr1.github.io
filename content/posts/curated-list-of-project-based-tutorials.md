@@ -6,6 +6,8 @@ series: [Computer Science, Projects]
 tags: [projects]
 published: true
 sitemap: true
+keywords: ["Curated List of Project Based Tutorials", "Coding blog", "Computer Science"]
+aliases: ["/blog/posts/curated-list-of-project-based-tutorials", "/curated-list-of-project-based-tutorials", "/blog/curated-list-of-project-based-tutorials"]
 cover:
   image: https://github.com/github/docs/assets/132539454/05102050-6450-4cf5-bb5c-029670af78d7
   alt: Project Based Tutorials

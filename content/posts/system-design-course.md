@@ -7,6 +7,8 @@ tags: [system-design,distributed-systems]
 published: true
 sitemap: true
 math: true
+keywords: ["System Design Course", "distributed systems", "Coding blog", "Computer Science"]
+aliases: ["/blog/posts/system-design-course", "/posts/system-design", "/system-design-course", "/blog/system-design-course", "/system-design"]
 cover:
   image: https://spcdn.pages.dev/img/Getting-Started-with-System-Design-samirpaulb-assets.webp
   alt: System-Design

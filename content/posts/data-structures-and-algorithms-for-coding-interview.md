@@ -6,6 +6,8 @@ series: [Computer Science, DSAlgo]
 tags: [data-structures, algorithms]
 published: true
 sitemap: true
+keywords: ["Data Structures and Algorithms for Coding Interview", "Coding blog", "Computer Science"]
+aliases: ["/blog/posts/data-structures-and-algorithms-for-coding-interview", "/data-structures-and-algorithms-for-coding-interview", "/blog/data-structures-and-algorithms-for-coding-interview", "/posts/dsalgo"]
 cover:
   image: https://spcdn.pages.dev/img/dsalgo.gif
   alt: dsalgo

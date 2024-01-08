@@ -4685,9 +4685,9 @@ $$</p>
     </item>
     <item>
       <title>SQL Joins - Inner, Left, Right and Full Joins</title>
-      <link>https://samirpaulb.github.io/posts/sql-joins-inner-left-right-and-full-joins/</link>
+      <link>https://samirpaulb.github.io/posts/sql-joins/</link>
       <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/posts/sql-joins-inner-left-right-and-full-joins/</guid>
+      <guid>https://samirpaulb.github.io/posts/sql-joins/</guid>
       <description>SQL Joins - Inner, Left, Right and Full Joins</description>
       <content:encoded><![CDATA[<p><strong>SQL Join</strong> statement is used to combine data or rows from two or more tables based on a common field between them. Different types of Joins are as follows: </p>
 <ul>

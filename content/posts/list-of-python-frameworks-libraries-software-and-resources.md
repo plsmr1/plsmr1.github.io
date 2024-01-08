@@ -6,8 +6,10 @@ series: [Python, Frameworks and Libraries]
 tags: [python, python-frameworks-libraries]
 published: true
 sitemap: true
+keywords: ["List of Python Frameworks Libraries Software and Resources", "Coding blog", "Computer Science"]
+aliases: ["/blog/posts/list-of-python-frameworks-libraries-software-and-resources", "/list-of-python-frameworks-libraries-software-and-resources", "/blog/list-of-python-frameworks-libraries-software-and-resourcesv"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_60_bold:List of Python Frameworks Libraries Software and Resources/og-image.webp
+  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:List of Python Frameworks Libraries Software and Resources/og-image.webp
   alt: List of Python Frameworks Libraries Software and Resources
   hiddenInList: true
   hiddenInSingle: false

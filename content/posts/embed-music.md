@@ -6,8 +6,10 @@ categories: [Blog]
 tags: [blog, music-player]
 published: true
 sitemap: true
+keywords: ["Embed MusicApp", "Coding blog", "Computer Science"]
+aliases: ["/blog/posts/embed-music", "/embed-music", "/blog/embed-music"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_60_bold:Embed MusicApp/og-image.webp
+  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Embed MusicApp/og-image.webp
   alt: Embed MusicApp
   hiddenInList: true
   hiddenInSingle: false

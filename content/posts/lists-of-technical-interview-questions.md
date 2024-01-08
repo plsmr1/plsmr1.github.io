@@ -6,8 +6,10 @@ series: [Interview]
 tags: [Interview]
 published: true
 sitemap: true
+keywords: ["Lists of Technical Interview Questions", "Coding blog", "Computer Science"]
+aliases: ["/blog/posts/lists-of-technical-interview-questions", "/lists-of-technical-interview-questions", "/blog/lists-of-technical-interview-questions"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_60_bold:Lists of Technical Interview Questions/og-image.webp
+  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Lists of Technical Interview Questions/og-image.webp
   alt: Lists of Technical Interview Questions
   hiddenInList: true
   hiddenInSingle: false

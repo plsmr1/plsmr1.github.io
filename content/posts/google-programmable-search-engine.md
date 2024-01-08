@@ -6,8 +6,10 @@ series: [Blog]
 tags: [blog, google-search, programmable-search-engine]
 published: true
 sitemap: true
+keywords: ["Google Programmable Search Engine", "Coding blog", "Computer Science"]
+aliases: ["/blog/posts/google-programmable-search-engine", "/google-programmable-search-engine", "/blog/google-programmable-search-engine"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_60_bold:Google Programmable Search Engine/og-image.webp
+  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Google Programmable Search Engine/og-image.webp
   alt: Google Programmable Search Engine
   hiddenInList: true
   hiddenInSingle: false

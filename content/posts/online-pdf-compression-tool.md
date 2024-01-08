@@ -6,8 +6,10 @@ series: [Projects]
 tags: [project, online-pdf-compressor]
 published: true
 sitemap: true
+keywords: ["Online PDF Compression Tool", "Coding blog", "Computer Science"]
+aliases: ["/blog/posts/online-pdf-compression-tool", "/online-pdf-compression-tool", "/blog/online-pdf-compression-tool"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_60_bold:Online PDF Compression Tool/og-image.webp
+  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Online PDF Compression Tool/og-image.webp
   alt: Online PDF Compression Tool
   hiddenInList: true
   hiddenInSingle: false

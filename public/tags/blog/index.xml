@@ -1963,52 +1963,6 @@ of those users that have the permission to see the URL.</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Company engineering blog links</title>
-      <link>https://samirpaulb.github.io/posts/company-engineering-blog-links/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/posts/company-engineering-blog-links/</guid>
-      <description>Company engineering blog links</description>
-      <content:encoded><![CDATA[<p>courtesy <a href="https://github.com/checkcheckzz/system-design-interview#toc">checkcheckzz</a></p>
-<p>Depending on where you are interviewing, go through the company blog. VERY USEFUL IN INTERVIEWS! It really helps if you have an idea of the architecture, as the questions asked will generally be of that domain and your prior knowledge will help out here.</p>
-<ul>
-<li><a href="https://nerds.airbnb.com/">Airbnb Engineering</a></li>
-<li><a href="https://developer.amazon.com/blogs">Amazon</a></li>
-<li><a href="https://aws.amazon.com/blogs/">Amazon AWS</a></li>
-<li><a href="https://bandcamptech.wordpress.com/">Bandcamp Tech</a></li>
-<li><a href="https://www.simple.com/engineering/">BankSimple Simple Blog</a></li>
-<li><a href="https://word.bitly.com/">Bitly Engineering Blog</a></li>
-<li><a href="https://blog.cloudera.com/blog/">Cloudera Developer Blog</a></li>
-<li><a href="https://tech.dropbox.com/">Dropbox Tech Blog</a></li>
-<li><a href="https://engineering.quora.com/">Engineering at Quora</a></li>
-<li><a href="https://codeascraft.com/">Etsy Code as Craft</a></li>
-<li><a href="https://www.facebook.com/Engineering">Facebook Engineering</a></li>
-<li><a href="https://code.flickr.net/">Flickr Code</a></li>
-<li><a href="https://engineering.foursquare.com/">Foursquare Engineering Blog</a></li>
-<li><a href="https://googleresearch.blogspot.com/">Google Research Blog</a></li>
-<li><a href="https://engineering.groupon.com/">Groupn Engineering Blog</a></li>
-<li><a href="https://highscalability.com/">High Scalability</a></li>
-<li><a href="https://instagram-engineering.tumblr.com/">Instagram Engineering</a></li>
-<li><a href="https://engineering.linkedin.com/blog">LinkedIn Engineering</a></li>
-<li><a href="https://tech.oyster.com/">Oyster Tech Blog</a></li>
-<li><a href="https://engineering.pinterest.com/">Pinterest Engineering Blog</a></li>
-<li><a href="https://devblog.songkick.com/">Songkick Technology Blog</a></li>
-<li><a href="https://developers.soundcloud.com/blog/">SoundCloud Backstage Blog</a></li>
-<li><a href="https://corner.squareup.com/">Square The Corner</a></li>
-<li><a href="https://www.redditblog.com/">THE REDDIT BLOG</a></li>
-<li><a href="https://github.com/blog/category/engineering">The GitHub Blog</a></li>
-<li><a href="https://techblog.netflix.com/">The Netflix Tech Blog</a></li>
-<li><a href="https://www.twilio.com/engineering">Twilio Engineering Blog</a></li>
-<li><a href="https://engineering.twitter.com/">Twitter Engineering</a></li>
-<li><a href="https://eng.uber.com/">Uber Engineering</a></li>
-<li><a href="https://medium.com/walmartlabs">Walmart Labs Tech Blog</a></li>
-<li><a href="https://engineering.webengage.com/">WebEngage Engineering Blog</a></li>
-<li><a href="https://eng.yammer.com/blog/">Yammer Engineering</a></li>
-<li><a href="https://engineeringblog.yelp.com/">Yelp Engineering Blog</a></li>
-<li><a href="https://smarketshq.com/">Smarkets Blog</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Embed MusicApp</title>
       <link>https://samirpaulb.github.io/posts/embed-music/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>

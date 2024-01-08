@@ -3,10 +3,12 @@ title: "Company engineering blog links"
 summary: "Company engineering blog links"
 date: 2021-01-20
 series: [System Design]
-tags: [blog, system-design, design-interview, preparation]
+tags: [system-design, design-interview, preparation]
 author: ["Samir Paul"]
+keywords: ["Company engineering blog links", "Coding blog", "Computer Science"]
+aliases: ["/blog/posts/company-engineering-blog-links", "/company-engineering-blog-links", "/blog/company-engineering-blog-links"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_60_bold:Company engineering blog links/og-image.webp
+  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Company engineering blog links/og-image.webp
   alt: Company engineering blog links
   hiddenInList: true
   hiddenInSingle: false
