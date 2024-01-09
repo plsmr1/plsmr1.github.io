@@ -1,168 +1,111 @@
 ---
 title: Merge K Sorted Lists
-summary: Merge K Sorted Lists - Interviewbit Solution Explained
+summary: Merge K Sorted Lists LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Merge K Sorted Lists solution]
-aliases: ["/posts/merge-k-sorted-lists", "/blog/posts/merge-k-sorted-lists", "/merge-k-sorted-lists"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "merge-k-sorted-lists LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge K Sorted Lists - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Merge K Sorted Lists - Solution Explained/problem-solving.webp
     alt: Merge K Sorted Lists
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Merge K Sorted Lists
 
-https://www.interviewbit.com/problems/merge-k-sorted-lists
+<h2>23. Merge k Sorted Lists</h2><h3>Hard</h3><hr><div><p>You are given an array of <code>k</code> linked-lists <code>lists</code>, each linked-list is sorted in ascending order.</p>
 
-Merge k sorted linked lists and return it as one sorted list.
+<p><em>Merge all the linked-lists into one sorted linked-list and return it.</em></p>
 
-### Example
-```
-1 -> 10 -> 20
-4 -> 11 -> 13
-3 -> 8 -> 9
-will result in
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-1 -> 3 -> 4 -> 8 -> 9 -> 10 -> 11 -> 13 -> 20
-```
+<pre><strong>Input:</strong> lists = [[1,4,5],[1,3,4],[2,6]]
+<strong>Output:</strong> [1,1,2,3,4,4,5,6]
+<strong>Explanation:</strong> The linked-lists are:
+[
+  1-&gt;4-&gt;5,
+  1-&gt;3-&gt;4,
+  2-&gt;6
+]
+merging them into one sorted list:
+1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4-&gt;5-&gt;6
+</pre>
 
-## Hint 1
+<p><strong>Example 2:</strong></p>
 
-Lets keep a pointer for every linked list. At any instant you will need to know the minimum of elements at all pointer. Following it you will need to advance that pointer. Can you do this in complexity better than O(K).
+<pre><strong>Input:</strong> lists = []
+<strong>Output:</strong> []
+</pre>
 
-Preferably O(logK). But how?
+<p><strong>Example 3:</strong></p>
 
-## Solution Approach
+<pre><strong>Input:</strong> lists = [[]]
+<strong>Output:</strong> []
+</pre>
 
-There are 2 approaches to solving the problem.
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-#### Approach 1: Using heap
+<ul>
+	<li><code>k == lists.length</code></li>
+	<li><code>0 &lt;= k &lt;= 10^4</code></li>
+	<li><code>0 &lt;= lists[i].length &lt;= 500</code></li>
+	<li><code>-10^4 &lt;= lists[i][j] &lt;= 10^4</code></li>
+	<li><code>lists[i]</code> is sorted in <strong>ascending order</strong>.</li>
+	<li>The sum of <code>lists[i].length</code> won't exceed <code>10^4</code>.</li>
+</ul>
+</div>
 
-At every instant, you need the minimum of the head of all the k linked list.
-Once you know the minimum, you can push the node to your answer list, 
-and move over to the next node in that linked list.
+---
 
-### Approach 2: Divide and conquer
 
-Solve the problem for first k/2 and last k/2 list. Then you have 2 sorted lists. Then simiply merge the lists. 
 
-Analyze the time complexity. 
-```
-T(N) = 2 T(N/2) + N 
-T(N) = O (N log N)
-```
 
-## Solution
-
-### Editorial
 ```cpp
-struct CompareNode {
-    bool operator()(ListNode *const &p1, ListNode *const &p2) {
-        return p1->val > p2->val;
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    
+    struct comp{
+        bool operator()(ListNode* a, ListNode* b){
+        return a->val>b->val;
+        }
+    };
+    
+    ListNode* mergeKLists(vector<ListNode*>& lists) {
+        int n=lists.size();
+        if(n==0)
+            return NULL;
+        if(n==1)
+            return lists[0];
+        priority_queue<ListNode*, vector<ListNode*>, comp> pq;
+        for(int i=0;i<n;i++){
+            ListNode* head=lists[i];
+            while(head!=NULL){
+                ListNode* t=head->next;
+                head->next=NULL;
+                pq.push(head);
+                head=t;
+            }
+        }
+        ListNode* dummy = new ListNode(0);
+        ListNode* temp=dummy;
+        while(!pq.empty()){
+            temp->next=pq.top();
+            pq.pop();
+            temp=temp->next;
+        }
+        return dummy->next;
     }
 };
-
-ListNode *Solution::mergeKLists(vector<ListNode *> &lists) {
-    ListNode *dummy = new ListNode(0);
-    ListNode *tail = dummy;
-
-    priority_queue<ListNode *, vector<ListNode *>, CompareNode> queue;
-
-    for (int i = 0; i < lists.size(); i++) {
-        if (lists[i] != NULL) {
-            queue.push(lists[i]);
-        }
-    }
-
-    while (!queue.empty()) {
-        tail->next = queue.top();
-        queue.pop();
-        tail = tail->next;
-
-        if (tail->next) {
-            queue.push(tail->next);
-        }
-    }
-
-    return dummy->next;
-}
 ```
-
-### Mine
-```cpp
-ListNode *Solution::mergeKLists(vector<ListNode *> &lists) {
-    ListNode *dummy = new ListNode(0);
-    ListNode *tail = dummy;
-
-    auto comp = [](ListNode *a, ListNode *b) { return a->val > b->val; };
-
-    priority_queue<ListNode *, vector<ListNode *>, decltype(comp)> queue(comp);
-
-    for (int i = 0; i < lists.size(); i++)
-        if (lists[i])
-            queue.push(lists[i]);
-
-    while (!queue.empty()) {
-        tail->next = queue.top();
-        queue.pop();
-        tail = tail->next;
-
-        if (tail->next) {
-            queue.push(tail->next);
-        }
-    }
-
-    return dummy->next;
-}
-```
-
-### Misc
-```cpp
-ListNode *Solution::mergeKLists(vector<ListNode *> &A) {
-    map<int, int> m;
-
-    for (int i = 0; i < A.size(); i++) {
-        ListNode *curr = A[i];
-        while (curr != NULL) {
-            int temp = curr->val;
-            if (m.find(temp) != m.end()) {
-                m[temp]++;
-            } else {
-                m[temp] = 1;
-            }
-            curr = curr->next;
-        }
-    }
-
-    auto it = m.begin();
-
-    ListNode *head = NULL;
-    ListNode *curr = NULL;
-
-    while (it != m.end()) {
-        while (it->second != 0) {
-            ListNode *list = new ListNode(it->first);
-            if (head == NULL) {
-                head = list;
-                curr = list;
-            } else {
-                curr->next = list;
-                curr = curr->next;
-            }
-            it->second--;
-        }
-        it++;
-    }
-
-    return head;
-}
-```
-
-## Asked in
-* Flipkart
-* Amazon
-* Google
-

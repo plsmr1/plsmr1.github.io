@@ -4,10 +4,9 @@ summary: C++ Switch Case Statement - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/C++-Switch-Case-Statement", "/blog/posts/C++-Switch-Case-Statement", "/C++-Switch-Case-Statement", "/blog/C++-Switch-Case-Statement",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, C++ Switch Case Statement solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "C++ Switch Case Statement Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:C++ Switch Case Statement - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:C++ Switch Case Statement - Solution Explained/problem-solving.webp
     alt: C++ Switch Case Statement
     hiddenInList: true
     hiddenInSingle: false

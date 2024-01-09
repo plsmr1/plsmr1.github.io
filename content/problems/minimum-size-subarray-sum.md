@@ -1,69 +1,82 @@
 ---
 title: Minimum Size Subarray Sum
-summary: Minimum Size Subarray Sum - Interviewbit Solution Explained
+summary: Minimum Size Subarray Sum LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Minimum Size Subarray Sum solution]
-aliases: ["/posts/minimum-size-subarray-sum", "/blog/posts/minimum-size-subarray-sum", "/minimum-size-subarray-sum"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "minimum-size-subarray-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Minimum Size Subarray Sum - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Minimum Size Subarray Sum - Solution Explained/problem-solving.webp
     alt: Minimum Size Subarray Sum
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Minimum Size Subarray Sum
 
-https://www.interviewbit.com/problems/minimum-size-subarray-sum/
+<h2>209. Minimum Size Subarray Sum</h2><h3>Medium</h3><hr><div><p>Given an array of positive integers <code>nums</code> and a positive integer <code>target</code>, return the minimal length of a <strong>contiguous subarray</strong> <code>[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums<sub>r</sub>]</code> of which the sum is greater than or equal to <code>target</code>. If there is no such subarray, return <code>0</code> instead.</p>
 
-Given an array A of n positive integers and a positive integer B,
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-find the minimal length of a contiguous subarray of which the sum >= B.
+<pre><strong>Input:</strong> target = 7, nums = [2,3,1,2,4,3]
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The subarray [4,3] has the minimal length under the problem constraint.
+</pre>
 
-If there isn’t one, return 0 instead.
+<p><strong>Example 2:</strong></p>
 
-### NOTE
+<pre><strong>Input:</strong> target = 4, nums = [1,4,4]
+<strong>Output:</strong> 1
+</pre>
 
-Your code may be run on multiple testcases ( <= 50 ). Try to come up with an optimised solution.
+<p><strong>Example 3:</strong></p>
 
-### CONSTRAINTS
-```
-1 <= n (size of array A) <= 10^5
-1 <= A[i] <= 10^4
-1 <= B <= 2*10^9
-```
-### INPUT FORMAT
-```
-A : Array containing some integer elements
-B : The number by which the sum of contiguous sub-array should be greater
-```
-### SAMPLE INPUT
-```
-A : [ 2, 3, 1, 2, 4, 3 ]
-B : 7
-```
-### SAMPLE OUTPUT
-```
-2
-```
-### EXPLANATION
+<pre><strong>Input:</strong> target = 11, nums = [1,1,1,1,1,1,1,1]
+<strong>Output:</strong> 0
+</pre>
 
-The smallest possible sub array with sum >= 7 is [4,3]
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-## Solution
-### Mine
+<ul>
+	<li><code>1 &lt;= target &lt;= 10<sup>9</sup></code></li>
+	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
+</ul>
+
+<p>&nbsp;</p>
+<strong>Follow up:</strong> If you have figured out the <code>O(n)</code> solution, try coding another solution of which the time complexity is <code>O(n log(n))</code>.</div>
+
+---
+
+
+
+
 ```cpp
-int Solution::solve(vector<int> &A, int B) {
-    int res = INT_MAX;
-    int sum = 0;
-    for (int i = 0, j = 0; i < A.size(); i++) {
-        sum += A[i];
-        while (sum >= B) {
-            res = min(res, i + 1 - j);
-            sum -= A[j++];
+class Solution {
+public:
+    int minSubArrayLen(int k, vector<int>& a) {
+        int n=a.size();
+        int s=0;
+        int ss=0;
+        int ans=INT_MAX, l=0;
+        int i=0,j=0;
+        while(j<n){
+            if(s<k)
+                s+=a[j];
+            if(s>=k){
+                int l=j-i+1;
+                ans=min(ans, l);
+                s-=a[i];
+                i++;
+            }
+            if(s<k)
+                j++;
         }
+        if(ans<INT_MAX)
+            return ans;
+        
+        return 0;
     }
-    return res == INT_MAX ? 0 : res;
-}
+};
 ```

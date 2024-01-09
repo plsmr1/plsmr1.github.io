@@ -1,116 +1,145 @@
 ---
 title: Clone Graph
-summary: Clone Graph - Interviewbit Solution Explained
+summary: Clone Graph LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Clone Graph solution]
-aliases: ["/posts/clone-graph", "/blog/posts/clone-graph", "/clone-graph"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "clone-graph LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Clone Graph - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Clone Graph - Solution Explained/problem-solving.webp
     alt: Clone Graph
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Clone Graph
 
-https://www.interviewbit.com/problems/clone-graph/
+<h2>133. Clone Graph</h2><h3>Medium</h3><hr><div><p>Given a reference of a node in a <strong><a href="https://en.wikipedia.org/wiki/Connectivity_(graph_theory)#Connected_graph" target="_blank">connected</a></strong> undirected graph.</p>
 
-Clone an undirected graph. Each node in the graph contains a label and a list of its neighbors.
+<p>Return a <a href="https://en.wikipedia.org/wiki/Object_copying#Deep_copy" target="_blank"><strong>deep copy</strong></a> (clone) of the graph.</p>
 
-## Hint 1
+<p>Each node in the graph contains a value (<code>int</code>) and a list (<code>List[Node]</code>) of its neighbors.</p>
 
-This problem is a classical application of graph traversal algorithm.
+<pre>class Node {
+    public int val;
+    public List&lt;Node&gt; neighbors;
+}
+</pre>
 
-## Solution Approach
+<p>&nbsp;</p>
 
-There are two main ways to traverse a graph: Breadth-first or Depth-first. Let's try the Breadth-first approach first, which requires a queue. For the Depth-first approach, please see Clone Graph Part II.
+<p><strong>Test case format:</strong></p>
 
-How does the breadth-first traversal works? Easy, as we pop a node off the queue, we copy each of its neighbors, and push them to the queue.
+<p>For simplicity, each node's value is the same as the node's index (1-indexed). For example, the first node with <code>val == 1</code>, the second node with <code>val == 2</code>, and so on. The graph is represented in the test case using an adjacency list.</p>
 
-A straight forward breadth-first traversal seemed to work. But some details are still missing. For example, how do we connect the nodes of the cloned graph?
+<p><b>An adjacency list</b> is a collection of unordered <b>lists</b> used to represent a finite graph. Each list describes the set of neighbors of a node in the graph.</p>
 
-Before we continue, we first need to make sure if the graph is directed or not. If you notice how Node is defined above, it is quite obvious that the graph is a directed graph. Why?
+<p>The given node will always be the first node with <code>val = 1</code>. You must return the <strong>copy of the given node</strong> as a reference to the cloned graph.</p>
 
-For example, A can have a neighbor called B. Therefore, we may traverse from A to B. An undirected graph implies that B can always traverse back to A. Is it true here? No, because whether B could traverse back to A depends if one of B's neighbor is A.
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2019/11/04/133_clone_graph_question.png" style="width: 500px; height: 550px;">
+<pre><strong>Input:</strong> adjList = [[2,4],[1,3],[2,4],[1,3]]
+<strong>Output:</strong> [[2,4],[1,3],[2,4],[1,3]]
+<strong>Explanation:</strong> There are 4 nodes in the graph.
+1st node (val = 1)'s neighbors are 2nd node (val = 2) and 4th node (val = 4).
+2nd node (val = 2)'s neighbors are 1st node (val = 1) and 3rd node (val = 3).
+3rd node (val = 3)'s neighbors are 2nd node (val = 2) and 4th node (val = 4).
+4th node (val = 4)'s neighbors are 1st node (val = 1) and 3rd node (val = 3).
+</pre>
 
-The fact that B can traverse back to A implies that the graph may contain a cycle. You must take extra care to handle this case. Imagine that you finished implementing without considering this case, and later being pointed out by your interviewer that your code has an infinite loop, yuck!
+<p><strong>Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/01/07/graph.png" style="width: 163px; height: 148px;">
+<pre><strong>Input:</strong> adjList = [[]]
+<strong>Output:</strong> [[]]
+<strong>Explanation:</strong> Note that the input contains one empty list. The graph consists of only one node with val = 1 and it does not have any neighbors.
+</pre>
 
-Let's analyze this further by using the below example:
+<p><strong>Example 3:</strong></p>
 
-A simple graph
+<pre><strong>Input:</strong> adjList = []
+<strong>Output:</strong> []
+<strong>Explanation:</strong> This an empty graph, it does not have any nodes.
+</pre>
 
-A <-> B
+<p><strong>Example 4:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/01/07/graph-1.png" style="width: 272px; height: 133px;">
+<pre><strong>Input:</strong> adjList = [[2],[1]]
+<strong>Output:</strong> [[2],[1]]
+</pre>
 
-Assume that the starting point of the graph is A. First, you make a copy of node A (A2), and found that A has only one neighbor B. You make a copy of B (B2) and connects A2->B2 by pushing B2 as A2's neighbor. Next, you find that B has A as neighbor, which you have already made a copy of. Here, we have to be careful not to make a copy of A again, but to connect B2->A2 by pushing A2 as B2's neighbor. But, how do we know if a node has already been copied?
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Easy, we could use a hash table! As we copy a node, we insert it into the table. If we later find that one of a node's neighbor is already in the table, we do not make a copy of that neighbor, but to push its neighbor's copy to its copy instead. Therefore, the hash table would need to store a mapping of key-value pairs, where the key is a node in the original graph and its value is the node's copy.
+<ul>
+	<li>The number of nodes in the graph is in the range <code>[0, 100]</code>.</li>
+	<li><code>1 &lt;= Node.val &lt;= 100</code></li>
+	<li><code>Node.val</code> is unique for each node.</li>
+	<li>There are no repeated edges and no self-loops in the graph.</li>
+	<li>The Graph is connected and all nodes can be visited starting from the given node.</li>
+</ul>
+</div>
 
-## Solution
+---
 
-### Editorial
+
+
 
 ```cpp
-UndirectedGraphNode *Solution::cloneGraph(UndirectedGraphNode *graph) {
-    if (!graph) return NULL;
+/*
+// Definition for a Node.
+class Node {
+public:
+    int val;
+    vector<Node*> neighbors;
+    Node() {
+        val = 0;
+        neighbors = vector<Node*>();
+    }
+    Node(int _val) {
+        val = _val;
+        neighbors = vector<Node*>();
+    }
+    Node(int _val, vector<Node*> _neighbors) {
+        val = _val;
+        neighbors = _neighbors;
+    }
+};
+*/
 
-    map<UndirectedGraphNode *, UndirectedGraphNode *> map;
-    queue<UndirectedGraphNode *> q;
-    q.push(graph);
-
-    UndirectedGraphNode *graphCopy = new UndirectedGraphNode(graph->label);
-    map[graph] = graphCopy;
-
-    while (!q.empty()) {
-        UndirectedGraphNode *node = q.front();
-        q.pop();
-        int n = node->neighbors.size();
-        for (int i = 0; i < n; i++) {
-            UndirectedGraphNode *neighbor = node->neighbors[i];
-            // no copy exists
-            if (map.find(neighbor) == map.end()) {
-                UndirectedGraphNode *p = new UndirectedGraphNode(neighbor->label);
-                map[node]->neighbors.push_back(p);
-                map[neighbor] = p;
-                q.push(neighbor);
-            } else {     // a copy already exists
-                map[node]->neighbors.push_back(map[neighbor]);
+class Solution {
+public:
+    Node* visited[102];
+    
+    void dfs(Node* curr, Node* temp){
+        visited[temp->val]=temp;
+        for(auto u: curr->neighbors){
+            if(visited[u->val]==NULL){
+                Node* v=new Node(u->val);
+                temp->neighbors.push_back(v);
+                dfs(u, v);
             }
+            else
+                temp->neighbors.push_back(visited[u->val]);
         }
     }
-
-    return graphCopy;
-}
-```
-
-### Lightweight
-```cpp
-UndirectedGraphNode *Solution::cloneGraph(UndirectedGraphNode *node) {
-    UndirectedGraphNode *temp = new UndirectedGraphNode(node->label);
-    int x = node->label;
-    temp->neighbors = node->neighbors;
-    vector<UndirectedGraphNode *> v = temp->neighbors;
-    int l = -1;
-    for(int i = 0; i < v.size(); i++){
-        if(v[i]->label == node->label)
-            l = i;
-        vector<UndirectedGraphNode *> tempv = v[i]->neighbors;
-        for(int j = 0; j < tempv.size(); j++){
-            if(tempv[j]->label == x){
-                tempv.erase(tempv.begin() + j);
-                break;
+    
+    Node* cloneGraph(Node* node) {
+        if(node==NULL)
+            return NULL;
+        memset(visited, NULL, sizeof(visited));
+        Node* copy=new Node(node->val);
+        visited[node->val]=copy;
+        for(auto curr: node->neighbors){
+            if(visited[curr->val]==NULL){
+                Node* temp=new Node(curr->val);
+                copy->neighbors.push_back(temp);
+                dfs(curr, temp);
             }
-            
+            else{
+                copy->neighbors.push_back(visited[curr->val]);
+            }
         }
-        tempv.push_back(temp);
-        v[i]->neighbors = tempv;
+        return copy;
     }
-    if(l != -1) {
-        v.erase(v.begin()+l);
-        v.push_back(temp);
-    }
-    temp->neighbors = v;
-    return temp;
-}
+};
 ```

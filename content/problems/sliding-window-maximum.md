@@ -1,69 +1,106 @@
 ---
 title: Sliding Window Maximum
-summary: Sliding Window Maximum - Interviewbit Solution Explained
+summary: Sliding Window Maximum LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sliding Window Maximum solution]
-aliases: ["/posts/sliding-window-maximum", "/blog/posts/sliding-window-maximum", "/sliding-window-maximum"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "sliding-window-maximum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sliding Window Maximum - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sliding Window Maximum - Solution Explained/problem-solving.webp
     alt: Sliding Window Maximum
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Sliding Window Maxiumum
 
-https://www.interviewbit.com/problems/sliding-window-maxiumum
+[Discussion Post (created on 2/2/2021 at 16:47)](https://leetcode.com/problems/sliding-window-maximum/discuss/1089707/Easy-Sliding-Window-or-C%2B%2B)  
+<h2>239. Sliding Window Maximum</h2><h3>Hard</h3><hr><div><p>You are given an array of integers&nbsp;<code>nums</code>, there is a sliding window of size <code>k</code> which is moving from the very left of the array to the very right. You can only see the <code>k</code> numbers in the window. Each time the sliding window moves right by one position.</p>
+
+<p>Return <em>the max sliding window</em>.</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+
+<pre><strong>Input:</strong> nums = [1,3,-1,-3,5,3,6,7], k = 3
+<strong>Output:</strong> [3,3,5,5,6,7]
+<strong>Explanation:</strong> 
+Window position                Max
+---------------               -----
+[1  3  -1] -3  5  3  6  7       <strong>3</strong>
+ 1 [3  -1  -3] 5  3  6  7       <strong>3</strong>
+ 1  3 [-1  -3  5] 3  6  7      <strong> 5</strong>
+ 1  3  -1 [-3  5  3] 6  7       <strong>5</strong>
+ 1  3  -1  -3 [5  3  6] 7       <strong>6</strong>
+ 1  3  -1  -3  5 [3  6  7]      <strong>7</strong>
+</pre>
+
+<p><strong>Example 2:</strong></p>
+
+<pre><strong>Input:</strong> nums = [1], k = 1
+<strong>Output:</strong> [1]
+</pre>
+
+<p><strong>Example 3:</strong></p>
+
+<pre><strong>Input:</strong> nums = [1,-1], k = 1
+<strong>Output:</strong> [1,-1]
+</pre>
+
+<p><strong>Example 4:</strong></p>
+
+<pre><strong>Input:</strong> nums = [9,11], k = 2
+<strong>Output:</strong> [11]
+</pre>
+
+<p><strong>Example 5:</strong></p>
+
+<pre><strong>Input:</strong> nums = [4,-2], k = 2
+<strong>Output:</strong> [4]
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
+	<li><code>1 &lt;= k &lt;= nums.length</code></li>
+</ul>
+</div>
+
+---
 
 
 
-The double-ended queue is the perfect data structure for this problem.
-It supports insertion/deletion from the front and back.
-The trick is to find a way such that the largest element in the window
-would always appear in the front of the queue. How would you maintain
-this requirement as you push and pop elements in and out of the queue?
-
-You might notice that there are some redundant elements in the queue
-that we shouldn't even consider about. For example, if the current
-queue has the elements: [10 5 3], and a new element in the window has
-the element 11. Now, we could have emptied the queue without considering
-elements 10, 5, and 3, and insert only element 11 into the queue.
-
-A natural way most people would think is to try to maintain the queue
-size the same as the window's size. Try to break away from this thought
-and try to think outside of the box. Removing redundant elements and storing
-only elements that need to be considered in the queue is the key to achieve 
-the efficient O(n) solution.
-
-## Solution
 
 ```cpp
-
-// editorial
-
-vector<int> Solution::slidingMaximum(vector<int> &A, int w) {
-    int n = A.size();
-    vector<int> B;
-    if (n < w) return B;
-    B.resize(n - w + 1);
-    deque<int> q;
-    for (int i = 0; i < w; i++) {
-        while (!q.empty() && A[i] >= A[q.back()])
-            q.pop_back();
-        q.push_back(i);
+class Solution {
+public:
+    vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+        vector<int> ans;
+        deque<int> q;
+        int n=nums.size();
+        if(k>=n){
+            int maxi=*max_element(nums.begin(),nums.end());
+            ans.push_back(maxi);
+            return ans;
+        }
+        int i=0,j=0;
+        while(j<n){
+            while(!q.empty() && q.back()<nums[j])
+                q.pop_back();
+            q.push_back(nums[j]);
+            if(j-i+1<k)
+                j++;
+            else if(j-i+1==k){
+                ans.push_back(q.front());
+                if(nums[i]==q.front())
+                    q.pop_front();
+                i++;
+                j++;
+            }
+        }
+        return ans;
     }
-    for (int i = w; i < n; i++) {
-        B[i - w] = A[q.front()];
-        while (!q.empty() && A[i] >= A[q.back()])
-            q.pop_back();
-        while (!q.empty() && q.front() <= i - w)
-            q.pop_front();
-        q.push_back(i);
-    }
-    B[n - w] = A[q.front()];
-    return B;
-}
-
+};
 ```

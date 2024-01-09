@@ -1,129 +1,66 @@
 ---
 title: Single Number Ii
-summary: Single Number Ii - Interviewbit Solution Explained
+summary: Single Number Ii LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Single Number Ii solution]
-aliases: ["/posts/single-number-ii", "/blog/posts/single-number-ii", "/single-number-ii"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "single-number-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Single Number Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Single Number Ii - Solution Explained/problem-solving.webp
     alt: Single Number Ii
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Single Number II
 
-https://www.interviewbit.com/problems/single-number-ii
+[Discussion Post (created on 13/2/2021 at 14:21)](https://leetcode.com/problems/single-number-ii/submissions/)  
+[Discussion Post (created on 16/0/2021 at 22:3)](https://leetcode.com/problems/single-number-ii/discuss/1019874/Simple-C%2B%2B-Solution)  
+<h2>137. Single Number II</h2><h3>Medium</h3><hr><div><p>Given an integer array <code>nums</code> where&nbsp;every element appears <strong>three times</strong> except for one, which appears <strong>exactly once</strong>. <em>Find the single element and return it</em>.</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [2,2,3,2]
+<strong>Output:</strong> 3
+</pre><p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [0,1,0,1,0,1,99]
+<strong>Output:</strong> 99
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 3 * 10<sup>4</sup></code></li>
+	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
+	<li>Each element in <code>nums</code> appears exactly <strong>three times</strong> except for one element which appears <strong>once</strong>.</li>
+</ul>
+
+<p>&nbsp;</p>
+<p><strong>Follow up:</strong>&nbsp;Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?</p>
+</div>
+
+---
 
 
 
-Given an array of integers, every element appears thrice except for one which occurs once.
-
-Find that element which does not appear thrice.
-
-Note: Your algorithm should have a linear runtime complexity.
-
-Could you implement it without using extra memory?
-
-
-http://javabypatel.blogspot.com/2015/09/find-number-that-appears-once.html
-
-## Solution
 
 ```cpp
-
-/* editorial */
-
-int singleNumber(const vector<int> &A) {
-        int n = A.size();
-    int count[32] = {0};
-
-    int result = 0;
-
-    for (int i = 0; i < 32; i++) {
-        for (int j = 0; j < n; j++) {
-            if ((A[j] >> i) & 1) {
-                count[i]++;
-            }
+class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+        int n=nums.size();
+        vector<int> v(32);
+        int ans=0;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<32;j++){
+                  if((1<<j) & nums[i])
+                      v[j]++;
+              }  
         }
-        result |= ((count[i] % 3) << i);
+        for(int j=0;j<32;j++){
+             if(v[j]%3==1)
+                 ans+=(1<<j);
+        }
+        return ans;
     }
-    return result;
-}
-
-/* lightweight */
-
-/*
-ones - At any point of time, this variable holds XOR of all the elements which have
-appeared "only" once.
-
-twos - At any point of time, this variable holds XOR of all the elements which have
-appeared "only" twice.
-
-So if at any point time,
-
-A new number appears - It gets XOR'd to the variable "ones".
-A number gets repeated(appears twice) - It is removed from "ones" and XOR'd to the
-variable "twice".
-A number appears for the third time - It gets removed from both "ones" and "twice".
-
-*/
-
-int Solution::singleNumber(const vector<int> &A) {
-    int ones = 0, twos = 0;
-    for(int i = 0; i < A.size(); i++){
-        ones = (ones ^ A[i]) & ~twos;
-        twos = (twos ^ A[i]) & ~ones;
-    }
-    return ones;
-}
-
-
-/* comments */
-
-int Solution::singleNumber(const vector<int> &A) {
-    int first = 0;
-    int second = 0;
-    for(auto n:A){
-        first = (first ^ n) & ~second;
-        second = (second ^ n) & ~first;
-    }
-    return first;
-}
-
-/* shorter */
-int Solution::singleNumber (const vector < int > &A) {
-
-    int a = 0;
-    int b = 0;
-
-    for (int i = 0; i < A.size(); i++) {
-        b |= a & A[i];
-        a ^= A[i];
-        int c = ~(a & b);
-        a &= c;
-        b &= c;
-    }
-    return a;
-}
-
-/* longer */
-
-int Solution::singleNumber (const vector < int >&arr) {
-
-	int firstTimeOccurence = 0;
-	int secondTimeOccurence = 0;
-
-	for (int i = 0; i < arr.size (); i++) {
-		secondTimeOccurence = secondTimeOccurence | (firstTimeOccurence & arr[i]);
-		firstTimeOccurence = firstTimeOccurence ^ arr[i];
-		int neutraliser = ~(firstTimeOccurence & secondTimeOccurence);
-		firstTimeOccurence = firstTimeOccurence & neutraliser;
-		secondTimeOccurence = secondTimeOccurence & neutraliser;
-	}
-	return firstTimeOccurence;
-}
-
+};
 ```

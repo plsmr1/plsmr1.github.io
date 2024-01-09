@@ -1,83 +1,71 @@
 ---
 title: Longest Consecutive Sequence
-summary: Longest Consecutive Sequence - Interviewbit Solution Explained
+summary: Longest Consecutive Sequence LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Longest Consecutive Sequence solution]
-aliases: ["/posts/longest-consecutive-sequence", "/blog/posts/longest-consecutive-sequence", "/longest-consecutive-sequence"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "longest-consecutive-sequence LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Consecutive Sequence - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Longest Consecutive Sequence - Solution Explained/problem-solving.webp
     alt: Longest Consecutive Sequence
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Longest Consecutive Sequence
 
-https://www.interviewbit.com/problems/longest-consecutive-sequence/
+<h2>128. Longest Consecutive Sequence</h2><h3>Medium</h3><hr><div><p>Given an unsorted array of integers <code>nums</code>, return <em>the length of the longest consecutive elements sequence.</em></p>
 
-Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+<p>You must write an algorithm that runs in&nbsp;<code>O(n)</code>&nbsp;time.</p>
 
-Example: 
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-Given [100, 4, 200, 1, 3, 2],
+<pre><strong>Input:</strong> nums = [100,4,200,1,3,2]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The longest consecutive elements sequence is <code>[1, 2, 3, 4]</code>. Therefore its length is 4.
+</pre>
 
-The longest consecutive elements sequence is [1, 2, 3, 4]. Return its length: 4.
+<p><strong>Example 2:</strong></p>
 
-Your algorithm should run in O(n) complexity.
+<pre><strong>Input:</strong> nums = [0,3,7,2,5,8,4,6,0,1]
+<strong>Output:</strong> 9
+</pre>
 
-## Solution
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>0 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+</ul>
+</div>
+
+---
+
+
+
 
 ```cpp
-// editorial
-
-int Solution::longestConsecutive(const vector<int> &v) {
-	unordered_set<int> h;
-	for (int x : v)
-		h.insert(x);
-
-	int longestStreak = 0;
-
-	for (int x : v) {
-		int currentStreak = 1;
-		int currentNum = x;
-
-		if (h.count(currentNum - 1) == 0) {
-			while (h.count(currentNum + 1) != 0) {
-				currentNum++;
-				currentStreak++;
-			}
-			longestStreak = max(longestStreak, currentStreak);
-		}
-	}
-
-	return longestStreak;
-}
-
-// my
-int Solution::longestConsecutive(const vector<int> &nums) {
-	unordered_set<int> num_set;
-
-	for (int num : nums)
-		num_set.insert(num);
-
-	int longestStreak = 0;
-
-	for (int num : num_set) {
-		if (!num_set.count(num - 1)) {
-			int currentNum = num;
-			int currentStreak = 1;
-
-			while (num_set.count(currentNum + 1)) {
-				currentNum += 1;
-				currentStreak += 1;
-			}
-
-			longestStreak = max(longestStreak, currentStreak);
-		}
-	}
-
-	return longestStreak;
-}
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        int n=nums.size();
+        map<int, int> m;
+        int ans=0;
+        for(auto x: nums)
+            m[x]++;
+        for(auto x: m){ // x is start of streak
+            if(!m.count(x.first-1)){ 
+                int curr=x.first;
+                int maxsf=1;
+                while(m.find(curr+1)!=m.end()){
+                    curr++;
+                    maxsf++;
+                }
+            ans=max(ans, maxsf);
+            }
+        }
+        return ans;
+    }
+};
 ```

@@ -1,89 +1,69 @@
 ---
 title: Next Permutation
-summary: Next Permutation - Interviewbit Solution Explained
+summary: Next Permutation LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Next Permutation solution]
-aliases: ["/posts/next-permutation", "/blog/posts/next-permutation", "/next-permutation"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "next-permutation LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Next Permutation - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Next Permutation - Solution Explained/problem-solving.webp
     alt: Next Permutation
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Next Permutation
 
-https://www.interviewbit.com/problems/next-permutation/
+<h2>31. Next Permutation</h2><h3>Medium</h3><hr><div><p>Implement <strong>next permutation</strong>, which rearranges numbers into the lexicographically next greater permutation of numbers.</p>
 
-Implement the next permutation, which rearranges numbers into the numerically next greater permutation of numbers.
+<p>If such an arrangement is not possible, it must rearrange it as the lowest possible order (i.e., sorted in ascending order).</p>
 
-If such arrangement is not possible, it must be rearranged as the lowest possible order ie, sorted in an ascending order.
+<p>The replacement must be <strong><a href="http://en.wikipedia.org/wiki/In-place_algorithm" target="_blank">in place</a></strong> and use only constant&nbsp;extra memory.</p>
 
-The replacement must be in-place, do not allocate extra memory.
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,3]
+<strong>Output:</strong> [1,3,2]
+</pre><p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [3,2,1]
+<strong>Output:</strong> [1,2,3]
+</pre><p><strong>Example 3:</strong></p>
+<pre><strong>Input:</strong> nums = [1,1,5]
+<strong>Output:</strong> [1,5,1]
+</pre><p><strong>Example 4:</strong></p>
+<pre><strong>Input:</strong> nums = [1]
+<strong>Output:</strong> [1]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Examples:
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 100</code></li>
+	<li><code>0 &lt;= nums[i] &lt;= 100</code></li>
+</ul>
+</div>
 
-1,2,3 -> 1,3,2
+---
 
-3,2,1 -> 1,2,3
 
-1,1,5 -> 1,5,1
 
-20, 50, 113 -> 20, 113, 50
-
-Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
-
-Warning : DO NOT USE LIBRARY FUNCTION FOR NEXT PERMUTATION. Use of Library functions will disqualify your submission retroactively and will give you penalty points.
-
-## Hint 1
-
-You can try out few test cases to see what the pattern is or what exactly is the flow of numbers from initial sequence to final sequence.
-
-## Solution Approach
-
-It might help to write down the next permutation on paper to see how and when the sequence changes.
-
-You'll realize the following pattern :
-
-The suffix which gets affected is in a descending order before the change.
-
-A swap with the smaller element happens and then we reverse the affected suffix.
-
-1 2 3 -> 1 3 2   // Suffix being just the 3.
-
-1 2 3 6 5 4  -> 1 2 4 3 5 6 // Suffix being 6 5 4 in this case.
-
-## Solution
-
-### Editorial
 
 ```cpp
-void Solution::nextPermutation(vector<int> &num) {
-    int len = num.size();
-    int i, j;
-    for (i = len - 2; i >= 0; i--)
-        if (num[i] < num[i + 1])
-            break;
-
-    if (i == -1) {
-        reverse(num.begin(), num.end());
-        return;
+class Solution {
+public:
+    void nextPermutation(vector<int>& nums) {
+        int n=nums.size();
+        int i=n-2;
+        while(i>=0 && nums[i]>=nums[i+1]){
+            i--;
+        }
+        if(i>=0){
+            int j=n-1;
+            while(nums[j]<=nums[i]){
+                j--;
+            }
+            swap(nums[i], nums[j]);
+        }
+        reverse(nums.begin()+i+1, nums.end());
     }
-
-    for (j = len - 1; j > i; j--)
-        if (num[j] > num[i])
-            break;
-
-    swap(num[i], num[j]);
-    reverse(num.begin() + i + 1, num.end());
-    return;
-}
+};
 ```
-
-## Asked in
-
-* Microsoft
-* Amazon
-

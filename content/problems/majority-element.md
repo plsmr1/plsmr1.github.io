@@ -1,101 +1,65 @@
 ---
 title: Majority Element
-summary: Majority Element - Interviewbit Solution Explained
+summary: Majority Element LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Majority Element solution]
-aliases: ["/posts/majority-element", "/blog/posts/majority-element", "/majority-element"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "majority-element LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Majority Element - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Majority Element - Solution Explained/problem-solving.webp
     alt: Majority Element
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Majority Element
 
-https://www.interviewbit.com/problems/majority-element
+<h2>169. Majority Element</h2><h3>Easy</h3><hr><div><p>Given an array <code>nums</code> of size <code>n</code>, return <em>the majority element</em>.</p>
+
+<p>The majority element is the element that appears more than <code>⌊n / 2⌋</code> times. You may assume that the majority element always exists in the array.</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [3,2,3]
+<strong>Output:</strong> 3
+</pre><p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [2,2,1,1,1,2,2]
+<strong>Output:</strong> 2
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>n == nums.length</code></li>
+	<li><code>1 &lt;= n &lt;= 5 * 10<sup>4</sup></code></li>
+	<li><code>-2<sup>31</sup> &lt;= nums[i] &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
+
+<p>&nbsp;</p>
+<strong>Follow-up:</strong> Could you solve the problem in linear time and in <code>O(1)</code> space?</div>
+
+---
 
 
 
 
-## Hint 1
-
-Lets say you find 2 elements x and y which are different in the array.
-If you removed those 2 elements, would the majority element change ?
-
-## Hint 2
-
-If we cancel out each occurrence of an element e with all the other elements
-that are different from e then e will exist till end if it is a majority element.
-Loop through each element and maintains a count of the element that has the potential
-of being the majority element. If next element is same then increments the count,
-otherwise decrements the count. If the count reaches 0 then update the potential
-index to the current element and reset count to 1.
-
-
-## Solution
-
-### Editorial
 ```cpp
-int Solution::majorityElement(vector<int> &num) {
-    int majorityIndex = 0;
-    for (int count = 1, i = 1; i < num.size(); i++) {
-        num[majorityIndex] == num[i] ? count++ : count--;
-        if (count == 0) {
-            majorityIndex = i;
-            count = 1;
+class Solution {
+public:
+    int majorityElement(vector<int>& nums) {
+        int ans=0;
+        vector<int> v(32);
+        int n=nums.size();
+        for(int i=0;i<n;i++){
+           for(int j=0;j<32;j++){
+               if((1<<j) & nums[i])
+                   v[j]++;
+           }   
         }
-    }
-    return num[majorityIndex];
-}
-
-```
-### Fastest
-```cpp
-int Solution::majorityElement(const vector<int> &A) {
-    int n=A.size();
-    int maxi=0,count=1;
-    for(int i=1;i<n;i++){
-        if(A[i]!=A[maxi]){
-            count--;
-            if(count==0){
-                count=1;
-                maxi=i;
-            }
-        }else{
-            count++;
+        for(int j=0;j<32;j++){
+           if(v[j]>(n/2))
+               ans+=(1<<j);
         }
+        return ans;
     }
-    return A[maxi];
-}
-```
-
-### Lightweight
-```cpp
-int Solution::majorityElement(const vector<int> &A) {
-    for(int i=0; i<A.size(); i++){
-        int cnt = 0;
-        for(int j=0; j<A.size(); j++){
-            if(A[i] == A[j])
-                cnt++;
-            else
-                cnt--;
-        }
-        if(cnt>0)
-            return A[i];
-    }
-}
-```
-
-### Mine
-```cpp
-int Solution::majorityElement(const vector<int> &A) {
-    // boyer-moore majority vote
-    int x = -1, c = 0;
-    for (int i = 0; i < n; i++) if (c == 0) x = a[i], c++; else c += x == a[i] ? 1 : -1;
-    return x;
-}
-
+};
 ```

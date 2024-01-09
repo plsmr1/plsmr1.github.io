@@ -1,135 +1,61 @@
 ---
 title: Single Element In A Sorted Array
-summary: Single Element In A Sorted Array - Interviewbit Solution Explained
+summary: Single Element In A Sorted Array LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Single Element In A Sorted Array solution]
-aliases: ["/posts/single-element-in-a-sorted-array", "/blog/posts/single-element-in-a-sorted-array", "/single-element-in-a-sorted-array"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "single-element-in-a-sorted-array LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Single Element In A Sorted Array - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Single Element In A Sorted Array - Solution Explained/problem-solving.webp
     alt: Single Element In A Sorted Array
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Single Element in a Sorted Array
 
-https://www.interviewbit.com/problems/single-element-in-a-sorted-array/
+<h2>540. Single Element in a Sorted Array</h2><h3>Medium</h3><hr><div><p>You are given a sorted array consisting of only integers where every element appears exactly twice, except for one element which appears exactly&nbsp;once. Find this single element that appears only once.</p>
 
-Given a sorted array of integers A where every element appears twice except for one element which appears once, 
-find and return this single element that appears only once.
+<p><b>Follow up:</b> Your solution should run in O(log n) time and O(1) space.</p>
 
-```
-Input Format
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,1,2,3,3,4,4,8,8]
+<strong>Output:</strong> 2
+</pre><p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [3,3,7,7,10,11,11]
+<strong>Output:</strong> 10
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-The only argument given is the integer array A.
-Output Format
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 10^5</code></li>
+	<li><code>0 &lt;= nums[i]&nbsp;&lt;= 10^5</code></li>
+</ul>
+</div>
 
-Return the single element that appears only once.
-Constraints
+---
 
-1 <= length of the array <= 100000
-1 <= A[i] <= 10^9 
-For Example
 
-Input 1:
-    A = [1, 1, 2, 2, 3]
-Output 1:
-    3
 
-Input 2:
-    A = [5, 11, 11, 100, 100]
-Output 2:
-    5
-```
 
-## Solution
-### Editorial
 ```cpp
-int Solution::solve(vector<int> &A) {
-    int n = A.size();
-    int st = 0, en = n-1, m;
-    while (st <= en)
-    {
-        m = (st+en)/2;
-        if (m == 0)
-        {
-            if (A[m] != A[m+1])     return A[m];
-            else                    st = m+2;
+class Solution {
+public:
+    int singleNonDuplicate(vector<int>& nums) {
+        int n=nums.size();
+        if(n==1)
+            return nums[0];
+        int l=0, r=n-2;
+        int ans=0;
+        while(l<=r){
+            int mid=l+(r-l)/2;
+            if(nums[mid]==nums[mid^1])  
+                l=mid+1;
+            else
+                r=mid-1;
         }
-        else if (m == n-1)
-        {
-            if (A[m] != A[m-1])     return A[m];
-            else                    en = m-2;
-        }
-        else if (A[m-1] != A[m] && A[m] != A[m+1])  return A[m];
-        else if (A[m-1] != A[m])    // it is first occ
-        {
-            if (m%2 == 0)   st = m+2;
-            else            en = m-1;
-        }
-        else                        // second occ
-        {
-            if (m%2 == 0)   en = m-2;
-            else            st = m+1;
-        }
+        return nums[l];
     }
-}
+};
 ```
-### Fastest
-```cpp
-int Solution::solve(vector<int> &arr) {
-    int si=0, ei = arr.size()-1;
-    while(si<ei){
-        int mid = (si+ei)/2;
-        if(arr[mid] == arr[mid-1]){
-            if((mid-1-si)%2 == 0) si = mid+1;
-            else ei = mid-2;
-        }
-        else if(arr[mid] == arr[mid+1]){
-            if((ei-mid-1)%2 == 1) si = mid+2;
-            else ei = mid-1;
-        }
-        else{
-            return arr[mid];
-        }
-    }
-    return arr[si];
-}
-
-```
-### Lightweight
-```cpp
-int Solution::solve(vector<int> &A) {
-    set<long long int> st;
-    for(int i=0;i<A.size();i++)
-    {   auto it=st.find(A[i]);
-        if(it==st.end())
-            st.insert(A[i]);
-        else
-            st.erase(it);
-    }
-    return *st.begin();
-}
-```
-### Mine
-```cpp
-int Solution::solve(vector<int> &str) {
-    int c = 1, n = str.size();
-    for (int i=0; i<n-1; i++) {
-        if (str[i]==str[i+1]) {
-            c++;
-        } else {
-            if (c==1)
-                return str[i];
-            c = 1;
-        }
-    }
-    if (c==1 && n)
-        return str[n-1];
-    return -1;
-}
-```
-
-

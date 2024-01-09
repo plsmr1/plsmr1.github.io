@@ -4,10 +4,9 @@ summary: C++ Data Types - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/C++-Data-Types", "/blog/posts/C++-Data-Types", "/C++-Data-Types", "/blog/C++-Data-Types",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, C++ Data Types solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "C++ Data Types Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:C++ Data Types - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:C++ Data Types - Solution Explained/problem-solving.webp
     alt: C++ Data Types
     hiddenInList: true
     hiddenInSingle: false

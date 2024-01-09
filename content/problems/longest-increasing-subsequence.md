@@ -1,168 +1,84 @@
 ---
 title: Longest Increasing Subsequence
-summary: Longest Increasing Subsequence - Interviewbit Solution Explained
+summary: Longest Increasing Subsequence LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Longest Increasing Subsequence solution]
-aliases: ["/posts/longest-increasing-subsequence", "/blog/posts/longest-increasing-subsequence", "/longest-increasing-subsequence"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "longest-increasing-subsequence LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Increasing Subsequence - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Longest Increasing Subsequence - Solution Explained/problem-solving.webp
     alt: Longest Increasing Subsequence
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Longest Increasing Subsequence
 
-https://www.interviewbit.com/problems/longest-increasing-subsequence/
+<h2>300. Longest Increasing Subsequence</h2><h3>Medium</h3><hr><div><p>Given an integer array <code>nums</code>, return the length of the longest strictly increasing subsequence.</p>
 
-Find the longest increasing subsequence of a given sequence / array.
+<p>A <strong>subsequence</strong> is a sequence that can be derived from an array by deleting some or no elements without changing the order of the remaining elements. For example, <code>[3,6,2,7]</code> is a subsequence of the array <code>[0,3,1,6,2,2,7]</code>.</p>
 
-In other words, find a subsequence of array in which the subsequence's elements are in strictly increasing order, and in which the subsequence is as long as possible. 
-This subsequence is not necessarily contiguous, or unique.
-In this case, we only care about the length of the longest increasing subsequence.
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-Example :
+<pre><strong>Input:</strong> nums = [10,9,2,5,3,7,101,18]
+<strong>Output:</strong> 4
+<strong>Explanation:</strong> The longest increasing subsequence is [2,3,7,101], therefore the length is 4.
+</pre>
 
-```
-Input: [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]
-Output: 6
-```
+<p><strong>Example 2:</strong></p>
 
-The sequence: 
-```
-[0, 2, 6, 9, 13, 15] or [0, 4, 6, 9, 11, 15] or [0, 4, 6, 9, 13, 15]
-```
+<pre><strong>Input:</strong> nums = [0,1,0,3,2,3]
+<strong>Output:</strong> 4
+</pre>
 
-## Hint 1
+<p><strong>Example 3:</strong></p>
 
-Try to compute longest increasing subsequence ending at ith position for all i.
+<pre><strong>Input:</strong> nums = [7,7,7,7,7,7,7]
+<strong>Output:</strong> 1
+</pre>
 
-Think how can you use answers ending on 1st,2nd,3rd,....(i-1)th positions for computing answers ending on ith position.
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Hint: Expected Complexity - O(n^2)
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 2500</code></li>
+	<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
+</ul>
 
-## Solution Approach
+<p>&nbsp;</p>
+<p><b>Follow up:</b></p>
 
-```
-There is a straight-forward Dynamic Programming solution in O(n^{2}) time.
-Though this is asymptotically equivalent to the Longest Common Subsequence version of the solution,
-the constant is lower, as there is less overhead.
+<ul>
+	<li>Could you come up with the <code>O(n<sup>2</sup>)</code> solution?</li>
+	<li>Could you improve it to <code>O(n log(n))</code> time complexity?</li>
+</ul>
+</div>
 
-Let A be our sequence a_{1},a_{2},\ldots ,a_{n}. Define q_{k}
-as the length of the longest increasing subsequence of A,
-subject to the constraint that the subsequence must end on the element a_{k}.
-The longest increasing subsequence of A must end on some element of A,
-so that we can find its length by searching for the maximum value of q.
-All that remains is to find out the values q_{k}.
+---
 
-But q_{k} can be found recursively, as follows:
-consider the set S_{k} of all i<k such that a_{i}<a_{k}.
-If this set is null, then all of the elements that come before a_{k} are greater than it,
-which forces q_{k}=1. Otherwise, if S_{k} is not null,
-then q has some distribution over S_{k}. By the general contract of q,
-if we maximize q over S_{k}, we get the length of the longest increasing subsequence in S_{k};
-we can append a_{k} to this sequence, to get that:
 
-q_{k}=max(q_{j}|j\in S_{k})+1
-If the actual subsequence is desired,
-it can be found in O(n) further steps by moving backward through the q-array,
-or else by implementing the q-array as a set of stacks,
-so that the above "+ 1" is accomplished by "pushing" a_{k} into a copy of the maximum-length stack seen so far.
-```
 
-## Solution
-### Editorial
+
 ```cpp
-int Solution::lis(const vector<int> &V) {
-    if (V.size() == 0) return 0;
-    int longest[V.size() + 1];
-    int maxLen = 1;
-    memset(longest, 0, sizeof(longest));
-    // longest[i] denotes the maximum length of increasing subsequence that ends
-    // with V[i].
-    longest[0] = 1;
-    for (int i = 1; i < V.size(); i++) {
-        longest[i] = 1;
-        // V[i] can only come after any V[j] such that V[j] < V[i].
-        // We try appending V[i] after every such subsequence and update our
-        // longest[i].
-        for (int j = 0; j < i; j++) {
-            if (V[j] < V[i]) longest[i] = max(longest[i], longest[j] + 1);
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+        int n=nums.size();
+        int dp[n];
+        for(int i=0;i<n;i++)
+            dp[i]=1;
+        if(n==1)
+            return 1;
+        for(int i=1;i<n;i++){
+            for(int j=0;j<=i;j++){
+                if(nums[j]<nums[i] && dp[i]<dp[j]+1)
+                    dp[i]=dp[j]+1;
+            }
         }
-        maxLen = max(maxLen, longest[i]);
+        int ans=0;
+        for(int i=0;i<n;i++)
+            ans=max(ans,dp[i]);
+        return ans;
     }
-    return maxLen;
-}
+};
 ```
-
-### Fastest
-```cpp
-int Solution::lis(const vector<int> &a) 
-{
-    int n=a.size();
-    int lis[n];
-    for(int i=0;i<n;i++)
-    lis[i]=1;
-    for(int i=0;i<n;i++)
-    {
-        for(int j=0;j<i;j++)
-        {
-            if(a[j]<a[i] && lis[i]<lis[j]+1)
-            lis[i]=lis[j]+1;
-        }
-    }
-    int mx=*max_element(lis,lis+n);
-    return mx;
-}
-```
-
-### Lightweight
-```cpp
-int Solution::lis(const vector<int> &A) {
-    
-    int n = A.size();
-    int lis[n];
-    for(int i =0;i<n;i++)
-     lis[i]=1;
-    for(int i =1;i<n;i++)
-    {
-        for(int j =0;j<i;j++)
-        {
-            if(A[i]>A[j] && lis[j]+1>lis[i])
-              lis[i]=lis[j]+1;
-        }
-    }
-    int max = lis[0];
-    for(int i =1;i<n;i++)
-    {
-        if(lis[i]>max)
-          max = lis[i];
-    }
-    return max;
-}
-```
-
-### Mine
-```cpp
-int Solution::lis(const vector<int>& nums) {
-    vector<int> dp(nums.size());
-    int len = 0;
-    for (int num:nums) {
-        int i = lower_bound(dp.begin(), dp.begin() + len, num) - dp.begin();
-        dp[i] = num;
-        len = max(len, i + 1);
-    }
-    return len;
-}
-```
-
-## Asked in
-
-* Facebook
-* Yahoo
-* Epic systems
-* Amazon
-* Microsoft
-

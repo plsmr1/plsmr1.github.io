@@ -1,109 +1,98 @@
 ---
 title: Palindrome Partitioning Ii
-summary: Palindrome Partitioning Ii - Interviewbit Solution Explained
+summary: Palindrome Partitioning Ii LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Palindrome Partitioning Ii solution]
-aliases: ["/posts/palindrome-partitioning-ii", "/blog/posts/palindrome-partitioning-ii", "/palindrome-partitioning-ii"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "palindrome-partitioning-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Palindrome Partitioning Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Palindrome Partitioning Ii - Solution Explained/problem-solving.webp
     alt: Palindrome Partitioning Ii
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Palindrome Partitioning II
 
-https://www.interviewbit.com/problems/palindrome-partitioning-ii/
+<h2>132. Palindrome Partitioning II</h2><h3>Hard</h3><hr><div><p>Given a string <code>s</code>, partition <code>s</code> such that every substring of the partition is a palindrome.</p>
 
-Given a string s, partition s such that every substring of the partition is a palindrome.
+<p>Return <em>the minimum cuts needed</em> for a palindrome partitioning of <code>s</code>.</p>
 
-Return the minimum cuts needed for a palindrome partitioning of s.
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-Example:
-```
-Given 
-s = "aab",
-Return 1 since the palindrome partitioning ["aa","b"] could be produced using 1 cut.
-```
+<pre><strong>Input:</strong> s = "aab"
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> The palindrome partitioning ["aa","b"] could be produced using 1 cut.
+</pre>
 
-## Hint 1
+<p><strong>Example 2:</strong></p>
 
-Firstly, we should be able to answer if substring [i,i+1,....j] is palindrome or not in O(1) with pre-computation of O(n^2).
+<pre><strong>Input:</strong> s = "a"
+<strong>Output:</strong> 0
+</pre>
 
-Now try to come up with some DP state which can find minimum cut using above data.
+<p><strong>Example 3:</strong></p>
 
-## Solution Approach
+<pre><strong>Input:</strong> s = "ab"
+<strong>Output:</strong> 1
+</pre>
 
-Like other DP problems, we first look at the bruteforce approach. 
-We look at the substrings starting with the index 0, and then figure out the minCut for remaining string. We choose the minimum minCut of the possibilities and our answer becomes min + 1.
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-The code would go something like this: 
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 2000</code></li>
+	<li><code>s</code> consists of lower-case English letters only.</li>
+</ul>
+</div>
+
+---
+
+
+
 
 ```cpp
-int minCut(string s) {
-    // BASE CASES
-    int minimum = infinity; 
-    for (int index = 0; index < s.length(); index++) {
-         if (s[0..index] is palindrome) minimum = min(minimum, minCut(s[index+1...]))
+class Solution {
+public:
+    int t[2002][2002];
+    
+    bool isPalindrome(string &s, int i, int j){
+        while(i<=j){
+            if(s[i]!=s[j])
+                return false;
+            i++;
+            j--;
+        }
+        return true;
     }
-    return minimum + 1;
- }
-```
-Now note that the string s will always be some suffix of original S. Which means only length(S) number of possibilities.
-
-## Solution
-
-### Fastest
-```cpp
-int Solution::minCut(string A) {
-    int n = A.size();
-    vector<int> cut(n+1, 0);  // number of cuts for the first k characters
-    for (int i = 0; i <= n; i++) cut[i] = i-1;
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; i-j >= 0 && i+j < n && A[i-j]==A[i+j] ; j++) // odd length palindrome
-            cut[i+j+1] = min(cut[i+j+1],1+cut[i-j]);
-
-        for (int j = 1; i-j+1 >= 0 && i+j < n && A[i-j+1] == A[i+j]; j++) // even length palindrome
-            cut[i+j+1] = min(cut[i+j+1],1+cut[i-j+1]);
-    }
-    return cut[n];
-}
-
-```
-
-### Lightweight
-```cpp
-bool isPalindrome(string A) {
-    int left = 0;
-    int right = A.size()-1;
-    while(left < right) {
-        if(A[left] != A[right]) {
+    
+    int solve(string s, int i, int j){
+        if(t[i][j]!=-1)
+            return t[i][j];
+        if(i>=j)
             return 0;
-        }
-        left++;
-        right--;
-    }
-    return 1;
-}
-
-int Solution::minCut(string A) {
-    int n = A.size();
-    vector<int> result(n+1);
-    result[n] = -1;
-    for(int i=n-1;i>=0;i--) {
-        result[i] = n-i-1;
-        for(int j=i;j<n;j++) {
-            if(isPalindrome(A.substr(i, j-i+1))) {
-                result[i] = min(result[i], 1 + result[j+1]);
+        if(isPalindrome(s,i,j))
+            return t[i][j]=0;
+        int ans=INT_MAX;
+        for(int k=i;k<=j-1;k++){
+            int temp=0;
+            if(isPalindrome(s,i,k)){
+                temp=solve(s,k+1,j)+1;
             }
+            else{
+                t[i][j]=0;
+                continue;
+            }
+            ans=min(ans,temp);
         }
+        return t[i][j]=ans;
     }
-    return result[0];
-}
+    
+    
+    int minCut(string s) {
+        int n=s.size();
+        memset(t,-1,sizeof(t));
+        return solve(s,0,n-1);
+    }
+};
 ```
-
-## Asked in
-* Amazon
-* Google

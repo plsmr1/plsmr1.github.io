@@ -1,132 +1,86 @@
 ---
 title: Distinct Subsequences
-summary: Distinct Subsequences - Interviewbit Solution Explained
+summary: Distinct Subsequences LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Distinct Subsequences solution]
-aliases: ["/posts/distinct-subsequences", "/blog/posts/distinct-subsequences", "/distinct-subsequences"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "distinct-subsequences LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Distinct Subsequences - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Distinct Subsequences - Solution Explained/problem-solving.webp
     alt: Distinct Subsequences
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Distinct Subsequences
 
-https://www.interviewbit.com/problems/distinct-subsequences/
+[Discussion Post (created on 27/2/2021 at 17:17)](https://leetcode.com/problems/distinct-subsequences/discuss/1129570/EASY-DP-or-C%2B%2B)  
+[Discussion Post (created on 17/0/2021 at 15:30)](https://leetcode.com/problems/distinct-subsequences/discuss/1021259/Recursion-%2B-Memoization-or-C%2B%2B)  
+<h2>115. Distinct Subsequences</h2><h3>Hard</h3><hr><div><p>Given two strings <code>s</code> and <code>t</code>, return <em>the&nbsp;number of distinct subsequences of <code>s</code> which equals <code>t</code></em>.</p>
 
-Given two sequences S, T, count number of unique ways in sequence S, to form a subsequence that is identical to the sequence T.
+<p>A string's <strong>subsequence</strong> is a new string formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., <code>"ACE"</code> is a subsequence of <code>"ABCDE"</code> while <code>"AEC"</code> is not).</p>
 
- Subsequence: A subsequence of a string is a new string which is formed from the original string by deleting some (can be none ) of the characters without disturbing the relative positions of the remaining characters. (ie, "ACE" is a subsequence of "ABCDE" while "AEC" is not). 
+<p>It's guaranteed the answer fits on a 32-bit signed integer.</p>
 
-```
-Example :
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-S = "rabbbit" 
-T = "rabbit"
-Return 3. And the formations as follows:
+<pre><strong>Input:</strong> s = "rabbbit", t = "rabbit"
+<strong>Output:</strong> 3
+<strong>Explanation:</strong>
+As shown below, there are 3 ways you can generate "rabbit" from S.
+<code><strong><u>rabb</u></strong>b<strong><u>it</u></strong></code>
+<code><strong><u>ra</u></strong>b<strong><u>bbit</u></strong></code>
+<code><strong><u>rab</u></strong>b<strong><u>bit</u></strong></code>
+</pre>
 
-S1= "ra_bbit" 
-S2= "rab_bit" 
-S3="rabb_it"
-```
-"_" marks the removed character.
+<p><strong>Example 2:</strong></p>
 
-## Hint 1
+<pre><strong>Input:</strong> s = "babgbag", t = "bag"
+<strong>Output:</strong> 5
+<strong>Explanation:</strong>
+As shown below, there are 5 ways you can generate "bag" from S.
+<code><strong><u>ba</u></strong>b<u><strong>g</strong></u>bag</code>
+<code><strong><u>ba</u></strong>bgba<strong><u>g</u></strong></code>
+<code><u><strong>b</strong></u>abgb<strong><u>ag</u></strong></code>
+<code>ba<u><strong>b</strong></u>gb<u><strong>ag</strong></u></code>
+<code>babg<strong><u>bag</u></strong></code></pre>
 
-Can you solve the problem for some prefix of first string and some prefix of second string and use it to compute the final answer?
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Try to think of DP on prefixes of both strings.
+<ul>
+	<li><code>0 &lt;= s.length, t.length &lt;= 1000</code></li>
+	<li><code>s</code> and <code>t</code> consist of English letters.</li>
+</ul>
+</div>
 
-## Solution Approach
+---
 
-As a typical way to implement a dynamic programming algorithm, we construct a matrix dp, where each cell dp[i][j] represents the number of solutions of aligning substring T[0..i] with S[0..j];
 
-Rule 1). dp[0][j] = 1, since aligning T = "" with any substring of S would have only ONE solution which is to delete all characters in S.
 
-Rule 2). when i > 0, dp[i][j] can be derived by two cases:
 
-case 1). if T[i] != S[j], then the solution would be to ignore the character S[j] and align substring T[0..i] with S[0..(j-1)]. Therefore, dp[i][j] = dp[i][j-1].
-
-case 2). if T[i] == S[j], then first we could adopt the solution in case 1), but also we could match the characters T[i] and S[j] and align the rest of them (i.e. T[0..(i-1)] and S[0..(j-1)]. As a result, dp[i][j] = dp[i][j-1] + d[i-1][j-1]
-
-e.g. T = B, S = ABC
-
-dp[1][2]=1: Align T'=B and S'=AB, only one solution, which is to remove character A in S'.
-
-## Solution
-
-### Editorial
 ```cpp
-int Solution::numDistinct(string S, string T) {
-    int m = T.length();
-    int n = S.length();
-    if (m > n) return 0; // impossible for subsequence
-    vector<vector<int>> path(m + 1, vector<int>(n + 1, 0));
-    for (int k = 0; k <= n; k++) path[0][k] = 1; // initialization
-
-    for (int j = 1; j <= n; j++) {
-        for (int i = 1; i <= m; i++) {
-            path[i][j] = path[i][j - 1] + (T[i - 1] == S[j - 1] ? path[i - 1][j - 1]: 0);
+class Solution {
+public:
+    int numDistinct(string s, string t) {
+        int m=s.size();
+        int n=t.size();
+        long long dp[m+1][n+1];
+        dp[0][0]=1;
+        for(int i=1;i<=m;i++)
+            dp[i][0]=1;
+        for(int i=1;i<=n;i++)
+            dp[0][i]=0;
+        for(int i=1;i<=m;i++){
+            for(int j=1;j<=n;j++){
+                if(s[i-1]==t[j-1]){
+                    dp[i][j]=dp[i-1][j-1]+dp[i-1][j];
+                }
+                else
+                    dp[i][j]=dp[i-1][j]; 
+            }
         }
+        return dp[m][n];
     }
-
-    return path[m][n];
-}
+};
 ```
-
-### Fastest
-```cpp
-int Solution::numDistinct(string S, string T) {
-    vector<int> f(T.size()+1);
-    //set the last size to 1.
-    f[T.size()]=1;
-    for(int i=S.size()-1; i>=0; --i){
-        for(int j=0; j<T.size(); ++j){
-            f[j]+=(S[i]==T[j])*f[j+1];
-        }
-    }
-    return f[0];
-}
-```
-
-### Lightweight
-```cpp
-int Solution::numDistinct(string S, string T) {
-    vector<int> f(T.size()+1);
-    //set the last size to 1.
-    f[T.size()]=1;
-    for(int i=S.size()-1; i>=0; --i){
-        for(int j=0; j<T.size(); ++j){
-            f[j]+=(S[i]==T[j])*f[j+1];
-        }
-    }
-    return f[0];
-}
-```
-
-### Mine
-```cpp
-int Solution::numDistinct(string S, string T) {
-    int rows = T.size(), cols = S.size();
-    if(rows > cols) return 0;
-    vector<vector<int> > temp(rows+1, vector<int>(cols+1, 0));
-    for(int i = 0; i <= cols; i++)
-        temp[0][i] = 1;
-    for(int i = 1; i <= rows; i++){
-        for(int j = i; j <= cols; j++){
-            if(S[j-1] == T[i-1])
-                temp[i][j] = temp[i-1][j-1] + temp[i][j-1];
-            else
-                temp[i][j] = temp[i][j-1];
-        }
-    }
-    return temp[rows][cols];
-}
-
-```
-
-## Asked in
-* Google

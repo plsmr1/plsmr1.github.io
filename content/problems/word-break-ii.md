@@ -1,131 +1,86 @@
 ---
 title: Word Break Ii
-summary: Word Break Ii - Interviewbit Solution Explained
+summary: Word Break Ii LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Word Break Ii solution]
-aliases: ["/posts/word-break-ii", "/blog/posts/word-break-ii", "/word-break-ii"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "word-break-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Word Break Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Word Break Ii - Solution Explained/problem-solving.webp
     alt: Word Break Ii
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Word Break II
 
-https://www.interviewbit.com/problems/word-break-ii/
+<h2>140. Word Break II</h2><h3>Hard</h3><hr><div><p>Given a string <code>s</code> and a dictionary of strings <code>wordDict</code>, add spaces in <code>s</code> to construct a sentence where each word is a valid dictionary word. Return all such possible sentences in <strong>any order</strong>.</p>
 
-Given a string s and a dictionary of words dict, add spaces in s to construct a sentence where each word is a valid dictionary word.
+<p><strong>Note</strong> that the same word in the dictionary may be reused multiple times in the segmentation.</p>
 
-Return all such possible sentences.
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-For example, given
-```
-s = "catsanddog",
-dict = ["cat", "cats", "and", "sand", "dog"].
-```
-A solution is
-```
-[
-  "cat sand dog", 
-  "cats and dog"
-]
-```
-Make sure the strings are sorted in your result.
+<pre><strong>Input:</strong> s = "catsanddog", wordDict = ["cat","cats","and","sand","dog"]
+<strong>Output:</strong> ["cats and dog","cat sand dog"]
+</pre>
 
-## Hint 1
+<p><strong>Example 2:</strong></p>
 
-How would you go about writing a bruteforce solution?
+<pre><strong>Input:</strong> s = "pineapplepenapple", wordDict = ["apple","pen","applepen","pine","pineapple"]
+<strong>Output:</strong> ["pine apple pen apple","pineapple pen apple","pine applepen apple"]
+<strong>Explanation:</strong> Note that you are allowed to reuse a dictionary word.
+</pre>
 
-You start exploring every substring from the start of the string, and check if its in the dictionary. If it is, then you check if it is possible to form rest of the string using the dictionary words. If yes, you append the current substring to all the substring possible from rest of the string. If none of the substrings qualify, then there are no sentences possible from this string.
+<p><strong>Example 3:</strong></p>
 
-Hint: Think dynamic programming
+<pre><strong>Input:</strong> s = "catsandog", wordDict = ["cats","dog","sand","and","cat"]
+<strong>Output:</strong> []
+</pre>
 
-Do you think that there is a lot of repetitive work happening here? 
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Can you use Dynamic programming here to reduce the repetitive work happening here?
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 20</code></li>
+	<li><code>1 &lt;= wordDict.length &lt;= 1000</code></li>
+	<li><code>1 &lt;= wordDict[i].length &lt;= 10</code></li>
+	<li><code>s</code> and <code>wordDict[i]</code> consist of only lowercase English letters.</li>
+	<li>All the strings of <code>wordDict</code> are <strong>unique</strong>.</li>
+</ul>
+</div>
 
-## Solution Approach
+---
 
-Lets again look at the bruteforce solution. 
-You start exploring every substring from the start of the string, and check if its in the dictionary. If it is, then you check if it is possible to form rest of the string using the dictionary words. If yes, you append the current substring to all the substring possible from rest of the string. If none of the substrings qualify, then there are no sentences possible from this string. .
 
-So something like this :
+
 
 ```cpp
-vector<string> wordBreak(int index, string &s, unordered_set<string> &dict) {
-    // BASE CASES
-    vector<string> sentences;
-    // try to construct all substrings.
-    for (int i = index; i < s.length(); i++) {
-        substring = *the substring s[index..i] with i inclusive*
-            if (dict contains substring) {
-                vector<string> ret = wordBreak(i + 1, s, dict);
-                foreach (sentence in ret) {
-                    sentences.push_back(substring + " " + sentence);
-                }          
-            }
-    }
-    return sentences;
-}
-```
-
-This solution itself is exponential. However, do note that we are doing a lot of repetitive work. 
-Do note, that index in the wordBreak function call can only take s.length() number of values [0, s.length]. What if we stored the result of the function somehow and did not process it everytime the function is called ?
-
-## Solution
-
-### Editorial
-```cpp
-vector<string> Solution::wordBreak(string s, vector<string> &dictV) {
-    unordered_set<string> dict(dictV.begin(), dictV.end());
-    vector<vector<string>> words(s.length() + 1, vector<string>(0));
-
-    // initialize the valid values
-    words[s.length()].push_back("");
-
-    // generate solutions from the end
-    for (int i = s.length() - 1; i >= 0; i--) {
-        vector<string> values;
-        for (int j = i + 1; j <= s.length(); j++) {
-            if (dict.find(s.substr(i, j - i)) != dict.end()) {
-                for (int k = 0; k < words[j].size(); k++) {
-                    values.push_back(s.substr(i, j - i) + (words[j][k].empty() ? "" : " ") + words[j][k]);
-                }
-            }
+class Solution {
+public:
+    vector<string> ans;
+    int n;
+    
+    void backtrack(string s, int i, vector<string>& dict, string curr) {
+        if(i==n){
+            curr.pop_back();
+            ans.push_back(curr);
+            return;
         }
-        words[i] = values;
-    }
-    return words[0];
-}
-```
-### Fastest
-```cpp
-vector<string> Solution::wordBreak(string A, vector<string> &B) {
-    vector< vector<string> > dp(A.length());
-    vector<string> B_new;
-    sort(B.begin(),B.end());
-    for(int i=0;i<B.size();i++)if(i==0 || B[i]!=B[i-1])B_new.push_back(B[i]);
-    B=B_new;
-    for(int i=0;i<A.length();i++){
-        for(int j=0;j<B.size();j++){
-            if((B[j].length() <= (i+1)) && (A.substr(i-B[j].length()+1,B[j].length()) == B[j])){
-                if((i+1)==B[j].length())dp[i].push_back(B[j]);
-                else{
-                    for(int k=0;k<dp[i-B[j].length()].size();k++)dp[i].push_back(dp[i-B[j].length()][k] + " " + B[j]);
-                }
+        
+        for(int p=i;p<n;p++){
+            string t=s.substr(i, p-i+1);
+            if(find(dict.begin(), dict.end(), t)!=dict.end()){
+                backtrack(s,p+1, dict, curr+t+" ");
             }
         }
     }
-    sort(dp[A.length()-1].begin(),dp[A.length()-1].end());
-    return dp[A.length()-1];
-}
+    
+    
+    vector<string> wordBreak(string s, vector<string>& wordDict) {
+        n=s.size();
+        string curr="";
+        backtrack(s, 0, wordDict, curr);
+        return ans;
+    }
+};
 ```
-
-## Asked in
-
-* IBM
-* Google
-

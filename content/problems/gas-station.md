@@ -1,113 +1,97 @@
 ---
 title: Gas Station
-summary: Gas Station - Interviewbit Solution Explained
+summary: Gas Station LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Gas Station solution]
-aliases: ["/posts/gas-station", "/blog/posts/gas-station", "/gas-station"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "gas-station LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Gas Station - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Gas Station - Solution Explained/problem-solving.webp
     alt: Gas Station
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Gas Station
 
-https://www.interviewbit.com/problems/gas-station
+<h2>134. Gas Station</h2><h3>Medium</h3><hr><div><p>There are <code>n</code> gas stations along a circular route, where the amount of gas at the <code>i<sup>th</sup></code> station is <code>gas[i]</code>.</p>
 
-There are N gas stations along a circular route, where the amount of gas at station i is gas[i].
+<p>You have a car with an unlimited gas tank and it costs <code>cost[i]</code> of gas to travel from the <code>i<sup>th</sup></code> station to its next <code>(i + 1)<sup>th</sup></code> station. You begin the journey with an empty tank at one of the gas stations.</p>
 
-You have a car with an unlimited gas tank and it costs cost[i] of gas to travel from station i to its next station (i+1). You begin the journey with an empty tank at one of the gas stations.
+<p>Given two integer arrays <code>gas</code> and <code>cost</code>, return <em>the starting gas station's index if you can travel around the circuit once in the clockwise direction, otherwise return</em> <code>-1</code>. If there exists a solution, it is <strong>guaranteed</strong> to be <strong>unique</strong></p>
 
-Return the minimum starting gas station's index if you can travel around the circuit once, otherwise return -1.
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-You can only travel in one direction. i to i+1, i+2, ... n-1, 0, 1, 2..
-Completing the circuit means starting at i and ending up at i again.
+<pre><strong>Input:</strong> gas = [1,2,3,4,5], cost = [3,4,5,1,2]
+<strong>Output:</strong> 3
+<strong>Explanation:</strong>
+Start at station 3 (index 3) and fill up with 4 unit of gas. Your tank = 0 + 4 = 4
+Travel to station 4. Your tank = 4 - 1 + 5 = 8
+Travel to station 0. Your tank = 8 - 2 + 1 = 7
+Travel to station 1. Your tank = 7 - 3 + 2 = 6
+Travel to station 2. Your tank = 6 - 4 + 3 = 5
+Travel to station 3. The cost is 5. Your gas is just enough to travel back to station 3.
+Therefore, return 3 as the starting index.
+</pre>
 
-Example :
+<p><strong>Example 2:</strong></p>
 
-Input :
-      Gas:   [1, 2]
-      Cost:  [2, 1]
+<pre><strong>Input:</strong> gas = [2,3,4], cost = [3,4,3]
+<strong>Output:</strong> -1
+<strong>Explanation:</strong>
+You can't start at station 0 or 1, as there is not enough gas to travel to the next station.
+Let's start at station 2 and fill up with 4 unit of gas. Your tank = 0 + 4 = 4
+Travel to station 0. Your tank = 4 - 3 + 2 = 3
+Travel to station 1. Your tank = 3 - 3 + 3 = 3
+You cannot travel back to station 2, as it requires 4 unit of gas but you only have 3.
+Therefore, you can't travel around the circuit once no matter where you start.
+</pre>
 
-Output: 1 
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-If you start from index 0, you can fill in gas[0] = 1 amount of gas. Now your tank has 1 unit of gas. But you need cost[0] = 2 gas to travel to station 1. 
-If you start from index 1, you can fill in gas[1] = 2 amount of gas. Now your tank has 2 units of gas. You need cost[1] = 1 gas to get to station 0. So, you travel to station 0 and still have 1 unit of gas left over. You fill in gas[0] = 1 unit of additional gas, making your current gas = 2. It costs you cost[0] = 2 to get to station 1, which you do and complete the circuit. 
+<ul>
+	<li><code>gas.length == n</code></li>
+	<li><code>cost.length == n</code></li>
+	<li><code>1 &lt;= n &lt;= 10<sup>4</sup></code></li>
+	<li><code>0 &lt;= gas[i], cost[i] &lt;= 10<sup>4</sup></code></li>
+</ul>
+</div>
 
-
-## Hint 1
-
-Try to find the relation between sum of gas and sum of cost for solution to exist.
-
-When will you shift your starting point from 0? 
-Do you really need to cover every starting point? How can you use answer of above question to optimize this part?
-
-## Hint 2
-
-The bruteforce solution should be obvious. Start from every i, and check to see if every point is reachable with the gas available. Return the first i for which you can complete the trip without the gas reaching a negative number. 
-This approach would however be quadratic.
-
-Lets look at how we can improve. 
-1) If sum of gas is more than sum of cost, does it imply that there always is a solution ? 
-2) Lets say you start at i, and hit first negative of sum(gas) - sum(cost) at j. We know TotalSum(gas) - TotalSum(cost) > 0. What happens if you start at j + 1 instead ? Does it cover the validity clause for i to j already ?
+---
 
 
-## Solution
+
 
 ```cpp
-
-/////////////////
-// editorial
-
-int Solution::canCompleteCircuit(const vector<int> &gas, const vector<int> &cost) {
-    int sumGas = 0;
-    int sumCost = 0;
-    int start = 0;
-    int tank = 0;
-
-    for (int i = 0; i < gas.size(); i++) {
-        sumGas += gas[i];
-        sumCost += cost[i];
-        tank += gas[i] - cost[i];
-        if (tank < 0) {
-            start = i + 1;
-            tank = 0;
+class Solution {
+public:
+    int canCompleteCircuit(vector<int>& gas, vector<int>& cost) {
+        bool f=true;
+        int ans=0;
+        int n=gas.size();
+        if(n==1){
+            if(gas[0]>=cost[0])
+                return 0;
+            else
+                return -1;
         }
-    }
-
-    return sumGas < sumCost ? - 1 : start;
-}
-
-/////////////////
-// my
-
-int Solution::canCompleteCircuit(const vector<int> &gas, const vector<int> &cost) {
-
-    int fuel = 0, start_i = 0, sum = 0;
-
-    for (int i = 0; i < gas.size(); i++) {
-        sum = sum + (gas[i] - cost[i]);
-        fuel = fuel + (gas[i] - cost[i]);
-        if (fuel < 0) {
-            fuel = 0;
-            start_i = i + 1;
+        for(int i=0;i<n;i++){
+            if(gas[i]>=cost[i]){
+               int j=i;
+               int c=gas[j]-cost[j]+gas[(j+1)%n];
+               j=(j+1)%n;
+                while(j!=i){
+                  if(c<cost[j])
+                    break;
+                  c=c-cost[j]+gas[(j+1)%n];
+                  j=(j+1)%n;
+                }
+                if(j==i)
+                  return i; 
+            }
         }
+        return -1;
     }
-
-    if (sum >= 0) {
-        return start_i % (gas.size());
-    }
-
-    return -1;
-}
+};
 ```
-## Asked in
-
-* Bloomberg
-* Google
-* DE
-* Shaw
-* Amazon

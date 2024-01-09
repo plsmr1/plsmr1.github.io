@@ -1,125 +1,77 @@
 ---
 title: Word Break
-summary: Word Break - Interviewbit Solution Explained
+summary: Word Break LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Word Break solution]
-aliases: ["/posts/word-break", "/blog/posts/word-break", "/word-break"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "word-break LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Word Break - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Word Break - Solution Explained/problem-solving.webp
     alt: Word Break
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Word Break
 
-https://www.interviewbit.com/problems/word-break/
+<h2>139. Word Break</h2><h3>Medium</h3><hr><div><p>Given a <strong>non-empty</strong> string <em>s</em> and a dictionary <em>wordDict</em> containing a list of <strong>non-empty</strong> words, determine if <em>s</em> can be segmented into a space-separated sequence of one or more dictionary words.</p>
 
-Given a string s and a dictionary of words dict, determine if s can be segmented
-into a space-separated sequence of one or more dictionary words.
+<p><strong>Note:</strong></p>
 
-For example, given
+<ul>
+	<li>The same word in the dictionary may be reused multiple times in the segmentation.</li>
+	<li>You may assume the dictionary does not contain duplicate words.</li>
+</ul>
 
-```
-s = "myinterviewtrainer",
-dict = ["trainer", "my", "interview"].
-```
+<p><strong>Example 1:</strong></p>
 
-Return 1 ( corresponding to true ) because "myinterviewtrainer" can be segmented as "my interview trainer".
+<pre><strong>Input:</strong> s = "leetcode", wordDict = ["leet", "code"]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Return true because <code>"leetcode"</code> can be segmented as <code>"leet code"</code>.
+</pre>
 
-Return 0 / 1 ( 0 for false, 1 for true ) for this problem
+<p><strong>Example 2:</strong></p>
+
+<pre><strong>Input:</strong> s = "applepenapple", wordDict = ["apple", "pen"]
+<strong>Output:</strong> true
+<strong>Explanation:</strong> Return true because <code>"</code>applepenapple<code>"</code> can be segmented as <code>"</code>apple pen apple<code>"</code>.
+&nbsp;            Note that you are allowed to reuse a dictionary word.
+</pre>
+
+<p><strong>Example 3:</strong></p>
+
+<pre><strong>Input:</strong> s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
+<strong>Output:</strong> false
+</pre>
+</div>
+
+---
 
 
-## Hint 1
-
-Can you calculate the answer if you know which all substring of the given string are there in the dictionary?
-
-Think of DP.
 
 
-## Solution Approach
-
-Lets again look at the bruteforce solution. 
-You start exploring every substring from the start of the string, and check if its in the dictionary. If it is, then you check if it is possible to form rest of the string using the dictionary words. If yes, my answer is true. If none of the substrings qualify, then our answer is false.
-
-So something like this :
-```
-bool wordBreak(int index, string &s, unordered_set<string> &dict) {
-                // BASE CASES
-    
-    bool result = false;
-    // try to construct all substrings.
-    for (int i = index; i < s.length(); i++) {
-        substring = *the substring s[index..i] with i inclusive*
-        if (dict contains substring) {
-            result |= wordBreak(i + 1, s, dict); // If this is true, we are done. 
-        }
-    }
-    return result;
-}
-```
-This solution itself is exponential. However, do note that we are doing a lot of repetitive work. 
-Do note, that index in the wordBreak function call can only take s.length() number of values [0, s.length]. What if we stored the result of the function somehow and did not process it everytime the function is called ?
-
-## Solution
-
-### Editorial
 ```cpp
-unordered_set<string> dict;
-vector<bool> dp;
-int Solution::wordBreak(string A, vector<string> &B) {
-    dict.clear();
-    dp.clear();
-    dp.resize(A.size() + 1, 0);
-    for (auto it : B) dict.insert(it);
-    dp[A.size()] = 1;
-    for (int i = A.size() - 1; i >= 0; i--) {
-        string tmp = "";
-        for (int j = i; j < A.size(); j++) {
-            if (dp[i]) break;
-            tmp += A[j];
-            if (dict.find(tmp) != dict.end()) {
-                dp[i] = dp[j + 1];
-            }
-        }
-    }
-    if (dp[0])
-        return 1;
-    return 0;
-}
-```
-
-### Mine
-```cpp
-bool search(string A, vector<string> B){
-    for(int i = 0; i < B.size(); i++){
-        if(B[i] == A){
+class Solution {
+public:
+    bool wordBreak(string s, vector<string>& wordDict) {
+        int n=s.length();
+        vector<bool> dp(n+1,false);
+        if(n==0) 
             return true;
-        }
-    }
-    return false;
-}
-
-int Solution::wordBreak(string A, vector<string> &B) {
-    int n = A.size();
-    vector<int> temp(n+1, 0);
-    temp[n] = 1;
-    
-    for(int i = n-1; i >= 0; i--){
-        for(int j = i; j < n; j++){
-            string s = A.substr(i, j-i+1);
-            if(search(s, B) && temp[j+1] == 1){
-                temp[i] = 1;
-                break;
+        unordered_set<string> dict;
+        for(auto st:wordDict)
+            dict.insert(st);
+        dp[n]=true;
+        for(int i=n-1;i>=0;i--)
+        {   string word="";
+            for(int j=i;j<n;j++)
+            {
+                word+=s[j];
+                if(dict.find(word)!=dict.end())
+                    if(dp[j+1])
+                        dp[i]=true;
             }
         }
+        return dp[0];
     }
-    return temp[0];
-}
+};
 ```
-
-## Asked in
-* IBM
-* Google

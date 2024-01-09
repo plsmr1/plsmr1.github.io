@@ -1,129 +1,83 @@
 ---
 title: Merge Two Sorted Lists
-summary: Merge Two Sorted Lists - Interviewbit Solution Explained
+summary: Merge Two Sorted Lists LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Merge Two Sorted Lists solution]
-aliases: ["/posts/merge-two-sorted-lists", "/blog/posts/merge-two-sorted-lists", "/merge-two-sorted-lists"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "merge-two-sorted-lists LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Merge Two Sorted Lists - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Merge Two Sorted Lists - Solution Explained/problem-solving.webp
     alt: Merge Two Sorted Lists
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Merge Two Sorted Lists
 
-https://www.interviewbit.com/problems/merge-two-sorted-lists
+<h2>21. Merge Two Sorted Lists</h2><h3>Easy</h3><hr><div><p>Merge two sorted linked lists and return it as a <strong>sorted</strong> list. The list should be made by splicing together the nodes of the first two lists.</p>
 
-Merge two sorted linked lists and return it as a new list. 
-The new list should be made by splicing together the nodes of the first two lists, and should also be sorted.
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/merge_ex1.jpg" style="width: 662px; height: 302px;">
+<pre><strong>Input:</strong> l1 = [1,2,4], l2 = [1,3,4]
+<strong>Output:</strong> [1,1,2,3,4,4]
+</pre>
 
-For example, given following linked lists :
+<p><strong>Example 2:</strong></p>
 
-5 -> 8 -> 20 
+<pre><strong>Input:</strong> l1 = [], l2 = []
+<strong>Output:</strong> []
+</pre>
 
-4 -> 11 -> 15
+<p><strong>Example 3:</strong></p>
 
-The merged list should be :
+<pre><strong>Input:</strong> l1 = [], l2 = [0]
+<strong>Output:</strong> [0]
+</pre>
 
-4 -> 5 -> 8 -> 11 -> 15 -> 20
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-## Hint 1
-Maintain pointers in both the linked list and keep appending the elements to the list to be returned.
+<ul>
+	<li>The number of nodes in both lists is in the range <code>[0, 50]</code>.</li>
+	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
+	<li>Both <code>l1</code> and <code>l2</code> are sorted in <strong>non-decreasing</strong> order.</li>
+</ul>
+</div>
 
-NOTE: You don't have to create new nodes here i.e. list to be returned should be made from the combination of both of the given lists.
-
-## Solution Approach
-
-
-First thing to note is that all you would want to do is modify the next pointers. You don't need to create new nodes.
-
-At every step, you choose the minumum of the current head X on the 2 lists, and modify your answer's next pointer to X. You move the current pointer on the said list and the current answer.
-
-Corner case, 
-Make sure that at the end of the loop, when one of the list goes empty, you do include remaining elemnts from the second list into your answer.
-
-Test case : 1->2->3 4->5->6
+---
 
 
-## Solution
+
 
 ```cpp
-ListNode *Solution::mergeTwoLists(ListNode *A, ListNode *B) {
-    ListNode *a = A, *b = B;
-    if (A->val > B->val)
-        swap(a, b);
-    ListNode * head = a;
-    while (a && b) {
-        while (a->next && b && a->next->val < b->val)
-            a = a->next;
-        ListNode *tmp = a->next;
-        a->next = b;
-        a = b;
-        b = tmp;
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        if(l1 == NULL){
+			return l2;
+		}
+		if(l2 == NULL){
+			return l1;
+		}        
+		if(l1->val < l2->val){
+			l1->next = mergeTwoLists(l1->next, l2);
+			return l1;
+		}
+		else{
+			l2->next = mergeTwoLists(l1, l2->next);
+			return l2;            
+		}
     }
-    return head;
-}
-
-/* recursive */
-
-ListNode *Solution::mergeTwoLists(ListNode *l1, ListNode *l2) {
-    if (!l1)
-        return l2;
-
-    if (!l2)
-        return l1;
-
-    if (l1->val < l2->val) {
-        l1->next = mergeTwoLists(l1->next, l2);
-        return l1;
-    }
-
-    l2->next = mergeTwoLists(l1, l2->next);
-    return l2;
-}
-
-/* editorial */
-
-ListNode *Solution::mergeTwoLists(ListNode *l1, ListNode *l2) {
-    if (l1 == NULL)
-        return l2;
-    if (l2 == NULL)
-        return l1;
-
-    ListNode *head = NULL; // head of the list to return
-
-    // find first element (can use dummy node to put this part inside of the loop)
-    if (l1->val < l2->val) {
-        head = l1;
-        l1 = l1->next;
-    } else {
-        head = l2;
-        l2 = l2->next;
-    }
-
-    ListNode *p = head; // pointer to form new list
-
-    while (l1 && l2) {
-        if (l1->val < l2->val) {
-            p->next = l1;
-            l1 = l1->next;
-        } else {
-            p->next = l2;
-            l2 = l2->next;
-        }
-        p = p->next;
-    }
-
-    // add the rest of the tail, done!
-    if (l1) {
-        p->next = l1;
-    } else {
-        p->next = l2;
-    }
-
-    return head;
-}
+};
 ```

@@ -1,117 +1,91 @@
 ---
 title: Edit Distance
-summary: Edit Distance - Interviewbit Solution Explained
+summary: Edit Distance LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Edit Distance solution]
-aliases: ["/posts/edit-distance", "/blog/posts/edit-distance", "/edit-distance"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "edit-distance LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Edit Distance - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Edit Distance - Solution Explained/problem-solving.webp
     alt: Edit Distance
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Edit Distance
 
-https://www.interviewbit.com/problems/edit-distance/
+<h2>72. Edit Distance</h2><h3>Hard</h3><hr><div><p>Given two strings <code>word1</code> and <code>word2</code>, return <em>the minimum number of operations required to convert <code>word1</code> to <code>word2</code></em>.</p>
 
-Given two words A and B, find the minimum number of steps required to convert A to B. (each operation is counted as 1 step.)
+<p>You have the following three operations permitted on a word:</p>
 
-You have the following 3 operations permitted on a word:
+<ul>
+	<li>Insert a character</li>
+	<li>Delete a character</li>
+	<li>Replace a character</li>
+</ul>
 
-1. Insert a character
-2. Delete a character
-3. Replace a character
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-Example :
+<pre><strong>Input:</strong> word1 = "horse", word2 = "ros"
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> 
+horse -&gt; rorse (replace 'h' with 'r')
+rorse -&gt; rose (remove 'r')
+rose -&gt; ros (remove 'e')
+</pre>
 
-edit distance between
+<p><strong>Example 2:</strong></p>
 
-"Anshuman" and "Antihuman" is 2.
+<pre><strong>Input:</strong> word1 = "intention", word2 = "execution"
+<strong>Output:</strong> 5
+<strong>Explanation:</strong> 
+intention -&gt; inention (remove 't')
+inention -&gt; enention (replace 'i' with 'e')
+enention -&gt; exention (replace 'n' with 'x')
+exention -&gt; exection (replace 'n' with 'c')
+exection -&gt; execution (insert 'u')
+</pre>
 
-Operation 1: Replace s with t.
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Operation 2: Insert i.
+<ul>
+	<li><code>0 &lt;= word1.length, word2.length &lt;= 500</code></li>
+	<li><code>word1</code> and <code>word2</code> consist of lowercase English letters.</li>
+</ul>
+</div>
 
-## Hint 1
+---
 
 
-Can you solve the problem for some prefix of first string and some prefix of second string and use it to compute the final answer?
 
-Try to think of DP on prefixes of both strings.
-
-## Solution Approach
-
-This is a very standard Dynamic programming problem.
-
-Lets look at the bruteforce approach for finding edit distance of S1 and S2.
-We are trying to modify S1 to become S2.
-
-We look at the first character of both the strings. 
-If they match, we can look at the answer from remaining part of S1 and S2. 
-If they don't, we have 3 options. 
-1) Insert S2's first character and then solve the problem for remaining part of S2, and S1.
-2) Delete S1's first character and trying to match S1's remaining string with S2.
-3) Replace S1's first character with S2's first character in which case we solve the problem for remaining part of S1 and S2.
-
-The code would probably look something like this :
 
 ```cpp
-int editDistance(string &S1, int index1, string &S2, int index2) {
-    // BASE CASES
-    if (S1[index1] == S2[index2]) {
-        return editDistance(S1, index1 + 1, S2, index2 + 1);
-    } else {
-        return min ( 1 + editDistance(S1, index1 + 1, S2, index2), // Delete S1 char
-            1 + editDistance(S1, index1, S2, index2 + 1), // Insert S2 char
-            1 + editDistance(S1, index1 + 1, S2, index2 + 1) // Replace S1 first char with S2 first char
-        );
-    }
-}
-```
-
-The above approach is definitely exponential. 
-However, lets look at the number of ways in which the function can be called. S1 and S2 remain constant. The only thing changing is index1 and index2 which can take len(S1) * len(S2) number of values. Can you use it to memoize ?
-
-You can use the above observation to also come up with a non recursive solution.
-
-
-## Solution
-
-```cpp
-int Solution::minDistance(string A, string B) {
-    int row = A.size();
-    int col = B.size();
-    vector<vector<int> > temp(row+1, vector<int>(col+1));
-    for(int i = 0; i < temp.size(); i++){
-        for(int j = 0; j < temp[0].size(); j++){
-            if(j == 0){
-                temp[i][j] = i;
-            }
-            else if(i == 0){
-                temp[i][j] = j;
-            }
-            else if(A[i-1] == B[j-1]){
-                temp[i][j] = temp[i-1][j-1];
-            }
-            else{
-                temp[i][j] = min(temp[i-1][j-1], temp[i-1][j]);
-                temp[i][j] = min(temp[i][j-1], temp[i][j]);
-                temp[i][j] = temp[i][j]+1;
-            }
-        }
+class Solution {
+public:
+    int t[501][501];
+    
+    int solve(string word1, string word2, int i, int j){
+        if(i==0 && j==0)
+            return 0;
+        if(i==0)
+            return j;
+        if(j==0)
+            return i;
+        if(t[i][j]!=-1)
+            return t[i][j];
+        if(word1[i-1]==word2[j-1])
+            return t[i][j]=solve(word1,word2,i-1,j-1);
+        int x=min(min(solve(word1,word2,i-1,j),solve(word1,word2,i,j-1)),solve(word1,word2,i-1,j-1))+1;
+        return t[i][j]=x;
     }
     
-    return temp[row][col];
-}
+    
+    int minDistance(string word1, string word2) {
+        int n=word1.size();
+        int m=word2.size();
+        memset(t,-1,sizeof(t));
+        return solve(word1, word2, n, m);
+    }
+};
 ```
-
-## Asked in
-
-* Google
-* LinkedIn
-* Microsoft
-* Amazon
-

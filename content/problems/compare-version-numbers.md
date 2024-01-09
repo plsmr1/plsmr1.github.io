@@ -1,122 +1,80 @@
 ---
 title: Compare Version Numbers
-summary: Compare Version Numbers - Interviewbit Solution Explained
+summary: Compare Version Numbers LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Compare Version Numbers solution]
-aliases: ["/posts/compare-version-numbers", "/blog/posts/compare-version-numbers", "/compare-version-numbers"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "compare-version-numbers LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Compare Version Numbers - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Compare Version Numbers - Solution Explained/problem-solving.webp
     alt: Compare Version Numbers
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Compare Version Numbers
 
-https://www.interviewbit.com/problems/compare-version-numbers
+<h2>165. Compare Version Numbers</h2><h3>Medium</h3><hr><div><p>Given two version numbers,&nbsp;<code>version1</code> and <code>version2</code>, compare them.</p>
+
+<ul>
+</ul>
+
+<p>Version numbers consist of <strong>one or more revisions</strong> joined by a dot&nbsp;<code>'.'</code>. Each revision&nbsp;consists of <strong>digits</strong>&nbsp;and may contain leading <strong>zeros</strong>. Every revision contains <strong>at least one character</strong>. Revisions are <strong>0-indexed from left to right</strong>, with the leftmost revision being revision 0, the next revision being revision 1, and so on. For example&nbsp;<code>2.5.33</code>&nbsp;and&nbsp;<code>0.1</code>&nbsp;are valid version numbers.</p>
+
+<p>To compare version numbers, compare their revisions in <strong>left-to-right order</strong>. Revisions are compared using their&nbsp;<strong>integer value ignoring any leading zeros</strong>. This means that revisions&nbsp;<code>1</code>&nbsp;and&nbsp;<code>001</code>&nbsp;are considered&nbsp;<strong>equal</strong>. If a version number does not specify a revision at an index, then&nbsp;<strong>treat the revision as&nbsp;<code>0</code></strong>. For example, version&nbsp;<code>1.0</code> is less than version&nbsp;<code>1.1</code>&nbsp;because their revision 0s are the same, but their revision 1s are&nbsp;<code>0</code>&nbsp;and&nbsp;<code>1</code>&nbsp;respectively, and&nbsp;<code>0 &lt; 1</code>.</p>
+
+<p><em>Return the following:</em></p>
+
+<ul>
+	<li>If <code>version1 &lt; version2</code>, return <code>-1</code>.</li>
+	<li>If <code>version1 &gt; version2</code>, return <code>1</code>.</li>
+	<li>Otherwise, return <code>0</code>.</li>
+</ul>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+
+<pre><strong>Input:</strong> version1 = "1.01", version2 = "1.001"
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> Ignoring leading zeroes, both "01" and "001" represent the same integer "1".
+</pre>
+
+<p><strong>Example 2:</strong></p>
+
+<pre><strong>Input:</strong> version1 = "1.0", version2 = "1.0.0"
+<strong>Output:</strong> 0
+<strong>Explanation:</strong> version1 does not specify revision 2, which means it is treated as "0".
+</pre>
+
+<p><strong>Example 3:</strong></p>
+
+<pre><strong>Input:</strong> version1 = "0.1", version2 = "1.1"
+<strong>Output:</strong> -1
+<strong>Explanation:</strong>&nbsp;version1's revision 0 is "0", while version2's revision 0 is "1". 0 &lt; 1, so version1 &lt; version2.
+</pre>
+
+<p><strong>Example 4:</strong></p>
+
+<pre><strong>Input:</strong> version1 = "1.0.1", version2 = "1"
+<strong>Output:</strong> 1
+</pre>
+
+<p><strong>Example 5:</strong></p>
+
+<pre><strong>Input:</strong> version1 = "7.5.2.4", version2 = "7.5.3"
+<strong>Output:</strong> -1
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= version1.length, version2.length &lt;= 500</code></li>
+	<li><code>version1</code> and <code>version2</code>&nbsp;only contain digits and <code>'.'</code>.</li>
+	<li><code>version1</code> and <code>version2</code>&nbsp;<strong>are valid version numbers</strong>.</li>
+	<li>All the given revisions in&nbsp;<code>version1</code> and <code>version2</code>&nbsp;can be stored in&nbsp;a&nbsp;<strong>32-bit integer</strong>.</li>
+</ul>
+</div>
+
+---
 
 
-Compare two version numbers version1 and version2.
-
-If version1 > version2 return 1,
-If version1 < version2 return -1,
-otherwise return 0.
-You may assume that the version strings are non-empty and contain only digits and the . character.
-The . character does not represent a decimal point and is used to separate number sequences.
-For instance, 2.5 is not "two and a half" or "half way to version three", it is the fifth second-level revision of the second first-level revision.
-
-Here is an example of version numbers ordering:
-
-0.1 < 1.1 < 1.2 < 1.13 < 1.13.4
-## Solution
-
-```cpp
-
-int Solution::compareVersion(string A, string B) {
-   string v1=A;
-   string v2=B;
-   unsigned long long int vnum1 = 0, vnum2 = 0; 
-  
-    //  loop untill both string are processed 
-    for (int i=0,j=0; (i<v1.length() || j<v2.length()); ) 
-    { 
-        //  storing numeric part of version 1 in vnum1 
-        while (i < v1.length() && v1[i] != '.') 
-        { 
-            vnum1 = vnum1 * 10 + (v1[i] - '0'); 
-            i++; 
-        } 
-  
-        //  storing numeric part of version 2 in vnum2 
-        while (j < v2.length() && v2[j] != '.') 
-        { 
-            vnum2 = vnum2 * 10 + (v2[j] - '0'); 
-            j++; 
-        } 
-  
-        if (vnum1 > vnum2) 
-            return 1; 
-        if (vnum2 > vnum1) 
-            return -1; 
-  
-        //  if equal, reset variables and go for next numeric 
-        // part 
-        vnum1 = vnum2 = 0; 
-        i++; 
-        j++; 
-    } 
-    return 0; 
-}
-
-
-#if 0
-
-int Solution::compareVersion(string A, string B) {
-
-    int i = 0, j = 0, n = A.size(), m = B.size();
-
-    while (i < n && j < n) {
-        string x = "";
-        string y = "";
-
-        while (i < n && A[i] == '0')
-            i++;
-
-        while (i < n && A[i] != '.') {
-            x += A[i];
-            i++;
-        }
-
-        while (j < m && B[j] == '0')
-            j++;
-
-        while (j < m && B[j] != '.') {
-            y += B[j];
-            j++;
-        }
-
-        if (x != y) {
-            if (x.length() == y.length())
-                return x.compare(y) > 0 ? 1 : -1;
-            return x.length() > y.length() ? 1 : -1;
-        }
-
-        i++;
-        j++;
-    }
-
-    while (i < n && A[i] == '0')
-        i++;
-
-    while (j < m && B[j] == '0')
-        j++;
-
-    if (i >= n && j >= m)
-        return 0;
-
-    return i > j ? 1 : -1;
-}
-#endif
-```

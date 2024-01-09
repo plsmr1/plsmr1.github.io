@@ -4,10 +4,9 @@ summary: C++ Strings - GeeksforGeeks Solution Explained
 date: 2020-06-20
 tags: [geeksforgeeks]
 series: [GeeksforGeeks]
-aliases: ["/posts/C++-Strings", "/blog/posts/C++-Strings", "/C++-Strings", "/blog/C++-Strings",]
-keywords: GeeksforGeeks, GeeksforGeeks solution in Python3 C++ Java, C++ Strings solution
+keywords: ["GeeksforGeeks", "GeeksforGeeks solution in Python3 C++ Java", "C++ Strings Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:C++ Strings - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:C++ Strings - Solution Explained/problem-solving.webp
     alt: C++ Strings
     hiddenInList: true
     hiddenInSingle: false

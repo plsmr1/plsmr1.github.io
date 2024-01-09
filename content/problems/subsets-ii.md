@@ -1,115 +1,69 @@
 ---
 title: Subsets Ii
-summary: Subsets Ii - Interviewbit Solution Explained
+summary: Subsets Ii LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Subsets Ii solution]
-aliases: ["/posts/subsets-ii", "/blog/posts/subsets-ii", "/subsets-ii"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "subsets-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Subsets Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Subsets Ii - Solution Explained/problem-solving.webp
     alt: Subsets Ii
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Subsets II
 
-https://www.interviewbit.com/problems/subsets-ii
+[Discussion Post (created on 19/0/2021 at 16:46)](https://leetcode.com/problems/subsets-ii/discuss/1024441/Easy-C%2B%2B)  
+<h2>90. Subsets II</h2><h3>Medium</h3><hr><div><p>Given an integer array <code>nums</code> that may contain duplicates, return <em>all possible subsets (the power set)</em>.</p>
+
+<p>The solution set <strong>must not</strong> contain duplicate subsets. Return the solution in <strong>any order</strong>.</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,2]
+<strong>Output:</strong> [[],[1],[1,2],[1,2,2],[2],[2,2]]
+</pre><p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [0]
+<strong>Output:</strong> [[],[0]]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= nums.length &lt;= 10</code></li>
+	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
+</ul>
+</div>
+
+---
 
 
 
-
-Given a collection of integers that might contain duplicates, S, return all possible subsets.
-
- Note:
-Elements in a subset must be in non-descending order.
-The solution set must not contain duplicate subsets.
-The subsets must be sorted lexicographically.
-Example :
-If S = [1,2,2], the solution is:
-
-[
-[],
-[1],
-[1,2],
-[1,2,2],
-[2],
-[2, 2]
-]
-
-## Hint 1
-
-Think in terms of recursion.
-
-Make sure not to include repetitive elements in such a way that they get over-counted.
-
-Solution approach
-
-Think in terms of recursion.
-This is very similar to the problem where you need to generate subsets for distinct integer.
-However, in this case, because of repetitions, things are not as simple as choosing or rejecting an element. 
-Now for the elements which are repeated you need to iterate over the count of elements you are going
-to include in your subset.
-
-## Solution
 
 ```cpp
-
-// fastest
-
-void helper(int index, vector<int> &A, vector<int> tempAns, vector<vector<int>> &ans) {
-    for (int i = index; i < A.size(); i++) {
-        tempAns.push_back(A[i]);
-        ans.push_back(tempAns);
-        helper(i + 1, A, tempAns, ans);
-        while (i < A.size() - 1 && A[i] == A[i + 1])
-            i++;
-        tempAns.pop_back();
+class Solution {
+public:
+    
+    void backtrack(int p, vector<int>& nums, vector<int> &v, vector<vector<int>> &ans){
+        for(int i=p;i<nums.size();i++){
+            if((i>p) && nums[i]==nums[i-1]){
+                continue;
+            }
+            v.push_back(nums[i]);
+            ans.push_back(v);
+            backtrack(i+1,nums,v,ans);
+            v.pop_back();
+        }
     }
-}
-
-vector<vector<int>> Solution::subsetsWithDup(vector<int> &A) {
-    vector<vector<int>> ans;
-    vector<int> tempAns;
-    ans.push_back(tempAns);
-    if (A.size() == 0)
+    
+    
+    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
+        vector<vector<int>> ans;
+        vector<int> curr;
+        ans.push_back(curr);
+        backtrack(0,nums,curr,ans);
         return ans;
-    sort(A.begin(), A.end());
-    helper(0, A, tempAns, ans);
-    return ans;
-}
-
-// mine
-
-void solve(vector<vector<int>> &res, vector<int> &row, vector<int> &v, int pos) {
-    if (pos == v.size()) {
-        res.push_back(row);
-        return;
     }
-
-    int index = pos + 1;
-    while (index < v.size() && v[index] == v[pos])
-        index++;
-
-    for (int i = 0; i <= index - pos; i++) {
-
-        for (int j = 0; j < i; j++)
-            row.push_back(v[pos]);
-
-        solve(res, row, v, index);
-
-        for (int j = 0; j < i; ++j)
-            row.pop_back();
-    }
-}
-
-vector<vector<int>> Solution::subsetsWithDup(vector<int> &A) {
-    vector<vector<int>> res;
-    vector<int> row;
-    sort(A.begin(), A.end());
-    solve(res, row, A, 0);
-    sort(res.begin(), res.end());
-    return res;
-}
+};
 ```

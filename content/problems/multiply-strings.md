@@ -1,183 +1,66 @@
 ---
 title: Multiply Strings
-summary: Multiply Strings - Interviewbit Solution Explained
+summary: Multiply Strings LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Multiply Strings solution]
-aliases: ["/posts/multiply-strings", "/blog/posts/multiply-strings", "/multiply-strings"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "multiply-strings LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Multiply Strings - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Multiply Strings - Solution Explained/problem-solving.webp
     alt: Multiply Strings
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Multiply Strings
 
-https://www.interviewbit.com/problems/multiply-strings
+<h2>43. Multiply Strings</h2><h3>Medium</h3><hr><div><p>Given two non-negative integers <code>num1</code> and <code>num2</code> represented as strings, return the product of <code>num1</code> and <code>num2</code>, also represented as a string.</p>
+
+<p><strong>Note:</strong>&nbsp;You must not use any built-in BigInteger library or convert the inputs to integer directly.</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<pre><strong>Input:</strong> num1 = "2", num2 = "3"
+<strong>Output:</strong> "6"
+</pre><p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> num1 = "123", num2 = "456"
+<strong>Output:</strong> "56088"
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= num1.length, num2.length &lt;= 200</code></li>
+	<li><code>num1</code> and <code>num2</code> consist of digits only.</li>
+	<li>Both <code>num1</code> and <code>num2</code>&nbsp;do not contain any leading zero, except the number <code>0</code> itself.</li>
+</ul>
+</div>
+
+---
 
 
-Given two numbers represented as strings, return multiplication of the numbers as a string.
- Note: The numbers can be arbitrarily large and are non-negative.
-Note2: Your answer should not have leading zeroes. For example, 00 is not a valid answer. 
-For example, 
-given strings "12", "10", your answer should be "120".
-NOTE: DO NOT USE BIG INTEGER LIBRARIES ( WHICH ARE AVAILABLE IN JAVA / PYTHON ). 
-We will retroactively disqualify such submissions and the submissions will incur penalties.
-## Solution
+
 
 ```cpp
-
-/* editorial */
-
 class Solution {
-  public:
-    std::string multiply(std::string num1, std::string num2) {
-
-        int n1 = num1.size();
-        int n2 = num2.size();
-        if (n1 == 0 || n2 == 0)
-            return "0";
-
-        // will keep the result number in vector in reverse order
-        std::vector<int> result(n1 + n2, 0);
-
-        int i_n1 = 0; // index by num1
-        int i_n2 = 0; // index by num2
-
-        // go from right to left by num1
-        for (int i = n1 - 1; i >= 0; i--) {
-            int carrier = 0;
-            int n1 = num1[i] - '0';
-            i_n2 = 0;
-
-            // go from right to left by num2
-            for (int j = n2 - 1; j >= 0; j--) {
-                int n2 = num2[j] - '0';
-
-                int sum = n1 * n2 + result[i_n1 + i_n2] + carrier;
-                carrier = sum / 10;
-                result[i_n1 + i_n2] = sum % 10;
-
-                i_n2++;
-            }
-
-            // store carrier in next cell
-            if (carrier > 0)
-                result[i_n1 + i_n2] += carrier;
-
-            i_n1++;
+public:
+    string multiply(string num1, string num2) {
+        string sum(num1.size() + num2.size(), '0');
+    
+    for (int i = num1.size() - 1; 0 <= i; --i) {
+        int carry = 0;
+        for (int j = num2.size() - 1; 0 <= j; --j) {
+            int tmp = (sum[i + j + 1] - '0') + (num1[i] - '0') * (num2[j] - '0') + carry;
+            sum[i + j + 1] = tmp % 10 + '0';
+            carry = tmp / 10;
         }
-
-        // ignore '0's from the right
-        int i = result.size() - 1;
-        while (i >= 0 && result[i] == 0)
-            i--;
-
-        // if all were '0's - means either both or one of num1 or num2 were '0'
-        if (i == -1)
-            return "0";
-
-        // generate the result string
-        std::string s = "";
-        while (i >= 0)
-            s += std::to_string(result[i--]);
-
-        return s;
+        sum[i] += carry;
+    }
+    
+    size_t startpos = sum.find_first_not_of("0");
+    if (string::npos != startpos) {
+        return sum.substr(startpos);
+    }
+    return "0";
     }
 };
-
-/* fastest */
-
-string Solution::multiply(string A, string B) {
-    if (A == "0" || B == "0")
-        return "0";
-
-    int aL = A.length(), bL = B.length();
-    vector<int> result(aL + bL, 0);
-    string res = "";
-
-    for (auto i = aL - 1; i >= 0; --i) {
-        for (auto j = bL - 1; j >= 0; --j) {
-            result[i + j + 1] += (A[i] - '0') * (B[j] - '0');
-        }
-    }
-
-    for (auto k = aL + bL - 1; k > 0; --k) {
-        if (result[k] >= 10) {
-            result[k - 1] += result[k] / 10;
-            result[k] %= 10;
-        }
-    }
-
-    int cnt = 0;
-    for (auto l = 0; l < result.size(); ++l) {
-        if (result[l] == 0 && l == cnt) //To omit the leading zeroes E.g. 00456723 will be 456723.
-            ++cnt;
-        else
-            res += result[l] + '0'; //I was doing "-0" it was throwing internal error!
-    }
-    return res;
-}
-
-/* lightweight */
-
-string Solution::multiply(string A, string B) {
-    reverse(A.begin(), A.end());
-    reverse(B.begin(), B.end());
-    string res;
-    res.resize(A.size() + B.size(), '0');
-    for (int i = 0; i < A.size(); ++i) {
-        int p = 0;
-        for (int j = 0; j < B.size() || p; ++j) {
-            int val = res[i + j] - '0';
-            int mul = 0;
-            if (j < B.size()) {
-                mul = (B[j] - '0');
-            }
-            val += (A[i] - '0') * mul + p;
-            p = val / 10;
-            val %= 10;
-            res[i + j] = (val + '0');
-        }
-    }
-    while ((res.size() > 1) && (res[res.size() - 1] == '0'))
-        res.pop_back();
-    reverse(res.begin(), res.end());
-    return res;
-}
-
-/* another solution */
-
-string Solution::multiply(string A, string B) {
-    if (A == "0" || B == "0")
-        return "0";
-
-    int aL = A.length(), bL = B.length();
-    vector<int> result(aL + bL, 0);
-    string res = "";
-
-    for (auto i = aL - 1; i >= 0; --i) {
-        for (auto j = bL - 1; j >= 0; --j) {
-            result[i + j + 1] += (A[i] - '0') * (B[j] - '0');
-        }
-    }
-
-    for (auto k = aL + bL - 1; k > 0; --k) {
-        if (result[k] >= 10) {
-            result[k - 1] += result[k] / 10;
-            result[k] %= 10;
-        }
-    }
-
-    int cnt = 0;
-    for (auto l = 0; l < result.size(); ++l) {
-        if (result[l] == 0 && l == cnt) //To omit the leading zeroes E.g. 00456723 will be 456723.
-            ++cnt;
-        else
-            res += result[l] + '0'; //I was doing "-0" it was throwing internal error!
-    }
-    return res;
-}
 ```

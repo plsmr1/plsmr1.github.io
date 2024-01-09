@@ -1,159 +1,126 @@
 ---
 title: Sort List
-summary: Sort List - Interviewbit Solution Explained
+summary: Sort List LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Sort List solution]
-aliases: ["/posts/sort-list", "/blog/posts/sort-list", "/sort-list"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "sort-list LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Sort List - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Sort List - Solution Explained/problem-solving.webp
     alt: Sort List
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Sort List
 
-https://www.interviewbit.com/problems/sort-list
+[Discussion Post (created on 24/0/2021 at 2:34)](https://leetcode.com/problems/sort-list/discuss/1031646/C%2B%2B-or-BEATS-96)  
+<h2>148. Sort List</h2><h3>Medium</h3><hr><div><p>Given the <code>head</code> of a linked list, return <em>the list after sorting it in <strong>ascending order</strong></em>.</p>
+
+<p><strong>Follow up:</strong> Can you sort the linked list in <code>O(n logn)</code> time and <code>O(1)</code>&nbsp;memory (i.e. constant space)?</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/09/14/sort_list_1.jpg" style="width: 450px; height: 194px;">
+<pre><strong>Input:</strong> head = [4,2,1,3]
+<strong>Output:</strong> [1,2,3,4]
+</pre>
+
+<p><strong>Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/09/14/sort_list_2.jpg" style="width: 550px; height: 184px;">
+<pre><strong>Input:</strong> head = [-1,5,3,4,0]
+<strong>Output:</strong> [-1,0,3,4,5]
+</pre>
+
+<p><strong>Example 3:</strong></p>
+
+<pre><strong>Input:</strong> head = []
+<strong>Output:</strong> []
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li>The number of nodes in the list is in the range <code>[0, 5 * 10<sup>4</sup>]</code>.</li>
+	<li><code>-10<sup>5</sup> &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
+</ul>
+</div>
+
+---
 
 
-Sort a linked list in O(n log n) time using constant space complexity.
-Example :
-Input: 1 -> 5 -> 4 -> 3
-Returned list: 1 -> 3 -> 4 -> 5
-## Solution
+
 
 ```cpp
+public:
+    
+    ListNode* merge(ListNode* l1, ListNode* l2){
+        if( l1 == NULL && l2 == NULL)
+        return NULL;
+        if( l1 == NULL)
+        return l2;
+        if( l2 == NULL)
+        return l1;
+        
+        ListNode* a=l1;
+        ListNode* b=l2;
+        ListNode* p;
+        
+        if(a->val < b->val)
+        {
+        p = a;
+        a = p->next;
+        }
+        else
+        {
+        p = b;
+        b = p->next;
+        }
+        
+        ListNode* head = p;
+        while(a && b)
+         {
+          if(a->val < b->val)
+          {
+            p->next = a;
+            p = a;
+            a = p->next;
+         }
+          else
+          {
+            p->next = b;
+            p = b;
+            b = p->next;
+          }
+        }
+        if(a == NULL)
+          p->next = b;
+        else if(b== NULL)
+          p->next = a;
+        return head;    
+    }
+    
+    ListNode* sortList(ListNode* head){
+        if(head==NULL || head->next==NULL)
+            return head;
+        ListNode* t=head;
+        ListNode* fast=head;
+        ListNode* slow=head;
+        
+        while(fast!=NULL && fast->next!=NULL){
+            t=slow;
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        
+        t->next=NULL;
+        ListNode* left=sortList(head);
+        ListNode* right=sortList(slow);
+        
+        return merge(left,right);
+    }
+    
+    
+};
 
-ListNode *mergeTwoLists(ListNode *l1, ListNode *l2) {
-    if (l1 == NULL)
-        return l2;
-    if (l2 == NULL)
-        return l1;
-
-    ListNode *head = NULL; // head of the list to return
-
-    // find first element (can use dummy node to put this part inside of the loop)
-    if (l1->val < l2->val) {
-        head = l1;
-        l1 = l1->next;
-    } else {
-        head = l2;
-        l2 = l2->next;
-    }
-
-    ListNode *p = head; // pointer to form new list
-
-    while (l1 && l2) {
-        if (l1->val < l2->val) {
-            p->next = l1;
-            l1 = l1->next;
-        } else {
-            p->next = l2;
-            l2 = l2->next;
-        }
-        p = p->next;
-    }
-
-    // add the rest of the tail, done!
-    if (l1) {
-        p->next = l1;
-    } else {
-        p->next = l2;
-    }
-
-    return head;
-}
-
-ListNode* Solution::sortList(ListNode *head) {
-    if (head == NULL || head->next == NULL)
-        return head;
-
-    // find the middle place
-    ListNode *p1 = head;
-    ListNode *p2 = head->next;
-    while (p2 && p2->next) {
-        p1 = p1->next;
-        p2 = p2->next->next;
-    }
-    p2 = p1->next;
-    p1->next = NULL;
-
-    return mergeTwoLists(sortList(head), sortList(p2));
-}
-
-
-#if 0
-
-ListNode* merge(ListNode* A, ListNode* B){
-    if(A == NULL){
-        return B;
-    }
-    if(B == NULL){
-        return A;
-    }
-    
-    ListNode* head = NULL;
-    
-    if(A->val < B->val){
-        head = A;
-        A = A->next;
-    }
-    else{
-        head = B;
-        B = B->next;
-    }
-    
-    ListNode* temp = head;
-    
-    while(A != NULL && B != NULL){
-        if(A->val < B->val){
-            temp->next = A;
-            A = A->next;
-        }
-        else{
-            temp->next = B;
-            B = B->next;
-        }
-        temp = temp->next;
-    }
-    
-    if(A != NULL){
-        temp->next = A;
-    }
-    else{
-        temp->next = B;
-    }
-    
-    return head;
-} 
-
-ListNode* Solution::sortList(ListNode* A) {
-    // Do not write main() function.
-    // Do not read input, instead use the arguments to the function.
-    // Do not print the output, instead return values as specified
-    // Still have a doubt. Checkout www.interviewbit.com/pages/sample_codes/ for more details
-
-    ListNode* head = A;
-    
-    if(head == NULL || head->next == NULL){
-        return head;
-    }
-    
-    ListNode* start = A;
-    ListNode* end = A->next;
-    
-    while(end != NULL && end->next != NULL){
-        start = start->next;
-        end = (end->next)->next;
-    }
-    
-    end = start->next;
-    start->next = NULL;
-    
-    return merge(sortList(head), sortList(end)); 
-}
-
-#endif
 ```

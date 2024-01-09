@@ -1,64 +1,82 @@
 ---
 title: Path Sum
-summary: Path Sum - Interviewbit Solution Explained
+summary: Path Sum LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Path Sum solution]
-aliases: ["/posts/path-sum", "/blog/posts/path-sum", "/path-sum"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "path-sum LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Path Sum - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Path Sum - Solution Explained/problem-solving.webp
     alt: Path Sum
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Path Sum
 
-https://www.interviewbit.com/problems/path-sum
+<h2>112. Path Sum</h2><h3>Easy</h3><hr><div><p>Given the <code>root</code> of a binary tree and an integer <code>targetSum</code>, return <code>true</code> if the tree has a <strong>root-to-leaf</strong> path such that adding up all the values along the path equals <code>targetSum</code>.</p>
+
+<p>A <strong>leaf</strong> is a node with no children.</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/01/18/pathsum1.jpg" style="width: 500px; height: 356px;">
+<pre><strong>Input:</strong> root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
+<strong>Output:</strong> true
+</pre>
+
+<p><strong>Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/01/18/pathsum2.jpg">
+<pre><strong>Input:</strong> root = [1,2,3], targetSum = 5
+<strong>Output:</strong> false
+</pre>
+
+<p><strong>Example 3:</strong></p>
+
+<pre><strong>Input:</strong> root = [1,2], targetSum = 0
+<strong>Output:</strong> false
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li>The number of nodes in the tree is in the range <code>[0, 5000]</code>.</li>
+	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
+	<li><code>-1000 &lt;= targetSum &lt;= 1000</code></li>
+</ul>
+</div>
+
+---
 
 
 
-Can you traverse the tree while keeping the sum from root to current node?
-
-How can you check if you have reached the leaf or not?
-
-
-Recursion might make this problem much easier to solve. 
-You just need to keep a track of the sum from the root to the current node. 
-Then it becomes a question of just checking if the current node is a leaf node, and if so, do the sum match.
-
-
-
-## Solution
 
 ```cpp
-
-// editorial
-
-int Solution::hasPathSum(TreeNode *root, int sum) {
-    if (!root) return false;
-    if (!root->left && !root->right)
-        return sum == root->val;
-    int remainingSum = sum - root->val;
-    return hasPathSum(root->left, remainingSum) || hasPathSum(root->right, remainingSum);
-}
-
-//////////////////////////////////////////////////////////
-
-int pathsum(TreeNode* root, int sum, const int& target) {
-    if (!root)
-        return false;
-    sum += root->val;
-    if (!root->left && !root->right)
-        return sum == target;
-    return pathsum(root->left, sum, target) || pathsum(root->right, sum, target);
-}
-int Solution::hasPathSum(TreeNode* root, int target) {
-    if (!root)
-        return 0;
-    return pathsum(root, 0, target);
-}
-
-
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    bool solve(TreeNode* root, int t, int sum){
+        if(root==NULL)
+            return false;
+        sum+=root->val;
+        if(sum==t && root->left==NULL && root->right==NULL)
+            return true;
+        bool l=solve(root->left, t, sum);
+        bool r=solve(root->right, t, sum);
+        return l||r;
+    }
+    bool hasPathSum(TreeNode* root, int t) {
+        return solve(root, t, 0);
+    }
+};
 ```

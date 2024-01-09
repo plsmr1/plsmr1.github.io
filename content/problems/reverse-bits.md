@@ -1,90 +1,71 @@
 ---
 title: Reverse Bits
-summary: Reverse Bits - Interviewbit Solution Explained
+summary: Reverse Bits LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Reverse Bits solution]
-aliases: ["/posts/reverse-bits", "/blog/posts/reverse-bits", "/reverse-bits"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "reverse-bits LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Reverse Bits - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Reverse Bits - Solution Explained/problem-solving.webp
     alt: Reverse Bits
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Reverse Bits
 
-https://www.interviewbit.com/problems/reverse-bits
+<h2>190. Reverse Bits</h2><h3>Easy</h3><hr><div><p>Reverse bits of a given 32 bits unsigned integer.</p>
+
+<p><strong>Note:</strong></p>
+
+<ul>
+	<li>Note that in some languages such as Java, there is no unsigned integer type. In this case, both input and output will be given as a signed integer type. They should not affect your implementation, as the integer's internal binary representation is the same, whether it is signed or unsigned.</li>
+	<li>In Java,&nbsp;the compiler represents the signed integers using <a href="https://en.wikipedia.org/wiki/Two%27s_complement" target="_blank">2's complement notation</a>. Therefore, in <strong>Example 2</strong>&nbsp;above, the input represents the signed integer <code>-3</code>&nbsp;and the output represents the signed integer <code>-1073741825</code>.</li>
+</ul>
+
+<p><b>Follow up</b>:</p>
+
+<p>If this function is called many times, how would you optimize it?</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+
+<pre><strong>Input:</strong> n = 00000010100101000001111010011100
+<strong>Output:</strong>    964176192 (00111001011110000010100101000000)
+<strong>Explanation: </strong>The input binary string <strong>00000010100101000001111010011100</strong> represents the unsigned integer 43261596, so return 964176192 which its binary representation is <strong>00111001011110000010100101000000</strong>.
+</pre>
+
+<p><strong>Example 2:</strong></p>
+
+<pre><strong>Input:</strong> n = 11111111111111111111111111111101
+<strong>Output:</strong>   3221225471 (10111111111111111111111111111111)
+<strong>Explanation: </strong>The input binary string <strong>11111111111111111111111111111101</strong> represents the unsigned integer 4294967293, so return 3221225471 which its binary representation is <strong>10111111111111111111111111111111</strong>.
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li>The input must be a <strong>binary string</strong> of length <code>32</code></li>
+</ul>
+</div>
+
+---
 
 
-## Solution
+
 
 ```cpp
-unsigned int Solution::reverse(unsigned int A) {
-    unsigned int res=0;
-    int i, bit;
-    for(i=0;i<32;i++) {
-        bit = (A>>i) & 1;
-        res = (res<<1) | bit;
-    }
-    return res;
-}
+class Solution {
+public:
+    uint32_t reverseBits(uint32_t n) {
+        uint32_t ans=0, pow=31;
+        while(n!=0){
+            ans+=(n&1)<<pow;
+            n=n>>1;
+            pow-=1;
+        }
+        return ans;
+    }
+};
 
-unsigned int Solution::reverse(unsigned int A) {
-    unsigned int res=0;
-    for(int i=1; i<=32; i++) {
-        res <<= 1;
-        res |= A & 1;
-        A >>= 1;
-    }
-    return res;
-}
-
-
-unsigned int Solution::reverse(unsigned int b) {
-    unsigned int out = 0;
-    int n = 32;
-
-    if (b & 1)
-        out |= 1;
-
-    for (int i=1; i<n; i++) {
-        b >>= 1;
-        out <<= 1;
-        if (b & 1)
-            out |= 1;
-    }
-    
-    return out;
-}
-
-unsigned int Solution::reverse(unsigned int x) {
-    x = ((x & 0b11111111111111110000000000000000) >> 16)| ((x & 0b00000000000000001111111111111111) << 16);
-    x = ((x & 0b11111111000000001111111100000000) >> 8) | ((x & 0b00000000111111110000000011111111) << 8);
-    x = ((x & 0b11110000111100001111000011110000) >> 4) | ((x & 0b00001111000011110000111100001111) << 4);
-    x = ((x & 0b11001100110011001100110011001100) >> 2) | ((x & 0b00110011001100110011001100110011) << 2);
-    x = ((x & 0b10101010101010101010101010101010) >> 1) | ((x & 0b01010101010101010101010101010101) << 1);
-    return x;
-}
-
-unsigned int Solution::reverse(unsigned int x) {
-    // order doesn't matter (!)
-    x = ((x & 0xaaaaaaaa) >> 1) | ((x & 0x55555555) << 1);
-    x = ((x & 0xcccccccc) >> 2) | ((x & 0x33333333) << 2);
-    x = ((x & 0xf0f0f0f0) >> 4) | ((x & 0x0f0f0f0f) << 4);
-    x = ((x & 0xff00ff00) >> 8) | ((x & 0x00ff00ff) << 8);
-    x = ((x & 0xffff0000) >> 16) | ((x & 0x0000ffff) << 16);
-    return x;
-}
-
-unsigned int Solution::reverse(unsigned int b) {
-    unsigned int out = 0;
-    int n = 32;
-    for (int i=0; i<n; i++) {
-        if (b & (1<<i))
-            out |= (1<<(n-i-1));
-    }
-    return out;
-}
 ```

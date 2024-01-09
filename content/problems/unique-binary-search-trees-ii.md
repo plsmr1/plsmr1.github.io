@@ -1,97 +1,82 @@
 ---
 title: Unique Binary Search Trees Ii
-summary: Unique Binary Search Trees Ii - Interviewbit Solution Explained
+summary: Unique Binary Search Trees Ii LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Unique Binary Search Trees Ii solution]
-aliases: ["/posts/unique-binary-search-trees-ii", "/blog/posts/unique-binary-search-trees-ii", "/unique-binary-search-trees-ii"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "unique-binary-search-trees-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Unique Binary Search Trees Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Unique Binary Search Trees Ii - Solution Explained/problem-solving.webp
     alt: Unique Binary Search Trees Ii
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Unique Binary Search Trees II
 
-https://www.interviewbit.com/problems/unique-binary-search-trees-ii/
+<h2>95. Unique Binary Search Trees II</h2><h3>Medium</h3><hr><div><p>Given an integer <code>n</code>, return <em>all the structurally unique <strong>BST'</strong>s (binary search trees), which has exactly </em><code>n</code><em> nodes of unique values from</em> <code>1</code> <em>to</em> <code>n</code>. Return the answer in <strong>any order</strong>.</p>
 
-Given A, how many structurally unique BST's (binary search trees) that store values 1...A?
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/01/18/uniquebstn3.jpg" style="width: 600px; height: 148px;">
+<pre><strong>Input:</strong> n = 3
+<strong>Output:</strong> [[1,null,2,null,3],[1,null,3,2],[2,1,3],[3,1,null,null,2],[3,2,null,1]]
+</pre>
 
-Example :
+<p><strong>Example 2:</strong></p>
 
-Given A = 3, there are a total of 5 unique BST's.
+<pre><strong>Input:</strong> n = 1
+<strong>Output:</strong> [[1]]
+</pre>
 
-```
-   1         3     3      2      1
-    \       /     /      / \      \
-     3     2     1      1   3      2
-    /     /       \                 \
-   2     1         2                 3
-```
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-## Hint 1
+<ul>
+	<li><code>1 &lt;= n &lt;= 8</code></li>
+</ul>
+</div>
 
-Can you compute the answer for A = n if you know the answer for A = 1, A = 2, ... A = n-1 ?
-
-What values can you place at root first and how will it affect the answer? Try to think of DP.
-
-## Solution Approach
-
-Lets say you know the answer for values i which ranges from 0 <= i <= n - 1.
-
-How do you calculate the answer for n.
-
-Lets consider the number [1, n]
-
-We have n options of choosing the root. 
-
-If we choose the number j as the root, j - 1 numbers fall in the left subtree, n - j numbers fall in the right subtree. We already know how many ways there are to forming j - 1 trees using j - 1 numbers and n -j numbers. 
-
-So we add number(j - 1) * number(n - j) to our solution.
-
-Can you use the above fact to construct a DP relation ?
-
-## Solution
+---
 
 
-### Editorial
+
+
 ```cpp
-int Solution::numTrees(int n) {
-    if (n == 0) return 1;
-    if (n == 1) return 1;
-
-    int result[n + 1];
-    memset(result, 0, sizeof(result));
-    result[0] = 1;
-    result[1] = 1;
-    if (n < 2) {
-        return result[n];
-    }
-
-    for (int i = 2; i <= n; i++) {
-        for (int k = 1; k <= i; k++) {
-            result[i] = result[i] + result[k - 1] * result[i - k];
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    
+    vector<TreeNode*> solve(int l, int r){
+        vector<TreeNode*> ans;
+        if(l>r)
+            return {NULL};
+        for(int i=l;i<=r;i++){
+            vector<TreeNode*> left=solve(l, i-1);
+            vector<TreeNode*> right=solve(i+1, r);
+            for(auto l: left){
+                for(auto r: right){
+                    TreeNode* root=new TreeNode(i);
+                    root->left=l;
+                    root->right=r;
+                    ans.push_back(root);
+                }
+            }
         }
+        return ans;
     }
-
-    return result[n];
-}
-```
-
-### Lightweight
-```cpp
-int Solution::numTrees(int A) {
-    int dp[A+1];
-    dp[0] = 1;
-    for(int i=1; i<=A;i++){
-        dp[i] = 0;
-        for(int j=1; j<=i; j++)
-            dp[i] += dp[j-1]*dp[i-j];
+    
+    vector<TreeNode*> generateTrees(int n) {
+        return solve(1,n);
     }
-    return dp[A];
-}
+};
 ```
-
-## Asked in

@@ -1,145 +1,102 @@
 ---
 title: Task Scheduler
-summary: Task Scheduler - Interviewbit Solution Explained
+summary: Task Scheduler LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Task Scheduler solution]
-aliases: ["/posts/task-scheduler", "/blog/posts/task-scheduler", "/task-scheduler"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "task-scheduler LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Task Scheduler - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Task Scheduler - Solution Explained/problem-solving.webp
     alt: Task Scheduler
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Task Scheduler
 
-https://www.interviewbit.com/problems/task-scheduler/
+<h2>621. Task Scheduler</h2><h3>Medium</h3><hr><div><p>Given a characters array <code>tasks</code>, representing the tasks a CPU needs to do, where each letter represents a different task. Tasks could be done in any order. Each task is done in one unit of time. For each unit of time, the CPU could complete either one task or just be idle.</p>
+
+<p>However, there is a non-negative integer&nbsp;<code>n</code> that represents the cooldown period between&nbsp;two <b>same tasks</b>&nbsp;(the same letter in the array), that is that there must be at least <code>n</code> units of time between any two same tasks.</p>
+
+<p>Return <em>the least number of units of times that the CPU will take to finish all the given tasks</em>.</p>
+
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+
+<pre><strong>Input:</strong> tasks = ["A","A","A","B","B","B"], n = 2
+<strong>Output:</strong> 8
+<strong>Explanation:</strong> 
+A -&gt; B -&gt; idle -&gt; A -&gt; B -&gt; idle -&gt; A -&gt; B
+There is at least 2 units of time between any two same tasks.
+</pre>
+
+<p><strong>Example 2:</strong></p>
+
+<pre><strong>Input:</strong> tasks = ["A","A","A","B","B","B"], n = 0
+<strong>Output:</strong> 6
+<strong>Explanation:</strong> On this case any permutation of size 6 would work since n = 0.
+["A","A","A","B","B","B"]
+["A","B","A","B","A","B"]
+["B","B","B","A","A","A"]
+...
+And so on.
+</pre>
+
+<p><strong>Example 3:</strong></p>
+
+<pre><strong>Input:</strong> tasks = ["A","A","A","A","A","A","B","C","D","E","F","G"], n = 2
+<strong>Output:</strong> 16
+<strong>Explanation:</strong> 
+One possible solution is
+A -&gt; B -&gt; C -&gt; A -&gt; D -&gt; E -&gt; A -&gt; F -&gt; G -&gt; A -&gt; idle -&gt; idle -&gt; A -&gt; idle -&gt; idle -&gt; A
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= task.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>tasks[i]</code> is upper-case English letter.</li>
+	<li>The integer <code>n</code> is in the range <code>[0, 100]</code>.</li>
+</ul>
+</div>
+
+---
 
 
-Given a string A representing tasks CPU need to do it. A consists of uppercase English letters where different letters represent different tasks. Tasks could be done without the original order.
-Each task could be done in one interval. For each interval, CPU could finish one task or just be idle.
 
-However, there is a non-negative cooling interval B that means between two same tasks,
-there must be at least B intervals that CPU is doing different tasks or just be idle.
 
-Find the least number of intervals the CPU will take to finish all the given tasks.
-
-### Input Format
-
-The first argument given is string A.
-
-The second argument given is an integer B.
-
-### Output Format
-
-Return the least number of intervals the CPU will take to finish all the given tasks.
-
-### Constraints
-
-```
-1 <= |A| <= 10000
-0 <= B <= 100 
-```
-
-### For Example
-
-```
-Input 1:
-    A = "AAABBB"
-    B = 2
-Output 1:
-    8
-    Explanation 1:
-        CPU can finish the tasks in one of the following ways:
-            A -> B -> idle -> A -> B -> idle -> A -> B.
-            B -> A -> idle -> B -> A -> idle -> B -> A.
-
-Input 2:
-    A = "DBAD"
-    B = 5
-Output 2:
-    7
-    Explanation 2:
-        D -> B -> A -> idle -> idle -> idle -> D
-```
-
-## Solution
-### Editorial
 ```cpp
-int Solution::solve(string A, int B) {
-    unordered_map<char, int> record;
-    int max_freq = 0;
-    int max_tasks = 0;
-    for(auto a : A) {
-        record[a]++;
-        max_freq = max(max_freq, record[a]);
-    }
-    for (auto task : record)
-        if (task.second == max_freq)
-            max_tasks++;
-    int ans = (max_freq - 1) * (B+1) + max_tasks;
-    return ans > A.size() ? ans : A.size();
-}
-```
-
-### Fastest
-```cpp
-int Solution::solve(string A, int B) {
-    vector<int> c(26, 0);
-    for(char x : A)
-        c[x-'A']++;
-    sort(c.begin(), c.end(), [](int a, int b){ return a > b; });
-    
-    int gap = B * (c[0] - 1), ans = c[0] + gap;
-    for (int i=1; i<26 && c[i] != 0; i++) {
-        if (gap >= c[i]) {
-            if (c[i] == c[0]) {
-                gap -= (c[0] - 1);      
-                ans++;
-            } else {
-                gap -= c[i];
+class Solution {
+public:
+    int leastInterval(vector<char>& tasks, int n) {
+       unordered_map<char, int> counts;
+        for (char t : tasks) {
+            counts[t]++;
+        }
+        priority_queue<pair<int, char>> pq;
+        for (pair<char, int> count : counts) {
+            pq.push(make_pair(count.second, count.first));
+        }
+        int alltime = 0;
+        int cycle = n + 1;
+        while (!pq.empty()) {
+            int time = 0;
+            vector<pair<int, char>> tmp;
+            for (int i = 0; i < cycle; i++) {
+                if (!pq.empty()) {
+                    tmp.push_back(pq.top());
+                    pq.pop();
+                    time++;
+                }
             }
-        } else {
-            return A.length();
+            for (auto t : tmp) {
+                if (--t.first) {
+                    pq.push(t);
+                }
+            }
+            alltime += !pq.empty() ? cycle : time;
         }
-    } 
-    return ans;
-}
-```
-
-### Lightweight
-```cpp
-typedef pair<int,int> pic;
-struct cmp{
-    bool operator()(const pic a, const pic b){
-        return (a.second > b.second); /// small time
-    }  
+        return alltime;
+    }
 };
-
-int Solution::solve(string A, int B){
-    if(B==0) return A.size();
-    vector<int> mp(26, 0);
-    int max_freq = 0, max_task = 0;
-    for(char c: A){
-        mp[c-'A']++;
-        max_freq = max(max_freq, mp[c-'A']);
-    }
-    
-    //// D-3,B-2,C-2,A-2, and B =  2;
-    //// so D_Btaks__D____D
-    //// (max_freq-1)*B + max_task
-    for(int i=0;i<26;i++){
-        if(mp[i]>0 && mp[i]==max_freq){
-            max_task++;
-        }
-    }
-    int ans = (max_freq - 1)*(B+1) + max_task;
-    return ans < A.size() ? A.size() : ans;
-}
 ```
-
-
-## References
-* https://leetcode.com/problems/task-scheduler/

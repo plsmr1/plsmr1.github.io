@@ -1,94 +1,108 @@
 ---
 title: Longest Common Prefix
-summary: Longest Common Prefix - Interviewbit Solution Explained
+summary: Longest Common Prefix LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Longest Common Prefix solution]
-aliases: ["/posts/longest-common-prefix", "/blog/posts/longest-common-prefix", "/longest-common-prefix"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "longest-common-prefix LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Longest Common Prefix - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Longest Common Prefix - Solution Explained/problem-solving.webp
     alt: Longest Common Prefix
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Longest Common Prefix
 
-https://www.interviewbit.com/problems/longest-common-prefix/
+<h2>14. Longest Common Prefix</h2><h3>Easy</h3><hr><div><p>Write a function to find the longest common prefix string amongst an array of strings.</p>
 
-Write a function to find the longest common prefix string amongst an array of strings.
+<p>If there is no common prefix, return an empty string <code>""</code>.</p>
 
-Longest common prefix for a pair of strings S1 and S2 is the longest string S which is the prefix of both S1 and S2.
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-As an example, longest common prefix of "abcdefgh" and "abcefgh" is "abc".
+<pre><strong>Input:</strong> strs = ["flower","flow","flight"]
+<strong>Output:</strong> "fl"
+</pre>
 
-Given the array of strings, you need to find the longest S which is the prefix of ALL the strings in the array.
+<p><strong>Example 2:</strong></p>
 
-Example:
+<pre><strong>Input:</strong> strs = ["dog","racecar","car"]
+<strong>Output:</strong> ""
+<strong>Explanation:</strong> There is no common prefix among the input strings.
+</pre>
 
-Given the array as:
-```
-[
-  "abcdefgh",
-  "aefghijk",
-  "abcefgh"
-]
-```
-The answer would be "a".
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-## Hint 1
+<ul>
+	<li><code>1 &lt;= strs.length &lt;= 200</code></li>
+	<li><code>0 &lt;= strs[i].length &lt;= 200</code></li>
+	<li><code>strs[i]</code> consists of only lower-case English letters.</li>
+</ul>
+</div>
 
-How about comparing two strings at a time to get their common prefix? Can this thing be used in order to generalize for all the strings?
+---
 
-## Solution Approach
 
-Note: the prefix has to be the prefix of ALL the strings.
 
-So, you can pick any random string from the array and start checking its characters from the beginning in order to see if they can be a part of the common substring.
-
-## Solution
-
-### Editorial
-```cpp
-string Solution::longestCommonPrefix(vector<string> &strs) {
-    if (strs.size() == 0) return "";
-    string ans = "";
-    for (int i = 0; i < strs[0].length(); i++) {
-        // checking if character i qualifies to be in the answer. 
-        bool isQualified = true; 
-        for (int j = 1; j < strs.size(); j++) {
-            if (i >= strs[j].length() || strs[j][i] != strs[0][i]) {
-                isQualified = false;
-                break;
-            }
-        }
-        if (!isQualified) break;
-        ans.push_back(strs[0][i]);
-    }
-    return ans;
-}
-```
-### My
 
 ```cpp
-string Solution::longestCommonPrefix(vector<string> &A) {
-    int res = 0, n = A.size();
-    if (n==1)
-        return A[0];
+class Solution {
+public:
+    class Trie{
+        public:
+        Trie *child[26]; //child pointers
+        bool isEnd;
+        int count;
         
-    string & s1 = A[0];
-
-    for (int i=0; i<s1.size(); i++) {
-        for (int j=1; j<n; j++) {
-            string & s2 = A[j];
-            if (s2.size()<=i || s1[i]!=s2[i])
-                return s1.substr(0, res);
+        Trie(){
+            for(int i=0;i<26;i++)
+                child[i]=NULL;
+            isEnd=false;
+            count=0;
         }
-        res++;
+    };
+    Trie* root=new Trie();
+    
+    void insert(string s){
+        Trie* curr=root;
+        for(int i=0;i<s.size();i++){
+            char ch=s[i]-'a';
+            if(curr->child[ch]==NULL)
+                curr->child[ch]=new Trie();
+            
+            curr=curr->child[ch];
+            curr->count++;
+        }
+        curr->isEnd=true;
+        
     }
     
-    return s1.substr(0, res);
-}
+    string longestCommonPrefix(vector<string>& strs) {
+        int n=strs.size();
+        if(n==1)
+            return strs[0];
+        int c=0;
+        for(int i=0;i<n;i++){
+            string s=strs[i];
+            int v=s.size();
+            if(v!=0){
+                insert(s);
+            }
+        }
+        //lcp in all strings therefore, count must be n, first string ko reference le k soch skte hai kyuki agar lcp usse chota hua to theek h aur usse bda hua to sare string me waise hi ni aapayega
+        string ref=strs[0];
+        int sz=ref.size();
+        Trie* temp=root;
+        string ans;
+        for(int i=0;i<sz;i++){
+            char ch=ref[i]-'a';
+            if(temp->child[ch]!=NULL && temp->child[ch]->count==n)
+                ans.push_back(ref[i]);
+            else break;
+            temp=temp->child[ch];
+        }
+        return ans;
+    }
+};
 ```
-

@@ -1,107 +1,83 @@
 ---
 title: Combinations
-summary: Combinations - Interviewbit Solution Explained
+summary: Combinations LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Combinations solution]
-aliases: ["/posts/combinations", "/blog/posts/combinations", "/combinations"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "combinations LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Combinations - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Combinations - Solution Explained/problem-solving.webp
     alt: Combinations
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Combinations
 
-https://www.interviewbit.com/problems/combinations
+[Discussion Post (created on 19/0/2021 at 21:17)](https://leetcode.com/problems/combinations/discuss/1024708/C%2B%2B-or-Backtracking)  
+<h2>77. Combinations</h2><h3>Medium</h3><hr><div><p>Given two integers <em>n</em> and <em>k</em>, return all possible combinations of <em>k</em> numbers out of 1 ... <em>n</em>.</p>
 
+<p>You may return the answer in <strong>any order</strong>.</p>
 
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-Combinations
-
-Given two integers n and k, return all possible combinations of k numbers out of 1 2 3 ... n.
-
-Make sure the combinations are sorted.
-
-To elaborate,
-
-Within every entry, elements should be sorted. [1, 4] is a valid entry while [4, 1] is not.
-Entries should be sorted within themselves.
-Example :
-If n = 4 and k = 2, a solution is:
-
+<pre><strong>Input:</strong> n = 4, k = 2
+<strong>Output:</strong>
 [
+  [2,4],
+  [3,4],
+  [2,3],
   [1,2],
   [1,3],
   [1,4],
-  [2,3],
-  [2,4],
-  [3,4],
 ]
+</pre>
 
-For every element, you have 2 options. You may either include the element in your subset or you will not include
-the element in your subset. Make the call for both the cases.
+<p><strong>Example 2:</strong></p>
 
-## Solution
+<pre><strong>Input:</strong> n = 1, k = 1
+<strong>Output:</strong> [[1]]
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= n &lt;= 20</code></li>
+	<li><code>1 &lt;= k &lt;= n</code></li>
+</ul>
+</div>
+
+---
+
+
+
 
 ```cpp
-
-/* editorial */
-
 class Solution {
-  public:
-    void combineHelper(vector<int> &current, int n, int k, vector<vector<int>> &ans) {
-        if (k == 0) {
-            vector<int> newEntry = current;
-            reverse(newEntry.begin(), newEntry.end());
-            ans.push_back(newEntry);
+public:
+    
+    void backtrack(vector<int> &t, vector<vector<int>> &ans, int st, int n, int k){
+        if(t.size()==k)
+        {
+            ans.push_back(t);
             return;
         }
-        if (n == 0 || n < k)
-            return;
-        // We have 2 options here. We can either include n or not.
-        // Option 1 : Do not include n.
-        combineHelper(current, n - 1, k, ans);
-        // Option 2 : Include n.
-        current.push_back(n);
-        combineHelper(current, n - 1, k - 1, ans);
-        current.pop_back();
-        return;
+        
+        for(int i=st;i<n;i++){
+            t.push_back(i+1);
+            backtrack(t,ans,i+1,n,k);
+            t.pop_back();
+        }
     }
-
+    
     vector<vector<int>> combine(int n, int k) {
         vector<vector<int>> ans;
-        vector<int> current;
-        combineHelper(current, n, k, ans);
-        sort(ans.begin(), ans.end());
+        if(n<k)
+            return ans;
+        vector<int> t;
+        backtrack(t,ans,0,n,k);
         return ans;
     }
 };
-
-/* my */
-
-void make(vector<int> temp, int curr, int n, int k, vector<vector<int>> &ans) {
-    if (temp.size() == k) {
-        ans.push_back(temp);
-        return;
-    } else if (curr > n)
-        return;
-
-    for (int i = curr; i <= n; i++) {
-        vector<int> t(temp);
-        t.push_back(i);
-        make(t, i + 1, n, k, ans);
-    }
-}
-
-vector<vector<int>> Solution::combine(int n, int k) {
-    vector<vector<int>> ans;
-    for (int i = 1; i <= n; i++) {
-        vector<int> temp(1, i);
-        make(temp, i + 1, n, k, ans);
-    }
-    return ans;
-}
 ```

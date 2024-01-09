@@ -1,178 +1,124 @@
 ---
 title: Word Ladder Ii
-summary: Word Ladder Ii - Interviewbit Solution Explained
+summary: Word Ladder Ii LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Word Ladder Ii solution]
-aliases: ["/posts/word-ladder-ii", "/blog/posts/word-ladder-ii", "/word-ladder-ii"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "word-ladder-ii LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Word Ladder Ii - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Word Ladder Ii - Solution Explained/problem-solving.webp
     alt: Word Ladder Ii
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Word Ladder II
-https://www.interviewbit.com/problems/word-ladder-ii/
 
-Given two words (start and end), and a dictionary, find the shortest transformation sequence from start to end, such that:
+<h2>126. Word Ladder II</h2><h3>Hard</h3><hr><div><p>A <strong>transformation sequence</strong> from word <code>beginWord</code> to word <code>endWord</code> using a dictionary <code>wordList</code> is a sequence of words <code>beginWord -&gt; s<sub>1</sub> -&gt; s<sub>2</sub> -&gt; ... -&gt; s<sub>k</sub></code> such that:</p>
 
-Only one letter can be changed at a time
-Each intermediate word must exist in the dictionary
-If there are multiple such sequence of shortest length, return all of them. Refer to the example for more details.
+<ul>
+	<li>Every adjacent pair of words differs by a single letter.</li>
+	<li>Every <code>s<sub>i</sub></code> for <code>1 &lt;= i &lt;= k</code> is in <code>wordList</code>. Note that <code>beginWord</code> does not need to be in <code>wordList</code>.</li>
+	<li><code>s<sub>k</sub> == endWord</code></li>
+</ul>
 
-Example :
+<p>Given two words, <code>beginWord</code> and <code>endWord</code>, and a dictionary <code>wordList</code>, return <em>all the <strong>shortest transformation sequences</strong> from</em> <code>beginWord</code> <em>to</em> <code>endWord</code><em>, or an empty list if no such sequence exists. Each sequence should be returned as a list of the words </em><code>[beginWord, s<sub>1</sub>, s<sub>2</sub>, ..., s<sub>k</sub>]</code>.</p>
 
-Given:
-```
-start = "hit"
-end = "cog"
-dict = ["hot","dot","dog","lot","log"]
-```
-Return
-```
-  [
-    ["hit","hot","dot","dog","cog"],
-    ["hit","hot","lot","log","cog"]
-  ]
-```
-Note:
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
 
-All words have the same length.
+<pre><strong>Input:</strong> beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
+<strong>Output:</strong> [["hit","hot","dot","dog","cog"],["hit","hot","lot","log","cog"]]
+<strong>Explanation:</strong>&nbsp;There are 2 shortest transformation sequences:
+"hit" -&gt; "hot" -&gt; "dot" -&gt; "dog" -&gt; "cog"
+"hit" -&gt; "hot" -&gt; "lot" -&gt; "log" -&gt; "cog"
+</pre>
 
-All words contain only lowercase alphabetic characters.
+<p><strong>Example 2:</strong></p>
 
-## Hint 1
+<pre><strong>Input:</strong> beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]
+<strong>Output:</strong> []
+<strong>Explanation:</strong> The endWord "cog" is not in wordList, therefore there is no valid transformation sequence.
+</pre>
 
-Think in terms of a graph.
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-When can you do the transition from one word to another ? Does it mean it can indicate a graph edge between those 2 words ? How can this graph help you to achieve the purpose?
+<ul>
+	<li><code>1 &lt;= beginWord.length &lt;= 5</code></li>
+	<li><code>endWord.length == beginWord.length</code></li>
+	<li><code>1 &lt;= wordList.length &lt;= 1000</code></li>
+	<li><code>wordList[i].length == beginWord.length</code></li>
+	<li><code>beginWord</code>, <code>endWord</code>, and <code>wordList[i]</code> consist of lowercase English letters.</li>
+	<li><code>beginWord != endWord</code></li>
+	<li>All the words in <code>wordList</code> are <strong>unique</strong>.</li>
+</ul>
+</div>
 
-## Solution Approach
-
-This is a classic shortest path problem.
-
-Think in terms of a graph. You basically need to add an edge between two words which can be converted into one another. Resulting graph will be unweighted and undirected.
-Which graph traversal algorithm can now help you in computing the shortest path in undirected, unweighted graph?
-
-Once you know about the shortest path, how do we construct all shortest paths ? 
-When will a node x be a parent of node Y ?
+---
 
 
-## Solution
-### Editorial
+
 
 ```cpp
-void constructPaths(string start, string &end, unordered_map<string, vector<string>> &parents, vector<string> &current, vector<vector<string>> &answer) {
-    if (start == end) {
-        answer.push_back(current);
-        return;
+class Solution {
+public:
+    vector<vector<string>>  ans;    //Stores all possible paths
+    
+    void DFS(string& beginWord, string& endWord, unordered_map<string, unordered_set<string>>& adj, vector<string> &path) {
+        path.push_back(beginWord);  //Push current word
+        if(beginWord == endWord)
+        {
+            ans.push_back(path);
+            path.pop_back();
+            return;
+        }
+        for(auto x : adj[beginWord])
+            DFS(x, endWord, adj, path);
+        
+        path.pop_back();    //Pop current word to Backtrack
     }
-    for (int i = 0; i < parents[start].size(); i++) {
-        current.push_back(parents[start][i]);
-        constructPaths(parents[start][i], end, parents, current, answer);
-        current.pop_back();
-    }
-    return;
-}
+    
+    vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
+        unordered_map<string, unordered_set<string>> adj;   //Adjacency List
+        unordered_set<string> dict(wordList.begin(),wordList.end());   //Insert WordList in SET
+        
+        //STEP-1: Find min-depth using BFS
+        queue<string> Q;    //For BFS traversal
+        Q.push(beginWord);  //Push start node (beginWord)
+        unordered_map<string, int> visited; //Key->String (Node)...Value->Level (Depth of traversal)
+        visited[beginWord] = 0; //Start node will always be at level 0
+        while(!Q.empty())
+        {
+            string curr = Q.front();
+            Q.pop();
+            string temp = curr;
+            for(int i = 0; i < curr.size(); ++i)    //For all characters
+            {
+                for(char x = 'a'; x <= 'z'; ++x)    //Try all possible 26 letters
+                {
+                    if(temp[i] == x)    //Skip if letter is same as in original word
+                        continue;
 
-vector<vector<string>> Solution::findLadders(string start, string end, vector<string> &dictV) {
-    unordered_set<string> dict(dictV.begin(), dictV.end());
-    vector<vector<string>> answer;
-    unordered_map<string, int> distance; // store the distance from start to the current word
-    queue<string> q;                     // FIFO for bfs purpose
-    unordered_map<string, vector<string>> parents;
-    swap(start, end); // We do this because we construct the path later from end to start
-    distance[start] = 1;
-    q.push(start);
-    while (!q.empty()) {
-        string word = q.front();
-        q.pop();
-        if (word == end) break;
-        for (int i = 0; i < word.size(); i++) {
-            for (int j = 0; j < 26; j++) {
-                string newWord = word;
-                newWord[i] = 'a' + j;
-                if (dict.find(newWord) != dict.end()) {
-                    if (distance.find(newWord) == distance.end()) { // seen for the first time
-                        distance[newWord] = distance[word] + 1;
-                        q.push(newWord);
-                        parents[newWord].push_back(word);
-                    } else if (distance[newWord] == distance[word] + 1) {
-                        parents[newWord].push_back(word);
+                    temp[i] = x;    
+                    if(dict.count(temp) > 0)    //Check if new word is present in wordList
+                    {
+                        if(visited.count(temp) == 0)    //check if the new word was already visited
+                        {
+                            visited[temp] = visited[curr] + 1;
+                            Q.push(temp);
+                            adj[curr].insert(temp);
+                        } 
+                        else if(visited[temp] == visited[curr] + 1) //If already visited and new word is the child (We should always move down)
+                            adj[curr].insert(temp);
                     }
                 }
+                temp[i] = curr[i];  //Revert back temp to curr
             }
         }
+        //STEP-2: Find all possible paths at min-depth using DFS
+        vector<string> path;
+        DFS(beginWord, endWord, adj, path); //Find all possible paths with min-depth
+        return ans; 
     }
-    if (distance.find(end) == distance.end()) return answer; // not found
-    // backtrack and construct all possible paths now that we know possible optimal parents.
-    vector<string> current;
-    current.push_back(end);
-    constructPaths(end, start, parents, current, answer);
-    return answer;
-}
-
+};
 ```
-
-### BFS-only
-
-```cpp
-vector<vector<string> > Solution::findLadders(string start, string end, vector<string> &d) {
-   queue<vector<string> >paths;
-   vector<vector<string> >ans;
-   paths.push({start});
-   if(start==end){
-       ans.push_back({start});
-       return ans;
-   }
-   unordered_set<string>dict;
-   for(int i=0; i<d.size(); i++){
-       dict.insert(d[i]);
-   }
-   int level = 1;
-   int min_level = INT_MAX;
-   unordered_set<string>visited;
-   while(!paths.empty()){
-       vector<string> path = paths.front();
-       paths.pop();
-       if(path.size()>level){
-           for(auto w: visited){
-               dict.erase(w);
-           }
-           visited.clear();
-           if(path.size()>min_level)
-           break;
-           else
-           level = path.size();
-       }
-       string last = path.back();
-       for(int i=0; i<last.length(); i++){
-           string news = last;
-           for(int j='a'; j<='z'; j++){
-               news[i] = j;
-               if(dict.find(news)!=dict.end()){
-                   vector<string>newpath = path;
-                   newpath.push_back(news);
-                   visited.insert(news);
-                   if(news==end){
-                       min_level = level;
-                       ans.push_back(newpath);
-                   }
-                   else{
-                       paths.push(newpath);
-                   }
-               }
-           }
-       }
-   }
-   return ans;
-}
-```
-
-## Asked in
-* Google
-* Microsoft
-* Ebay
-

@@ -1,115 +1,75 @@
 ---
 title: Palindrome Partitioning
-summary: Palindrome Partitioning - Interviewbit Solution Explained
+summary: Palindrome Partitioning LeetCode Solution Explained
 date: 2020-06-20
-tags: [interviewbit]
-series: [interviewbit]
-keywords: [interviewbit, interviewbit solution in Python3 C++ Java, Palindrome Partitioning solution]
-aliases: ["/posts/palindrome-partitioning", "/blog/posts/palindrome-partitioning", "/palindrome-partitioning"]
+tags: [leetcode]
+series: [leetcode]
+keywords: ["LeetCode", "leetcode solution in Python3 C++ Java", "palindrome-partitioning LeetCode Solution Explained"]
 cover:
-    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_70_bold:Palindrome Partitioning - Solution Explained/problem-solving.webp
+    image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Palindrome Partitioning - Solution Explained/problem-solving.webp
     alt: Palindrome Partitioning
     hiddenInList: true
     hiddenInSingle: false
 ---
 
-# Palindrome_partitioning
 
-https://www.interviewbit.com/problems/palindrome_partitioning
+[Discussion Post (created on 6/2/2021 at 18:43)](https://leetcode.com/problems/palindrome-partitioning/discuss/1096101/C%2B%2B-or-Backtracking)  
+<h2>131. Palindrome Partitioning</h2><h3>Medium</h3><hr><div><p>Given a string <code>s</code>, partition <code>s</code> such that every substring of the partition is a <strong>palindrome</strong>. Return all possible palindrome partitioning of <code>s</code>.</p>
 
-Given a string s, partition s such that every string of the partition is a palindrome.
+<p>A <strong>palindrome</strong> string is a string that reads the same backward as forward.</p>
 
-Return all possible palindrome partitioning of s.
+<p>&nbsp;</p>
+<p><strong>Example 1:</strong></p>
+<pre><strong>Input:</strong> s = "aab"
+<strong>Output:</strong> [["a","a","b"],["aa","b"]]
+</pre><p><strong>Example 2:</strong></p>
+<pre><strong>Input:</strong> s = "a"
+<strong>Output:</strong> [["a"]]
+</pre>
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-For example, given s = "aab",
-Return
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 16</code></li>
+	<li><code>s</code> contains only lowercase English letters.</li>
+</ul>
+</div>
 
-```
-[
-  ["a","a","b"]
-  ["aa","b"],
-]
-```
-
-Ordering the results in the answer : Entry i will come before Entry j if :
-```
-1. len(Entryi[0]) < len(Entryj[0]) OR
-2. (len(Entryi[0]) == len(Entryj[0]) AND len(Entryi[1]) < len(Entryj[1])) OR
-*
-*
-*
-3. (len(Entryi[0]) == len(Entryj[0]) AND ... len(Entryi[k] < len(Entryj[k]))
-```
-
-In the given example,
-
-["a", "a", "b"] comes before ["aa", "b"] because len("a") < len("aa")
+---
 
 
 
-## Solution
 
 ```cpp
-inline bool isPalindrome(string A) {
-    string rev = A;
-    reverse(rev.begin(), rev.end());
-    return (rev == A);
-}
-
-void GeneratePartitions(vector<string> set, string A, vector<vector<string>> &result) {
-    if (A.empty()) {
-        result.push_back(set);
-        return;
-    }
-
-    for (int l = 1; l <= A.length(); ++l) {
-        string first_part = A.substr(0, l);
-        string second_part = A.substr(l);
-
-        if (isPalindrome(first_part)) {
-            vector<string> s = set;
-            s.push_back(first_part);
-            GeneratePartitions(s, second_part, result);
+class Solution {
+public:
+     bool isPalindrome(string s, int low, int high) {
+        while (low < high) {
+            if (s[low++] != s[high--]) return false;
         }
+        return true;
     }
-}
-
-vector<vector<string>> Solution::partition(string A) {
-    vector<vector<string>> result;
-    vector<string> empty_set;
-    GeneratePartitions(empty_set, A, result);
-    sort(result.begin(), result.end());
-    return result;
-}
-
-/* my */
-
-bool isPalindrome(string &s, int i, int j) {
-    while (i < j)
-        if (s[i++] != s[j--])
-            return false;
-    return true;
-}
-
-void backtracking(string &s, int i, vector<string> &row, vector<vector<string>> &res) {
-    if (i == s.length()) {
-        res.push_back(row);
-        return;
-    }
-
-    for (int x = i; x < s.length(); ++x) {
-        if (isPalindrome(s, i, x)) {
-            row.push_back(s.substr(i, x - i + 1));
-            backtracking(s, x + 1, row, res);
-            row.pop_back();
+    
+    void backtrack(vector<vector<string>> &ans, vector<string> &t, int p, string &s){
+        if(p==s.size())
+            ans.push_back(t);
+        for(int i=p;i<s.size();i++){
+           if(isPalindrome(s,p,i)){
+               t.push_back(s.substr(p,i-p+1));
+               backtrack(ans,t,i+1,s);
+               t.pop_back();
+           }
         }
+        
     }
-}
-
-vector<vector<string>> Solution::partition(string A) {
-    vector<string> row;
-    vector<vector<string>> res;
-    backtracking(A, 0, row, res);
-    return res;
-}
+    
+    
+    
+    vector<vector<string>> partition(string s) {
+        vector<vector<string>> ans;
+        vector<string> t;
+        backtrack(ans,t,0,s);
+        return ans;
+    }
+};
 ```
