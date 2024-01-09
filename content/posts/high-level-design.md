@@ -7,7 +7,7 @@ series: [System Design]
 published: true
 sitemap: true
 keywords: ["High-level design", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/high-level-design", "/high-level-design", "/blog/high-level-design"]
+aliases: ["/blog/posts/high-level-design"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:High-level design/og-image.webp
   alt: High-level design

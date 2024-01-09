@@ -6,7 +6,7 @@ tags: [system-design, design-interview, preparation]
 series: [System Design]
 author: ["Samir Paul"]
 keywords: ["Company engineering blog links", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/company-engineering-blog-links", "/company-engineering-blog-links", "/blog/company-engineering-blog-links"]
+aliases: ["/blog/posts/company-engineering-blog-links"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Company engineering blog links/og-image.webp
   alt: Company engineering blog links

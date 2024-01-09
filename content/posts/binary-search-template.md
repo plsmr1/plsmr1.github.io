@@ -7,7 +7,7 @@ series: [Computer Science]
 author: ["Samir Paul"]
 license: "CC BY 4.0"
 keywords: ["Binary Search Template", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/binary-search-template", "/binary-search-template", "/blog/binary-search-template"]
+aliases: ["/blog/posts/binary-search-template"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Binary Search Template/og-image.webp
   alt: Binary Search Template

@@ -7,7 +7,7 @@ series: [System Design]
 published: true
 sitemap: true
 keywords: ["System design interview for IT companies", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/system-design-interview-for-it-companies", "/system-design-interview-for-it-companies", "/blog/system-design-interview-for-it-companies"]
+aliases: ["/blog/posts/system-design-interview-for-it-companies"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:System design interview for IT companies/og-image.webp
   alt: System design interview for IT companies

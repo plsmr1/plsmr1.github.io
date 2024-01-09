@@ -7,7 +7,7 @@ series: [Computer Science]
 published: true
 sitemap: true
 keywords: ["Graph For Beginners", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/graph-for-beginners", "/graph-for-beginners", "/blog/graph-for-beginners"]
+aliases: ["/blog/posts/graph-for-beginners"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Graph For Beginners/og-image.webp
   alt: Graph For Beginners

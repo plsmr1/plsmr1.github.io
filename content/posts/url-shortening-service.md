@@ -8,7 +8,7 @@ published: true
 sitemap: true
 math: true
 keywords: ["URL Shortening Service", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/url-shortening-service", "/url-shortening-service", "/blog/url-shortening-service"]
+aliases: ["/blog/posts/url-shortening-service"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:URL Shortening Service/og-image.webp
   alt: URL Shortening Service

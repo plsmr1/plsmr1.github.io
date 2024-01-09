@@ -7,7 +7,7 @@ series: [Computer Science, Computer Networks]
 published: true
 sitemap: true
 keywords: ["Computer Networks Notes", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/computer-networks-notes", "/computer-networks-notes", "/blog/computer-networks-notes"]
+aliases: ["/blog/posts/computer-networks-notes"]
 cover:
   image: https://spcdn.pages.dev/assets/img/computer-networks-preview-blog-banner.webp
   alt: Computer Networks Notes

@@ -7,7 +7,7 @@ series: [Computer Science, Operating System]
 published: true
 sitemap: true
 keywords: ["Operating System Notes For Placement", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/operating-system-notes-for-placement", "/operating-system-notes-for-placement", "/blog/operating-system-notes-for-placement"]
+aliases: ["/blog/posts/operating-system-notes-for-placement"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Operating System Notes For Placement/og-image.webp
   alt: Operating System Notes For Placement

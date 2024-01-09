@@ -7,7 +7,7 @@ series: [Problem Solving, LeetCode]
 published: true
 sitemap: true
 keywords: ["Leetcode Solutions Cheatsheet", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/leetcode-solutions-cheatsheet", "/leetcode-solutions-cheatsheet", "/blog/leetcode-solutions-cheatsheet"]
+aliases: ["/blog/posts/leetcode-solutions-cheatsheet"]
 cover:
   image: https://github.com/github/docs/assets/132539454/688e4b34-2055-4c63-9c22-9f71d4437350
   alt: Leetcode Solutions Cheatsheet

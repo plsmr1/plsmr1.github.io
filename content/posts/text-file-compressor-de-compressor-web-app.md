@@ -7,7 +7,7 @@ series: [Projects]
 published: true
 sitemap: true
 keywords: ["Text File Compressor De-compressor Web App", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/text-file-compressor-de-compressor-web-app", "/text-file-compressor-de-compressor-web-app", "/blog/text-file-compressor-de-compressor-web-app"]
+aliases: ["/blog/posts/text-file-compressor-de-compressor-web-app"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Text File Compressor De-compressor Web App/og-image.webp
   alt: Text File Compressor De-compressor Web App

@@ -7,7 +7,7 @@ series: [Computer Science, Certifications]
 published: true
 sitemap: true
 keywords: ["Some of My Online Courses Certificates", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/some-of-my-online-courses-certificates", "/some-of-my-online-courses-certificates", "/blog/some-of-my-online-courses-certificates"]
+aliases: ["/blog/posts/some-of-my-online-courses-certificates"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Online Courses Certificates/og-image.webp
   alt: Online Courses Certificates

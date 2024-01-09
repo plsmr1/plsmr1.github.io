@@ -8,7 +8,7 @@ series: [Blog]
 published: true
 sitemap: true
 keywords: ["SQL Joins - Inner, Left, Right and Full Joins", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/sql-joins", "/sql-joins", "/blog/sql-joins"]
+aliases: ["/blog/posts/sql-joins"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Types of SQL Joins/og-image.webp
   alt: SQL Joins

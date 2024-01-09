@@ -7,7 +7,7 @@ series: [Blog]
 published: true
 sitemap: true
 keywords: ["Open External Links in a New Window Using JavaScript", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/open-external-links-in-a-new-window-using-javascript", "/open-external-links-in-a-new-window-using-javascript", "/blog/open-external-links-in-a-new-window-using-javascript"]
+aliases: ["/blog/posts/open-external-links-in-a-new-window-using-javascript"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Open External Links in a New Window Using JavaScript/og-image.webp
   alt: Open External Links in a New Window Using JavaScript

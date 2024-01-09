@@ -7,7 +7,7 @@ series: [Computer Science]
 published: true
 sitemap: true
 keywords: ["DP for Beginners", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/dp-for-beginners", "/dp-for-beginners", "/blog/dp-for-beginners"]
+aliases: ["/blog/posts/dp-for-beginners"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:DP for Beginners/og-image.webp
   alt: DP for Beginners

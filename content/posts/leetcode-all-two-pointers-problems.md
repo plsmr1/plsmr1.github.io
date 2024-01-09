@@ -7,7 +7,7 @@ series: [Problem Solving, LeetCode]
 published: true
 sitemap: true
 keywords: ["LeetCode all two pointers problems", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/leetcode-all-two-pointers-problems", "/leetcode-all-two-pointers-problems", "/blog/leetcode-all-two-pointers-problems"]
+aliases: ["/blog/posts/leetcode-all-two-pointers-problems"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:LeetCode all two pointers problems/og-image.webp
   alt: LeetCode all two pointers problems

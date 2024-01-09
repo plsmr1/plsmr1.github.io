@@ -7,7 +7,7 @@ series: [Problem Solving, LeetCode]
 published: true
 sitemap: true
 keywords: ["LeetCode Greedy for Beginners", "Coding blog", "Computer Science"]
-aliases: ["/blog/posts/leetcode-greedy-for-beginners", "/leetcode-greedy-for-beginners", "/blog/leetcode-greedy-for-beginners"]
+aliases: ["/blog/posts/leetcode-greedy-for-beginners"]
 cover:
   image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:LeetCode Greedy for Beginners/og-image.webp
   alt: LeetCode Greedy for Beginners
