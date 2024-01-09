@@ -11,7 +11,7 @@ aliases: ["/blog/posts/data-structures-and-algorithms-for-coding-interview", "/p
 cover:
   image: https://spcdn.pages.dev/img/dsalgo.gif
   alt: dsalgo
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
      

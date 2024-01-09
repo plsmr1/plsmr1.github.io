@@ -12,7 +12,7 @@ aliases: ["/blog/posts/system-design-course", "/posts/system-design"]
 cover:
   image: https://spcdn.pages.dev/img/Getting-Started-with-System-Design-samirpaulb-assets.webp
   alt: System-Design
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
   
