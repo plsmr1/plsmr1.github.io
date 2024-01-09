@@ -10,7 +10,7 @@ author: ["Samir Paul"]
 keywords: ["Real-Time Voice Translator", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/real-time-voice-translator", "/real-time-voice-translator"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Real-Time Voice Translator/og-image.webp
+  image: https://spcdn.pages.dev/real-time-voice-translator-og-image.webp
   alt: Real-Time Voice Translator
   hiddenInList: true
   hiddenInSingle: false
