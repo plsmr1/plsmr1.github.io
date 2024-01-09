@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://samirpaulb.github.io/tags/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Online PDF Compression Tool</title>
       <link>https://samirpaulb.github.io/posts/online-pdf-compression-tool/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://samirpaulb.github.io/posts/online-pdf-compression-tool/</guid>
       <description>Online PDF Compression Tool</description>
       <content:encoded><![CDATA[<h3 id="about-the-project">About The Project:</h3>
@@ -182,7 +182,7 @@ Here’s the Python code for the Flask application.</p>
     <item>
       <title>Text File Compressor De-compressor Web App</title>
       <link>https://samirpaulb.github.io/posts/text-file-compressor-de-compressor-web-app/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 12 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://samirpaulb.github.io/posts/text-file-compressor-de-compressor-web-app/</guid>
       <description>Text File Compressor De-compressor Web App</description>
       <content:encoded><![CDATA[<ul>

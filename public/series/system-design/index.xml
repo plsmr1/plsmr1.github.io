@@ -4459,278 +4459,9 @@ $$</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>System design interview for IT companies</title>
-      <link>https://samirpaulb.github.io/posts/system-design-interview-for-it-companies/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/posts/system-design-interview-for-it-companies/</guid>
-      <description>System design interview for IT companies</description>
-      <content:encoded><![CDATA[<p><img loading="lazy" src="https://spcdn.pages.dev/assets/img/system-design/systemcycle.png" alt="system development life cycle"  />
-</p>
-<blockquote>
-<p>How to prepare system design questions for an IT company</p>
-</blockquote>
-<p>Original source and Credit: <a href="https://github.com/checkcheckzz/system-design-interview">github.com/checkcheckzz/system-design-interview</a></p>
-<hr>
-<p>System design is a very broad topic. Even a software engineer with many years of working experience at a top IT company may not be an expert on system design. If you want to become an expert, you need to read many books, articles, and solve real large scale system design problems.</p>
-<p>This repository only teaches you how to handle the system design interview with a systematic approach in a short time. You can dive into each topic if you have time. Of course, welcome to add your thoughts!</p>
-<h3 id="system-design-interview-tips">System Design Interview Tips:</h3>
-<p><strong>Clarify the constraints and identify the user cases</strong></p>
-<p>Spend a few minutes questioning the interviewer and agreeing on the scope of the system.
-Remember to make sure you know all the requirements the interviewer didn&rsquo;t tell you about in the beginning.</p>
-<p>User cases indicate the main functions of the system, and constraints list the scale of the system such as requests
-per second, requests types, data written per second, data read per second.</p>
-<p><strong>High-level architecture design</strong></p>
-<p>Sketch the important components and the connections between them, but don&rsquo;t go into some details.
-Usually, a scalable system includes webserver (load balancer), service (service partition), database (primary/secondary database cluster plug cache).</p>
-<p><strong>Component design</strong></p>
-<p>For each component, you need to write the specific APIs for each component. You may need to finish
-the detailed OOD design for a particular function. You may also need to design the database schema for the database.</p>
-<h3 id="basic-knowledge-about-system-design">Basic Knowledge about System Design:</h3>
-<p>Here are some articles about system design related topics.</p>
-<ul>
-<li><a href="https://blog.pramp.com/system-design-interview-process-e91aae2dbe83">The Anatomy Of A System Design Interview</a></li>
-<li><a href="https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26">How to Succeed in a System Design Interview</a></li>
-<li><a href="https://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/">How to Rock a Systems Design Interview</a></li>
-<li><a href="https://www.hiredintech.com/app#system-design">System Interview</a></li>
-<li><a href="https://www.lecloud.net/tagged/scalability">Scalability for Dummies</a></li>
-<li><a href="https://www.aosabook.org/en/distsys.html">Scalable Web Architecture and Distributed Systems</a></li>
-<li><a href="https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/">Numbers Everyone Should Know</a></li>
-<li><a href="https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf">Fallacies of distributed systems</a></li>
-<li><a href="https://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Scalable System Design Patterns</a></li>
-<li><a href="https://lethain.com/introduction-to-architecting-systems-for-scale/">Introduction to Architecting Systems for Scale</a></li>
-<li><a href="https://snarfed.org/transactions_across_datacenters_io.html">Transactions Across Datacenters</a></li>
-<li><a href="https://ksat.me/a-plain-english-introduction-to-cap-theorem">A Plain English Introduction to CAP Theorem</a></li>
-<li><a href="https://github.com/henryr/cap-faq">The CAP FAQ</a></li>
-<li><a href="https://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf">Paxos Made Simple</a></li>
-<li><a href="https://www.tom-e-white.com/2007/11/consistent-hashing.html">Consistent Hashing</a></li>
-<li><a href="https://horicky.blogspot.com/2009/11/nosql-patterns.html">NOSQL Patterns</a></li>
-<li><a href="https://www.slideshare.net/jboner/scalability-availability-stability-patterns">Scalability, Availability &amp; Stability Patterns</a></li>
-</ul>
-<p>Of course, if you want to dive into system related topics, here is a good collection of reading list about <a href="https://github.com/mmcgrana/services-engineering">services-engineering</a>, and
-a good collection of material about <a href="https://dancres.github.io/Pages/">distributed systems</a>.</p>
-<h3 id="company-engineering-blogs">Company Engineering Blogs:</h3>
-<p>If you are going to have an onsite with a company, you should read their engineering blog.</p>
-<ul>
-<li><a href="https://highscalability.com/">High Scalability</a></li>
-<li><a href="https://github.com/blog/category/engineering">The GitHub Blog</a></li>
-<li><a href="https://engineering.quora.com/">Engineering at Quora</a></li>
-<li><a href="https://engineeringblog.yelp.com/">Yelp Engineering Blog</a></li>
-<li><a href="https://engineering.twitter.com/">Twitter Engineering</a></li>
-<li><a href="https://www.facebook.com/Engineering">Facebook Engineering</a></li>
-<li><a href="https://eng.yammer.com/blog/">Yammer Engineering</a></li>
-<li><a href="https://codeascraft.com/">Etsy Code as Craft</a></li>
-<li><a href="https://engineering.foursquare.com/">Foursquare Engineering Blog</a></li>
-<li><a href="https://medium.com/airbnb-engineering">Airbnb Engineering</a></li>
-<li><a href="https://engineering.webengage.com/">WebEngage Engineering Blog</a></li>
-<li><a href="https://engineering.linkedin.com/blog">LinkedIn Engineering</a></li>
-<li><a href="https://techblog.netflix.com/">The Netflix Tech Blog</a></li>
-<li><a href="https://www.simple.com/engineering/">BankSimple Simple Blog</a></li>
-<li><a href="https://corner.squareup.com/">Square The Corner</a></li>
-<li><a href="https://developers.soundcloud.com/blog/">SoundCloud Backstage Blog</a></li>
-<li><a href="https://code.flickr.net/">Flickr Code</a></li>
-<li><a href="https://instagram-engineering.tumblr.com/">Instagram Engineering</a></li>
-<li><a href="https://tech.dropbox.com/">Dropbox Tech Blog</a></li>
-<li><a href="https://blog.cloudera.com/">Cloudera Developer Blog</a></li>
-<li><a href="https://bandcamptech.wordpress.com/">Bandcamp Tech</a></li>
-<li><a href="https://tech.oyster.com/">Oyster Tech Blog</a></li>
-<li><a href="https://www.redditblog.com/">THE REDDIT BLOG</a></li>
-<li><a href="https://engineering.groupon.com/">Groupon Engineering Blog</a></li>
-<li><a href="https://devblog.songkick.com/">Songkick Technology Blog</a></li>
-<li><a href="https://ai.googleblog.com/">Google AI Blog</a></li>
-<li><a href="https://developers.googleblog.com/">Google Developers Blog</a></li>
-<li><a href="https://engineering.pinterest.com/">Pinterest Engineering Blog</a></li>
-<li><a href="https://www.twilio.com/engineering">Twilio Engineering Blog</a></li>
-<li><a href="https://word.bitly.com/">Bitly Engineering Blog</a></li>
-<li><a href="https://eng.uber.com/">Uber Engineering Blog </a></li>
-<li><a href="https://engineering.godaddy.com/">Godaddy Engineering</a></li>
-<li><a href="https://blogs.splunk.com/">Splunk Blog</a></li>
-<li><a href="https://building.coursera.org/">Coursera Engineering Blog</a></li>
-<li><a href="https://www.paypal-engineering.com/">PayPal Engineering Blog</a></li>
-<li><a href="https://engblog.nextdoor.com/">Nextdoor Engineering Blog</a></li>
-<li><a href="https://blog.booking.com/">Booking.com Development Blog</a></li>
-<li><a href="https://engineering.microsoft.com/">Microsoft Engineering Blog</a></li>
-<li><a href="https://blog.scalyr.com/">Scalyr Engineering Blog</a></li>
-<li><a href="https://medium.com/myntra-engineering">Myntra Engineering Blog</a></li>
-<li><a href="https://www.fastly.com/blog/">Fastly Blog</a></li>
-<li><a href="https://aws.amazon.com/blogs/architecture/">AWS Architecture Blog</a></li>
-<li><a href="https://eng.lyft.com/">Lyft Engineering Blog</a></li>
-<li><a href="https://medium.com/wish-engineering">Wish Engineering</a></li>
-<li><a href="https://doordash.engineering/">Doordash Engineering</a></li>
-<li><a href="https://community.snowflake.com/s/blog">SnowFlake Blog</a></li>
-<li><a href="https://medium.com/palantir/tech/home">Palantir Blog</a></li>
-</ul>
-<h3 id="products-and-systems">Products and Systems:</h3>
-<p>The following papers/articles/slides can help you to understand the general design idea of different real products and systems.</p>
-<ul>
-<li><a href="https://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/mapreduce-osdi04.pdf">MapReduce: Simplified Data Processing on Large Clusters</a></li>
-<li><a href="https://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf">Bigtable: A Distributed Storage System for Structured Data</a></li>
-<li><a href="https://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/gfs-sosp2003.pdf">The Google File System</a></li>
-<li><a href="https://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/archive/chubby-osdi06.pdf">The Chubby lock service for loosely-coupled distributed systems</a></li>
-<li><a href="https://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf">Dynamo: Amazon&rsquo;s Highly Available Key-value Store</a></li>
-<li><a href="https://www.slideshare.net/oemebamo/introduction-to-memcached">Introduction to Memcached</a></li>
-<li><a href="https://www.slideshare.net/planetcassandra/cassandra-introduction-features-30103666">Cassandra Introduction Features</a></li>
-<li><a href="https://www.slideshare.net/alexbaranau/intro-to-hbase">Introduction to HBase</a></li>
-<li><a href="https://www.slideshare.net/mdirolf/introduction-to-mongodb">Introduction to MongoDB</a></li>
-<li><a href="https://www.slideshare.net/dvirsky/introduction-to-redis">Introduction to Redis</a></li>
-<li><a href="https://www.slideshare.net/previa/storm-16094009">Storm</a></li>
-<li><a href="https://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper">Introduction to Zookeeper</a></li>
-<li><a href="https://www.slideshare.net/mumrah/kafka-talk-tri-hug">Kafka</a></li>
-<li><a href="https://highscalability.com/youtube-architecture">YouTube Architecture</a></li>
-<li><a href="https://highscalability.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html">Scaling Pinterest</a></li>
-<li><a href="https://highscalability.com/google-architecture">Google Architecture</a></li>
-<li><a href="https://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster">Scaling Twitter</a></li>
-<li><a href="https://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html">The WhatsApp Architecture</a></li>
-<li><a href="https://highscalability.com/flickr-architecture">Flickr Architecture</a></li>
-<li><a href="https://highscalability.com/amazon-architecture">Amazon Architecture</a></li>
-<li><a href="https://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html">Stack Overflow Architecture</a></li>
-<li><a href="https://highscalability.com/blog/2012/5/21/pinterest-architecture-update-18-million-visitors-10x-growth.html">Pinterest Architecture</a></li>
-<li><a href="https://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html">Tumblr Architecture</a></li>
-<li><a href="https://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html">Instagram Architecture</a></li>
-<li><a href="https://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html">TripAdvisor Architecture</a></li>
-<li><a href="https://highscalability.com/blog/2013/6/18/scaling-mailbox-from-0-to-one-million-users-in-6-weeks-and-1.html">Scaling Mailbox</a></li>
-<li><a href="https://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html">Salesforce Architecture </a></li>
-<li><a href="https://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html">ESPN Architecture</a></li>
-<li><a href="https://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html">Uber Architecture</a></li>
-<li><a href="https://www.youtube.com/watch?v=PE4gwstWhmc">DropBox Design</a></li>
-<li><a href="https://www.splunk.com/view/SP-CAAABF9">Splunk Architecture</a></li>
-</ul>
-<h3 id="hot-questions-and-reference">Hot Questions and Reference:</h3>
-<p>There are some good references for each question. The references here are slides and articles.</p>
-<p><strong>Design a CDN network</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://kilthub.cmu.edu/articles/journal_contribution/Globally_distributed_content_delivery/6605972">Globally Distributed Content Delivery</a></li>
-</ul>
-<p><strong>Design a Google document system</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://code.google.com/p/google-mobwrite/">google-mobwrite</a></li>
-<li><a href="https://neil.fraser.name/writing/sync/">Differential Synchronization</a></li>
-</ul>
-<p><strong>Design a random ID generation system</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://blog.twitter.com/2010/announcing-snowflake">Announcing Snowflake</a></li>
-<li><a href="https://github.com/twitter/snowflake/">snowflake</a></li>
-</ul>
-<p><strong>Design a key-value database</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://www.slideshare.net/dvirsky/introduction-to-redis">Introduction to Redis</a></li>
-</ul>
-<p><strong>Design the Facebook news feed function</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://www.quora.com/What-are-best-practices-for-building-something-like-a-News-Feed">What are best practices for building something like a News Feed?</a></li>
-<li><a href="https://www.quora.com/Activity-Streams/What-are-the-scaling-issues-to-keep-in-mind-while-developing-a-social-network-feed">What are the scaling issues to keep in mind while developing a social network feed?</a></li>
-<li><a href="https://www.slideshare.net/danmckinley/etsy-activity-feeds-architecture">Activity Feeds Architecture</a></li>
-</ul>
-<p><strong>Design the Facebook timeline function</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://www.facebook.com/note.php?note_id=10150468255628920">Building Timeline</a></li>
-<li><a href="https://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html">Facebook Timeline</a></li>
-</ul>
-<p><strong>Design a function to return the top k requests during past time interval</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://www.cse.ust.hk/~raywong/comp5331/References/EfficientComputationOfFrequentAndTop-kElementsInDataStreams.pdf">Efficient Computation of Frequent and Top-k Elements in Data Streams</a></li>
-<li><a href="https://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf">An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows</a></li>
-</ul>
-<p><strong>Design an online multiplayer card game</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html">How to Create an Asynchronous Multiplayer Game</a></li>
-<li><a href="https://www.indieflashblog.com/how-to-create-async-part2.html">How to Create an Asynchronous Multiplayer Game Part 2: Saving the Game State to Online Database</a></li>
-<li><a href="https://www.indieflashblog.com/how-to-create-async-part3.html">How to Create an Asynchronous Multiplayer Game Part 3: Loading Games from the Database</a></li>
-<li><a href="https://www.indieflashblog.com/how-to-create-async-part4-html.html#comment-4447">How to Create an Asynchronous Multiplayer Game Part 4: Matchmaking</a></li>
-<li><a href="https://buildnewgames.com/real-time-multiplayer/">Real Time Multiplayer in HTML5</a></li>
-</ul>
-<p><strong>Design a graph search function</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920">Building out the infrastructure for Graph Search</a></li>
-<li><a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920">Indexing and ranking in Graph Search</a></li>
-<li><a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920">The natural language interface of Graph Search</a> and <a href="https://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf">Erlang at Facebook</a></li>
-</ul>
-<p><strong>Design a picture sharing system</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://highscalability.com/flickr-architecture">Flickr Architecture</a></li>
-<li><a href="https://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html">Instagram Architecture</a></li>
-</ul>
-<p><strong>Design a search engine</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://programmers.stackexchange.com/questions/38324/interview-question-how-would-you-implement-google-search">How would you implement Google Search?</a></li>
-<li><a href="https://www.ardendertat.com/2012/01/11/implementing-search-engines/">Implementing Search Engines</a></li>
-</ul>
-<p><strong>Design a recommendation system</strong><br>
-Reference:</p>
-<ul>
-<li><a href="https://tech.hulu.com/blog/2011/09/19/recommendation-system.html">Hulu’s Recommendation System</a></li>
-<li><a href="https://ijcai13.org/files/tutorial_slides/td3.pdf">Recommender Systems</a></li>
-</ul>
-<p><strong>Design a tinyurl system</strong> <br>
-Reference:</p>
-<ul>
-<li><a href="https://n00tc0d3r.blogspot.com/">System Design for Big Data-tinyurl</a></li>
-<li><a href="https://developers.google.com/url-shortener/?csw=1">URL Shortener API</a></li>
-</ul>
-<p><strong>Design a garbage collection system</strong> <br>
-Reference:</p>
-<ul>
-<li><a href="https://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/">Baby&rsquo;s First Garbage Collector</a></li>
-</ul>
-<p><strong>Design a scalable web crawling system</strong> <br>
-Reference:</p>
-<ul>
-<li><a href="https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch">How can I build a web crawler from scratch?</a></li>
-</ul>
-<p><strong>Design the Facebook chat function</strong> <br>
-Reference:</p>
-<ul>
-<li><a href="https://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf">Erlang at Facebook</a></li>
-<li><a href="https://www.facebook.com/note.php?note_id=14218138919&amp;id=9445547199&amp;index=0">Facebook Chat</a></li>
-</ul>
-<p><strong>Design a trending topic system</strong> <br>
-Reference:</p>
-<ul>
-<li><a href="https://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/">Implementing Real-Time Trending Topics With a Distributed Rolling Count Algorithm in Storm</a></li>
-<li><a href="https://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/">Early detection of Twitter trends explained</a></li>
-</ul>
-<p><strong>Design a cache system</strong> <br>
-Reference:</p>
-<ul>
-<li><a href="https://www.slideshare.net/oemebamo/introduction-to-memcached">Introduction to Memcached</a></li>
-</ul>
-<h3 id="good-books">Good Books:</h3>
-<ul>
-<li><a href="https://www.amazon.com/Big-Data-Principles-practices-scalable/dp/1617290343">Big Data: Principles and best practices of scalable realtime data systems</a></li>
-<li><a href="https://www.amazon.com/Real-Time-Analytics-Techniques-Visualize-Streaming/dp/1118837916">Real-Time Analytics: Techniques to Analyze and Visualize Streaming Data</a></li>
-<li><a href="https://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950358">Building Microservices: Designing Fine-Grained Systems</a></li>
-<li><a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321">Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems</a></li>
-</ul>
-<h3 id="object-oriented-design">Object Oriented Design:</h3>
-<h4 id="tips-for-ood-interview">Tips for OOD Interview</h4>
-<p><strong>Clarify the scenario, write out user cases</strong></p>
-<p>Use case is a description of sequences of events that, taken together, lead to a system doing something useful. Who is going to use it and how they are going to use it. The system may be very simple or very complicated.</p>
-<p>Special system requirements such as multi-threading, read or write oriented.</p>
-<p><strong>Define objects</strong></p>
-<p>Map identity to class: one scenario for one class, each core object in this scenario for one class.</p>
-<p>Consider the relationships among classes: certain class must have unique instance, one object has many other objects (composition), one object is another object (inheritance).</p>
-<p>Identify attributes for each class: change noun to variable and action to methods.</p>
-<p>Use design patterns such that it can be reused in multiple applications.</p>
-<h4 id="useful-websites">Useful Websites</h4>
-<ul>
-<li><a href="https://sourcemaking.com/design-patterns-and-tips">101 Design Patterns &amp; Tips for Developers</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>URL Shortening Service</title>
       <link>https://samirpaulb.github.io/posts/url-shortening-service/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://samirpaulb.github.io/posts/url-shortening-service/</guid>
       <description>URL Shortening Service</description>
       <content:encoded><![CDATA[<h1 id="designing-a-url-shortening-service-like-tinyurl">Designing a URL Shortening service like TinyURL</h1>
@@ -5142,6 +4873,275 @@ If a user does not have permission and tries to access a URL, we can send an err
 Given that we are storing our data in a NoSQL wide-column database like Cassandra, the key for the table
 storing permissions would be the &lsquo;Hash&rsquo; (or the KGS generated &lsquo;key&rsquo;). The columns will store the UserIDs
 of those users that have the permission to see the URL.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>System design interview for IT companies</title>
+      <link>https://samirpaulb.github.io/posts/system-design-interview-for-it-companies/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://samirpaulb.github.io/posts/system-design-interview-for-it-companies/</guid>
+      <description>System design interview for IT companies</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="https://spcdn.pages.dev/assets/img/system-design/systemcycle.png" alt="system development life cycle"  />
+</p>
+<blockquote>
+<p>How to prepare system design questions for an IT company</p>
+</blockquote>
+<p>Original source and Credit: <a href="https://github.com/checkcheckzz/system-design-interview">github.com/checkcheckzz/system-design-interview</a></p>
+<hr>
+<p>System design is a very broad topic. Even a software engineer with many years of working experience at a top IT company may not be an expert on system design. If you want to become an expert, you need to read many books, articles, and solve real large scale system design problems.</p>
+<p>This repository only teaches you how to handle the system design interview with a systematic approach in a short time. You can dive into each topic if you have time. Of course, welcome to add your thoughts!</p>
+<h3 id="system-design-interview-tips">System Design Interview Tips:</h3>
+<p><strong>Clarify the constraints and identify the user cases</strong></p>
+<p>Spend a few minutes questioning the interviewer and agreeing on the scope of the system.
+Remember to make sure you know all the requirements the interviewer didn&rsquo;t tell you about in the beginning.</p>
+<p>User cases indicate the main functions of the system, and constraints list the scale of the system such as requests
+per second, requests types, data written per second, data read per second.</p>
+<p><strong>High-level architecture design</strong></p>
+<p>Sketch the important components and the connections between them, but don&rsquo;t go into some details.
+Usually, a scalable system includes webserver (load balancer), service (service partition), database (primary/secondary database cluster plug cache).</p>
+<p><strong>Component design</strong></p>
+<p>For each component, you need to write the specific APIs for each component. You may need to finish
+the detailed OOD design for a particular function. You may also need to design the database schema for the database.</p>
+<h3 id="basic-knowledge-about-system-design">Basic Knowledge about System Design:</h3>
+<p>Here are some articles about system design related topics.</p>
+<ul>
+<li><a href="https://blog.pramp.com/system-design-interview-process-e91aae2dbe83">The Anatomy Of A System Design Interview</a></li>
+<li><a href="https://blog.pramp.com/how-to-succeed-in-a-system-design-interview-27b35de0df26">How to Succeed in a System Design Interview</a></li>
+<li><a href="https://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/">How to Rock a Systems Design Interview</a></li>
+<li><a href="https://www.hiredintech.com/app#system-design">System Interview</a></li>
+<li><a href="https://www.lecloud.net/tagged/scalability">Scalability for Dummies</a></li>
+<li><a href="https://www.aosabook.org/en/distsys.html">Scalable Web Architecture and Distributed Systems</a></li>
+<li><a href="https://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/">Numbers Everyone Should Know</a></li>
+<li><a href="https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf">Fallacies of distributed systems</a></li>
+<li><a href="https://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Scalable System Design Patterns</a></li>
+<li><a href="https://lethain.com/introduction-to-architecting-systems-for-scale/">Introduction to Architecting Systems for Scale</a></li>
+<li><a href="https://snarfed.org/transactions_across_datacenters_io.html">Transactions Across Datacenters</a></li>
+<li><a href="https://ksat.me/a-plain-english-introduction-to-cap-theorem">A Plain English Introduction to CAP Theorem</a></li>
+<li><a href="https://github.com/henryr/cap-faq">The CAP FAQ</a></li>
+<li><a href="https://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf">Paxos Made Simple</a></li>
+<li><a href="https://www.tom-e-white.com/2007/11/consistent-hashing.html">Consistent Hashing</a></li>
+<li><a href="https://horicky.blogspot.com/2009/11/nosql-patterns.html">NOSQL Patterns</a></li>
+<li><a href="https://www.slideshare.net/jboner/scalability-availability-stability-patterns">Scalability, Availability &amp; Stability Patterns</a></li>
+</ul>
+<p>Of course, if you want to dive into system related topics, here is a good collection of reading list about <a href="https://github.com/mmcgrana/services-engineering">services-engineering</a>, and
+a good collection of material about <a href="https://dancres.github.io/Pages/">distributed systems</a>.</p>
+<h3 id="company-engineering-blogs">Company Engineering Blogs:</h3>
+<p>If you are going to have an onsite with a company, you should read their engineering blog.</p>
+<ul>
+<li><a href="https://highscalability.com/">High Scalability</a></li>
+<li><a href="https://github.com/blog/category/engineering">The GitHub Blog</a></li>
+<li><a href="https://engineering.quora.com/">Engineering at Quora</a></li>
+<li><a href="https://engineeringblog.yelp.com/">Yelp Engineering Blog</a></li>
+<li><a href="https://engineering.twitter.com/">Twitter Engineering</a></li>
+<li><a href="https://www.facebook.com/Engineering">Facebook Engineering</a></li>
+<li><a href="https://eng.yammer.com/blog/">Yammer Engineering</a></li>
+<li><a href="https://codeascraft.com/">Etsy Code as Craft</a></li>
+<li><a href="https://engineering.foursquare.com/">Foursquare Engineering Blog</a></li>
+<li><a href="https://medium.com/airbnb-engineering">Airbnb Engineering</a></li>
+<li><a href="https://engineering.webengage.com/">WebEngage Engineering Blog</a></li>
+<li><a href="https://engineering.linkedin.com/blog">LinkedIn Engineering</a></li>
+<li><a href="https://techblog.netflix.com/">The Netflix Tech Blog</a></li>
+<li><a href="https://www.simple.com/engineering/">BankSimple Simple Blog</a></li>
+<li><a href="https://corner.squareup.com/">Square The Corner</a></li>
+<li><a href="https://developers.soundcloud.com/blog/">SoundCloud Backstage Blog</a></li>
+<li><a href="https://code.flickr.net/">Flickr Code</a></li>
+<li><a href="https://instagram-engineering.tumblr.com/">Instagram Engineering</a></li>
+<li><a href="https://tech.dropbox.com/">Dropbox Tech Blog</a></li>
+<li><a href="https://blog.cloudera.com/">Cloudera Developer Blog</a></li>
+<li><a href="https://bandcamptech.wordpress.com/">Bandcamp Tech</a></li>
+<li><a href="https://tech.oyster.com/">Oyster Tech Blog</a></li>
+<li><a href="https://www.redditblog.com/">THE REDDIT BLOG</a></li>
+<li><a href="https://engineering.groupon.com/">Groupon Engineering Blog</a></li>
+<li><a href="https://devblog.songkick.com/">Songkick Technology Blog</a></li>
+<li><a href="https://ai.googleblog.com/">Google AI Blog</a></li>
+<li><a href="https://developers.googleblog.com/">Google Developers Blog</a></li>
+<li><a href="https://engineering.pinterest.com/">Pinterest Engineering Blog</a></li>
+<li><a href="https://www.twilio.com/engineering">Twilio Engineering Blog</a></li>
+<li><a href="https://word.bitly.com/">Bitly Engineering Blog</a></li>
+<li><a href="https://eng.uber.com/">Uber Engineering Blog </a></li>
+<li><a href="https://engineering.godaddy.com/">Godaddy Engineering</a></li>
+<li><a href="https://blogs.splunk.com/">Splunk Blog</a></li>
+<li><a href="https://building.coursera.org/">Coursera Engineering Blog</a></li>
+<li><a href="https://www.paypal-engineering.com/">PayPal Engineering Blog</a></li>
+<li><a href="https://engblog.nextdoor.com/">Nextdoor Engineering Blog</a></li>
+<li><a href="https://blog.booking.com/">Booking.com Development Blog</a></li>
+<li><a href="https://engineering.microsoft.com/">Microsoft Engineering Blog</a></li>
+<li><a href="https://blog.scalyr.com/">Scalyr Engineering Blog</a></li>
+<li><a href="https://medium.com/myntra-engineering">Myntra Engineering Blog</a></li>
+<li><a href="https://www.fastly.com/blog/">Fastly Blog</a></li>
+<li><a href="https://aws.amazon.com/blogs/architecture/">AWS Architecture Blog</a></li>
+<li><a href="https://eng.lyft.com/">Lyft Engineering Blog</a></li>
+<li><a href="https://medium.com/wish-engineering">Wish Engineering</a></li>
+<li><a href="https://doordash.engineering/">Doordash Engineering</a></li>
+<li><a href="https://community.snowflake.com/s/blog">SnowFlake Blog</a></li>
+<li><a href="https://medium.com/palantir/tech/home">Palantir Blog</a></li>
+</ul>
+<h3 id="products-and-systems">Products and Systems:</h3>
+<p>The following papers/articles/slides can help you to understand the general design idea of different real products and systems.</p>
+<ul>
+<li><a href="https://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/mapreduce-osdi04.pdf">MapReduce: Simplified Data Processing on Large Clusters</a></li>
+<li><a href="https://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf">Bigtable: A Distributed Storage System for Structured Data</a></li>
+<li><a href="https://static.googleusercontent.com/media/research.google.com/zh-CN/us/archive/gfs-sosp2003.pdf">The Google File System</a></li>
+<li><a href="https://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/archive/chubby-osdi06.pdf">The Chubby lock service for loosely-coupled distributed systems</a></li>
+<li><a href="https://www.read.seas.harvard.edu/~kohler/class/cs239-w08/decandia07dynamo.pdf">Dynamo: Amazon&rsquo;s Highly Available Key-value Store</a></li>
+<li><a href="https://www.slideshare.net/oemebamo/introduction-to-memcached">Introduction to Memcached</a></li>
+<li><a href="https://www.slideshare.net/planetcassandra/cassandra-introduction-features-30103666">Cassandra Introduction Features</a></li>
+<li><a href="https://www.slideshare.net/alexbaranau/intro-to-hbase">Introduction to HBase</a></li>
+<li><a href="https://www.slideshare.net/mdirolf/introduction-to-mongodb">Introduction to MongoDB</a></li>
+<li><a href="https://www.slideshare.net/dvirsky/introduction-to-redis">Introduction to Redis</a></li>
+<li><a href="https://www.slideshare.net/previa/storm-16094009">Storm</a></li>
+<li><a href="https://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper">Introduction to Zookeeper</a></li>
+<li><a href="https://www.slideshare.net/mumrah/kafka-talk-tri-hug">Kafka</a></li>
+<li><a href="https://highscalability.com/youtube-architecture">YouTube Architecture</a></li>
+<li><a href="https://highscalability.com/blog/2013/4/15/scaling-pinterest-from-0-to-10s-of-billions-of-page-views-a.html">Scaling Pinterest</a></li>
+<li><a href="https://highscalability.com/google-architecture">Google Architecture</a></li>
+<li><a href="https://highscalability.com/scaling-twitter-making-twitter-10000-percent-faster">Scaling Twitter</a></li>
+<li><a href="https://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html">The WhatsApp Architecture</a></li>
+<li><a href="https://highscalability.com/flickr-architecture">Flickr Architecture</a></li>
+<li><a href="https://highscalability.com/amazon-architecture">Amazon Architecture</a></li>
+<li><a href="https://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html">Stack Overflow Architecture</a></li>
+<li><a href="https://highscalability.com/blog/2012/5/21/pinterest-architecture-update-18-million-visitors-10x-growth.html">Pinterest Architecture</a></li>
+<li><a href="https://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html">Tumblr Architecture</a></li>
+<li><a href="https://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html">Instagram Architecture</a></li>
+<li><a href="https://highscalability.com/blog/2011/6/27/tripadvisor-architecture-40m-visitors-200m-dynamic-page-view.html">TripAdvisor Architecture</a></li>
+<li><a href="https://highscalability.com/blog/2013/6/18/scaling-mailbox-from-0-to-one-million-users-in-6-weeks-and-1.html">Scaling Mailbox</a></li>
+<li><a href="https://highscalability.com/blog/2013/9/23/salesforce-architecture-how-they-handle-13-billion-transacti.html">Salesforce Architecture </a></li>
+<li><a href="https://highscalability.com/blog/2013/11/4/espns-architecture-at-scale-operating-at-100000-duh-nuh-nuhs.html">ESPN Architecture</a></li>
+<li><a href="https://highscalability.com/blog/2015/9/14/how-uber-scales-their-real-time-market-platform.html">Uber Architecture</a></li>
+<li><a href="https://www.youtube.com/watch?v=PE4gwstWhmc">DropBox Design</a></li>
+<li><a href="https://www.splunk.com/view/SP-CAAABF9">Splunk Architecture</a></li>
+</ul>
+<h3 id="hot-questions-and-reference">Hot Questions and Reference:</h3>
+<p>There are some good references for each question. The references here are slides and articles.</p>
+<p><strong>Design a CDN network</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://kilthub.cmu.edu/articles/journal_contribution/Globally_distributed_content_delivery/6605972">Globally Distributed Content Delivery</a></li>
+</ul>
+<p><strong>Design a Google document system</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://code.google.com/p/google-mobwrite/">google-mobwrite</a></li>
+<li><a href="https://neil.fraser.name/writing/sync/">Differential Synchronization</a></li>
+</ul>
+<p><strong>Design a random ID generation system</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://blog.twitter.com/2010/announcing-snowflake">Announcing Snowflake</a></li>
+<li><a href="https://github.com/twitter/snowflake/">snowflake</a></li>
+</ul>
+<p><strong>Design a key-value database</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://www.slideshare.net/dvirsky/introduction-to-redis">Introduction to Redis</a></li>
+</ul>
+<p><strong>Design the Facebook news feed function</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://www.quora.com/What-are-best-practices-for-building-something-like-a-News-Feed">What are best practices for building something like a News Feed?</a></li>
+<li><a href="https://www.quora.com/Activity-Streams/What-are-the-scaling-issues-to-keep-in-mind-while-developing-a-social-network-feed">What are the scaling issues to keep in mind while developing a social network feed?</a></li>
+<li><a href="https://www.slideshare.net/danmckinley/etsy-activity-feeds-architecture">Activity Feeds Architecture</a></li>
+</ul>
+<p><strong>Design the Facebook timeline function</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://www.facebook.com/note.php?note_id=10150468255628920">Building Timeline</a></li>
+<li><a href="https://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html">Facebook Timeline</a></li>
+</ul>
+<p><strong>Design a function to return the top k requests during past time interval</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://www.cse.ust.hk/~raywong/comp5331/References/EfficientComputationOfFrequentAndTop-kElementsInDataStreams.pdf">Efficient Computation of Frequent and Top-k Elements in Data Streams</a></li>
+<li><a href="https://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf">An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows</a></li>
+</ul>
+<p><strong>Design an online multiplayer card game</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html">How to Create an Asynchronous Multiplayer Game</a></li>
+<li><a href="https://www.indieflashblog.com/how-to-create-async-part2.html">How to Create an Asynchronous Multiplayer Game Part 2: Saving the Game State to Online Database</a></li>
+<li><a href="https://www.indieflashblog.com/how-to-create-async-part3.html">How to Create an Asynchronous Multiplayer Game Part 3: Loading Games from the Database</a></li>
+<li><a href="https://www.indieflashblog.com/how-to-create-async-part4-html.html#comment-4447">How to Create an Asynchronous Multiplayer Game Part 4: Matchmaking</a></li>
+<li><a href="https://buildnewgames.com/real-time-multiplayer/">Real Time Multiplayer in HTML5</a></li>
+</ul>
+<p><strong>Design a graph search function</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920">Building out the infrastructure for Graph Search</a></li>
+<li><a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920">Indexing and ranking in Graph Search</a></li>
+<li><a href="https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920">The natural language interface of Graph Search</a> and <a href="https://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf">Erlang at Facebook</a></li>
+</ul>
+<p><strong>Design a picture sharing system</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://highscalability.com/flickr-architecture">Flickr Architecture</a></li>
+<li><a href="https://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html">Instagram Architecture</a></li>
+</ul>
+<p><strong>Design a search engine</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://programmers.stackexchange.com/questions/38324/interview-question-how-would-you-implement-google-search">How would you implement Google Search?</a></li>
+<li><a href="https://www.ardendertat.com/2012/01/11/implementing-search-engines/">Implementing Search Engines</a></li>
+</ul>
+<p><strong>Design a recommendation system</strong><br>
+Reference:</p>
+<ul>
+<li><a href="https://tech.hulu.com/blog/2011/09/19/recommendation-system.html">Hulu’s Recommendation System</a></li>
+<li><a href="https://ijcai13.org/files/tutorial_slides/td3.pdf">Recommender Systems</a></li>
+</ul>
+<p><strong>Design a tinyurl system</strong> <br>
+Reference:</p>
+<ul>
+<li><a href="https://n00tc0d3r.blogspot.com/">System Design for Big Data-tinyurl</a></li>
+<li><a href="https://developers.google.com/url-shortener/?csw=1">URL Shortener API</a></li>
+</ul>
+<p><strong>Design a garbage collection system</strong> <br>
+Reference:</p>
+<ul>
+<li><a href="https://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/">Baby&rsquo;s First Garbage Collector</a></li>
+</ul>
+<p><strong>Design a scalable web crawling system</strong> <br>
+Reference:</p>
+<ul>
+<li><a href="https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch">How can I build a web crawler from scratch?</a></li>
+</ul>
+<p><strong>Design the Facebook chat function</strong> <br>
+Reference:</p>
+<ul>
+<li><a href="https://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf">Erlang at Facebook</a></li>
+<li><a href="https://www.facebook.com/note.php?note_id=14218138919&amp;id=9445547199&amp;index=0">Facebook Chat</a></li>
+</ul>
+<p><strong>Design a trending topic system</strong> <br>
+Reference:</p>
+<ul>
+<li><a href="https://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/">Implementing Real-Time Trending Topics With a Distributed Rolling Count Algorithm in Storm</a></li>
+<li><a href="https://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/">Early detection of Twitter trends explained</a></li>
+</ul>
+<p><strong>Design a cache system</strong> <br>
+Reference:</p>
+<ul>
+<li><a href="https://www.slideshare.net/oemebamo/introduction-to-memcached">Introduction to Memcached</a></li>
+</ul>
+<h3 id="good-books">Good Books:</h3>
+<ul>
+<li><a href="https://www.amazon.com/Big-Data-Principles-practices-scalable/dp/1617290343">Big Data: Principles and best practices of scalable realtime data systems</a></li>
+<li><a href="https://www.amazon.com/Real-Time-Analytics-Techniques-Visualize-Streaming/dp/1118837916">Real-Time Analytics: Techniques to Analyze and Visualize Streaming Data</a></li>
+<li><a href="https://www.amazon.com/Building-Microservices-Sam-Newman/dp/1491950358">Building Microservices: Designing Fine-Grained Systems</a></li>
+<li><a href="https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321">Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems</a></li>
+</ul>
+<h3 id="object-oriented-design">Object Oriented Design:</h3>
+<h4 id="tips-for-ood-interview">Tips for OOD Interview</h4>
+<p><strong>Clarify the scenario, write out user cases</strong></p>
+<p>Use case is a description of sequences of events that, taken together, lead to a system doing something useful. Who is going to use it and how they are going to use it. The system may be very simple or very complicated.</p>
+<p>Special system requirements such as multi-threading, read or write oriented.</p>
+<p><strong>Define objects</strong></p>
+<p>Map identity to class: one scenario for one class, each core object in this scenario for one class.</p>
+<p>Consider the relationships among classes: certain class must have unique instance, one object has many other objects (composition), one object is another object (inheritance).</p>
+<p>Identify attributes for each class: change noun to variable and action to methods.</p>
+<p>Use design patterns such that it can be reused in multiple applications.</p>
+<h4 id="useful-websites">Useful Websites</h4>
+<ul>
+<li><a href="https://sourcemaking.com/design-patterns-and-tips">101 Design Patterns &amp; Tips for Developers</a></li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>

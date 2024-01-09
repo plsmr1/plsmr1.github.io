@@ -11,29 +11,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jun 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://samirpaulb.github.io/tags/computer-science/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>SQL Joins - Inner, Left, Right and Full Joins</title>
-      <link>https://samirpaulb.github.io/posts/sql-joins/</link>
-      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/posts/sql-joins/</guid>
-      <description>SQL Joins - Inner, Left, Right and Full Joins</description>
-      <content:encoded><![CDATA[<p><strong>SQL Join</strong> statement is used to combine data or rows from two or more tables based on a common field between them. Different types of Joins are as follows: </p>
-<ul>
-<li>INNER JOIN</li>
-<li>LEFT JOIN</li>
-<li>RIGHT JOIN</li>
-<li>FULL JOIN</li>
-</ul>
-<p><img loading="lazy" src="https://user-images.githubusercontent.com/77569653/227738791-78897c64-4c15-4d6a-b75a-656c6a59a5d2.png" alt="SQL Joins"  />
-</p>
-]]></content:encoded>
-    </item>
     <item>
       <title>Operating System Notes For Placement</title>
       <link>https://samirpaulb.github.io/posts/operating-system-notes-for-placement/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://samirpaulb.github.io/posts/operating-system-notes-for-placement/</guid>
       <description>Operating System Notes For Tech Placements</description>
       <content:encoded><![CDATA[<h1 id="operating-systems-overview">Operating Systems Overview</h1>
@@ -3551,6 +3534,23 @@ home, manager node controls memory</li>
 </li>
 </ul>
 <hr>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>SQL Joins - Inner, Left, Right and Full Joins</title>
+      <link>https://samirpaulb.github.io/posts/sql-joins/</link>
+      <pubDate>Wed, 20 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://samirpaulb.github.io/posts/sql-joins/</guid>
+      <description>SQL Joins - Inner, Left, Right and Full Joins</description>
+      <content:encoded><![CDATA[<p><strong>SQL Join</strong> statement is used to combine data or rows from two or more tables based on a common field between them. Different types of Joins are as follows: </p>
+<ul>
+<li>INNER JOIN</li>
+<li>LEFT JOIN</li>
+<li>RIGHT JOIN</li>
+<li>FULL JOIN</li>
+</ul>
+<p><img loading="lazy" src="https://user-images.githubusercontent.com/77569653/227738791-78897c64-4c15-4d6a-b75a-656c6a59a5d2.png" alt="SQL Joins"  />
+</p>
 ]]></content:encoded>
     </item>
     <item>

@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 May 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Apr 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://samirpaulb.github.io/tags/pyshooter/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PyShooter Python Game</title>
       <link>https://samirpaulb.github.io/posts/pyshooter/</link>
-      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://samirpaulb.github.io/posts/pyshooter/</guid>
       <description>PyShooter Python two-dimensional shooter game</description>
       <content:encoded><![CDATA[<p><a href="https://www.python.org"><img loading="lazy" src="https://img.shields.io/badge/language-python-blue.svg?style=flat" alt="Language"  />
