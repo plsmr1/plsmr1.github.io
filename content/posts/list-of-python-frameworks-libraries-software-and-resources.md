@@ -2,8 +2,8 @@
 title: List of Python Frameworks Libraries Software and Resources
 summary: List of Python Frameworks Libraries Software and Resources
 date: 2022-05-20
-series: [Python, Frameworks and Libraries]
 tags: [python, python-frameworks-libraries]
+series: [Python, Frameworks and Libraries]
 published: true
 sitemap: true
 keywords: ["List of Python Frameworks Libraries Software and Resources", "Coding blog", "Computer Science"]

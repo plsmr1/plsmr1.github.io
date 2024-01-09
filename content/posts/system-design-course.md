@@ -2,8 +2,8 @@
 title: System Design Course
 summary: System Design Course
 date: 2023-07-07
-series: [System Design, Full Course]
 tags: [system-design,distributed-systems]
+series: [System Design, Full Course]
 published: true
 sitemap: true
 math: true

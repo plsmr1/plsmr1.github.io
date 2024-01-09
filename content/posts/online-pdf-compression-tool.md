@@ -2,8 +2,8 @@
 title: Online PDF Compression Tool
 summary: Online PDF Compression Tool
 date: 2022-05-20
-series: [Projects]
 tags: [project, online-pdf-compressor]
+series: [Projects]
 published: true
 sitemap: true
 keywords: ["Online PDF Compression Tool", "Coding blog", "Computer Science"]

@@ -2,8 +2,8 @@
 title: Lists of Technical Interview Questions
 summary: Lists of Technical Interview Questions
 date: 2022-05-20
-series: [Interview]
 tags: [Interview]
+series: [Interview]
 published: true
 sitemap: true
 keywords: ["Lists of Technical Interview Questions", "Coding blog", "Computer Science"]

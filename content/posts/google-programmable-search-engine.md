@@ -2,8 +2,8 @@
 title: "Google Programmable Search Engine"
 summary: "Google Programmable Search Engine"
 date: 2021-01-20
-series: [Blog]
 tags: [blog, google-search, programmable-search-engine]
+series: [Blog]
 published: true
 sitemap: true
 keywords: ["Google Programmable Search Engine", "Coding blog", "Computer Science"]

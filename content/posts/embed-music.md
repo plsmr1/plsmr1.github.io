@@ -2,8 +2,8 @@
 title: "Embed MusicApp"
 description: "Embed MusicApp"
 date: 2021-01-20
-categories: [Blog]
 tags: [blog, music-player]
+categories: [Blog]
 published: true
 sitemap: true
 keywords: ["Embed MusicApp", "Coding blog", "Computer Science"]

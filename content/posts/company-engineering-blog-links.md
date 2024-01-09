@@ -2,8 +2,8 @@
 title: "Company engineering blog links"
 summary: "Company engineering blog links"
 date: 2021-01-20
-series: [System Design]
 tags: [system-design, design-interview, preparation]
+series: [System Design]
 author: ["Samir Paul"]
 keywords: ["Company engineering blog links", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/company-engineering-blog-links", "/company-engineering-blog-links", "/blog/company-engineering-blog-links"]

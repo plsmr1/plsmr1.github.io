@@ -2,8 +2,8 @@
 title: "DP for Beginners"
 summary: "DP for Beginners"
 date: 2021-01-20
-series: [Computer Science]
 tags: [computer-science, dsa]
+series: [Computer Science]
 published: true
 sitemap: true
 keywords: ["DP for Beginners", "Coding blog", "Computer Science"]

@@ -30,12 +30,12 @@ languages:
         - name: Archive
           url: archives
           weight: 5
-        - name: Search
-          url: search/
-          weight: 10
         - name: Tags
           url: tags/
           weight: 10
+        - name: Search
+          url: search/
+          weight: 15
 
 outputs:
   home:
@@ -65,9 +65,9 @@ params:
   ShowPageNums: true
   ShowToc: true
   TocOpen: false
-  # comments: false
-  # hidemeta: false
-  # hideFooter: false
+  comments: false
+  hidemeta: false
+  hideFooter: false
   images: ["https://spcdn.pages.dev/blog-featured-image-samirpaul-in-blog.webp"]
 
   profileMode:
@@ -105,7 +105,8 @@ params:
     - name: Instagram
       title: Be my Friend
       url: "https://www.instagram.com/SamirPaulb"
-    - name: Rss
+    - name: RSS
+      title: RSS Feeds
       url: "index.xml"
 
   # editPost:

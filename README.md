@@ -27,7 +27,7 @@ https://github.com/adityatelange/hugo-PaperMod/compare/master...SamirPaulb:hugo-
 5. About in homepage and 5 paginations.
 6. Open external links in new tab https://blog.adriaan.io/open-external-links-in-a-new-tab-in-javascript.html
 7. Code block colour ```assets/css/extended/dracula.css```
-8. Progressive Web App: https://ruddra.com/hugo-implement-pwa/  and  https://discourse.gohugo.io/t/simple-implementation-of-progressive-web-apps-pwa-on-hugo-website/39952
+8. Progressive Web App: https://conight.com/posts/hugo-with-progressive-web-app/
 9. Remove Powered by Hugo on footer
 10. Add p:domain_verify and norton-safeweb-site-verification on ```layouts/partials/head.html```
 11. Refer sitemaps link, rss feed link and  manifest.json on ```layouts/partials/head.html```

@@ -2,8 +2,8 @@
 title: Computer Networks Notes
 summary: Computer Networks Notes
 date: 2021-01-20
-series: [Computer Science, Computer Networks]
 tags: [computer-networks]
+series: [Computer Science, Computer Networks]
 published: true
 sitemap: true
 keywords: ["Computer Networks Notes", "Coding blog", "Computer Science"]

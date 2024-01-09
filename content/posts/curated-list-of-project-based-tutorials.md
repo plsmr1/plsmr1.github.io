@@ -2,8 +2,8 @@
 title: Curated List of Project Based Tutorials
 summary: Curated List of Project Based Tutorials
 date: 2021-02-20
-series: [Computer Science, Projects]
 tags: [projects]
+series: [Computer Science, Projects]
 published: true
 sitemap: true
 keywords: ["Curated List of Project Based Tutorials", "Coding blog", "Computer Science"]

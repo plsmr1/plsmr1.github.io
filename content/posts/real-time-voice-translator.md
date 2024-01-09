@@ -2,8 +2,8 @@
 title: "Real-Time Voice🎙️ Translator🔊"
 summary: "Real-Time Voice Translator"
 date: 2024-01-01
-series: [Projects]
 tags: [python, voice-translator]
+series: [Projects]
 published: true
 sitemap: true
 keywords: ["Real-Time Voice Translator", "Coding blog", "Computer Science"]

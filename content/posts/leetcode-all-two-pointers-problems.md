@@ -2,8 +2,8 @@
 title: "LeetCode all two pointers problems"
 summary: "LeetCode all two pointers problems"
 date: 2021-02-20
-series: [Problem Solving, LeetCode]
 tags: [leetcode]
+series: [Problem Solving, LeetCode]
 published: true
 sitemap: true
 keywords: ["LeetCode all two pointers problems", "Coding blog", "Computer Science"]

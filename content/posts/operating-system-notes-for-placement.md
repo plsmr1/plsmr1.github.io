@@ -2,8 +2,8 @@
 title: "Operating System Notes For Placement"
 summary: "Operating System Notes For Tech Placements"
 date: 2022-05-20
-series: [Computer Science, Operating System]
 tags: [computer-science, Operating System]
+series: [Computer Science, Operating System]
 published: true
 sitemap: true
 keywords: ["Operating System Notes For Placement", "Coding blog", "Computer Science"]

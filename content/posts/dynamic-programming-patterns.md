@@ -2,8 +2,8 @@
 title: "Dynamic Programming Patterns"
 summary: "Dynamic Programming Patterns"
 date: 2021-01-20
-series: [Computer Science]
 tags: [Dynamic Programming, Patterns]
+series: [Computer Science]
 published: true
 sitemap: true
 keywords: ["Dynamic Programming Patterns", "Coding blog", "Computer Science"]

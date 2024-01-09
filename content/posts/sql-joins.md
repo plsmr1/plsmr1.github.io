@@ -3,8 +3,8 @@ layout: post
 title: "SQL Joins - Inner, Left, Right and Full Joins"
 summary: "SQL Joins - Inner, Left, Right and Full Joins"
 date: 2022-07-20
-series: [Blog]
 tags: [computer-science, sql]
+series: [Blog]
 published: true
 sitemap: true
 keywords: ["SQL Joins - Inner, Left, Right and Full Joins", "Coding blog", "Computer Science"]

@@ -2,8 +2,8 @@
 title: Complete Computer Science Study Plan to Become a Software Engineer
 summary: Complete Computer Science Study Plan to Become a Software Engineer
 date: 2021-01-20
-series: [Computer Science, Study Plan]
 tags: [computer-science, study-plan, software-engineer]
+series: [Computer Science, Study Plan]
 author: ["Samir Paul"]
 keywords: ["Complete Computer Science Study Plan to Become a Software Engineer", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/complete-computer-science-study-plan-to-become-a-software-engineer", "/complete-computer-science-study-plan-to-become-a-software-engineer", "/blog/complete-computer-science-study-plan-to-become-a-software-engineer"]

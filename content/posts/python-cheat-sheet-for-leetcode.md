@@ -2,8 +2,8 @@
 title: "Python Cheat Sheet for Leetcode"
 summary: "Python Cheat Sheet for Leetcode"
 date: 2022-05-20
-series: [Blog]
 tags: [blog, python]
+series: [Blog]
 published: true
 sitemap: true
 keywords: ["Python Cheat Sheet for Leetcode", "Coding blog", "Computer Science"]

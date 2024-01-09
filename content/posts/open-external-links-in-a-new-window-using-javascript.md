@@ -2,8 +2,8 @@
 title: "Open External Links in a New Window Using JavaScript"
 summary: "Open External Links in a New Window Using JavaScript"
 date: 2022-05-20
-series: [Blog]
 tags: [blog, external-links]
+series: [Blog]
 published: true
 sitemap: true
 keywords: ["Open External Links in a New Window Using JavaScript", "Coding blog", "Computer Science"]

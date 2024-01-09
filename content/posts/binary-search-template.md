@@ -2,8 +2,10 @@
 title: Binary Search Template
 summary: Binary Search Template
 date: 2021-01-20
-series: [Computer Science]
 tags: [computer-science]
+series: [Computer Science]
+author: ["Samir Paul"]
+license: "CC BY 4.0"
 keywords: ["Binary Search Template", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/binary-search-template", "/binary-search-template", "/blog/binary-search-template"]
 cover:

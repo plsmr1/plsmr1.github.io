@@ -2,8 +2,8 @@
 title: Data Structures and Algorithms for Coding Interview
 summary: Data Structures and Algorithms for Coding Interview
 date: 2023-11-20
-series: [Computer Science, DSAlgo]
 tags: [data-structures, algorithms]
+series: [Computer Science, DSAlgo]
 published: true
 sitemap: true
 keywords: ["Data Structures and Algorithms for Coding Interview", "Coding blog", "Computer Science"]

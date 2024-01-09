@@ -2,8 +2,8 @@
 title: "Graph For Beginners"
 summary: "Graph For Beginners"
 date: 2021-01-20
-series: [Computer Science]
 tags: [computer-science, Graph]
+series: [Computer Science]
 published: true
 sitemap: true
 keywords: ["Graph For Beginners", "Coding blog", "Computer Science"]

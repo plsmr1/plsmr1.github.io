@@ -2,8 +2,8 @@
 title: "High-level design"
 summary: "High-level design"
 date: 2021-02-20
-series: [System Design]
 tags: [blog, system-design, design-interview, preparation]
+series: [System Design]
 published: true
 sitemap: true
 keywords: ["High-level design", "Coding blog", "Computer Science"]

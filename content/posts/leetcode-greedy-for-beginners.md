@@ -2,8 +2,8 @@
 title: "LeetCode Greedy for Beginners"
 summary: "LeetCode Greedy for Beginners"
 date: 2021-02-20
-series: [Problem Solving, LeetCode]
 tags: [leetcode, greedy]
+series: [Problem Solving, LeetCode]
 published: true
 sitemap: true
 keywords: ["LeetCode Greedy for Beginners", "Coding blog", "Computer Science"]

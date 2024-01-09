@@ -2,8 +2,8 @@
 title: Text File Compressor De-compressor Web App
 summary: Text File Compressor De-compressor Web App
 date: 2022-05-20
-series: [Projects]
 tags: [project, txt-compressor]
+series: [Projects]
 published: true
 sitemap: true
 keywords: ["Text File Compressor De-compressor Web App", "Coding blog", "Computer Science"]

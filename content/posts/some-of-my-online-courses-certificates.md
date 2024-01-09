@@ -2,8 +2,8 @@
 title: Some of My Online Courses Certificates
 summary: "Some of My Online Courses Certificates"
 date: 2022-09-20
-series: [Computer Science, Certifications]
 tags: [certificates]
+series: [Computer Science, Certifications]
 published: true
 sitemap: true
 keywords: ["Some of My Online Courses Certificates", "Coding blog", "Computer Science"]

@@ -2,8 +2,8 @@
 title: "System design interview for IT companies"
 summary: "System design interview for IT companies"
 date: 2022-05-20
-series: [System Design]
 tags: [blog, system-design]
+series: [System Design]
 published: true
 sitemap: true
 keywords: ["System design interview for IT companies", "Coding blog", "Computer Science"]
