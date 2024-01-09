@@ -28,6 +28,13 @@
       "type": "image/png",
       "purpose": "maskable"
     }],
+    "screenshots": [{
+       "src": "/screenshot.png",
+        "sizes": "640x320",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Wonder Widgets"
+    }],
     "start_url": "/",
     "display": "standalone",
     "orientation" : "any",
