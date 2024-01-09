@@ -186,3 +186,10 @@ By embracing these cutting-edge technologies and pursuing continuous research, R
 8.  Tomato.ai. "Tomato.ai".
     
 9.  Mohri, Mehryar, et al. "Foundations of machine learning." MIT press, 2018.
+
+
+---
+
+ This post is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Distribution and adaptation are permitted under the terms of the license, with appropriate attribution required. All rights not expressly granted are reserved. For further information, please visit [dmca.com/r/jkzgz6y](https://www.dmca.com/r/jkzgz6y).  
+
+[![DMCA.com Protection Status](https://www.dmca.com/Badges/dmca-badge-w250-5x1-06.png)](https://www.dmca.com/r/jkzgz6y)
