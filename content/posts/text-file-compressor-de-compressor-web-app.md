@@ -1,7 +1,7 @@
 ---
 title: Text File Compressor De-compressor Web App
 summary: Text File Compressor De-compressor Web App
-date: 2022-05-20
+date: 2023-03-12
 tags: [project, txt-compressor]
 series: [Projects]
 published: true

@@ -1,7 +1,7 @@
 ---
 title: Some of My Online Courses Certificates
 summary: "Some of My Online Courses Certificates"
-date: 2022-09-20
+date: 2022-12-20
 tags: [certificates]
 series: [Computer Science, Certifications]
 published: true

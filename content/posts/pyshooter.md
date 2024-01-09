@@ -1,7 +1,7 @@
 ---
 title: "PyShooter Python Game"
 summary: "PyShooter Python two-dimensional shooter game"
-date: 2022-05-20
+date: 2023-04-27
 tags: [python, projects, pyshooter]
 series: [Projects]
 published: true

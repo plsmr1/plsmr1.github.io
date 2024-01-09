@@ -1,7 +1,7 @@
 ---
 title: "URL Shortening Service"
 summary: "URL Shortening Service"
-date: 2022-05-20
+date: 2022-10-29
 tags: [blog, url-shortner, system-design]
 series: [System Design]
 published: true
