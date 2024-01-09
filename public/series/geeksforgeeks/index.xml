@@ -14,10 +14,115 @@
     <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://samirpaulb.github.io/series/geeksforgeeks/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Absolute Value</title>
-      <link>https://samirpaulb.github.io/problems/absolute-value/</link>
+      <title>1. Absolute Value</title>
+      <link>https://samirpaulb.github.io/posts/problems/1-absolute-value/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/absolute-value/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/1-absolute-value/</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Absolute Value - GeeksforGeeks Solution Explained&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      <content:encoded><![CDATA[<h1 id="1-absolute-value">1. Absolute Value</h1>
+<h2 id="easy">Easy</h2>
+<div class="problem-statement">
+                <p></p><p><span style="font-size:18px">You are given an interger <strong>I</strong>, find&nbsp;the absolute value of the interger <strong>I</strong>.</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
+<pre><span style="font-size:18px"><strong>Input</strong>:
+I = -32
+<strong>Output: </strong>32
+<strong>Explanation: 
+</strong>The absolute value of -32 is 32.</span></pre>
+<p>&nbsp;</p>
+<p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
+<pre><span style="font-size:18px"><strong>Input</strong>:
+I = 45
+<strong>Output: </strong>45
+<strong>Explanation: 
+</strong>The absolute value of 45 is 45 itself.</span></pre>
+<p>&nbsp;</p>
+<p><span style="font-size:18px"><strong>Your Task:</strong><br>
+You don't need to read input or print anything. Your task is to complete the function <strong>absolute() </strong>which takes an integer <strong>I</strong> as input parameter and return the absolute value of <strong>I.</strong></span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:18px"><strong>Expected Time Complexity:</strong> O(1)<br>
+<strong>Expected Auxiliary Space&nbsp;</strong>: O(1)</span></p>
+<p>&nbsp;</p>
+<p><span style="font-size:18px"><strong>Constraints:</strong><br>
+-10<sup>6</sup> &lt;= I &lt;= 10<sup>6</sup></span></p>
+ <p></p>
+            </div>
+<hr>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-0-1"><a class="lnlinks" href="#hl-0-1"> 1</a>
+</span><span class="lnt" id="hl-0-2"><a class="lnlinks" href="#hl-0-2"> 2</a>
+</span><span class="lnt" id="hl-0-3"><a class="lnlinks" href="#hl-0-3"> 3</a>
+</span><span class="lnt" id="hl-0-4"><a class="lnlinks" href="#hl-0-4"> 4</a>
+</span><span class="lnt" id="hl-0-5"><a class="lnlinks" href="#hl-0-5"> 5</a>
+</span><span class="lnt" id="hl-0-6"><a class="lnlinks" href="#hl-0-6"> 6</a>
+</span><span class="lnt" id="hl-0-7"><a class="lnlinks" href="#hl-0-7"> 7</a>
+</span><span class="lnt" id="hl-0-8"><a class="lnlinks" href="#hl-0-8"> 8</a>
+</span><span class="lnt" id="hl-0-9"><a class="lnlinks" href="#hl-0-9"> 9</a>
+</span><span class="lnt" id="hl-0-10"><a class="lnlinks" href="#hl-0-10">10</a>
+</span><span class="lnt" id="hl-0-11"><a class="lnlinks" href="#hl-0-11">11</a>
+</span><span class="lnt" id="hl-0-12"><a class="lnlinks" href="#hl-0-12">12</a>
+</span><span class="lnt" id="hl-0-13"><a class="lnlinks" href="#hl-0-13">13</a>
+</span><span class="lnt" id="hl-0-14"><a class="lnlinks" href="#hl-0-14">14</a>
+</span><span class="lnt" id="hl-0-15"><a class="lnlinks" href="#hl-0-15">15</a>
+</span><span class="lnt" id="hl-0-16"><a class="lnlinks" href="#hl-0-16">16</a>
+</span><span class="lnt" id="hl-0-17"><a class="lnlinks" href="#hl-0-17">17</a>
+</span><span class="lnt" id="hl-0-18"><a class="lnlinks" href="#hl-0-18">18</a>
+</span><span class="lnt" id="hl-0-19"><a class="lnlinks" href="#hl-0-19">19</a>
+</span><span class="lnt" id="hl-0-20"><a class="lnlinks" href="#hl-0-20">20</a>
+</span><span class="lnt" id="hl-0-21"><a class="lnlinks" href="#hl-0-21">21</a>
+</span><span class="lnt" id="hl-0-22"><a class="lnlinks" href="#hl-0-22">22</a>
+</span><span class="lnt" id="hl-0-23"><a class="lnlinks" href="#hl-0-23">23</a>
+</span><span class="lnt" id="hl-0-24"><a class="lnlinks" href="#hl-0-24">24</a>
+</span><span class="lnt" id="hl-0-25"><a class="lnlinks" href="#hl-0-25">25</a>
+</span><span class="lnt" id="hl-0-26"><a class="lnlinks" href="#hl-0-26">26</a>
+</span><span class="lnt" id="hl-0-27"><a class="lnlinks" href="#hl-0-27">27</a>
+</span><span class="lnt" id="hl-0-28"><a class="lnlinks" href="#hl-0-28">28</a>
+</span><span class="lnt" id="hl-0-29"><a class="lnlinks" href="#hl-0-29">29</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="c1">// { Driver Code Starts
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> <span class="c1">// } Driver Code Ends
+</span></span></span><span class="line"><span class="cl"><span class="c1">// User function Template for C++
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Solution</span><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">public</span><span class="o">:</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">absolute</span><span class="p">(</span><span class="kt">int</span> <span class="n">I</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// Your code goes here
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="k">return</span> <span class="nf">abs</span><span class="p">(</span><span class="n">I</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// { Driver Code Starts.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">T</span><span class="p">;</span>    <span class="c1">// number of testcases
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">T</span><span class="p">;</span> <span class="c1">// input number of testcases
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">while</span> <span class="p">(</span><span class="n">T</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">I</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">I</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Solution</span> <span class="n">ob</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">ob</span><span class="p">.</span><span class="n">absolute</span><span class="p">(</span><span class="n">I</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span> <span class="c1">// print the output
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>  <span class="c1">// } Driver Code Ends
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div>]]></content:encoded>
+    </item>
+    <item>
+      <title>Absolute Value</title>
+      <link>https://samirpaulb.github.io/posts/problems/absolute-value/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://samirpaulb.github.io/posts/problems/absolute-value/</guid>
       <description>Absolute Value - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="1-absolute-value">1. Absolute Value</h1>
 <h2 id="easy">Easy</h2>
@@ -117,9 +222,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Addition Of Two Numbers</title>
-      <link>https://samirpaulb.github.io/problems/addition-of-two-numbers/</link>
+      <link>https://samirpaulb.github.io/posts/problems/addition-of-two-numbers/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/addition-of-two-numbers/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/addition-of-two-numbers/</guid>
       <description>Addition Of Two Numbers - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="addition-of-two-numbers">Addition of Two Numbers</h1>
 <h2 id="easy">Easy</h2>
@@ -221,9 +326,9 @@ Addition os 10 and 20 is 30.</span></pre>
     </item>
     <item>
       <title>Allocate Minimum Number Of Pages</title>
-      <link>https://samirpaulb.github.io/problems/allocate-minimum-number-of-pages/</link>
+      <link>https://samirpaulb.github.io/posts/problems/allocate-minimum-number-of-pages/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/allocate-minimum-number-of-pages/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/allocate-minimum-number-of-pages/</guid>
       <description>Allocate Minimum Number Of Pages - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="allocate-minimum-number-of-pages">Allocate minimum number of pages</h1>
 <h2 id="hard">Hard</h2>
@@ -418,9 +523,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Array Pair Sum Divisibility Problem</title>
-      <link>https://samirpaulb.github.io/problems/array-pair-sum-divisibility-problem/</link>
+      <link>https://samirpaulb.github.io/posts/problems/array-pair-sum-divisibility-problem/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/array-pair-sum-divisibility-problem/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/array-pair-sum-divisibility-problem/</guid>
       <description>Array Pair Sum Divisibility Problem - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="array-pair-sum-divisibility-problem">Array Pair Sum Divisibility Problem</h1>
 <h2 id="easy">Easy</h2>
@@ -554,9 +659,9 @@ You don't need to read or print anything. Your task is to complete the function&
     </item>
     <item>
       <title>Binary Array Sorting</title>
-      <link>https://samirpaulb.github.io/problems/binary-array-sorting/</link>
+      <link>https://samirpaulb.github.io/posts/problems/binary-array-sorting/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/binary-array-sorting/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/binary-array-sorting/</guid>
       <description>Binary Array Sorting - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="binary-array-sorting">Binary Array Sorting</h1>
 <h2 id="easy">Easy</h2>
@@ -715,9 +820,9 @@ increasing order, elements will be
     </item>
     <item>
       <title>Bitwise Operators</title>
-      <link>https://samirpaulb.github.io/problems/bitwise-operators/</link>
+      <link>https://samirpaulb.github.io/posts/problems/bitwise-operators/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/bitwise-operators/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/bitwise-operators/</guid>
       <description>Bitwise Operators - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="bitwise-operators">Bitwise Operators</h1>
 <h2 id="easy">Easy</h2>
@@ -847,9 +952,9 @@ c = 2<br>
     </item>
     <item>
       <title>Black And White</title>
-      <link>https://samirpaulb.github.io/problems/black-and-white/</link>
+      <link>https://samirpaulb.github.io/posts/problems/black-and-white/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/black-and-white/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/black-and-white/</guid>
       <description>Black And White - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="black-and-white">Black and White</h1>
 <h2 id="medium">Medium</h2>
@@ -963,9 +1068,9 @@ Your task is to complete the function <strong>numOfWays()&nbsp;</strong>which ta
     </item>
     <item>
       <title>C&#43;&#43; Data Types</title>
-      <link>https://samirpaulb.github.io/problems/cpp-data-types/</link>
+      <link>https://samirpaulb.github.io/posts/problems/cpp-data-types/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/cpp-data-types/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/cpp-data-types/</guid>
       <description>C++ Data Types - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="c-data-types">C++ Data Types</h1>
 <h2 id="easy">Easy</h2>
@@ -1086,9 +1191,9 @@ cppFloatType() :&nbsp;</strong>read a float&nbsp;input, store it in appropriate 
     </item>
     <item>
       <title>C&#43;&#43; If Else (Decision Making)</title>
-      <link>https://samirpaulb.github.io/problems/cpp-if-else-decision-making/</link>
+      <link>https://samirpaulb.github.io/posts/problems/cpp-if-else-decision-making/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/cpp-if-else-decision-making/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/cpp-if-else-decision-making/</guid>
       <description>C++ If Else (Decision Making) - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="c-if-else-decision-making">C++ if-else (Decision Making)</h1>
 <h2 id="easy">Easy</h2>
@@ -1195,9 +1300,9 @@ If the integer is equal to 5, then print "Equal&nbsp;to 5".</span><br>
     </item>
     <item>
       <title>C&#43;&#43; Strings</title>
-      <link>https://samirpaulb.github.io/problems/cpp-strings/</link>
+      <link>https://samirpaulb.github.io/posts/problems/cpp-strings/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/cpp-strings/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/cpp-strings/</guid>
       <description>C++ Strings - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="c-strings">C++ Strings</h1>
 <h2 id="easy">Easy</h2>
@@ -1294,9 +1399,9 @@ where N is the length of a&nbsp;String</span></p>
     </item>
     <item>
       <title>C&#43;&#43; Switch Case Statement</title>
-      <link>https://samirpaulb.github.io/problems/cpp-switch-case-statement/</link>
+      <link>https://samirpaulb.github.io/posts/problems/cpp-switch-case-statement/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/cpp-switch-case-statement/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/cpp-switch-case-statement/</guid>
       <description>C++ Switch Case Statement - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="c-switch-case-statement">C++ Switch Case Statement</h1>
 <h2 id="easy">Easy</h2>
@@ -1480,9 +1585,9 @@ where N is the length of a&nbsp;String</span></p>
     </item>
     <item>
       <title>Check If Array Is Sorted</title>
-      <link>https://samirpaulb.github.io/problems/check-if-array-is-sorted/</link>
+      <link>https://samirpaulb.github.io/posts/problems/check-if-array-is-sorted/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/check-if-array-is-sorted/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/check-if-array-is-sorted/</guid>
       <description>Check If Array Is Sorted - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="check-if-array-is-sorted">Check if array is sorted</h1>
 <h2 id="easy">Easy</h2>
@@ -1625,9 +1730,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Check If It Is Possible To Convert One String Into Another With Given Constraints</title>
-      <link>https://samirpaulb.github.io/problems/check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints/</link>
+      <link>https://samirpaulb.github.io/posts/problems/check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints/</guid>
       <description>Check If It Is Possible To Convert One String Into Another With Given Constraints - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="check-if-it-is-possible-to-convert-one-string-into-another-with-given-constraints">Check if it is possible to convert one string into another with given constraints</h1>
 <h2 id="easy">Easy</h2>
@@ -1775,9 +1880,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Check If Linked List Is Palindrome</title>
-      <link>https://samirpaulb.github.io/problems/check-if-linked-list-is-palindrome/</link>
+      <link>https://samirpaulb.github.io/posts/problems/check-if-linked-list-is-palindrome/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/check-if-linked-list-is-palindrome/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/check-if-linked-list-is-palindrome/</guid>
       <description>Check If Linked List Is Palindrome - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="check-if-linked-list-is-palindrome">Check if Linked List is Palindrome</h1>
 <h2 id="medium">Medium</h2>
@@ -1991,9 +2096,9 @@ The task is to complete the function&nbsp;<strong>isPalindrome</strong>() which 
     </item>
     <item>
       <title>Check If Two Arrays Are Equal Or Not</title>
-      <link>https://samirpaulb.github.io/problems/check-if-two-arrays-are-equal-or-not/</link>
+      <link>https://samirpaulb.github.io/posts/problems/check-if-two-arrays-are-equal-or-not/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/check-if-two-arrays-are-equal-or-not/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/check-if-two-arrays-are-equal-or-not/</guid>
       <description>Check If Two Arrays Are Equal Or Not - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="check-if-two-arrays-are-equal-or-not">Check if two arrays are equal or not</h1>
 <h2 id="easy">Easy</h2>
@@ -2146,9 +2251,9 @@ Complete&nbsp;<strong>check() </strong>function which takes both the given array
     </item>
     <item>
       <title>Check Whether K Th Bit Is Set Or Not</title>
-      <link>https://samirpaulb.github.io/problems/check-whether-k-th-bit-is-set-or-not/</link>
+      <link>https://samirpaulb.github.io/posts/problems/check-whether-k-th-bit-is-set-or-not/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/check-whether-k-th-bit-is-set-or-not/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/check-whether-k-th-bit-is-set-or-not/</guid>
       <description>Check Whether K Th Bit Is Set Or Not - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="check-whether-k-th-bit-is-set-or-not">Check whether K-th bit is set or not</h1>
 <h2 id="easy">Easy</h2>
@@ -2284,9 +2389,9 @@ So, return false.</span></pre>
     </item>
     <item>
       <title>Complete Binary Tree</title>
-      <link>https://samirpaulb.github.io/problems/complete-binary-tree/</link>
+      <link>https://samirpaulb.github.io/posts/problems/complete-binary-tree/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/complete-binary-tree/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/complete-binary-tree/</guid>
       <description>Complete Binary Tree - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="complete-binary-tree">Complete Binary Tree</h1>
 <h2 id="medium">Medium</h2>
@@ -2624,9 +2729,9 @@ You don't need to take input. Just complete the function<strong> isCompleteBT() 
     </item>
     <item>
       <title>Convert String To Lowercase</title>
-      <link>https://samirpaulb.github.io/problems/convert-string-to-lowercase/</link>
+      <link>https://samirpaulb.github.io/posts/problems/convert-string-to-lowercase/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/convert-string-to-lowercase/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/convert-string-to-lowercase/</guid>
       <description>Convert String To Lowercase - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="convert-string-to-lowercase">Convert String to LowerCase</h1>
 <h2 id="easy">Easy</h2>
@@ -2737,9 +2842,9 @@ You dont need to read input or print anything. Complete the function <strong>toL
     </item>
     <item>
       <title>Count Leaves In Binary Tree</title>
-      <link>https://samirpaulb.github.io/problems/count-leaves-in-binary-tree/</link>
+      <link>https://samirpaulb.github.io/posts/problems/count-leaves-in-binary-tree/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/count-leaves-in-binary-tree/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/count-leaves-in-binary-tree/</guid>
       <description>Count Leaves In Binary Tree - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="count-leaves-in-binary-tree">Count Leaves in Binary Tree</h1>
 <h2 id="easy">Easy</h2>
@@ -3036,9 +3141,9 @@ You don't have to take input. Complete the function <strong>countLeaves()&nbsp;<
     </item>
     <item>
       <title>Count Nodes Of Linked List</title>
-      <link>https://samirpaulb.github.io/problems/count-nodes-of-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/count-nodes-of-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/count-nodes-of-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/count-nodes-of-linked-list/</guid>
       <description>Count Nodes Of Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="count-nodes-of-linked-list">Count nodes of linked list</h1>
 <h2 id="easy">Easy</h2>
@@ -3221,9 +3326,9 @@ Your task is to complete the given function <strong>getCount</strong>(), which t
     </item>
     <item>
       <title>Count Odd Even</title>
-      <link>https://samirpaulb.github.io/problems/count-odd-even/</link>
+      <link>https://samirpaulb.github.io/posts/problems/count-odd-even/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/count-odd-even/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/count-odd-even/</guid>
       <description>Count Odd Even - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="count-odd-even">Count Odd Even</h1>
 <h2 id="easy">Easy</h2>
@@ -3367,9 +3472,9 @@ Print a newline at the end of output.</span></p>
     </item>
     <item>
       <title>Count Odd Factors</title>
-      <link>https://samirpaulb.github.io/problems/count-odd-factors/</link>
+      <link>https://samirpaulb.github.io/posts/problems/count-odd-factors/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/count-odd-factors/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/count-odd-factors/</guid>
       <description>Count Odd Factors - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="count-odd-factors">Count Odd Factors</h1>
 <h2 id="easy">Easy</h2>
@@ -3471,9 +3576,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Count Of Camel Case Characters</title>
-      <link>https://samirpaulb.github.io/problems/count-of-camel-case-characters/</link>
+      <link>https://samirpaulb.github.io/posts/problems/count-of-camel-case-characters/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/count-of-camel-case-characters/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/count-of-camel-case-characters/</guid>
       <description>Count Of Camel Case Characters - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="count-of-camel-case-characters">Count of camel case characters</h1>
 <h2 id="easy">Easy</h2>
@@ -3591,9 +3696,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Count Total Set Bits</title>
-      <link>https://samirpaulb.github.io/problems/count-total-set-bits/</link>
+      <link>https://samirpaulb.github.io/posts/problems/count-total-set-bits/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/count-total-set-bits/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/count-total-set-bits/</guid>
       <description>Count Total Set Bits - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="count-total-set-bits">Count total set bits</h1>
 <h2 id="medium">Medium</h2>
@@ -3741,9 +3846,9 @@ the total number of set bits is 35.</span></pre>
     </item>
     <item>
       <title>Cumulative Frequency Of Count Of Each Element In An Unsorted Array</title>
-      <link>https://samirpaulb.github.io/problems/cumulative-frequency-of-count-of-each-element-in-an-unsorted-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/cumulative-frequency-of-count-of-each-element-in-an-unsorted-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/cumulative-frequency-of-count-of-each-element-in-an-unsorted-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/cumulative-frequency-of-count-of-each-element-in-an-unsorted-array/</guid>
       <description>Cumulative Frequency Of Count Of Each Element In An Unsorted Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="cumulative-frequency-of-count-of-each-element-in-an-unsorted-array">Cumulative frequency of count of each element in an unsorted array</h1>
 <h2 id="easy">Easy</h2>
@@ -3881,9 +3986,9 @@ This is a function problem. The input is already taken care of by the driver cod
     </item>
     <item>
       <title>Data Type</title>
-      <link>https://samirpaulb.github.io/problems/data-type/</link>
+      <link>https://samirpaulb.github.io/posts/problems/data-type/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/data-type/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/data-type/</guid>
       <description>Data Type - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="data-type">Data Type</h1>
 <h2 id="easy">Easy</h2>
@@ -4009,9 +4114,9 @@ This is a function problem. The input is already taken care of by the driver cod
     </item>
     <item>
       <title>Delete A Node In Single Linked List</title>
-      <link>https://samirpaulb.github.io/problems/delete-a-node-in-single-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/delete-a-node-in-single-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/delete-a-node-in-single-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/delete-a-node-in-single-linked-list/</guid>
       <description>Delete A Node In Single Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="delete-a-node-in-single-linked-list">Delete a Node in Single Linked List</h1>
 <h2 id="easy">Easy</h2>
@@ -4246,9 +4351,9 @@ Output: </strong>1 -&gt; 2 -&gt; 9
     </item>
     <item>
       <title>Delete Middle Of Linked List</title>
-      <link>https://samirpaulb.github.io/problems/delete-middle-of-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/delete-middle-of-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/delete-middle-of-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/delete-middle-of-linked-list/</guid>
       <description>Delete Middle Of Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="delete-middle-of-linked-list">Delete Middle of Linked List</h1>
 <h2 id="easy">Easy</h2>
@@ -4473,9 +4578,9 @@ The task is to complete the function <strong>deleteMid</strong>() which should d
     </item>
     <item>
       <title>Delete Without Head Pointer</title>
-      <link>https://samirpaulb.github.io/problems/delete-without-head-pointer/</link>
+      <link>https://samirpaulb.github.io/posts/problems/delete-without-head-pointer/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/delete-without-head-pointer/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/delete-without-head-pointer/</guid>
       <description>Delete Without Head Pointer - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="delete-without-head-pointer">Delete without head pointer</h1>
 <h2 id="easy">Easy</h2>
@@ -4758,9 +4863,9 @@ You only need to complete the <strong>function deleteNode </strong>that takes <s
     </item>
     <item>
       <title>Display Longest Name</title>
-      <link>https://samirpaulb.github.io/problems/display-longest-name/</link>
+      <link>https://samirpaulb.github.io/posts/problems/display-longest-name/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/display-longest-name/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/display-longest-name/</guid>
       <description>Display Longest Name - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="display-longest-name">Display longest name</h1>
 <h2 id="easy">Easy</h2>
@@ -4885,9 +4990,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Distance Of Nearest Cell Having 1</title>
-      <link>https://samirpaulb.github.io/problems/distance-of-nearest-cell-having-1/</link>
+      <link>https://samirpaulb.github.io/posts/problems/distance-of-nearest-cell-having-1/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/distance-of-nearest-cell-having-1/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/distance-of-nearest-cell-having-1/</guid>
       <description>Distance Of Nearest Cell Having 1 - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="distance-of-nearest-cell-having-1">Distance of nearest cell having 1</h1>
 <h2 id="medium">Medium</h2>
@@ -5087,9 +5192,9 @@ You don't need to read or print anything, Your task is to complete the function&
     </item>
     <item>
       <title>Factorial</title>
-      <link>https://samirpaulb.github.io/problems/factorial/</link>
+      <link>https://samirpaulb.github.io/posts/problems/factorial/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/factorial/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/factorial/</guid>
       <description>Factorial - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="factorial">Factorial</h1>
 <h2 id="easy">Easy</h2>
@@ -5191,9 +5296,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Find Minimum And Maximum Element In An Array</title>
-      <link>https://samirpaulb.github.io/problems/find-minimum-and-maximum-element-in-an-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/find-minimum-and-maximum-element-in-an-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/find-minimum-and-maximum-element-in-an-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/find-minimum-and-maximum-element-in-an-array/</guid>
       <description>Find Minimum And Maximum Element In An Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="find-minimum-and-maximum-element-in-an-array">Find minimum and maximum element in an array</h1>
 <h2 id="easy">Easy</h2>
@@ -5332,9 +5437,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Find Patterns</title>
-      <link>https://samirpaulb.github.io/problems/find-patterns/</link>
+      <link>https://samirpaulb.github.io/posts/problems/find-patterns/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/find-patterns/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/find-patterns/</guid>
       <description>Find Patterns - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="find-patterns">Find patterns</h1>
 <h2 id="medium">Medium</h2>
@@ -5495,9 +5600,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Find The Element That Appears Once</title>
-      <link>https://samirpaulb.github.io/problems/find-the-element-that-appears-once/</link>
+      <link>https://samirpaulb.github.io/posts/problems/find-the-element-that-appears-once/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/find-the-element-that-appears-once/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/find-the-element-that-appears-once/</guid>
       <description>Find The Element That Appears Once - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="find-the-element-that-appears-once">Find the element that appears once</h1>
 <h2 id="medium">Medium</h2>
@@ -5619,9 +5724,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Find The Element That Appears Once In Sorted Array</title>
-      <link>https://samirpaulb.github.io/problems/find-the-element-that-appears-once-in-sorted-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/find-the-element-that-appears-once-in-sorted-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/find-the-element-that-appears-once-in-sorted-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/find-the-element-that-appears-once-in-sorted-array/</guid>
       <description>Find The Element That Appears Once In Sorted Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="find-the-element-that-appears-once-in-sorted-array">Find the element that appears once in sorted array</h1>
 <h2 id="easy">Easy</h2>
@@ -5752,9 +5857,9 @@ You don't need to read input or print anything. Complete the function<strong> fi
     </item>
     <item>
       <title>Find The Frequency</title>
-      <link>https://samirpaulb.github.io/problems/find-the-frequency/</link>
+      <link>https://samirpaulb.github.io/posts/problems/find-the-frequency/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/find-the-frequency/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/find-the-frequency/</guid>
       <description>Find The Frequency - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="find-the-frequency">Find the Frequency</h1>
 <h2 id="easy">Easy</h2>
@@ -5913,9 +6018,9 @@ Your task is to complete the function <strong>findFrequency</strong>() which sho
     </item>
     <item>
       <title>Find The Median</title>
-      <link>https://samirpaulb.github.io/problems/find-the-median/</link>
+      <link>https://samirpaulb.github.io/posts/problems/find-the-median/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/find-the-median/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/find-the-median/</guid>
       <description>Find The Median - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="find-the-median">Find the median</h1>
 <h2 id="easy">Easy</h2>
@@ -6044,9 +6149,9 @@ You don't need to read or print anything. Your task is to complete the function&
     </item>
     <item>
       <title>Find Triplets With Zero Sum</title>
-      <link>https://samirpaulb.github.io/problems/find-triplets-with-zero-sum/</link>
+      <link>https://samirpaulb.github.io/posts/problems/find-triplets-with-zero-sum/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/find-triplets-with-zero-sum/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/find-triplets-with-zero-sum/</guid>
       <description>Find Triplets With Zero Sum - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="find-triplets-with-zero-sum">Find triplets with zero sum</h1>
 <h2 id="easy">Easy</h2>
@@ -6067,9 +6172,9 @@ with sum equal to 0.</span></pre>
     </item>
     <item>
       <title>Finding Middle Element In A Linked List</title>
-      <link>https://samirpaulb.github.io/problems/finding-middle-element-in-a-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/finding-middle-element-in-a-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/finding-middle-element-in-a-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/finding-middle-element-in-a-linked-list/</guid>
       <description>Finding Middle Element In A Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="finding-middle-element-in-a-linked-list">Finding middle element in a linked list</h1>
 <h2 id="easy">Easy</h2>
@@ -6284,9 +6389,9 @@ The task is to complete the function<span style="font-size:18px"> </span><strong
     </item>
     <item>
       <title>First And Last Occurrences Of X</title>
-      <link>https://samirpaulb.github.io/problems/first-and-last-occurrences-of-x/</link>
+      <link>https://samirpaulb.github.io/posts/problems/first-and-last-occurrences-of-x/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/first-and-last-occurrences-of-x/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/first-and-last-occurrences-of-x/</guid>
       <description>First And Last Occurrences Of X - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="first-and-last-occurrences-of-x">First and last occurrences of x</h1>
 <h2 id="easy">Easy</h2>
@@ -6413,9 +6518,9 @@ Since, this is a function problem. You don't need to take any input, as it is al
     </item>
     <item>
       <title>Gcd Of Two Numbers</title>
-      <link>https://samirpaulb.github.io/problems/gcd-of-two-numbers/</link>
+      <link>https://samirpaulb.github.io/posts/problems/gcd-of-two-numbers/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/gcd-of-two-numbers/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/gcd-of-two-numbers/</guid>
       <description>Gcd Of Two Numbers - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="gcd-of-two-numbers">GCD of two numbers</h1>
 <h2 id="easy">Easy</h2>
@@ -6519,9 +6624,9 @@ You don't need to read input or print anything. Complete the function <strong>gc
     </item>
     <item>
       <title>Generate Ip Addresses</title>
-      <link>https://samirpaulb.github.io/problems/generate-ip-addresses/</link>
+      <link>https://samirpaulb.github.io/posts/problems/generate-ip-addresses/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/generate-ip-addresses/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/generate-ip-addresses/</guid>
       <description>Generate Ip Addresses - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="generate-ip-addresses">Generate IP Addresses</h1>
 <h2 id="easy">Easy</h2>
@@ -6710,9 +6815,9 @@ S only contains digits(i.e. 0-9)</span></p>
     </item>
     <item>
       <title>K Largest Elements</title>
-      <link>https://samirpaulb.github.io/problems/k-largest-elements/</link>
+      <link>https://samirpaulb.github.io/posts/problems/k-largest-elements/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/k-largest-elements/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/k-largest-elements/</guid>
       <description>K Largest Elements - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="k-largest-elements">K largest elements</h1>
 <h2 id="easy">Easy</h2>
@@ -6847,9 +6952,9 @@ K ≤ N<br>
     </item>
     <item>
       <title>Largest Element In Array</title>
-      <link>https://samirpaulb.github.io/problems/largest-element-in-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/largest-element-in-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/largest-element-in-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/largest-element-in-array/</guid>
       <description>Largest Element In Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="largest-element-in-array">Largest Element in Array</h1>
 <h2 id="easy">Easy</h2>
@@ -6977,9 +7082,9 @@ Array may contain duplicate elements.&nbsp;</span></p>
     </item>
     <item>
       <title>Leaders In An Array</title>
-      <link>https://samirpaulb.github.io/problems/leaders-in-an-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/leaders-in-an-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/leaders-in-an-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/leaders-in-an-array/</guid>
       <description>Leaders In An Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="leaders-in-an-array">Leaders in an array</h1>
 <h2 id="easy">Easy</h2>
@@ -7146,9 +7251,9 @@ You don't need to read input or print anything.&nbsp;The task is to complete the
     </item>
     <item>
       <title>Left Most And Right Most Index</title>
-      <link>https://samirpaulb.github.io/problems/left-most-and-right-most-index/</link>
+      <link>https://samirpaulb.github.io/posts/problems/left-most-and-right-most-index/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/left-most-and-right-most-index/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/left-most-and-right-most-index/</guid>
       <description>Left Most And Right Most Index - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="left-most-and-right-most-index">Left most and right most index</h1>
 <h2 id="easy">Easy</h2>
@@ -7304,9 +7409,9 @@ Can you solve the problem in expected time complexity?</span></p>
     </item>
     <item>
       <title>Left View Of Binary Tree</title>
-      <link>https://samirpaulb.github.io/problems/left-view-of-binary-tree/</link>
+      <link>https://samirpaulb.github.io/posts/problems/left-view-of-binary-tree/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/left-view-of-binary-tree/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/left-view-of-binary-tree/</guid>
       <description>Left View Of Binary Tree - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="left-view-of-binary-tree">Left View of Binary Tree</h1>
 <h2 id="easy">Easy</h2>
@@ -7641,9 +7746,9 @@ You just have to <strong>complete </strong>the function <strong>leftView() </str
     </item>
     <item>
       <title>Max Sum Subarray Of Size K</title>
-      <link>https://samirpaulb.github.io/problems/max-sum-subarray-of-size-k/</link>
+      <link>https://samirpaulb.github.io/posts/problems/max-sum-subarray-of-size-k/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/max-sum-subarray-of-size-k/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/max-sum-subarray-of-size-k/</guid>
       <description>Max Sum Subarray Of Size K - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="max-sum-subarray-of-size-k">Max Sum Subarray of size K</h1>
 <h2 id="easy">Easy</h2>
@@ -7781,9 +7886,9 @@ Arr = [100, 200, 300, 400]</span>
     </item>
     <item>
       <title>Median Of 2 Sorted Arrays Of Different Sizes</title>
-      <link>https://samirpaulb.github.io/problems/median-of-2-sorted-arrays-of-different-sizes/</link>
+      <link>https://samirpaulb.github.io/posts/problems/median-of-2-sorted-arrays-of-different-sizes/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/median-of-2-sorted-arrays-of-different-sizes/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/median-of-2-sorted-arrays-of-different-sizes/</guid>
       <description>Median Of 2 Sorted Arrays Of Different Sizes - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="median-of-2-sorted-arrays-of-different-sizes">Median of 2 Sorted Arrays of Different Sizes</h1>
 <h2 id="hard">Hard</h2>
@@ -7984,9 +8089,9 @@ Can you solve the problem in expected time complexity?</span></p>
     </item>
     <item>
       <title>Merge Sort For Linked List</title>
-      <link>https://samirpaulb.github.io/problems/merge-sort-for-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/merge-sort-for-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/merge-sort-for-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/merge-sort-for-linked-list/</guid>
       <description>Merge Sort For Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="merge-sort-for-linked-list">Merge Sort for Linked List</h1>
 <h2 id="medium">Medium</h2>
@@ -8273,9 +8378,9 @@ linked list , resultant will be
     </item>
     <item>
       <title>Merge Two Sorted Linked Lists</title>
-      <link>https://samirpaulb.github.io/problems/merge-two-sorted-linked-lists/</link>
+      <link>https://samirpaulb.github.io/posts/problems/merge-two-sorted-linked-lists/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/merge-two-sorted-linked-lists/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/merge-two-sorted-linked-lists/</guid>
       <description>Merge Two Sorted Linked Lists - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="merge-two-sorted-linked-lists">Merge two sorted linked lists</h1>
 <h2 id="medium">Medium</h2>
@@ -8551,9 +8656,9 @@ The task is to complete the function <strong>sortedMerge</strong>() which takes 
     </item>
     <item>
       <title>Move All Zeroes To End Of Array</title>
-      <link>https://samirpaulb.github.io/problems/move-all-zeroes-to-end-of-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/move-all-zeroes-to-end-of-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/move-all-zeroes-to-end-of-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/move-all-zeroes-to-end-of-array/</guid>
       <description>Move All Zeroes To End Of Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="move-all-zeroes-to-end-of-array">Move all zeroes to end of array</h1>
 <h2 id="easy">Easy</h2>
@@ -8680,9 +8785,9 @@ You don't need to read input or print anything. Complete the function <strong>pu
     </item>
     <item>
       <title>Natural Sum</title>
-      <link>https://samirpaulb.github.io/problems/natural-sum/</link>
+      <link>https://samirpaulb.github.io/posts/problems/natural-sum/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/natural-sum/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/natural-sum/</guid>
       <description>Natural Sum - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="natural-sum">Natural Sum</h1>
 <h2 id="easy">Easy</h2>
@@ -8788,9 +8893,9 @@ You don't need to read or print anyhting. Your task is to complete the function&
     </item>
     <item>
       <title>Nth Fibonacci Number</title>
-      <link>https://samirpaulb.github.io/problems/nth-fibonacci-number/</link>
+      <link>https://samirpaulb.github.io/posts/problems/nth-fibonacci-number/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/nth-fibonacci-number/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/nth-fibonacci-number/</guid>
       <description>Nth Fibonacci Number - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="nth-fibonacci-number">Nth Fibonacci Number</h1>
 <h2 id="easy">Easy</h2>
@@ -8905,9 +9010,9 @@ You dont need to read input or print anything. Complete the function <strong>nth
     </item>
     <item>
       <title>Number Of Divisors</title>
-      <link>https://samirpaulb.github.io/problems/number-of-divisors/</link>
+      <link>https://samirpaulb.github.io/posts/problems/number-of-divisors/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/number-of-divisors/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/number-of-divisors/</guid>
       <description>Number Of Divisors - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="number-of-divisors">Number of divisors</h1>
 <h2 id="easy">Easy</h2>
@@ -9042,9 +9147,9 @@ of 10 but none of them are divisible by 3.</span>
     </item>
     <item>
       <title>Odd Or Even</title>
-      <link>https://samirpaulb.github.io/problems/odd-or-even/</link>
+      <link>https://samirpaulb.github.io/posts/problems/odd-or-even/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/odd-or-even/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/odd-or-even/</guid>
       <description>Odd Or Even - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="odd-or-even">Odd or Even</h1>
 <h2 id="easy">Easy</h2>
@@ -9157,9 +9262,9 @@ of 10 but none of them are divisible by 3.</span>
     </item>
     <item>
       <title>Palindrome</title>
-      <link>https://samirpaulb.github.io/problems/palindrome/</link>
+      <link>https://samirpaulb.github.io/posts/problems/palindrome/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/palindrome/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/palindrome/</guid>
       <description>Palindrome - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="palindrome">Palindrome</h1>
 <h2 id="easy">Easy</h2>
@@ -9287,9 +9392,9 @@ You don't need to read or print anything. Your task is to complete the function&
     </item>
     <item>
       <title>Peak Element</title>
-      <link>https://samirpaulb.github.io/problems/peak-element/</link>
+      <link>https://samirpaulb.github.io/posts/problems/peak-element/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/peak-element/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/peak-element/</guid>
       <description>Peak Element - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="peak-element">Peak element</h1>
 <h2 id="easy">Easy</h2>
@@ -9513,9 +9618,9 @@ Can you solve the problem in expected time complexity?</span></p>
     </item>
     <item>
       <title>Power Of Numbers</title>
-      <link>https://samirpaulb.github.io/problems/power-of-numbers/</link>
+      <link>https://samirpaulb.github.io/posts/problems/power-of-numbers/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/power-of-numbers/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/power-of-numbers/</guid>
       <description>Power Of Numbers - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="power-of-numbers">Power Of Numbers</h1>
 <h2 id="easy">Easy</h2>
@@ -9697,9 +9802,9 @@ gives remainder as 864354781.</span></pre>
     </item>
     <item>
       <title>Power Set</title>
-      <link>https://samirpaulb.github.io/problems/power-set/</link>
+      <link>https://samirpaulb.github.io/posts/problems/power-set/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/power-set/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/power-set/</guid>
       <description>Power Set - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="power-set">Power Set</h1>
 <h2 id="easy">Easy</h2>
@@ -9815,9 +9920,9 @@ You don't need to read input or print anything.&nbsp;</span><span style="font-si
     </item>
     <item>
       <title>Prime Number</title>
-      <link>https://samirpaulb.github.io/problems/prime-number/</link>
+      <link>https://samirpaulb.github.io/posts/problems/prime-number/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/prime-number/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/prime-number/</guid>
       <description>Prime Number - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="prime-number">Prime Number</h1>
 <h2 id="easy">Easy</h2>
@@ -9931,9 +10036,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Print 1 To N Without Loop</title>
-      <link>https://samirpaulb.github.io/problems/print-1-to-n-without-loop/</link>
+      <link>https://samirpaulb.github.io/posts/problems/print-1-to-n-without-loop/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/print-1-to-n-without-loop/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/print-1-to-n-without-loop/</guid>
       <description>Print 1 To N Without Loop - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="print-1-to-n-without-loop">Print 1 To N Without Loop</h1>
 <h2 id="easy">Easy</h2>
@@ -10053,9 +10158,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Print 1 To N Without Using Loops</title>
-      <link>https://samirpaulb.github.io/problems/print-1-to-n-without-using-loops/</link>
+      <link>https://samirpaulb.github.io/posts/problems/print-1-to-n-without-using-loops/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/print-1-to-n-without-using-loops/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/print-1-to-n-without-using-loops/</guid>
       <description>Print 1 To N Without Using Loops - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="print-1-to-n-without-using-loops">Print 1 to n without using loops</h1>
 <h2 id="easy">Easy</h2>
@@ -10161,9 +10266,9 @@ Note: print newline character at the end.</span></p>
     </item>
     <item>
       <title>Print Elements Of Array</title>
-      <link>https://samirpaulb.github.io/problems/print-elements-of-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/print-elements-of-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/print-elements-of-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/print-elements-of-array/</guid>
       <description>Print Elements Of Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="print-elements-of-array">Print Elements of Array</h1>
 <h2 id="easy">Easy</h2>
@@ -10278,9 +10383,9 @@ Complete the function <strong>printArray()</strong>&nbsp;which takes an array <s
     </item>
     <item>
       <title>Print Leaf Nodes From Preorder Traversal Of Bst</title>
-      <link>https://samirpaulb.github.io/problems/print-leaf-nodes-from-preorder-traversal-of-bst/</link>
+      <link>https://samirpaulb.github.io/posts/problems/print-leaf-nodes-from-preorder-traversal-of-bst/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/print-leaf-nodes-from-preorder-traversal-of-bst/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/print-leaf-nodes-from-preorder-traversal-of-bst/</guid>
       <description>Print Leaf Nodes From Preorder Traversal Of Bst - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="print-leaf-nodes-from-preorder-traversal-of-bst">Print leaf nodes from preorder traversal of BST</h1>
 <h2 id="medium">Medium</h2>
@@ -10426,9 +10531,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Quick Left Rotation</title>
-      <link>https://samirpaulb.github.io/problems/quick-left-rotation/</link>
+      <link>https://samirpaulb.github.io/posts/problems/quick-left-rotation/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/quick-left-rotation/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/quick-left-rotation/</guid>
       <description>Quick Left Rotation - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="quick-left-rotation">Quick Left Rotation</h1>
 <h2 id="easy">Easy</h2>
@@ -10599,9 +10704,9 @@ This is a function problem. You don't need to take any input, as it is already a
     </item>
     <item>
       <title>Rearrange Array Alternately</title>
-      <link>https://samirpaulb.github.io/problems/rearrange-array-alternately/</link>
+      <link>https://samirpaulb.github.io/posts/problems/rearrange-array-alternately/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/rearrange-array-alternately/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/rearrange-array-alternately/</guid>
       <description>Rearrange Array Alternately - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="rearrange-array-alternately">Rearrange Array Alternately</h1>
 <h2 id="medium">Medium</h2>
@@ -10780,9 +10885,9 @@ The task is to complete the function <strong>rearrange</strong>() which rearrang
     </item>
     <item>
       <title>Remove All Occurences Of Duplicates In A Linked List</title>
-      <link>https://samirpaulb.github.io/problems/remove-all-occurences-of-duplicates-in-a-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/remove-all-occurences-of-duplicates-in-a-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/remove-all-occurences-of-duplicates-in-a-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/remove-all-occurences-of-duplicates-in-a-linked-list/</guid>
       <description>Remove All Occurences Of Duplicates In A Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="remove-all-occurences-of-duplicates-in-a-linked-list">Remove all occurences of duplicates in a linked list</h1>
 <h2 id="medium">Medium</h2>
@@ -11057,9 +11162,9 @@ would be empty.</span></pre>
     </item>
     <item>
       <title>Remove Duplicate Element From Sorted Linked List</title>
-      <link>https://samirpaulb.github.io/problems/remove-duplicate-element-from-sorted-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/remove-duplicate-element-from-sorted-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/remove-duplicate-element-from-sorted-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/remove-duplicate-element-from-sorted-linked-list/</guid>
       <description>Remove Duplicate Element From Sorted Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="remove-duplicate-element-from-sorted-linked-list">Remove duplicate element from sorted Linked List</h1>
 <h2 id="easy">Easy</h2>
@@ -11263,9 +11368,9 @@ The task is to complete the function&nbsp;<strong>removeDuplicates</strong>() wh
     </item>
     <item>
       <title>Remove Duplicate Elements From Sorted Array</title>
-      <link>https://samirpaulb.github.io/problems/remove-duplicate-elements-from-sorted-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/remove-duplicate-elements-from-sorted-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/remove-duplicate-elements-from-sorted-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/remove-duplicate-elements-from-sorted-array/</guid>
       <description>Remove Duplicate Elements From Sorted Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="remove-duplicate-elements-from-sorted-array">Remove duplicate elements from sorted Array</h1>
 <h2 id="easy">Easy</h2>
@@ -11442,9 +11547,9 @@ You don't need to read input or print anything. Complete the function <strong>re
     </item>
     <item>
       <title>Remove Duplicates From An Unsorted Linked List</title>
-      <link>https://samirpaulb.github.io/problems/remove-duplicates-from-an-unsorted-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/remove-duplicates-from-an-unsorted-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/remove-duplicates-from-an-unsorted-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/remove-duplicates-from-an-unsorted-linked-list/</guid>
       <description>Remove Duplicates From An Unsorted Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="remove-duplicates-from-an-unsorted-linked-list">Remove duplicates from an unsorted linked list</h1>
 <h2 id="easy">Easy</h2>
@@ -11687,9 +11792,9 @@ linked list will contain only 2.</span></pre>
     </item>
     <item>
       <title>Reverse A Linked List</title>
-      <link>https://samirpaulb.github.io/problems/reverse-a-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/reverse-a-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/reverse-a-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/reverse-a-linked-list/</guid>
       <description>Reverse A Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="reverse-a-linked-list">Reverse a linked list</h1>
 <h2 id="easy">Easy</h2>
@@ -11930,9 +12035,9 @@ The task is to complete the function <strong>reverseList</strong>() with&nbsp;he
     </item>
     <item>
       <title>Reverse A String</title>
-      <link>https://samirpaulb.github.io/problems/reverse-a-string/</link>
+      <link>https://samirpaulb.github.io/posts/problems/reverse-a-string/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/reverse-a-string/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/reverse-a-string/</guid>
       <description>Reverse A String - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="reverse-a-string">Reverse a String</h1>
 <h2 id="easy">Easy</h2>
@@ -12048,9 +12153,9 @@ You dont need to read input or print anything. Complete the function <strong>rev
     </item>
     <item>
       <title>Reverse An Array</title>
-      <link>https://samirpaulb.github.io/problems/reverse-an-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/reverse-an-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/reverse-an-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/reverse-an-array/</guid>
       <description>Reverse An Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="reverse-an-array">Reverse an Array</h1>
 <h2 id="easy">Easy</h2>
@@ -12125,9 +12230,9 @@ For each testcase, in a new line, print the array in reverse order. </span></p>
     </item>
     <item>
       <title>Right View Of Binary Tree</title>
-      <link>https://samirpaulb.github.io/problems/right-view-of-binary-tree/</link>
+      <link>https://samirpaulb.github.io/posts/problems/right-view-of-binary-tree/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/right-view-of-binary-tree/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/right-view-of-binary-tree/</guid>
       <description>Right View Of Binary Tree - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="right-view-of-binary-tree">Right View of Binary Tree</h1>
 <h2 id="easy">Easy</h2>
@@ -12477,9 +12582,9 @@ For each testcase, in a new line, print the array in reverse order. </span></p>
     </item>
     <item>
       <title>Rope Cutting</title>
-      <link>https://samirpaulb.github.io/problems/rope-cutting/</link>
+      <link>https://samirpaulb.github.io/posts/problems/rope-cutting/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/rope-cutting/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/rope-cutting/</guid>
       <description>Rope Cutting - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="rope-cutting">Rope Cutting</h1>
 <h2 id="easy">Easy</h2>
@@ -12625,9 +12730,9 @@ This is a function problem. The input is already taken care of by the driver cod
     </item>
     <item>
       <title>Rotate Array</title>
-      <link>https://samirpaulb.github.io/problems/rotate-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/rotate-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/rotate-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/rotate-array/</guid>
       <description>Rotate Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="rotate-array">Rotate Array</h1>
 <h2 id="easy">Easy</h2>
@@ -12880,9 +12985,9 @@ Complete the function <strong>rotateArr</strong>() which takes the array, D and 
     </item>
     <item>
       <title>Rotation</title>
-      <link>https://samirpaulb.github.io/problems/rotation/</link>
+      <link>https://samirpaulb.github.io/posts/problems/rotation/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/rotation/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/rotation/</guid>
       <description>Rotation - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="rotation">Rotation</h1>
 <h2 id="easy">Easy</h2>
@@ -13006,9 +13111,9 @@ Complete the function <strong>findKRotation()</strong>&nbsp;which takes array <s
     </item>
     <item>
       <title>Search An Element In An Array</title>
-      <link>https://samirpaulb.github.io/problems/search-an-element-in-an-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/search-an-element-in-an-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/search-an-element-in-an-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/search-an-element-in-an-array/</guid>
       <description>Search An Element In An Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="search-an-element-in-an-array">Search an Element in an array</h1>
 <h2 id="easy">Easy</h2>
@@ -13154,9 +13259,9 @@ The task is to complete the function <strong>search</strong>() which takes the a
     </item>
     <item>
       <title>Search An Element In Sorted And Rotated Array</title>
-      <link>https://samirpaulb.github.io/problems/search-an-element-in-sorted-and-rotated-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/search-an-element-in-sorted-and-rotated-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/search-an-element-in-sorted-and-rotated-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/search-an-element-in-sorted-and-rotated-array/</guid>
       <description>Search An Element In Sorted And Rotated Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="search-an-element-in-sorted-and-rotated-array">Search an element in sorted and rotated array</h1>
 <h2 id="easy">Easy</h2>
@@ -13337,9 +13442,9 @@ Complete <strong>Search()&nbsp;</strong>function and return&nbsp;the index of th
     </item>
     <item>
       <title>Search In Linked List</title>
-      <link>https://samirpaulb.github.io/problems/search-in-linked-list/</link>
+      <link>https://samirpaulb.github.io/posts/problems/search-in-linked-list/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/search-in-linked-list/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/search-in-linked-list/</guid>
       <description>Search In Linked List - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="search-in-linked-list">Search in Linked List</h1>
 <h2 id="easy">Easy</h2>
@@ -13366,9 +13471,9 @@ Key = 3
     </item>
     <item>
       <title>Second Largest</title>
-      <link>https://samirpaulb.github.io/problems/second-largest/</link>
+      <link>https://samirpaulb.github.io/posts/problems/second-largest/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/second-largest/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/second-largest/</guid>
       <description>Second Largest - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="second-largest">Second Largest</h1>
 <h2 id="easy">Easy</h2>
@@ -13500,9 +13605,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Sieve Of Eratosthenes</title>
-      <link>https://samirpaulb.github.io/problems/sieve-of-eratosthenes/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sieve-of-eratosthenes/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sieve-of-eratosthenes/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sieve-of-eratosthenes/</guid>
       <description>Sieve Of Eratosthenes - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sieve-of-eratosthenes">Sieve of Eratosthenes</h1>
 <h2 id="easy">Easy</h2>
@@ -13633,9 +13738,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Simple Interest</title>
-      <link>https://samirpaulb.github.io/problems/simple-interest/</link>
+      <link>https://samirpaulb.github.io/posts/problems/simple-interest/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/simple-interest/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/simple-interest/</guid>
       <description>Simple Interest - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="simple-interest">Simple Interest</h1>
 <h2 id="easy">Easy</h2>
@@ -13744,9 +13849,9 @@ You don't need to read input or print anything.Your Task is to complete the func
     </item>
     <item>
       <title>Sort An Array Of 0S, 1S And 2S</title>
-      <link>https://samirpaulb.github.io/problems/sort-an-array-of-0s-1s-and-2s/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sort-an-array-of-0s-1s-and-2s/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sort-an-array-of-0s-1s-and-2s/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sort-an-array-of-0s-1s-and-2s/</guid>
       <description>Sort An Array Of 0S, 1S And 2S - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sort-an-array-of-0s-1s-and-2s">Sort an array of 0s, 1s and 2s</h1>
 <h2 id="easy">Easy</h2>
@@ -13922,9 +14027,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Sort String</title>
-      <link>https://samirpaulb.github.io/problems/sort-string/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sort-string/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sort-string/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sort-string/</guid>
       <description>Sort String - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sort-string">Sort String</h1>
 <h2 id="easy">Easy</h2>
@@ -13992,9 +14097,9 @@ eeeefggkkorss</span></p>
     </item>
     <item>
       <title>Sort The Array</title>
-      <link>https://samirpaulb.github.io/problems/sort-the-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sort-the-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sort-the-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sort-the-array/</guid>
       <description>Sort The Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sort-the-array">Sort The Array</h1>
 <h2 id="easy">Easy</h2>
@@ -14104,9 +14209,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Sort The String In Descending Order</title>
-      <link>https://samirpaulb.github.io/problems/sort-the-string-in-descending-order/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sort-the-string-in-descending-order/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sort-the-string-in-descending-order/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sort-the-string-in-descending-order/</guid>
       <description>Sort The String In Descending Order - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sort-the-string-in-descending-order">Sort the string in descending order</h1>
 <h2 id="easy">Easy</h2>
@@ -14199,9 +14304,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Square Root Of A Number</title>
-      <link>https://samirpaulb.github.io/problems/square-root-of-a-number/</link>
+      <link>https://samirpaulb.github.io/posts/problems/square-root-of-a-number/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/square-root-of-a-number/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/square-root-of-a-number/</guid>
       <description>Square Root Of A Number - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="square-root-of-a-number">Square root of a number</h1>
 <h2 id="medium">Medium</h2>
@@ -14340,9 +14445,9 @@ You don't need to read input or print anything.&nbsp;The task is to complete the
     </item>
     <item>
       <title>Stock Buy And Sell</title>
-      <link>https://samirpaulb.github.io/problems/stock-buy-and-sell/</link>
+      <link>https://samirpaulb.github.io/posts/problems/stock-buy-and-sell/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/stock-buy-and-sell/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/stock-buy-and-sell/</guid>
       <description>Stock Buy And Sell - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="stock-buy-and-sell">Stock buy and sell</h1>
 <h2 id="easy">Easy</h2>
@@ -14529,9 +14634,9 @@ The task is to complete the function <strong>stockBuySell()</strong> which takes
     </item>
     <item>
       <title>Sum Of Array</title>
-      <link>https://samirpaulb.github.io/problems/sum-of-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sum-of-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sum-of-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sum-of-array/</guid>
       <description>Sum Of Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sum-of-array">Sum of Array</h1>
 <h2 id="easy">Easy</h2>
@@ -14650,9 +14755,9 @@ Complete the function <strong>sum()</strong>&nbsp;which takes&nbsp;array&nbsp;<s
     </item>
     <item>
       <title>Sum Of Digits</title>
-      <link>https://samirpaulb.github.io/problems/sum-of-digits/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sum-of-digits/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sum-of-digits/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sum-of-digits/</guid>
       <description>Sum Of Digits - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sum-of-digits">Sum Of Digits</h1>
 <h2 id="easy">Easy</h2>
@@ -14766,9 +14871,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Sum Of Fifth Powers Of The First N Natural Numbers</title>
-      <link>https://samirpaulb.github.io/problems/sum-of-fifth-powers-of-the-first-n-natural-numbers/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sum-of-fifth-powers-of-the-first-n-natural-numbers/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sum-of-fifth-powers-of-the-first-n-natural-numbers/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sum-of-fifth-powers-of-the-first-n-natural-numbers/</guid>
       <description>Sum Of Fifth Powers Of The First N Natural Numbers - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sum-of-fifth-powers-of-the-first-n-natural-numbers">Sum of fifth powers of the first n natural numbers</h1>
 <h2 id="easy">Easy</h2>
@@ -14875,9 +14980,9 @@ You don't need to read input or print anything.Your task is to complete the func
     </item>
     <item>
       <title>Sum Of First N Terms</title>
-      <link>https://samirpaulb.github.io/problems/sum-of-first-n-terms/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sum-of-first-n-terms/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sum-of-first-n-terms/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sum-of-first-n-terms/</guid>
       <description>Sum Of First N Terms - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sum-of-first-n-terms">Sum of first n terms</h1>
 <h2 id="easy">Easy</h2>
@@ -14975,9 +15080,9 @@ You don't need to read input or print anything.Your task is to complete the func
     </item>
     <item>
       <title>Sum Of Primes</title>
-      <link>https://samirpaulb.github.io/problems/sum-of-primes/</link>
+      <link>https://samirpaulb.github.io/posts/problems/sum-of-primes/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/sum-of-primes/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/sum-of-primes/</guid>
       <description>Sum Of Primes - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="sum-of-primes">Sum of primes</h1>
 <h2 id="easy">Easy</h2>
@@ -15118,9 +15223,9 @@ You do not need to read input or print anything. Your task is to complete the fu
     </item>
     <item>
       <title>The Nth Fibonnaci</title>
-      <link>https://samirpaulb.github.io/problems/the-nth-fibonnaci/</link>
+      <link>https://samirpaulb.github.io/posts/problems/the-nth-fibonnaci/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/the-nth-fibonnaci/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/the-nth-fibonnaci/</guid>
       <description>The Nth Fibonnaci - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="the-nth-fibonnaci">The Nth Fibonnaci</h1>
 <h2 id="easy">Easy</h2>
@@ -15231,166 +15336,10 @@ You don't need to read input or print anything. Your task is to complete the fun
 </div>]]></content:encoded>
     </item>
     <item>
-      <title>Tower Of Hanoi</title>
-      <link>https://samirpaulb.github.io/problems/tower-of-hanoi/</link>
-      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/tower-of-hanoi/</guid>
-      <description>Tower Of Hanoi - GeeksforGeeks Solution Explained</description>
-      <content:encoded><![CDATA[<h1 id="tower-of-hanoi">Tower Of Hanoi</h1>
-<h2 id="medium">Medium</h2>
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">The <a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi" target="_blank">tower of Hanoi</a></span> <span style="font-size:18px">is a famous puzzle where we have three rods and <strong>N</strong> disks. The objective of the puzzle is to move the entire stack to another rod. You are given the number of discs <strong>N</strong>. Initially, these discs are in the rod 1. You need to print all the steps of discs movement so that all the discs reach the 3<sup>rd</sup> rod. Also, you need to find the total moves.<br>
-<strong>Note: </strong>The discs are arranged such that the<strong> top disc is numbered 1 </strong>and the<strong> bottom-most disc is numbered N</strong>. Also, all the discs have <strong>different sizes</strong> and a bigger disc <strong>cannot</strong> be put on the top of a smaller disc. Refer the provided link to get a better clarity about the puzzle.</span></p>
-<p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
-<pre><span style="font-size:18px"><strong>Input:
-</strong>N = 2
-<strong>Output:
-</strong>move disk 1 from rod 1 to rod 2
-move disk 2 from rod 1 to rod 3
-move disk 1 from rod 2 to rod 3
-3<strong>
-Explanation: </strong>For N=2&nbsp;, steps will be
-as follows in the example and total
-3 steps will be taken.</span></pre>
-<p><span style="font-size:18px"><strong>Example 2:</strong></span></p>
-<pre><span style="font-size:18px"><strong>Input:
-</strong>N = 3
-<strong>Output:
-</strong>move disk 1 from rod 1 to rod 3
-move disk 2 from rod 1 to rod 2
-move disk 1 from rod 3 to rod 2
-move disk 3 from rod 1 to rod 3
-move disk 1 from rod 2 to rod 1
-move disk 2 from rod 2 to rod 3
-move disk 1 from rod 1 to rod 3
-7<strong>
-Explanation: </strong>For N=3 , steps will be
-as follows in the example and total
-7 steps will be taken.</span>
-</pre>
-<p><strong><span style="font-size:18px">Your Task:</span></strong><br>
-<span style="font-size:18px">You don't need to read input or print anything. You only need to complete the function <strong>toh()</strong> that takes following parameters: <strong>N</strong> (number of discs),&nbsp;<strong>from</strong> (The rod number from which we move the disc), <strong>to</strong> (The rod number to which we move the disc),&nbsp;<strong>aux</strong> (The rod that is used as an auxiliary rod)&nbsp;and prints the required moves inside function body (See the example for the format of the output) as well as return the count of total moves made.&nbsp;The total number of moves are printed by the driver code.<br>
-<strong>Please take care of the case of the letters.</strong></span></p>
-<p><span style="font-size:18px"><strong>Expected Time Complexity:&nbsp;</strong>O(2<sup>N</sup>).<br>
-<strong>Expected Auxiliary Space:&nbsp;</strong>O(N).</span></p>
-<p><strong><span style="font-size:18px">Constraints:</span></strong><br>
-<span style="font-size:18px">1 &lt;= N &lt;= 16</span></p>
- <p></p>
-            </div>
-<hr>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt" id="hl-0-1"><a class="lnlinks" href="#hl-0-1"> 1</a>
-</span><span class="lnt" id="hl-0-2"><a class="lnlinks" href="#hl-0-2"> 2</a>
-</span><span class="lnt" id="hl-0-3"><a class="lnlinks" href="#hl-0-3"> 3</a>
-</span><span class="lnt" id="hl-0-4"><a class="lnlinks" href="#hl-0-4"> 4</a>
-</span><span class="lnt" id="hl-0-5"><a class="lnlinks" href="#hl-0-5"> 5</a>
-</span><span class="lnt" id="hl-0-6"><a class="lnlinks" href="#hl-0-6"> 6</a>
-</span><span class="lnt" id="hl-0-7"><a class="lnlinks" href="#hl-0-7"> 7</a>
-</span><span class="lnt" id="hl-0-8"><a class="lnlinks" href="#hl-0-8"> 8</a>
-</span><span class="lnt" id="hl-0-9"><a class="lnlinks" href="#hl-0-9"> 9</a>
-</span><span class="lnt" id="hl-0-10"><a class="lnlinks" href="#hl-0-10">10</a>
-</span><span class="lnt" id="hl-0-11"><a class="lnlinks" href="#hl-0-11">11</a>
-</span><span class="lnt" id="hl-0-12"><a class="lnlinks" href="#hl-0-12">12</a>
-</span><span class="lnt" id="hl-0-13"><a class="lnlinks" href="#hl-0-13">13</a>
-</span><span class="lnt" id="hl-0-14"><a class="lnlinks" href="#hl-0-14">14</a>
-</span><span class="lnt" id="hl-0-15"><a class="lnlinks" href="#hl-0-15">15</a>
-</span><span class="lnt" id="hl-0-16"><a class="lnlinks" href="#hl-0-16">16</a>
-</span><span class="lnt" id="hl-0-17"><a class="lnlinks" href="#hl-0-17">17</a>
-</span><span class="lnt" id="hl-0-18"><a class="lnlinks" href="#hl-0-18">18</a>
-</span><span class="lnt" id="hl-0-19"><a class="lnlinks" href="#hl-0-19">19</a>
-</span><span class="lnt" id="hl-0-20"><a class="lnlinks" href="#hl-0-20">20</a>
-</span><span class="lnt" id="hl-0-21"><a class="lnlinks" href="#hl-0-21">21</a>
-</span><span class="lnt" id="hl-0-22"><a class="lnlinks" href="#hl-0-22">22</a>
-</span><span class="lnt" id="hl-0-23"><a class="lnlinks" href="#hl-0-23">23</a>
-</span><span class="lnt" id="hl-0-24"><a class="lnlinks" href="#hl-0-24">24</a>
-</span><span class="lnt" id="hl-0-25"><a class="lnlinks" href="#hl-0-25">25</a>
-</span><span class="lnt" id="hl-0-26"><a class="lnlinks" href="#hl-0-26">26</a>
-</span><span class="lnt" id="hl-0-27"><a class="lnlinks" href="#hl-0-27">27</a>
-</span><span class="lnt" id="hl-0-28"><a class="lnlinks" href="#hl-0-28">28</a>
-</span><span class="lnt" id="hl-0-29"><a class="lnlinks" href="#hl-0-29">29</a>
-</span><span class="lnt" id="hl-0-30"><a class="lnlinks" href="#hl-0-30">30</a>
-</span><span class="lnt" id="hl-0-31"><a class="lnlinks" href="#hl-0-31">31</a>
-</span><span class="lnt" id="hl-0-32"><a class="lnlinks" href="#hl-0-32">32</a>
-</span><span class="lnt" id="hl-0-33"><a class="lnlinks" href="#hl-0-33">33</a>
-</span><span class="lnt" id="hl-0-34"><a class="lnlinks" href="#hl-0-34">34</a>
-</span><span class="lnt" id="hl-0-35"><a class="lnlinks" href="#hl-0-35">35</a>
-</span><span class="lnt" id="hl-0-36"><a class="lnlinks" href="#hl-0-36">36</a>
-</span><span class="lnt" id="hl-0-37"><a class="lnlinks" href="#hl-0-37">37</a>
-</span><span class="lnt" id="hl-0-38"><a class="lnlinks" href="#hl-0-38">38</a>
-</span><span class="lnt" id="hl-0-39"><a class="lnlinks" href="#hl-0-39">39</a>
-</span><span class="lnt" id="hl-0-40"><a class="lnlinks" href="#hl-0-40">40</a>
-</span><span class="lnt" id="hl-0-41"><a class="lnlinks" href="#hl-0-41">41</a>
-</span><span class="lnt" id="hl-0-42"><a class="lnlinks" href="#hl-0-42">42</a>
-</span><span class="lnt" id="hl-0-43"><a class="lnlinks" href="#hl-0-43">43</a>
-</span><span class="lnt" id="hl-0-44"><a class="lnlinks" href="#hl-0-44">44</a>
-</span><span class="lnt" id="hl-0-45"><a class="lnlinks" href="#hl-0-45">45</a>
-</span><span class="lnt" id="hl-0-46"><a class="lnlinks" href="#hl-0-46">46</a>
-</span><span class="lnt" id="hl-0-47"><a class="lnlinks" href="#hl-0-47">47</a>
-</span><span class="lnt" id="hl-0-48"><a class="lnlinks" href="#hl-0-48">48</a>
-</span><span class="lnt" id="hl-0-49"><a class="lnlinks" href="#hl-0-49">49</a>
-</span><span class="lnt" id="hl-0-50"><a class="lnlinks" href="#hl-0-50">50</a>
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="c1">// { Driver Code Starts
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="cp">#include</span> <span class="cpf">&lt;bits/stdc++.h&gt;</span><span class="cp">
-</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
-</span></span><span class="line"><span class="cl"><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"> <span class="c1">// } Driver Code Ends
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">class</span> <span class="nc">Solution</span><span class="p">{</span>
-</span></span><span class="line"><span class="cl">    <span class="k">public</span><span class="o">:</span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// You need to complete this function
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl">    <span class="c1">// avoid space at the starting of the string in &#34;move disk.....&#34;
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="kt">long</span> <span class="kt">long</span> <span class="n">toh</span><span class="p">(</span><span class="kt">int</span> <span class="n">N</span><span class="p">,</span> <span class="kt">int</span> <span class="n">from</span><span class="p">,</span> <span class="kt">int</span> <span class="n">to</span><span class="p">,</span> <span class="kt">int</span> <span class="n">aux</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        <span class="c1">// Your code here
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="k">if</span><span class="p">(</span><span class="n">N</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">            <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;move disk &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">N</span> <span class="o">&lt;&lt;</span> <span class="s">&#34; from rod &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">from</span> <span class="o">&lt;&lt;</span> <span class="s">&#34; to rod &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">to</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">            <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="p">}</span>
-</span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">        <span class="n">a</span> <span class="o">=</span> <span class="n">toh</span><span class="p">(</span><span class="n">N</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">from</span><span class="p">,</span> <span class="n">aux</span><span class="p">,</span> <span class="n">to</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;move disk &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">N</span> <span class="o">&lt;&lt;</span> <span class="s">&#34; from rod &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">from</span> <span class="o">&lt;&lt;</span> <span class="s">&#34; to rod &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">to</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">        <span class="n">b</span> <span class="o">=</span> <span class="n">toh</span><span class="p">(</span><span class="n">N</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="n">aux</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">from</span><span class="p">);</span>
-</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">};</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">// { Driver Code Starts.
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
-</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">T</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">T</span><span class="p">;</span><span class="c1">//testcases
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="k">while</span> <span class="p">(</span><span class="n">T</span><span class="o">--</span><span class="p">)</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">N</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        <span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">N</span><span class="p">;</span><span class="c1">//taking input N
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        
-</span></span><span class="line"><span class="cl">        <span class="c1">//calling toh() function
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Solution</span> <span class="n">ob</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">        
-</span></span><span class="line"><span class="cl">        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">ob</span><span class="p">.</span><span class="n">toh</span><span class="p">(</span><span class="n">N</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">endl</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl">    <span class="p">}</span>
-</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-</span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1">//Position this line where user code will be pasted.  // } Driver Code Ends
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div>]]></content:encoded>
-    </item>
-    <item>
       <title>Trailing Zeroes In Factorial</title>
-      <link>https://samirpaulb.github.io/problems/trailing-zeroes-in-factorial/</link>
+      <link>https://samirpaulb.github.io/posts/problems/trailing-zeroes-in-factorial/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/trailing-zeroes-in-factorial/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/trailing-zeroes-in-factorial/</guid>
       <description>Trailing Zeroes In Factorial - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="trailing-zeroes-in-factorial">Trailing zeroes in factorial</h1>
 <h2 id="easy">Easy</h2>
@@ -15499,9 +15448,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Triplet Sum In Array</title>
-      <link>https://samirpaulb.github.io/problems/triplet-sum-in-array/</link>
+      <link>https://samirpaulb.github.io/posts/problems/triplet-sum-in-array/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/triplet-sum-in-array/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/triplet-sum-in-array/</guid>
       <description>Triplet Sum In Array - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="triplet-sum-in-array">Triplet Sum in Array</h1>
 <h2 id="medium">Medium</h2>
@@ -15652,9 +15601,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Two Numbers With Odd Occurrences</title>
-      <link>https://samirpaulb.github.io/problems/two-numbers-with-odd-occurrences/</link>
+      <link>https://samirpaulb.github.io/posts/problems/two-numbers-with-odd-occurrences/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/two-numbers-with-odd-occurrences/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/two-numbers-with-odd-occurrences/</guid>
       <description>Two Numbers With Odd Occurrences - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="two-numbers-with-odd-occurrences">Two numbers with odd occurrences</h1>
 <h2 id="easy">Easy</h2>
@@ -15801,9 +15750,9 @@ You don't need to read input or print anything. Your task is to complete the fun
     </item>
     <item>
       <title>Vowel Or Not</title>
-      <link>https://samirpaulb.github.io/problems/vowel-or-not/</link>
+      <link>https://samirpaulb.github.io/posts/problems/vowel-or-not/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://samirpaulb.github.io/problems/vowel-or-not/</guid>
+      <guid>https://samirpaulb.github.io/posts/problems/vowel-or-not/</guid>
       <description>Vowel Or Not - GeeksforGeeks Solution Explained</description>
       <content:encoded><![CDATA[<h1 id="vowel-or-not">Vowel or Not</h1>
 <h2 id="easy">Easy</h2>

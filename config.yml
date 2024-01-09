@@ -5,9 +5,9 @@ theme: [PaperMod]
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-buildDrafts: true
-buildFuture: true
-buildExpired: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
 # mainsections: ["posts"]
@@ -50,7 +50,6 @@ params:
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
-  # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
   ShowWordCount: true
@@ -143,7 +142,7 @@ params:
   cover:
       hidden: false # hide everywhere but not in structured data
       hiddenInList: true # hide on list pages and home
-      hiddenInSingle: true # hide on single page
+      hiddenInSingle: false # hide on single page
       linkFullImages: false
       image: "https://scdn.netlify.app/blog-featured-image-samirpaul-in-blog.webp"
       alt: "blog-featured-image"
