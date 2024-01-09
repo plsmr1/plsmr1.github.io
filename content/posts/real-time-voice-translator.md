@@ -12,7 +12,7 @@ aliases: ["/blog/posts/real-time-voice-translator", "/real-time-voice-translator
 cover:
   image: https://spcdn.pages.dev/real-time-voice-translator-og-image.webp
   alt: Real-Time Voice Translator
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
 
