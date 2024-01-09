@@ -6,6 +6,7 @@ tags: [python, voice-translator]
 series: [Projects]
 published: true
 sitemap: true
+author: Samir Paul
 keywords: ["Real-Time Voice Translator", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/real-time-voice-translator", "/real-time-voice-translator", "/blog/real-time-voice-translator"]
 cover:
