@@ -25,7 +25,7 @@ https://github.com/adityatelange/hugo-PaperMod/compare/master...SamirPaulb:hugo-
 3. Button to show disqus comments
 4. Decrease the size of H1, H2, H3 tags in blog posts ```/assets/css/common/post-single.css```
 5. About in homepage and 5 paginations.
-6. Open external links in new tab https://github.com/adityatelange/hugo-PaperMod/discussions/760
+6. Open external links in new tab https://blog.adriaan.io/open-external-links-in-a-new-tab-in-javascript.html
 7. Code block colour ```assets/css/extended/dracula.css```
 8. Progressive Web App: https://ruddra.com/hugo-implement-pwa/  and  https://discourse.gohugo.io/t/simple-implementation-of-progressive-web-apps-pwa-on-hugo-website/39952
 9. Remove Powered by Hugo on footer
