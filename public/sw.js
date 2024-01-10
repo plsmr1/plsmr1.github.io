@@ -11,6 +11,7 @@ const BASE_CACHE_FILES = [
     '/manifest.json',
     // ico cache
     '/favicon.ico',
+    'https://www.googletagmanager.com/gtag/js?id=G-CP4QE6ZEV0',
 ];
 
 const OFFLINE_CACHE_FILES = [
