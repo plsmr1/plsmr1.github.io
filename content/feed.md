@@ -33,7 +33,7 @@ GitHubActivity.feed({
 </script>
 
 ### X/Twitter
-<a class="twitter-timeline" href="https://twitter.com/SamirPaulb">Tweets by @SamirPaulb</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<a class="twitter-timeline" href="https://twitter.com/SamirPaulb" target="_blank">Tweets by @SamirPaulb</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ### YouTube
 <script defer loading="lazy" src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
