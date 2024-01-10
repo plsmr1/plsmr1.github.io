@@ -14,22 +14,23 @@ ShowBreadCrumbs: false
 author: " "
 ---
 
-<sub>Do you have a project in mind? Want to hire me? or simply wanna chat? Feel free to</sub>
+*Do you have a project in mind? Want to hire me? or simply wanna chat? Feel free to connect with me on*:&nbsp;<a href="https://www.linkedin.com/in/SamirPaul">LinkedIn</a>&nbsp;<a href="https://github.com/SamirPaulb">GitHub</a>&nbsp;<a href="https://twitter.com/SamirPaulb">X/Twitter</a>&nbsp;<a href="https://instagram.com/SamirPaulb">Instagram</a>. *You can email me at:*&nbsp;```samirpaulb [at] gmail [dot] com``` *or*&nbsp;&nbsp;<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samirpaulb/hello?hide_event_type_details=1&hide_gdpr_banner=1'});return false;">schedule a meeting</a>!
 
-Connect with Me on: &nbsp; <a href="https://www.linkedin.com/in/SamirPaul"><i class="fab fa-linkedin"></i> <b>LinkedIn</b></a>&nbsp;&nbsp;<a href="https://github.com/SamirPaulb"><i class="fab fa-github"></i> <b>GitHub</b></a>&nbsp;&nbsp;<a href="https://twitter.com/SamirPaulb"><i class="fa-brands fa-x-twitter"></i> <b>Twitter</b></a>&nbsp;&nbsp;<a href="https://instagram.com/SamirPaulb"><i class="fab fa-instagram"></i> <b>Instagram</b></a>&nbsp;&nbsp;<a href="mailto:fktjagtmn@mozmail.com"><i class="fa fa-envelope"></i> <b>Email</b></a>
-
+<p align="center">
 <sub><sup>Please fill out the contact form below. I will get back to you as soon as possible</sup></sub>
 
-<iframe loading="lazy" src="https://docs.google.com/forms/d/e/1FAIpQLSfGcMMU8znqdQIasXOZp0huyxZ9Y5x0YoSr2BQY0AACS_dXKg/viewform?embedded=true"
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfGcMMU8znqdQIasXOZp0huyxZ9Y5x0YoSr2BQY0AACS_dXKg/viewform?embedded=true"
 			title="Contact form"
 			frameborder="0"
 			marginheight="0"
 			marginwidth="0"
 			width="100%"
 			height="820px"
-			scrolling="no">
+			scrolling="no"
+			loading="lazy">
   			Loading…
 </iframe>
+</p>
 
 <!-- Calendly badge widget begin -->
 <link loading="lazy" href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
