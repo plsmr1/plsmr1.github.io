@@ -16,9 +16,6 @@ author: " "
 
 *Do you have a project in mind? Want to hire me? or simply wanna chat? Feel free to connect with me on*:&nbsp;<a href="https://www.linkedin.com/in/SamirPaul" target="_blank">LinkedIn</a>,&nbsp;<a href="https://github.com/SamirPaulb" target="_blank">GitHub</a>,&nbsp;<a href="https://twitter.com/SamirPaulb" target="_blank">X/Twitter</a>,&nbsp;<a href="https://instagram.com/SamirPaulb" target="_blank">Instagram</a>. *You can email me at:*&nbsp;```samirpaulb [at] gmail [dot] com``` *or*&nbsp;&nbsp;<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/samirpaulb/meet?hide_gdpr_banner=1'});return false;">schedule a meeting</a>!
 
-<p align="center">
-<sub><sup>Please fill out the contact form below. I will get back to you as soon as possible</sup></sub>
-
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfGcMMU8znqdQIasXOZp0huyxZ9Y5x0YoSr2BQY0AACS_dXKg/viewform?embedded=true"
 			title="Contact form"
 			frameborder="0"
@@ -30,7 +27,6 @@ author: " "
 			loading="lazy">
   			Loading…
 </iframe>
-</p>
 
 <!-- Calendly link widget begin -->
 <link loading="lazy" href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
