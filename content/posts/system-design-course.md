@@ -737,9 +737,7 @@ Availability is the time a system remains operational to perform its required fu
 
 Availability is often quantified by uptime (or downtime) as a percentage of time the service is available. It is generally measured in the number of 9s.
 
-$$
-Availability = \frac{Uptime}{(Uptime + Downtime)}
-$$
+![Availability](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/70e60f99-890b-49d7-bb33-cf27e20b191b)
 
 If availability is 99.00% available, it is said to have "2 nines" of availability, and if it is 99.9%, it is called "3 nines", and so on.
 
@@ -1833,9 +1831,8 @@ Consistent Hashing is a distributed hashing scheme that operates independently o
 
 Using consistent hashing, only `K/N` data would require re-distributing.
 
-$$
-R = K/N
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/7a555fc0-9e10-4fb6-9339-90ad2810fc39)
+
 
 Where,
 
@@ -3634,57 +3631,41 @@ This will be a read-heavy system, so let's assume a `100:1` read/write ratio wit
 
 For reads per month:
 
-$$
-100 \times 100 \space million = 10 \space billion/month
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/67f5267c-4156-4f15-b908-6ea01f3f0899)
 
 Similarly for writes:
 
-$$
-1 \times 100 \space million = 100 \space million/month
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/7b62c0e5-5fba-401d-9ef9-b3d59f8ac610)
 
 **What would be Requests Per Second (RPS) for our system?**
 
 100 million requests per month translate into 40 requests per second.
 
-$$
-\frac{100 \space million}{(30 \space days \times 24 \space hrs \times 3600 \space seconds)} = \sim 40 \space URLs/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/f29e1064-38c6-4fa7-8472-f39e1267e6e1)
 
 And with a `100:1` read/write ratio, the number of redirections will be:
 
-$$
-100 \times 40 \space URLs/second = 4000 \space requests/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/0659dfc7-3681-4143-8601-56bc4e36dbd7)
 
 ### Bandwidth
 
 Since we expect about 40 URLs every second, and if we assume each request is of size 500 bytes then the total incoming data for then write requests would be:
 
-$$
-40 \times 500 \space bytes = 20 \space KB/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/7904827d-d67f-478d-b950-d656c6a19804)
 
 Similarly, for the read requests, since we expect about 4K redirections, the total outgoing data would be:
 
-$$
-4000 \space URLs/second \times 500 \space bytes = \sim 2 \space MB/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/e361dcc1-e087-4613-9135-10d6639afcc8)
 
 ### Storage
 
 For storage, we will assume we store each link or record in our database for 10 years. Since we expect around 100M new requests every month, the total number of records we will need to store would be:
 
-$$
-100 \space million \times 10\space years \times 12 \space months = 12 \space billion
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/6326c2a2-52c9-4eca-a6ce-55e02e041a0a)
 
 Like earlier, if we assume each stored recorded will be approximately 500 bytes. We will need around 6TB of storage:
 
-$$
-12 \space billion \times 500 \space bytes = 6 \space TB
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/7cab2eec-1682-466d-965f-edcb38e5bc87)
 
 ### Cache
 
@@ -3692,15 +3673,12 @@ For caching, we will follow the classic [Pareto principle](https://en.wikipedia.
 
 Since we get around 4K read or redirection requests each second. This translates into 350M requests per day.
 
-$$
-4000 \space URLs/second \times 24 \space hours \times 3600 \space seconds = \sim 350 \space million \space requests/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/ba3c355e-3f13-4121-85be-e9c64cf81208)
+
 
 Hence, we will need around 35GB of memory per day.
 
-$$
-20 \space percent \times 350 \space million \times 500 \space bytes = 35 \space GB/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/80df11f5-7b2e-43e4-a86f-7ac006f27e3a)
 
 ### High-level estimate
 
@@ -3813,9 +3791,8 @@ Our system's primary goal is to shorten a given URL, let's look at different app
 
 In this approach, we can encode the original URL using [Base62](https://en.wikipedia.org/wiki/Base62) which consists of the capital letters A-Z, the lower case letters a-z, and the numbers 0-9.
 
-$$
-Number \space of \space URLs = 62^N
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/f15eda8b-0d2b-4049-b29b-36d571eb7301)
+
 
 Where,
 
@@ -3823,13 +3800,8 @@ Where,
 
 So, if we want to generate a URL that is 7 characters long, we will generate ~3.5 trillion different URLs.
 
-$$
-\begin{gather*}
-62^5 = \sim 916 \space million \space URLs \\
-62^6 = \sim 56.8 \space billion \space URLs \\
-62^7 = \sim 3.5 \space trillion \space URLs
-\end{gather*}
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/fb6a64b7-dd2f-4c58-965e-5d1b93499b3a)
+
 
 This is the simplest solution here, but it does not guarantee non-duplicate or collision-resistant keys.
 
@@ -3837,9 +3809,8 @@ This is the simplest solution here, but it does not guarantee non-duplicate or c
 
 The [MD5 message-digest algorithm](https://en.wikipedia.org/wiki/MD5) is a widely used hash function producing a 128-bit hash value (or 32 hexadecimal digits). We can use these 32 hexadecimal digits for generating 7 characters long URL.
 
-$$
-MD5(original\_url) \rightarrow base62encode \rightarrow hash
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/5353369b-78a8-47a1-b928-4a1adc1b68aa)
+
 
 However, this creates a new issue for us, which is duplication and collision. We can try to re-compute the hash until we find a unique one but that will increase the overhead of our systems. It's better to look for more scalable approaches.
 
@@ -3847,22 +3818,15 @@ However, this creates a new issue for us, which is duplication and collision. We
 
 In this approach, we will start with a single server which will maintain the count of the keys generated. Once our service receives a request, it can reach out to the counter which returns a unique number and increments the counter. When the next request comes the counter again returns the unique number and this goes on.
 
-$$
-Counter(0-3.5 \space trillion) \rightarrow base62encode \rightarrow hash
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/93ede78a-1826-432f-883e-fcaa7b2d09d1)
+
 
 The problem with this approach is that it can quickly become a single point for failure. And if we run multiple instances of the counter we can have collision as it's essentially a distributed system.
 
 To solve this issue we can use a distributed system manager such as [Zookeeper](https://zookeeper.apache.org) which can provide distributed synchronization. Zookeeper can maintain multiple ranges for our servers.
 
-$$
-\begin{align*}
-& Range \space 1: \space 1 \rightarrow 1,000,000 \\
-& Range \space 2: \space 1,000,001 \rightarrow 2,000,000 \\
-& Range \space 3: \space 2,000,001 \rightarrow 3,000,000 \\
-& ...
-\end{align*}
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/a6e44872-d0d0-4456-803b-f7af486deae7)
+
 
 Once a server reaches its maximum range Zookeeper will assign an unused counter range to the new server. This approach can guarantee non-duplicate and collision-resistant URLs. Also, we can run multiple instances of Zookeeper to remove the single point of failure.
 
@@ -3880,9 +3844,8 @@ The easiest way to solve this would be to store keys in two tables. As soon as a
 
 As per our discussion, we can generate up to ~56.8 billion unique 6 character long keys which will result in us having to store 300 GB of keys.
 
-$$
-6 \space characters \times 56.8 \space billion = \sim 390 \space GB
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/ef1b7f8b-baf2-4cee-aa28-3c06197cab30)
+
 
 While 390 GB seems like a lot for this simple use case, it is important to remember this is for the entirety of our service lifetime and the size of the keys database would not increase like our main database.
 
@@ -4025,51 +3988,44 @@ _Note: Make sure to check any scale or traffic-related assumptions with your int
 
 Let us assume we have 50 million daily active users (DAU) and on average each user sends at least 10 messages to 4 different people every day. This gives us 2 billion messages per day.
 
-$$
-50 \space million \times 20 \space messages = 2 \space billion/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/6f9736dd-7025-4bb8-9925-6d360597a096)
+
 
 Messages can also contain media such as images, videos, or other files. We can assume that 5 percent of messages are media files shared by the users, which gives us additional 200 million files we would need to store.
 
-$$
-5 \space percent \times 2 \space billion = 200 \space million/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/072add1e-a70b-4e96-9ef5-935e7e558686)
+
 
 **What would be Requests Per Second (RPS) for our system?**
 
 2 billion requests per day translate into 24K requests per second.
 
-$$
-\frac{2 \space billion}{(24 \space hrs \times 3600 \space seconds)} = \sim 24K \space requests/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/d7f37450-71b1-4448-8c67-cf37d23b3f67)
+
 
 ### Storage
 
 If we assume each message on average is 100 bytes, we will require about 200 GB of database storage every day.
 
-$$
-2 \space billion \times 100 \space bytes = \sim 200 \space GB/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/e1d20bae-8833-4d50-977a-321abe089f05)
+
 
 As per our requirements, we also know that around 5 percent of our daily messages (100 million) are media files. If we assume each file is 50 KB on average, we will require 10 TB of storage every day.
 
-$$
-100 \space million \times 100 \space KB = 10 \space TB/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/32a83eec-0936-4b5b-9195-e6bb36f6b2a5)
+
 
 And for 10 years, we will require about 38 PB of storage.
 
-$$
-(10 \space TB + 0.2 \space TB) \times 10 \space years \times 365 \space days = \sim 38 \space PB
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/c4fb7927-4e5b-4a9a-a2f8-932dd5057765)
+
 
 ### Bandwidth
 
 As our system is handling 10.2 TB of ingress every day, we will require a minimum bandwidth of around 120 MB per second.
 
-$$
-\frac{10.2 \space TB}{(24 \space hrs \times 3600 \space seconds)} = \sim 120 \space MB/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/dff09e52-3bf8-4a36-8ce5-7ff25ae21783)
+
 
 ### High-level estimate
 
@@ -4411,51 +4367,44 @@ _Note: Make sure to check any scale or traffic-related assumptions with your int
 
 This will be a read-heavy system, let us assume we have 1 billion total users with 200 million daily active users (DAU), and on average each user tweets 5 times a day. This gives us 1 billion tweets per day.
 
-$$
-200 \space million \times 5 \space messages = 1 \space billion/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/8f920c09-0362-495d-9266-6791b764f513)
+
 
 Tweets can also contain media such as images, or videos. We can assume that 10 percent of tweets are media files shared by the users, which gives us additional 100 million files we would need to store.
 
-$$
-10 \space percent \times 1 \space billion = 100 \space million/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/ae7c7582-77d3-48a9-907f-ac51335f6e3f)
+
 
 **What would be Requests Per Second (RPS) for our system?**
 
 1 billion requests per day translate into 12K requests per second.
 
-$$
-\frac{1 \space billion}{(24 \space hrs \times 3600 \space seconds)} = \sim 12K \space requests/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/e9aa9e28-4b95-4b49-ade9-3fb55fb8b12b)
+
 
 ### Storage
 
 If we assume each message on average is 100 bytes, we will require about 100 GB of database storage every day.
 
-$$
-1 \space billion \times 100 \space bytes = \sim 100 \space GB/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/251fc815-ba88-4317-868d-fbea06a654be)
+
 
 We also know that around 10 percent of our daily messages (100 million) are media files per our requirements. If we assume each file is 50 KB on average, we will require 5 TB of storage every day.
 
-$$
-100 \space million \times 100 \space KB = 5 \space TB/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/63e91530-a8d0-44e2-b42c-4414b1220e44)
+
 
 And for 10 years, we will require about 19 PB of storage.
 
-$$
-(5 \space TB + 0.1 \space TB) \times 365 \space days \times 10 \space years = \sim 19 \space PB
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/52d85c95-c7cb-4da0-85d9-b46d7d6f9215)
+
 
 ### Bandwidth
 
 As our system is handling 5.1 TB of ingress every day, we will require a minimum bandwidth of around 60 MB per second.
 
-$$
-\frac{5.1 \space TB}{(24 \space hrs \times 3600 \space seconds)} = \sim 60 \space MB/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/9f5c4f96-2103-4cad-9435-b7958bb5e385)
+
 
 ### High-level estimate
 
@@ -4659,9 +4608,8 @@ As we discussed, we will need a ranking algorithm to rank each tweet according t
 
 For example, Facebook used to utilize an [EdgeRank](https://en.wikipedia.org/wiki/EdgeRank) algorithm, here, the rank of each feed item is described by:
 
-$$
-Rank = Affinity \times Weight \times Decay
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/319dd4c6-db31-4adc-af3e-8ad1d774bc07)
+
 
 Where,
 
@@ -4820,45 +4768,39 @@ _Note: Make sure to check any scale or traffic-related assumptions with your int
 
 This will be a read-heavy system, let us assume we have 1 billion total users with 200 million daily active users (DAU), and on average each user watches 5 videos a day. This gives us 1 billion videos watched per day.
 
-$$
-200 \space million \times 5 \space videos = 1 \space billion/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/30309009-131e-4db9-a8b1-ffa694ec6449)
+
 
 Assuming, a `200:1` read/write ratio, about 50 million videos will be uploaded every day.
 
-$$
-\frac{1}{200} \times 1 \space billion = 50 \space million/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/3d03c553-8481-4d09-8213-073abcbb5255)
+
 
 **What would be Requests Per Second (RPS) for our system?**
 
 1 billion requests per day translate into 12K requests per second.
 
-$$
-\frac{1 \space billion}{(24 \space hrs \times 3600 \space seconds)} = \sim 12K \space requests/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/5faf14e3-4057-4db8-897a-7b4dbb45f430)
+
 
 ### Storage
 
 If we assume each video is 100 MB on average, we will require about 5 PB of storage every day.
 
-$$
-50 \space million \times 100 \space MB = 5 \space PB/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/52aba08b-28c0-4839-9dfd-3e5341f054f2)
+
 
 And for 10 years, we will require an astounding 18,250 PB of storage.
 
-$$
-5 \space PB \times 365 \space days \times 10 \space years = \sim 18,250 \space PB
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/49bcccb5-f6b0-4815-8f05-21ee7d40cc44)
+
 
 ### Bandwidth
 
 As our system is handling 5 PB of ingress every day, we will require a minimum bandwidth of around 58 GB per second.
 
-$$
-\frac{5 \space PB}{(24 \space hrs \times 3600 \space seconds)} = \sim 58 \space GB/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/181c190e-1050-4de3-9ba7-51518a9ae854)
+
 
 ### High-level estimate
 
@@ -5235,39 +5177,34 @@ Let us assume we have 100 million daily active users (DAU) with 1 million driver
 
 If on average each user performs 10 actions (such as request a check available rides, fares, book rides, etc.) we will have to handle 1 billion requests daily.
 
-$$
-100 \space million \times 10 \space actions = 1 \space billion/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/d6a0cbac-a12f-4d1f-a041-7d59a40db6e4)
+
 
 **What would be Requests Per Second (RPS) for our system?**
 
 1 billion requests per day translate into 12K requests per second.
 
-$$
-\frac{1 \space billion}{(24 \space hrs \times 3600 \space seconds)} = \sim 12K \space requests/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/1a57e7b6-3c75-4de3-a5ee-a0fd8b400eb0)
+
 
 ### Storage
 
 If we assume each message on average is 400 bytes, we will require about 400 GB of database storage every day.
 
-$$
-1 \space billion \times 400 \space bytes = \sim 400 \space GB/day
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/9c672591-1434-4a83-a2ad-e2f18c6ef177)
+
 
 And for 10 years, we will require about 1.4 PB of storage.
 
-$$
-400 \space GB \times 10 \space years \times 365 \space days = \sim 1.4 \space PB
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/1f394e30-6d7b-4378-8082-5f1bab7f4ca9)
+
 
 ### Bandwidth
 
 As our system is handling 400 GB of ingress every day, we will require a minimum bandwidth of around 4 MB per second.
 
-$$
-\frac{400 \space GB}{(24 \space hrs \times 3600 \space seconds)} = \sim 5 \space MB/second
-$$
+![image](https://github.com/SamirPaulb/SamirPaulb.github.io/assets/77569653/850af544-4f98-45cf-935b-1d1d74dce579)
+
 
 ### High-level estimate
 
