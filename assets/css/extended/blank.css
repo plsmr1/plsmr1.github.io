@@ -1,0 +1,39 @@
+pre {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    float: left;
+    justify-content: center;
+    min-width: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+code {
+    display: inline-block;
+}
+
+
+.post-content h1 {
+    margin: 35px auto 27px;
+    font-size: 35px;
+}
+
+.post-content h2 {
+    margin: 27px auto 19px;
+    font-size: 27px;
+}
+
+.post-content h3 {
+    font-size: 19px;
+}
+
+.post-content h4 {
+    font-size: 16px;
+}
+
+.post-content h5 {
+    font-size: 14px;
+}
+
+.post-content h6 {
+    font-size: 12px;
+}

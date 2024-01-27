@@ -6,7 +6,6 @@ tags: [system-design,distributed-systems]
 series: [System Design, Full Course]
 published: true
 sitemap: true
-math: true
 keywords: ["System Design Course", "distributed systems", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/system-design-course", "/posts/system-design"]
 cover:
@@ -14,7 +13,9 @@ cover:
   alt: System-Design
   hiddenInList: false
   hiddenInSingle: false
+math: false
 ---
+
   
 > Learn how to design systems at scale and prepare for system design interviews.
  
