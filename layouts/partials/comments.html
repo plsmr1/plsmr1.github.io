@@ -1,8 +1,5 @@
 <!-- Adapted/developed by pduchnovsky, https://duchnovsky.com/2020/11/disqus-on-click-for-hugo/ -->
-{{- if and (not (eq (.Site.DisqusShortname | default "") "")) (eq
-(.Params.disableComments | default false) false) -}} {{- if
-.Site.Params.disqusOnClick -}} {{- $pc := .Site.Config.Privacy.Disqus -}} {{- if
-not $pc.Disable -}} {{- if .Site.DisqusShortname -}}
+{{ if .Params.comments }}
 <section id="disqus" style="text-align: center">
   <button
     class="disqus-comment-count"
@@ -74,5 +71,4 @@ not $pc.Disable -}} {{- if .Site.DisqusShortname -}}
     powered by <span class="logo-disqus">Disqus</span>
   </a>
 </section>
-{{- end -}} {{- end -}} {{- else -}} {{ template "_internal/disqus.html" . }}
-{{- end -}} {{- end -}}
+{{- end -}} 
