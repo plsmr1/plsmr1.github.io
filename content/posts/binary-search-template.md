@@ -13,6 +13,7 @@ cover:
   alt: Binary Search Template
   hiddenInList: true
   hiddenInSingle: false
+comments: false
 ---
 
 
