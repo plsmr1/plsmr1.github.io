@@ -43,36 +43,59 @@ code {
 /* <button class="comment-button" role="comment-button">Comment Button</button> */
 /* Comment Button CSS */
 .comment-button {
-    --b: 3px;   /* border thickness */
-    --s: .45em; /* size of the corner */
-    --color: #373B44;
-    
-    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-    color: var(--color);
-    --_p: var(--s);
-    background:
-      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
-      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-    transition: .3s linear, color 0s, background-color 0s;
-    outline: var(--b) solid #0000;
-    outline-offset: .6em;
-    font-size: 16px;
-  
-    border: 0;
-  
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
   }
   
-  .comment-button:hover,
-  .comment-button:focus-visible{
-    --_p: 0px;
-    outline-color: var(--color);
-    outline-offset: .05em;
+  .svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
   }
   
-  .comment-button:active {
-    background: var(--color);
-    color: #fff;
+  .svgIcon path {
+    fill: white;
   }
+  
+  .comment-button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color: rgb(109, 109, 109);
+    align-items: center;
+  }
+  
+  .comment-button:hover .svgIcon {
+    /* width: 20px; */
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+  }
+  
+  .comment-button::before {
+    position: absolute;
+    bottom: -20px;
+    content: "Add/View Comments";
+    color: white;
+    /* transition-duration: .3s; */
+    font-size: 0px;
+  }
+  
+  .comment-button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    /* transform: translateY(-30px); */
+    transition-duration: 0.3s;
+  }
+  
