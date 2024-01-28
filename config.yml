@@ -43,7 +43,7 @@ outputs:
     - RSS
     - JSON
 
-DisqusShortname: samirpaul
+disqusShortname: samirpaul
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
