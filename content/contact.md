@@ -1,6 +1,5 @@
 ---
 title: Contact Me
-layout: page
 url: /contact
 summary: Contact Me
 ShowShareButtons: false
