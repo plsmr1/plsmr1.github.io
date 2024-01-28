@@ -48,6 +48,23 @@ code {
       background-color: #f5f5f5;
       border: 1px solid #dcdcdc;
       color: #333333;
+      border-radius: 3px;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 1.15385;
+      margin: 0;
+      outline: none;
+      padding: 8px .8em;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: baseline;
+      white-space: nowrap;
     }
     
     .comment-button:hover,
@@ -73,6 +90,23 @@ code {
       background-color: #333333;
       border: 1px solid #555555;
       color: #f5f5f5;
+      border-radius: 3px;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 1.15385;
+      margin: 0;
+      outline: none;
+      padding: 8px .8em;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: baseline;
+      white-space: nowrap;
     }
     
     .comment-button:hover,
@@ -91,4 +125,3 @@ code {
       color: #f5f5f5;
     }
   }
-  
