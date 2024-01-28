@@ -1,7 +1,6 @@
 <!-- Adapted/developed by pduchnovsky, https://duchnovsky.com/2020/11/disqus-on-click-for-hugo/ -->
 {{- if and (not (eq (.Site.DisqusShortname | default "") "")) (eq
-(.Params.disableComments | default false) false) (eq
-(.Params.comments)) -}} {{- if
+(.Params.disableComments | default false) false) (.Params.comments) -}} {{- if
 .Site.Params.disqusOnClick -}} {{- $pc := .Site.Config.Privacy.Disqus -}} {{- if
 not $pc.Disable -}} {{- if .Site.DisqusShortname -}}
 <section id="disqus" style="text-align: center">
