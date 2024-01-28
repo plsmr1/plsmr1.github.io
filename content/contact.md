@@ -3,6 +3,7 @@ title: Contact Me
 url: /contact
 summary: Contact Me
 ShowShareButtons: false
+disableShare: true
 ShowReadingTime: false
 ShowToc: false
 ShowPostNavLinks: false

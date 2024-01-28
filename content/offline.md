@@ -4,6 +4,7 @@ layout: "page"
 url: "/offline/"
 summary: No internet
 ShowShareButtons: false
+disableShare: true
 ShowReadingTime: false
 ShowToc: false
 ShowPostNavLinks: false

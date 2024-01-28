@@ -3,6 +3,7 @@ title: Privacy Policy
 url: /privacy
 summary: Privacy Policy
 ShowShareButtons: false
+disableShare: true
 ShowReadingTime: false
 ShowToc: false
 ShowPostNavLinks: false

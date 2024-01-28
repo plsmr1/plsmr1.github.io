@@ -3,6 +3,7 @@ title: Content Disclaimer
 url: /disclaimer
 summary: Content Disclaimer
 ShowShareButtons: false
+disableShare: true
 ShowReadingTime: false
 ShowToc: false
 ShowPostNavLinks: false

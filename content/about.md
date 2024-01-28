@@ -4,6 +4,7 @@ layout: "about"
 url: "/about/"
 summary: About Me
 ShowShareButtons: false
+disableShare: true
 ShowReadingTime: false
 ShowToc: false
 ShowPostNavLinks: false
