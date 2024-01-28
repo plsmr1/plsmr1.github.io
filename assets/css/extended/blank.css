@@ -42,44 +42,53 @@ code {
 
 /* <button class="comment-button" role="comment-button">Comment Button</button> */
 /* Comment Button CSS */
-.comment-button {
-    background-color: #e1ecf4;
-    border-radius: 3px;
-    border: 1px solid #7aa7c7;
-    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
-    box-sizing: border-box;
-    color: #39739d;
-    cursor: pointer;
-    display: inline-block;
-    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 1.15385;
-    margin: 0;
-    outline: none;
-    padding: 8px .8em;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
-    white-space: nowrap;
+@media (prefers-color-scheme: light) {
+    /* Light mode styles */
+    .comment-button {
+      background-color: #f5f5f5;
+      border: 1px solid #dcdcdc;
+      color: #333333;
+    }
+    
+    .comment-button:hover,
+    .comment-button:focus {
+      background-color: #dcdcdc;
+      color: #333333;
+    }
+    
+    .comment-button:focus {
+      box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    }
+    
+    .comment-button:active {
+      background-color: #c8c8c8;
+      box-shadow: none;
+      color: #333333;
+    }
   }
   
-  .comment-button:hover,
-  .comment-button:focus {
-    background-color: #b3d3ea;
-    color: #2c5777;
+  @media (prefers-color-scheme: dark) {
+    /* Dark mode styles */
+    .comment-button {
+      background-color: #333333;
+      border: 1px solid #555555;
+      color: #f5f5f5;
+    }
+    
+    .comment-button:hover,
+    .comment-button:focus {
+      background-color: #555555;
+      color: #f5f5f5;
+    }
+    
+    .comment-button:focus {
+      box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    }
+    
+    .comment-button:active {
+      background-color: #777777;
+      box-shadow: none;
+      color: #f5f5f5;
+    }
   }
   
-  .comment-button:focus {
-    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
-  }
-  
-  .comment-button:active {
-    background-color: #a0c7e4;
-    box-shadow: none;
-    color: #2c5777;
-  }
