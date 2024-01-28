@@ -1,10 +1,11 @@
-{{- if and (not (eq (.Site.DisqusShortname | default "") "")) (eq
-(.Params.disableComments | default false) false) -}} {{- if
-.Site.Params.disqusOnClick -}} {{- $pc := .Site.Config.Privacy.Disqus -}} {{- if
-not $pc.Disable -}} {{- if .Site.DisqusShortname -}}
+{{ if or .Params.comments .Site.Params.comments }}
 
 <section class="comments-block">
-  <button id="show-comments" style="display: none; text-align: center;"><i class="fa fa-comments-o"></i> Add/View Comments</button>
+  <button id="show-comments" style="color: white !important; background-color: #1565c0; border: none; border-radius: 5px; padding: 10px 20px; margin: 6px 4px; font-size: 1.6rem; transition-duration: 0.4s; cursor: pointer;"
+    onmouseover="this.style.backgroundColor='#42a5f5'"
+    onmouseout="this.style.backgroundColor='#1565c0'">
+    <i class="fa fa-comments-o"></i> Add/View Comments
+  </button>
 </section>
 
 <section id="disqus_thread"></section>
@@ -56,5 +57,4 @@ not $pc.Disable -}} {{- if .Site.DisqusShortname -}}
   })();
 </script>
 
-{{- end -}} {{- end -}}
-{{- end -}} {{- end -}}
+{{- end -}}
