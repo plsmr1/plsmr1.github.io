@@ -1,6 +1,5 @@
 ---
 title: Privacy Policy
-layout: page
 url: /privacy
 summary: Privacy Policy
 ShowShareButtons: false
