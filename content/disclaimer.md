@@ -1,6 +1,5 @@
 ---
 title: Content Disclaimer
-layout: page
 url: /disclaimer
 summary: Content Disclaimer
 ShowShareButtons: false
