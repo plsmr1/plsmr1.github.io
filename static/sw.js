@@ -13,6 +13,7 @@ const BASE_CACHE_FILES = [
     '/favicon.ico',
     'https://www.googletagmanager.com/gtag/js?id=G-CP4QE6ZEV0',
     'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.min.js',
+    'https://samirpaul.disqus.com/embed.js',
 ];
 
 const OFFLINE_CACHE_FILES = [
