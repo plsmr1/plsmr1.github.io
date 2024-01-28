@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-layout: "page"
+layout: "about"
 url: "/about/"
 summary: About Me
 ShowShareButtons: false
