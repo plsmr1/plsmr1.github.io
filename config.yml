@@ -43,6 +43,8 @@ outputs:
     - RSS
     - JSON
 
+disqusShortname: samirpaul
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "Technical blog for developers. Computer Science, Data Structures Algorithms, Networking, Artificial Intelligence and Coding Interview Prep."
@@ -64,7 +66,7 @@ params:
   ShowPageNums: true
   ShowToc: true
   TocOpen: false
-  comments: false
+  comments: true
   hidemeta: false
   hideFooter: false
   images: ["./screenshot.png"]
