@@ -43,6 +43,7 @@ outputs:
     - RSS
     - JSON
 
+# keep it here as .Site.DisqusShortname is referred
 disqusShortname: samirpaul
 
 params:
