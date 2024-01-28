@@ -11,23 +11,6 @@ code {
     display: inline-block;
 }
 
-/* Disqus Comment Button  */
-button {
-    color: white !important;
-    background-color: #1565c0;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 6px 4px;
-    font-size: 1.6rem;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  
-button:hover {
-background-color: #42a5f5;
-}
-
 
 .post-content h1 {
     margin: 35px auto 27px;
