@@ -130,17 +130,6 @@
 
 <!-- MathJax Support -->
 {{ if or .Params.math .Site.Params.math }}
-<script defer loading="lazy">
-document.addEventListener('DOMContentLoaded', function() {
-    MathJax = {
-        tex: {
-        inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
-        },
-        svg: {
-        fontCache: 'global'
-        }
-    };
-});
-</script>
-<script defer loading="lazy" id="MathJax-script" src="/mathjax/es5/tex-mml-chtml.js"></script>
+<script defer loading="lazy" src="/mathjax/mathjax-config.js"></script>
+<script type="text/javascript" id="MathJax-script" defer loading="lazy" src="/mathjax/es5/tex-mml-chtml.js"></script>
 {{ end }}
