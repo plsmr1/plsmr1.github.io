@@ -22,8 +22,8 @@ importScripts(
           statuses: [0, 200],
         }),
         new workbox.expiration.ExpirationPlugin({
-          maxEntries: 100,
-          maxAgeSeconds: 7 * 24 * 60 * 60,
+          maxEntries: 500,
+          maxAgeSeconds: 365 * 24 * 60 * 60,
         }),
       ],
     })
@@ -40,8 +40,8 @@ importScripts(
           statuses: [0, 200],
         }),
         new workbox.expiration.ExpirationPlugin({
-          maxEntries: 100,
-          maxAgeSeconds: 7 * 24 * 60 * 60,
+          maxEntries: 500,
+          maxAgeSeconds: 365 * 24 * 60 * 60,
         }),
       ],
     })
