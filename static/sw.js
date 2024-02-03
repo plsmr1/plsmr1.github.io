@@ -8,8 +8,6 @@ const { precacheAndRoute } = workbox.precaching;
 workbox.loadModule('workbox-strategies');
 workbox.setConfig({ debug: false });
 
-
-
 precacheAndRoute([{ url: "/offline/index.html", revision: null }]);
 
 workbox.routing.registerRoute(
@@ -61,19 +59,6 @@ switch (event.request.destination) {
 }
 });
 
-// Workbox injects core files to cache for every visitor to the site
-workbox.precaching.precacheAndRoute(self.__WB_MANIFEST_CORE);
-
-self.addEventListener('message', event => {
-    if (event.data) {
-        if (event.data === 'PWA running') {
-            // Workbox injects additional files to the cache for installed PWAs
-            workbox.precaching.precacheAndRoute(self.__WB_MANIFEST_FULL);
-        } else if (event.data.type === "SKIP_WAITING") {
-            self.skipWaiting();
-        }
-    }
-});
 
 // Serve all other assets with CacheFirst strategy
 workbox.routing.registerRoute(
@@ -81,9 +66,9 @@ workbox.routing.registerRoute(
 new workbox.strategies.CacheFirst({
     plugins: [
     new workbox.expiration.Plugin({
-        maxEntries: 20,
-        maxAgeSeconds: 30 * 24 * 60 * 60
+        maxEntries: 500,
+        maxAgeSeconds: 365 * 24 * 60 * 60
     })
     ]
 })
-)
+);
