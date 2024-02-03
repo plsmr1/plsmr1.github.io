@@ -56,3 +56,21 @@ if('serviceWorker' in navigator) {
 <script async defer loading="lazy" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" crossorigin="anonymous"></script> 
 -->
 
+
+
+<!-- MathJax Support -->
+{{ if or .Params.math .Site.Params.math }}
+<script>
+MathJax = {
+    tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+    },
+    svg: {
+    fontCache: 'global'
+    }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" defer loading="lazy" async src="./mathjax/es5/tex-mml-chtml.js"></script>
+{{ end }}
+
+
