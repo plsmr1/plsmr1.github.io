@@ -10,7 +10,8 @@
 
 <section id="disqus_thread" style="text-align: center"></section>
 
-<script defer loading="lazy">
+<script>
+document.addEventListener('DOMContentLoaded', function() {
   (function () {
         if (window.location.hostname == "localhost")
               return;
@@ -54,6 +55,7 @@
               disqus();
         }
   })();
+});
 </script>
 
 {{- end -}}
