@@ -17,4 +17,4 @@ author: " "
 
 **Please check your network connection**
 
-![offline](./offline.png)
+![offline](/offline.png)

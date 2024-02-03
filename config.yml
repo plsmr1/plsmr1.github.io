@@ -70,7 +70,7 @@ params:
   comments: true
   hidemeta: false
   hideFooter: false
-  images: ["./screenshot.png"]
+  images: ["/screenshot.png"]
 
   profileMode:
     enabled: false
