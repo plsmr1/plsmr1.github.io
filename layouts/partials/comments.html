@@ -10,7 +10,8 @@
 
 <section id="disqus_thread" style="text-align: center"></section>
 
-<script>
+<script defer>
+document.addEventListener('DOMContentLoaded', function() {
   (function () {
         // Don't ever inject Disqus on localhost--it creates unwanted
         // discussions from 'localhost:1313' on your Disqus account...
@@ -56,6 +57,7 @@
               disqus();
         }
   })();
+});
 </script>
 
 {{- end -}}

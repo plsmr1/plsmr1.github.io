@@ -1,5 +1,5 @@
 <!-- Automatically open external links in new tab or window. -->
-<script defer loading="lazy">
+<script defer type="module">
 window.addEventListener("DOMContentLoaded", function externalLinks() {
   var anchors = document.getElementsByTagName("a");
   for (var i = 0; i < anchors.length; i++) {
@@ -12,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function externalLinks() {
 </script>
 
 <!-- Register Service Workers -->
-<script defer loading="lazy">
+<script defer type="module">
 if('serviceWorker' in navigator) {
     const PREFETCH = true;
     const PREFETCH_LINK_RELS = ['index','next', 'prev', 'prefetch'];
@@ -60,7 +60,7 @@ if('serviceWorker' in navigator) {
 
 <!-- MathJax Support -->
 {{ if or .Params.math .Site.Params.math }}
-<script>
+<script defer type="module">
 MathJax = {
     tex: {
     inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
@@ -70,7 +70,7 @@ MathJax = {
     }
 };
 </script>
-<script type="text/javascript" id="MathJax-script" defer src="./mathjax/es5/tex-mml-chtml.js"></script>
+<script type="module" id="MathJax-script" defer loading="lazy" src="./mathjax/es5/tex-mml-chtml.js"></script>
 {{ end }}
 
 
