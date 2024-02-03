@@ -55,7 +55,13 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <!-- 
-<script defer async loading="lazy" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" crossorigin="anonymous"></script> 
+<script type="module" defer async loading="lazy" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" crossorigin="anonymous"></script> 
 -->
 
 
+
+<!-- MathJax Support -->
+{{ if or .Params.math .Site.Params.math }}
+<script type="module" defer loading="lazy" src="/mathjax/mathjax-config.js"></script>
+<script type="module" id="MathJax-script" defer loading="lazy" src="/mathjax/es5/tex-mml-chtml.js"></script>
+{{ end }}
