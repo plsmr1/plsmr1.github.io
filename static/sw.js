@@ -2,11 +2,12 @@ importScripts(
     'https://storage.googleapis.com/workbox-cdn/releases/6.4.1/workbox-sw.js'
   );
 
-const { StaleWhileRevalidate, CacheFirst } = workbox.strategies;
-const { precacheAndRoute } = workbox.precaching;
+workbox.setConfig({ debug: false });
 // This will trigger the importScripts() for workbox.strategies and its dependencies:
 workbox.loadModule('workbox-strategies');
-workbox.setConfig({ debug: false });
+
+const { StaleWhileRevalidate, CacheFirst } = workbox.strategies;
+const { precacheAndRoute } = workbox.precaching;
 
 precacheAndRoute([{ url: "/offline/index.html", revision: null }]);
 
