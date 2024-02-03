@@ -15,7 +15,7 @@ ShowBreadCrumbs: false
 author: " "
 ---
 
-**Please check your network connection** <button type="button" onClick="window.location.reload()">Reload Page</button>
+**Please check your network connection** then <button class="comment-button" type="button" onClick="window.location.reload()">Reload Page</button>
 
 
 
