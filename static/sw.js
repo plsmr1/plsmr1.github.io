@@ -50,7 +50,7 @@ importScripts(
   workbox.routing.setCatchHandler(({ event }) => {
     switch (event.request.destination) {
       case "document":
-        return caches.match("/404.html");
+        return caches.match("/offline/index.html");
       default:
         return Response.error();
     }
