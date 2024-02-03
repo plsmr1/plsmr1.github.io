@@ -1,5 +1,5 @@
 <!-- Automatically open external links in new tab or window. -->
-<script defer type="module">
+<script defer loading="lazy">
 window.addEventListener("DOMContentLoaded", function externalLinks() {
   var anchors = document.getElementsByTagName("a");
   for (var i = 0; i < anchors.length; i++) {
@@ -12,65 +12,50 @@ window.addEventListener("DOMContentLoaded", function externalLinks() {
 </script>
 
 <!-- Register Service Workers -->
-<script defer type="module">
-if('serviceWorker' in navigator) {
-    const PREFETCH = true;
-    const PREFETCH_LINK_RELS = ['index','next', 'prev', 'prefetch'];
-    function prefetchCache() {
-        if(navigator.serviceWorker.controller) {
-            let links = document.querySelectorAll(
-                PREFETCH_LINK_RELS.map((rel) => {
-                    return 'link[rel='+rel+']';
-                }).join(',')
-            );
-            if(links.length > 0) {
-                Array.from(links)
-                    .map((link) => {
-                        let href = link.getAttribute('href');
-                        navigator.serviceWorker.controller.postMessage({
-                            action : 'cache',
-                            url : href,
+<script defer loading="lazy">
+document.addEventListener('DOMContentLoaded', function() {
+    if('serviceWorker' in navigator) {
+        const PREFETCH = true;
+        const PREFETCH_LINK_RELS = ['index','next', 'prev', 'prefetch'];
+        function prefetchCache() {
+            if(navigator.serviceWorker.controller) {
+                let links = document.querySelectorAll(
+                    PREFETCH_LINK_RELS.map((rel) => {
+                        return 'link[rel='+rel+']';
+                    }).join(',')
+                );
+                if(links.length > 0) {
+                    Array.from(links)
+                        .map((link) => {
+                            let href = link.getAttribute('href');
+                            navigator.serviceWorker.controller.postMessage({
+                                action : 'cache',
+                                url : href,
+                            });
                         });
-                    });
+                }
             }
         }
+
+        navigator.serviceWorker
+            .register('/sw.js', { scope: '/' })
+            .then(() => {
+                console.log('Service Worker Registered');
+            });
+
+        navigator.serviceWorker
+            .ready
+            .then(() => {
+                if(PREFETCH) {
+                    prefetchCache();
+                }
+            });
     }
-
-    navigator.serviceWorker
-        .register('/sw.js', { scope: '/' })
-        .then(() => {
-            console.log('Service Worker Registered');
-        });
-
-    navigator.serviceWorker
-        .ready
-        .then(() => {
-            if(PREFETCH) {
-                prefetchCache();
-            }
-        });
-}
+});
 </script>
 
 <!-- 
-<script async defer loading="lazy" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" crossorigin="anonymous"></script> 
+<script defer async loading="lazy" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8274401353019049" crossorigin="anonymous"></script> 
 -->
-
-
-
-<!-- MathJax Support -->
-{{ if or .Params.math .Site.Params.math }}
-<script defer type="module">
-MathJax = {
-    tex: {
-    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
-    },
-    svg: {
-    fontCache: 'global'
-    }
-};
-</script>
-<script type="module" id="MathJax-script" defer loading="lazy" src="./mathjax/es5/tex-mml-chtml.js"></script>
-{{ end }}
 
 

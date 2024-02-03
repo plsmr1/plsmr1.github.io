@@ -126,3 +126,21 @@
 <link href="https://assets.calendly.com" rel="dns-prefetch"/> -->
 
 
+
+
+<!-- MathJax Support -->
+{{ if or .Params.math .Site.Params.math }}
+<script defer loading="lazy">
+document.addEventListener('DOMContentLoaded', function() {
+    MathJax = {
+        tex: {
+        inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+        },
+        svg: {
+        fontCache: 'global'
+        }
+    };
+});
+</script>
+<script defer loading="lazy" type="module" id="MathJax-script" src="./mathjax/es5/tex-mml-chtml.js"></script>
+{{ end }}

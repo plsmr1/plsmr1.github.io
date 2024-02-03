@@ -9,12 +9,12 @@ const BASE_CACHE_FILES = [
     '/assets/prism.js',
     '/assets/style.css',
     '/manifest.json',
+    'site.webmanifest',
     // ico cache
     '/favicon.ico',
     'https://www.googletagmanager.com/gtag/js?id=G-CP4QE6ZEV0',
     './mathjax/es5/tex-mml-chtml.js',
     'https://samirpaul.disqus.com/embed.js',
-    '',
 
 ];
 
