@@ -119,8 +119,8 @@
 <link href="https://cloudinary.com" rel="preconnect"/>
 <link href="https://cloudinary.com" rel="dns-prefetch"/>
 
-<link href="https://imgur.com" rel="preconnect"/>
-<link href="https://imgur.com" rel="dns-prefetch"/>
+<!-- <link href="https://imgur.com" rel="preconnect"/>
+<link href="https://imgur.com" rel="dns-prefetch"/> -->
 
 <!-- <link href="https://assets.calendly.com" rel="preconnect"/>
 <link href="https://assets.calendly.com" rel="dns-prefetch"/> -->
@@ -128,3 +128,9 @@
 
 
 
+
+<!-- MathJax Support -->
+{{ if or .Params.math .Site.Params.math }}
+<script type="module" defer loading="lazy" async src="/mathjax/mathjax-config.js"></script>
+<script type="module" id="MathJax-script" defer loading="lazy" async src="/mathjax/es5/tex-mml-chtml.js"></script>
+{{ end }}
