@@ -5,7 +5,7 @@ importScripts(
   const { StaleWhileRevalidate, CacheFirst } = workbox.strategies;
   const { precacheAndRoute } = workbox.precaching;
   
-  precacheAndRoute([{ url: "/404.html", revision: null }]);
+  precacheAndRoute([{ url: "/offline/index.html", revision: null }]);
   
   workbox.routing.registerRoute(
     ({ request }) => {
@@ -50,7 +50,7 @@ importScripts(
   workbox.routing.setCatchHandler(({ event }) => {
     switch (event.request.destination) {
       case "document":
-        return caches.match("/404.html");
+        return caches.match("/offline/index.html");
       default:
         return Response.error();
     }
