@@ -164,12 +164,15 @@ following is the summary of the high level estimates for our service:
 We can have SOAP or REST APIs to expose the functionality of our service. 
 Following could be the definitions of the APIs for creating and deleting URLs:
 
-```
+{{< terminal title="Code" >}}
+```js
 createURL(api_dev_key,original_url,custom_alias=None,user_name=None,expire_date=None)
 ```
+{{< /terminal >}}
 
 **Parameters:**
-```
+{{< terminal title="Code" >}}
+```js
 api_dev_key (string)    : The API developer key of a registered account. 
                           This will be used to, among other things, throttle users based on their allocated quota
 original_url (string)   : Original URL to be shortened.
@@ -177,13 +180,15 @@ custom_alias (string)   : Optional custom key for the URL.
 user_name (string)      : Optional user name to be used in the encoding.
 expire_date (string)    : Optional expiration date for the shortened URL.
 ```
+{{< /terminal >}}
 
 **Returns:**(string)
 A successful insertion returns the shortened URL; otherwise, it returns an error code.
-
-```
+{{< terminal title="Code" >}}
+```js
 deleteURL(api_dev_key,url_kexy)
 ```
+{{< /terminal >}}
 
 Where "url_key" is a string representing the shortened URL to be retrieved. A successful deletion returns 'URL Removed'.
 
@@ -194,16 +199,15 @@ per developer key).
 
 ## 5. Database Design  
 
-> :bulb: Defining the DB schema in the early stages of the interview would help to understand the data 
-> 
->        flow among various components and later would guide towards data partitioning.
+> Defining the DB schema in the early stages of the interview would help to understand the data 
+> flow among various components and later would guide towards data partitioning.
 
 A few observations about the nature of the data we will store:
 
 1.  We need to store billions of records.
-1.  Each object we store is small (less than 1K).
-1.  There are no relationships between records---other than storing which user created a URL.
-1.  Our service is read-heavy.
+2.  Each object we store is small (less than 1K).
+3.  There are no relationships between records---other than storing which user created a URL.
+4.  Our service is read-heavy.
 
 #### Database Schema:
 

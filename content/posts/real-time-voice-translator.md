@@ -116,29 +116,34 @@ The Speech Translation Model (STM) orchestrates a series of interconnected proce
 ### Getting started
 
 1. Clone [this project](https://github.com/SamirPaulb/real-time-voice-translator) and create virtualenv (recommended) and activate virtualenv.
-    ```
-    # Create virtualenv
-    python -m venv env
- 
-    # Linux/MacOS
-    source env/bin/activate
-    
-    # Windows
-    env\Scripts\activate
-    ```
+{{< terminal title="Shell Commands to Create Python Virtual environment " >}}
+```bash
+# Create virtualenv
+python -m venv env
+
+# Linux/MacOS
+source env/bin/activate
+
+# Windows
+env\Scripts\activate
+```
+{{< /terminal >}}
     
 2. Install require dependencies.
-    ```
-    pip install --upgrade wheel
-    
-    pip install -r requirements.txt
-    ```
+{{< terminal title="Shell Commands" >}}
+```bash
+pip install --upgrade wheel
+
+pip install -r requirements.txt
+```
+{{< /terminal >}}
 
 3. Run code and speech (have fun).
-    ```
-    python main.py
-    ```
-
+{{< terminal title="Shell Command" >}}
+```bash
+python main.py
+```
+{{< /terminal >}}
 
 ### Install Windows/Linux/Mac Application 
 

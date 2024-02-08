@@ -41,6 +41,8 @@ In the backend, using the ```PDFNetPython``` library that file gets reduced and 
 The server-side flask script fetches the file from the request object using ```name = request.files['file'].filename```.
 On successfully uploading the file, it is saved to the desired location on the server.
 Here’s the Python code for the Flask application.
+
+{{< terminal title="Flask File Uploading - Python Code" >}}
 ```python
 from flask import Flask, render_template, request
 from werkzeug import secure_filename
@@ -60,9 +62,12 @@ def upload_file():
 if __name__ == '__main__':
    app.run(debug = True)
 ```
+{{< /terminal >}}
 
 
 ### How PDF is compressed in backend:
+
+{{< terminal title="Python Code to Compress PDF" >}}
 ```python
 import os
 import sys
@@ -88,8 +93,11 @@ if __name__ == "__main__":
     output_file = sys.argv[2]
     compress_file(input_file, output_file)
 ```
+{{< /terminal >}}
 
 ### File Download:
+
+{{< terminal title="File Download using JavaScript" >}}
 ```js
 function downloadFile(filename) {
 	if(response !== null) {
@@ -108,6 +116,7 @@ function downloadFile(filename) {
 	}
 }
 ```
+{{< /terminal >}}
 
 
 ## 🤔 How to contribute

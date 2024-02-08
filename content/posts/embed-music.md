@@ -34,6 +34,7 @@ Embed [<b>samirpaul.in/music/embed</b>](https://samirpaulb.github.io/music/embed
 
 ### Code:
 
+{{< terminal title="HTML iframe" >}}
 ```html
 <iframe src="https://samirpaulb.github.io/music/embed"
   title="Embed MusicApp"
@@ -46,3 +47,4 @@ Embed [<b>samirpaul.in/music/embed</b>](https://samirpaulb.github.io/music/embed
 	scrolling="no">
 </iframe>
 ```
+{{< /terminal >}}

@@ -24,6 +24,7 @@ Both versions work basically the same way: grab all anchor tags ```<a href="#">`
 ### Straight JavaScript
 This version does not require any jQuery (or any other libraries):
 
+{{< terminal title="JavaScript Code" >}}
 ```js
 function ready(fn) {
   if (document.readyState != 'loading') {
@@ -60,10 +61,12 @@ ready(function() {
 });
 
 ```
+{{< /terminal >}}
 
 ### jQuery
 This version requires jQuery in order to work, but if you’re using jQuery on your site anyway, it avoids reinventing the wheel:
 
+{{< terminal title="jQuery JavaScript" >}}
 ```js
 $(document).ready(function() {
 
@@ -84,6 +87,7 @@ $(document).ready(function() {
 });
 
 ```
+{{< /terminal >}}
 
 ### My Implementation for Jekyll Blog
 I have created a file called [external-links-new-window.html](https://raw.githubusercontent.com/SamirPaul1/assets/main/external-links-new-window.html) inside ```_includes``` directory and referred it from ```_layouts/default.html``` as <a href="#"><img src="https://spcdn.pages.dev/img/include-external-links-new-window.html-code.png" alt="external-links-new-window"  width="370px" height="22px"></a>.

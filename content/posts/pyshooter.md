@@ -49,10 +49,12 @@ Install Pygame ```pip install pygame```
 
 - If you have the correct version of Python and Pygame installed, you can run the program in the command prompt / terminal.
 
+{{< terminal title="Shell Command" >}}
 ```bash
 cd PyShooter
 python main.py
 ```
+{{< /terminal >}}
 
 
 ---
