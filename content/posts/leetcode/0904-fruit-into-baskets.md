@@ -76,8 +76,8 @@ We traverse the `fruits` array, add the current fruit $x$ to the window, i.e., $
 
 After the traversal ends, we can get the final answer.
 
-```
-{{< /terminal >}}
+{{< terminal title="Text" >}}
+```txt
 1 2 3 2 2 1 4
 ^   ^
 j   i
