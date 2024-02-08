@@ -28,7 +28,8 @@ cover:
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=SamirPaulb&repo=DSAlgo&show_owner=true)](https://github.com/SamirPaulb/DSAlgo)
 
-### ***Topics Covered***:
+### ***Topics Covered***✅:
+- [x]  [**LeetCode All Problems Solutions**](https://github.com/SamirPaulb/DSAlgo/tree/main/01_LeetCode)
 - [x]  [**Dynamic Programming**](https://github.com/SamirPaulb/DSAlgo/tree/main/02_Dynamic-Programming)
 - [x]  [**Sorting Algorithms**](https://github.com/SamirPaulb/DSAlgo/tree/main/03_Sorting-Algorithms)
 - [x]  [**LinkedList**](https://github.com/SamirPaulb/DSAlgo/tree/main/04_LinkedList)
