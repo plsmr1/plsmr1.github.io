@@ -110,7 +110,7 @@ The Speech Translation Model (STM) orchestrates a series of interconnected proce
 
 ## Installation and Usage
 ### Dependencies
-{{< terminal title="Pip Dependencies" >}}
+{{< terminal title="Python Packages" >}}
 ```python
 <=Python3.11, gTTS, pyaudio, playsound==1.2.2, deep-translator, SpeechRecognition, google-transliteration-api, cx-Freeze
 ```
