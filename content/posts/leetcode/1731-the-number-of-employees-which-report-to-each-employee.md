@@ -76,7 +76,6 @@ We can use self-join to connect the information of each employee's superior mana
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     e2.employee_id,

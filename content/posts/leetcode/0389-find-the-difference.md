@@ -174,8 +174,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char findTheDifference(char* s, char* t) {
     int n = strlen(s);
     int cnt[26] = {0};
@@ -291,8 +291,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char findTheDifference(char* s, char* t) {
     int n = strlen(s);
     char ans = 0;

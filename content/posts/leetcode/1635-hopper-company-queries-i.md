@@ -172,7 +172,6 @@ By the end of December --&gt; six active drivers (10, 8, 5, 7, 4, 1) and one acc
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     recursive Months AS (

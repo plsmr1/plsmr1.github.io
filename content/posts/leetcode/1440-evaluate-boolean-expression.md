@@ -105,7 +105,6 @@ We can associate each row in the `Expressions` table with two rows in the `Varia
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     left_operand,

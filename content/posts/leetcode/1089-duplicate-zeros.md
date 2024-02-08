@@ -193,8 +193,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 void duplicateZeros(int* arr, int arrSize) {
     int i = 0;
     int j = 0;

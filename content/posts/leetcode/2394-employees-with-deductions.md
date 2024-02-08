@@ -115,7 +115,6 @@ Employee 3:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

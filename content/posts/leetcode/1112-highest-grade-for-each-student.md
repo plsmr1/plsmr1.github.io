@@ -77,7 +77,6 @@ We can use the `RANK() OVER()` window function to sort the grades of each studen
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -105,7 +104,6 @@ We can first query the highest grade of each student, and then query the minimum
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT student_id, MIN(course_id) AS course_id, grade
 FROM Enrollments

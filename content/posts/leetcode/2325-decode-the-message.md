@@ -186,8 +186,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char* decodeMessage(char* key, char* message) {
     int m = strlen(key);
     int n = strlen(message);

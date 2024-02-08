@@ -98,7 +98,6 @@ Sales table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT seller_id
 FROM Sales
@@ -119,7 +118,6 @@ HAVING
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

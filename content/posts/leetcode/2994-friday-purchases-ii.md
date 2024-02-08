@@ -83,7 +83,6 @@ We can generate a table `T` that contains all dates in November 2023 using recur
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 WITH RECURSIVE
     T AS (
         SELECT '2023-11-01' AS purchase_date

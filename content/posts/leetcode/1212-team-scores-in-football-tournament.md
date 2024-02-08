@@ -120,7 +120,6 @@ Finally, we sort the result by points in descending order, and if the points are
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     team_id,

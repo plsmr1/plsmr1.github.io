@@ -122,7 +122,6 @@ Quarz won a medal in 5 consecutive contests (190, 191, 192, 193, and 194), so we
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     S AS (

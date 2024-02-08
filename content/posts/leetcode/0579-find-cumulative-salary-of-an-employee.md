@@ -128,7 +128,6 @@ So the cumulative salary summary for this employee is:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     id,
@@ -158,7 +157,6 @@ ORDER BY id, month DESC;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

@@ -87,7 +87,6 @@ def find_products(products: pd.DataFrame) -> pd.DataFrame:
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 SELECT
     product_id
 FROM Products

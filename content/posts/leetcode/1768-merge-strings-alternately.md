@@ -178,8 +178,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char* mergeAlternately(char* word1, char* word2) {
     int m = strlen(word1);
     int n = strlen(word2);

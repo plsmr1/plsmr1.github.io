@@ -115,7 +115,6 @@ We can hire all three juniors with the remaining budget.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     s AS (

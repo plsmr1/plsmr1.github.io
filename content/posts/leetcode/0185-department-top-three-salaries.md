@@ -139,7 +139,6 @@ def top_three_salaries(
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 SELECT
     Department.NAME AS Department,
     Employee.NAME AS Employee,
@@ -165,7 +164,6 @@ WHERE
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

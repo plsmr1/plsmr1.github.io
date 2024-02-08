@@ -150,8 +150,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int cmp(const void* a, const void* b) {
     return *(int*) b - *(int*) a;
 }

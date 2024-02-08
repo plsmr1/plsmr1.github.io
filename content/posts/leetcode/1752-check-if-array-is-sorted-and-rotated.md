@@ -145,8 +145,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool check(int* nums, int numsSize) {
     int count = 0;
     for (int i = 0; i < numsSize; i++) {

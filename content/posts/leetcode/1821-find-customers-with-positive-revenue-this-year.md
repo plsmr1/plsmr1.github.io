@@ -83,7 +83,6 @@ We can directly use the `WHERE` clause to filter out the customers whose `year` 
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     customer_id

@@ -119,8 +119,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool arrayStringsAreEqual(char** word1, int word1Size, char** word2, int word2Size) {
     int i = 0;
     int j = 0;

@@ -114,7 +114,6 @@ Luis did not received any transfer, credit = $800
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     t.user_id,

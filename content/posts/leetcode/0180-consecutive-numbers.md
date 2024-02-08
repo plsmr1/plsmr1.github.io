@@ -95,7 +95,6 @@ def consecutive_numbers(logs: pd.DataFrame) -> pd.DataFrame:
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT DISTINCT l2.num AS ConsecutiveNums
 FROM
@@ -116,7 +115,6 @@ We can also group the numbers by using the `IF` function to determine whether th
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -139,7 +137,6 @@ WHERE a = num AND b = num;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

@@ -89,7 +89,6 @@ The comment with id 6 is a comment on a deleted post with id 7 so we ignored it.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     t AS (

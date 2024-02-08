@@ -80,7 +80,6 @@ For session_id 5 has a duration greater than or equal to 15 minutes.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 SELECT '[0-5>' AS bin, COUNT(1) AS total FROM Sessions WHERE duration < 300
 UNION
 SELECT '[5-10>' AS bin, COUNT(1) AS total FROM Sessions WHERE 300 <= duration AND duration < 600

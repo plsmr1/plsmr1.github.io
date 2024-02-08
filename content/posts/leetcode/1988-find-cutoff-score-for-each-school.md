@@ -111,7 +111,6 @@ Exam table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT school_id, MIN(IFNULL(score, -1)) AS score
 FROM

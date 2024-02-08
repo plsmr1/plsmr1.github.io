@@ -102,7 +102,6 @@ Singing is performed by 2 friends (Victor J. and Jade W.)
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     t AS (

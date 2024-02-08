@@ -158,8 +158,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int countDigits(int num) {
     int ans = 0;
     int cur = num;

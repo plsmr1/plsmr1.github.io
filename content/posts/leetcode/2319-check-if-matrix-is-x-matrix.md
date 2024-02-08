@@ -207,8 +207,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool checkXMatrix(int** grid, int gridSize, int* gridColSize) {
     for (int i = 0; i < gridSize; i++) {
         for (int j = 0; j < gridSize; j++) {

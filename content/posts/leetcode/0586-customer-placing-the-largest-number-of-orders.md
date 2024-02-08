@@ -77,7 +77,6 @@ We can use `GROUP BY` to group the data by `customer_number`, and then sort the 
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     customer_number
@@ -95,7 +94,6 @@ LIMIT 1;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 /* Write your T-SQL query statement below */
 SELECT TOP 1
     customer_number

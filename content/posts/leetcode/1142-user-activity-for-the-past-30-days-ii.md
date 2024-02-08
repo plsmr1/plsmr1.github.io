@@ -82,7 +82,6 @@ Activity table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -104,7 +103,6 @@ FROM T;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 SELECT
     IFNULL(
         ROUND(COUNT(DISTINCT session_id) / COUNT(DISTINCT user_id), 2),

@@ -240,8 +240,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int firstMissingPositive(int* nums, int numsSize) {
 
     int Max = nums[0], i, *Count;

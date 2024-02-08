@@ -137,8 +137,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int minPartitions(char* n) {
     int ans = 0;
     for (int i = 0; n[i]; i++) {

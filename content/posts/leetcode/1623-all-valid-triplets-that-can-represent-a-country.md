@@ -132,7 +132,6 @@ Let us see all the possible triplets.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     a.student_name AS member_A,

@@ -120,7 +120,6 @@ We can use equijoin to connect the `Orders` table and the `Users` table accordin
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

@@ -142,7 +142,6 @@ We group the `Orders` table by `customer_id` and `product_id`, and then use the 
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

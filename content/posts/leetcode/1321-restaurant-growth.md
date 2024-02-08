@@ -90,7 +90,6 @@ Customer table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     t AS (
@@ -124,7 +123,6 @@ WHERE rk > 6;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     a.visited_on,

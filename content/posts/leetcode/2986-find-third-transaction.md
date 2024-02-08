@@ -79,7 +79,6 @@ Output table is ordered by user_id in ascending order.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

@@ -99,7 +99,6 @@ The winner is candidate B.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     Name
@@ -123,7 +122,6 @@ FROM
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT name
 FROM

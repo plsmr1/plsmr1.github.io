@@ -106,7 +106,6 @@ Next, we just need to filter out the data where `rk = 1`, then join table `T` to
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

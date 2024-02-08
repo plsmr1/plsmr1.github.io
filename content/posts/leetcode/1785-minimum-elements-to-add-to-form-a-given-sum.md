@@ -150,8 +150,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int minElements(int* nums, int numsSize, int limit, int goal) {
     long long sum = 0;
     for (int i = 0; i < numsSize; i++) {

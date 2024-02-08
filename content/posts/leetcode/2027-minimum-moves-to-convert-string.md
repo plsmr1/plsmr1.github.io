@@ -175,8 +175,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int minimumMoves(char* s) {
     int n = strlen(s);
     int ans = 0;

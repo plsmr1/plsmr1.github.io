@@ -86,7 +86,6 @@ There are two ways to implement grouping:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -114,7 +113,6 @@ GROUP BY pid;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

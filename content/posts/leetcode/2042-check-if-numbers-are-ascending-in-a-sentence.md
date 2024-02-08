@@ -193,8 +193,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool areNumbersAscending(char* s) {
     int pre = -1;
     int cur = 0;

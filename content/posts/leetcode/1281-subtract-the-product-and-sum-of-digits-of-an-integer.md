@@ -174,8 +174,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int subtractProductAndSum(int n) {
     int x = 1;
     int y = 0;

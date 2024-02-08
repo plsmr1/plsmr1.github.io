@@ -143,8 +143,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int integerBreak(int n) {
     if (n < 4) {
         return n - 1;

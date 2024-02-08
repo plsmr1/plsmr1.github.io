@@ -197,8 +197,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int reverse(int x) {
     int ans = 0;
     for (; x != 0; x /= 10) {

@@ -168,8 +168,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int alternateDigitSum(int n) {
     int ans = 0;
     int sign = 1;

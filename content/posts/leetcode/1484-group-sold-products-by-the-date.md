@@ -80,7 +80,6 @@ For 2020-06-02, the Sold item is (Mask), we just return it.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 SELECT
     sell_date,
     COUNT(DISTINCT product) AS num_sold,

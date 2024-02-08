@@ -79,7 +79,6 @@ We can use the window function `ROW_NUMBER()` to add an auto-incrementing sequen
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     P AS (

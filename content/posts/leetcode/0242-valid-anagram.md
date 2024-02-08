@@ -211,8 +211,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int cmp(const void* a, const void* b) {
     return *(char*) a - *(char*) b;
 }
@@ -265,8 +265,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool isAnagram(char* s, char* t) {
     int n = strlen(s);
     int m = strlen(t);

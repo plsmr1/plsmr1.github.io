@@ -103,7 +103,6 @@ We can first find all `employee_id` that are not in the `Salaries` table from th
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT employee_id
 FROM Employees

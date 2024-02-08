@@ -87,7 +87,6 @@ First, we use the `DATE_FORMAT` function to format the date in the form of `YYYY
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     CEIL(DAYOFMONTH(purchase_date) / 7) AS week_of_month,

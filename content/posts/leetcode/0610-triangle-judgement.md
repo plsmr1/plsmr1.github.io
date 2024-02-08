@@ -71,7 +71,6 @@ The condition for whether three sides can form a triangle is that the sum of any
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     *,

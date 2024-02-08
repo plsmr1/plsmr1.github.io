@@ -211,8 +211,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int countHomogenous(char* s) {
     int MOD = 1e9 + 7;
     int ans = 0;

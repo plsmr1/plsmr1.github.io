@@ -196,8 +196,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
 int parseInt(char* s) {

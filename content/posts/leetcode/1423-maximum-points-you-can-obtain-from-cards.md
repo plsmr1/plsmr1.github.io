@@ -286,8 +286,8 @@ end
 ```
 {{< /terminal >}}
 
+{{< terminal title="Kotlin Code" >}}
 ```kotlin
-{{< /terminal >}}
 class Solution {
     fun maxScore(cardPoints: IntArray, k: Int): Int {
         val n = cardPoints.size

@@ -101,7 +101,6 @@ User 11 did not subscribe in 2021.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT COUNT(sub.account_id) AS accounts_count
 FROM

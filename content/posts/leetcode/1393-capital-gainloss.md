@@ -89,7 +89,6 @@ We use `GROUP BY` to group the buy and sell operations of the same stock, and th
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     stock_name,

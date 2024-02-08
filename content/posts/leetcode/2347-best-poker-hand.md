@@ -216,8 +216,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char* bestHand(int* ranks, int ranksSize, char* suits, int suitsSize) {
     bool isFlush = true;
     for (int i = 1; i < suitsSize; i++) {

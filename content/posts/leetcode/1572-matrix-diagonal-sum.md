@@ -160,8 +160,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int diagonalSum(int** mat, int matSize, int* matColSize) {
     int ans = 0;
     for (int i = 0; i < matSize; i++) {

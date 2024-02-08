@@ -175,8 +175,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int differenceOfSum(int* nums, int numsSize) {
     int ans = 0;
     for (int i = 0; i < numsSize; i++) {

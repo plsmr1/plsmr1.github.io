@@ -200,8 +200,8 @@ var isSumEqual = function (firstWord, secondWord, targetWord) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int calc(char* s) {
     int res = 0;
     for (int i = 0; s[i]; i++) {

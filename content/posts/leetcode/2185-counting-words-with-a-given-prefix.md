@@ -128,8 +128,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int prefixCount(char** words, int wordsSize, char* pref) {
     int ans = 0;
     int n = strlen(pref);

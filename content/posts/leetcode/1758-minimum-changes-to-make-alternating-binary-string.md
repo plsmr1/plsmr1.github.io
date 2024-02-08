@@ -144,8 +144,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
 int minOperations(char* s) {

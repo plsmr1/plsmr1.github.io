@@ -99,7 +99,6 @@ Note that each machine has $2$ process tasks, so we need to multiply the calcula
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     machine_id,
@@ -124,7 +123,6 @@ GROUP BY 1;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     machine_id,

@@ -252,8 +252,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="Kotlin Code" >}}
 ```kotlin
-{{< /terminal >}}
 class Solution {
     fun longestCommonSubsequence(text1: String, text2: String): Int {
         val m = text1.length

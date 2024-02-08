@@ -165,8 +165,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool digitCount(char* num) {
     int count[10] = {0};
     for (int i = 0; num[i]; i++) {

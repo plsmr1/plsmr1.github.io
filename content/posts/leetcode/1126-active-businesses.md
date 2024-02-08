@@ -81,7 +81,6 @@ The business with id=1 has 7 &#39;reviews&#39; events (more than 5) and 11 &#39;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT business_id
 FROM
@@ -107,7 +106,6 @@ HAVING COUNT(1) > 1;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

@@ -217,8 +217,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -401,8 +401,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

@@ -185,8 +185,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
 int maxAscendingSum(int* nums, int numsSize) {

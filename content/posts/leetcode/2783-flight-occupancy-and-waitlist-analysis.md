@@ -99,7 +99,6 @@ Passengers table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     flight_id,

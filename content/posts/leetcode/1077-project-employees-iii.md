@@ -101,7 +101,6 @@ We can first perform an inner join between the `Project` table and the `Employee
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

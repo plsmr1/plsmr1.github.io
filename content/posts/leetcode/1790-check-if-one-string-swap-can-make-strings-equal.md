@@ -195,8 +195,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool areAlmostEqual(char* s1, char* s2) {
     int n = strlen(s1);
     int i1 = -1;

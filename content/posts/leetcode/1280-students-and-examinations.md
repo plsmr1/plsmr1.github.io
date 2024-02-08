@@ -142,7 +142,6 @@ We can first join the `Students` table and the `Subjects` table to obtain all co
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT student_id, student_name, subject_name, COUNT(e.student_id) AS attended_exams
 FROM

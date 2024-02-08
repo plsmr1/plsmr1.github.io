@@ -188,8 +188,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int countAsterisks(char* s) {
     int ans = 0;
     int ok = 1;

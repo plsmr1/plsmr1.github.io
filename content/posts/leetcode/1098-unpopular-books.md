@@ -101,7 +101,6 @@ Orders table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT book_id, name
 FROM

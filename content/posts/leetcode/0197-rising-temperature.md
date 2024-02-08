@@ -89,7 +89,6 @@ def rising_temperature(weather: pd.DataFrame) -> pd.DataFrame:
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT w1.id
 FROM
@@ -106,7 +105,6 @@ FROM
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT w1.id
 FROM

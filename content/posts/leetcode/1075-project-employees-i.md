@@ -98,7 +98,6 @@ Employee table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement
 SELECT project_id, ROUND(AVG(experience_years), 2) AS average_years
 FROM

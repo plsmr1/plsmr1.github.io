@@ -169,8 +169,8 @@ class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int numIdenticalPairs(int* nums, int numsSize) {
     int cnt[101] = {0};
     int ans = 0;
@@ -283,8 +283,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int numIdenticalPairs(int* nums, int numsSize) {
     int cnt[101] = {0};
     for (int i = 0; i < numsSize; i++) {

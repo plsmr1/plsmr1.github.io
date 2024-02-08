@@ -125,8 +125,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char* interpret(char* command) {
     int n = strlen(command);
     char* ans = malloc(sizeof(char) * n + 1);

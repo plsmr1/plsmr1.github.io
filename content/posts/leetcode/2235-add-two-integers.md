@@ -106,8 +106,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int sum(int num1, int num2) {
     return num1 + num2;
 }

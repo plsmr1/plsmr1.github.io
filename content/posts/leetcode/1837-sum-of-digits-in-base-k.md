@@ -159,8 +159,8 @@ var sumBase = function (n, k) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int sumBase(int n, int k) {
     int ans = 0;
     while (n) {

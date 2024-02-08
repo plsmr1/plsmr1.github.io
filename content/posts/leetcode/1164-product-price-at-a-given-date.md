@@ -75,7 +75,6 @@ We can use a subquery to find the price of the last price change for each produc
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (SELECT DISTINCT product_id FROM Products),
@@ -104,7 +103,6 @@ FROM
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     P AS (

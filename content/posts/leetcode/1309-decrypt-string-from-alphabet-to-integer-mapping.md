@@ -151,8 +151,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char* freqAlphabets(char* s) {
     int n = strlen(s);
     int i = 0;

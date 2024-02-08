@@ -204,8 +204,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int wateringPlants(int* plants, int plantsSize, int capacity) {
     int ans = 0;
     int water = capacity;

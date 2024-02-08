@@ -115,7 +115,6 @@ Dortmund is the first team in the table. Ajax and Arsenal have the same points, 
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     Scores AS (

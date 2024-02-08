@@ -81,7 +81,6 @@ Player 2 installed the game on 2017-06-25 but didn&#39;t log back in on 2017-06-
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

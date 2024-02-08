@@ -178,7 +178,6 @@ impl Solution {
 This is a math problem：
 
 ```bash
-{{< /terminal >}}
 1 = 1
 4 = 1 + 3
 9 = 1 + 3 + 5

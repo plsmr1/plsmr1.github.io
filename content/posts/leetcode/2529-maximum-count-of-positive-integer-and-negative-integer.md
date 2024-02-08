@@ -170,8 +170,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
 int maximumCount(int* nums, int numsSize) {
@@ -303,8 +303,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
 int search(int* nums, int numsSize, int target) {

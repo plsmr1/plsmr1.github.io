@@ -154,8 +154,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int minBitFlips(int start, int goal) {
     int tmp = start ^ goal;
     int ans = 0;

@@ -182,8 +182,8 @@ class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
 int maximumWealth(int** accounts, int accountsSize, int* accountsColSize) {
@@ -200,8 +200,8 @@ int maximumWealth(int** accounts, int accountsSize, int* accountsColSize) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="Kotlin Code" >}}
 ```kotlin
-{{< /terminal >}}
 class Solution {
     fun maximumWealth(accounts: Array<IntArray>): Int {
         var max = 0

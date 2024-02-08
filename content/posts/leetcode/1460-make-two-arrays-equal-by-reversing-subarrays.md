@@ -163,8 +163,8 @@ class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool canBeEqual(int* target, int targetSize, int* arr, int arrSize) {
     int count[1001] = {0};
     for (int i = 0; i < targetSize; i++) {

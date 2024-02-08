@@ -109,7 +109,6 @@ Rounds table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT candidate_id
 FROM

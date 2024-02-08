@@ -185,8 +185,8 @@ class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int maxProduct(int* nums, int numsSize) {
     int max = 0;
     int submax = 0;

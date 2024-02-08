@@ -110,7 +110,6 @@ def combine_two_tables(person: pd.DataFrame, address: pd.DataFrame) -> pd.DataFr
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT firstName, lastName, city, state
 FROM

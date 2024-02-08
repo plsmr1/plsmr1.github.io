@@ -191,8 +191,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int getNext(int n) {
     int res = 0;
     while (n) {

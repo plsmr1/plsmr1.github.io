@@ -185,8 +185,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int secondHighest(char* s) {
     int first = -1;
     int second = -1;

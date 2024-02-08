@@ -216,8 +216,8 @@ class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
 int minimumRecolors(char* blocks, int k) {

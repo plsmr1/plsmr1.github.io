@@ -198,8 +198,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int getLen(int num) {
     int res = 0;
     while (num) {

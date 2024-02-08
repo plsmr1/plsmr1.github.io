@@ -155,7 +155,6 @@ Both New York University and California University have 1 excellent student.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     CASE

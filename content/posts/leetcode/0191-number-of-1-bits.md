@@ -166,8 +166,8 @@ var hammingWeight = function (n) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int hammingWeight(uint32_t n) {
     int ans = 0;
     while (n) {

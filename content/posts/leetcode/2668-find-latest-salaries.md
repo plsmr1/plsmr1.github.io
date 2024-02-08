@@ -89,7 +89,6 @@ Each row contains employees details and their yearly salaries, however, some of 
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     emp_id,

@@ -101,7 +101,6 @@ We can first group the `MyNumbers` table by `num` and count the number of occurr
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT MAX(num) AS num
 FROM
@@ -123,7 +122,6 @@ Similar to Solution 1, we can first group the `MyNumbers` table by `num` and cou
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     CASE

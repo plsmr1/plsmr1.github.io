@@ -142,7 +142,6 @@ John doesn&#39;t have any contacts.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     invoice_id,

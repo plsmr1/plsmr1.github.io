@@ -183,8 +183,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int distinctSubseqII(char* s) {
     int mod = 1e9 + 7;
     int n = strlen(s);

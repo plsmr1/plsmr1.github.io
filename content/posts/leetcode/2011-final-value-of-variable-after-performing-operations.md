@@ -178,8 +178,8 @@ var finalValueAfterOperations = function (operations) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int finalValueAfterOperations(char** operations, int operationsSize) {
     int ans = 0;
     for (int i = 0; i < operationsSize; i++) {

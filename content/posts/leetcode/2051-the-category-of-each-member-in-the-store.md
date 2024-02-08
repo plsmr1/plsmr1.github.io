@@ -144,7 +144,6 @@ Purchases table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     m.member_id,

@@ -80,7 +80,6 @@ We can group the `Loans` table by `user_id` to find users who have both `Refinan
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT user_id
 FROM Loans

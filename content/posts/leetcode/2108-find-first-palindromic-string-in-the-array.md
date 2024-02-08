@@ -181,8 +181,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char* firstPalindrome(char** words, int wordsSize) {
     for (int i = 0; i < wordsSize; i++) {
         int left = 0;

@@ -172,8 +172,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool checkDistances(char* s, int* distance, int distanceSize) {
     int n = strlen(s);
     int d[26] = {0};

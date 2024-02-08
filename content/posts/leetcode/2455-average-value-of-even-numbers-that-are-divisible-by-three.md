@@ -161,8 +161,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int averageValue(int* nums, int numsSize) {
     int s = 0, n = 0;
     for (int i = 0; i < numsSize; ++i) {

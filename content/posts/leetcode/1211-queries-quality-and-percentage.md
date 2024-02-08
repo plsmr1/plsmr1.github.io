@@ -98,7 +98,6 @@ We can group the query results by `query_name`, and then use the `AVG` and `ROUN
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     query_name,

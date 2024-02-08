@@ -156,8 +156,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char* replaceDigits(char* s) {
     int n = strlen(s);
     for (int i = 1; i < n; i += 2) {

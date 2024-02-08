@@ -142,8 +142,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool checkIfPangram(char* sentence) {
     int vis[26] = {0};
     for (int i = 0; sentence[i]; i++) {
@@ -247,8 +247,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool checkIfPangram(char* sentence) {
     int mark = 0;
     for (int i = 0; sentence[i]; i++) {

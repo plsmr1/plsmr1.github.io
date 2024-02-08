@@ -83,7 +83,6 @@ Returning table orderd by interval_no in ascending order.</pre>
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -108,7 +107,6 @@ WHERE minute % 6 = 0;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 SELECT
     FLOOR((minute + 5) / 6) AS interval_no,
     SUM(order_count) AS total_orders

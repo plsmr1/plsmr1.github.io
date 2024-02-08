@@ -243,8 +243,8 @@ public class ParkingSystem {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 typedef struct {
     int* count;
 } ParkingSystem;

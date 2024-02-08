@@ -80,7 +80,6 @@ Note that the rectangle formed by p1 = 1 and p2 = 3 is invalid because the area 
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     p1.id AS p1,

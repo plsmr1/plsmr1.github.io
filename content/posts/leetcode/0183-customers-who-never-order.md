@@ -111,7 +111,6 @@ def find_customers(customers: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFram
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT name AS Customers
 FROM Customers
@@ -132,7 +131,6 @@ Use `LEFT JOIN` to join the tables and return the data where `CustomerId` is `NU
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT name AS Customers
 FROM

@@ -190,8 +190,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int sumOddLengthSubarrays(int* arr, int arrSize) {
     int ans = 0;
     for (int i = 0; i < arrSize; ++i) {

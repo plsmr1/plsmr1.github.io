@@ -176,8 +176,8 @@ class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char repeatedCharacter(char* s) {
     int vis[26] = {0};
     for (int i = 0; s[i]; i++) {
@@ -291,8 +291,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char repeatedCharacter(char* s) {
     int mask = 0;
     for (int i = 0; s[i]; i++) {

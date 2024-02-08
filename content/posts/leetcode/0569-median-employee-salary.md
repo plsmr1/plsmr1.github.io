@@ -123,7 +123,6 @@ For company C, the rows sorted are as follows:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     t AS (

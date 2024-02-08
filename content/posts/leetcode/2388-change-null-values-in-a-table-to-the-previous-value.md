@@ -81,7 +81,6 @@ Note that the rows in the output are the same as in the input.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     id,
@@ -100,7 +99,6 @@ FROM CoffeeShop;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     S AS (

@@ -115,8 +115,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool isStrictlyPalindromic(int n) {
     return 0;
 }

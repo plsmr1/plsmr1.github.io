@@ -73,7 +73,6 @@ Customer 3 has one bill with an amount strictly greater than 500.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     COUNT(DISTINCT customer_id) AS rich_count

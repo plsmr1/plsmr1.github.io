@@ -92,7 +92,6 @@ user1 is sorted in ascending order.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     F AS (

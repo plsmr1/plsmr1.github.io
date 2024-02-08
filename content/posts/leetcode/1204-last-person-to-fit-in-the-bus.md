@@ -87,7 +87,6 @@ Queue table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT a.person_name
 FROM
@@ -108,7 +107,6 @@ LIMIT 1;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

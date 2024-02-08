@@ -78,7 +78,6 @@ Bob only has one record, we just take that one.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 SELECT
     username,
     activity,

@@ -76,7 +76,6 @@ We can directly group the `Followers` table by `user_id`, and use the `COUNT` fu
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT user_id, COUNT(1) AS followers_count
 FROM Followers

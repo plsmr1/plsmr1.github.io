@@ -110,7 +110,6 @@ User 102 spent the most money on products 1, 2, and 3.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

@@ -82,7 +82,6 @@ Problems 7, 10, 11, and 13 are low-quality problems because their like percentag
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT problem_id
 FROM Problems

@@ -172,8 +172,8 @@ public class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool isSubsequence(char* s, char* t) {
     int m = strlen(s);
     int n = strlen(t);

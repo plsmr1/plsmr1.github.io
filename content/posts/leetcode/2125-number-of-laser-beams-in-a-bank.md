@@ -197,8 +197,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int numberOfBeams(char** bank, int bankSize) {
     int last = 0;
     int ans = 0;

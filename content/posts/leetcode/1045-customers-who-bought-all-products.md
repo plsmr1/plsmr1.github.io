@@ -96,7 +96,6 @@ We can group the `Customer` table by `customer_id`, and then use the `HAVING` cl
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT customer_id
 FROM Customer

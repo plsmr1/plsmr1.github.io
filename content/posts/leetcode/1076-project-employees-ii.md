@@ -97,7 +97,6 @@ Employee table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT project_id
 FROM Project
@@ -118,7 +117,6 @@ HAVING
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

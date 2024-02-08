@@ -101,7 +101,6 @@ def nth_highest_salary(employee: pd.DataFrame, N: int) -> pd.DataFrame:
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
     SET N = N - 1;

@@ -107,7 +107,6 @@ Note that the output is only one number and that we do not care about the remove
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

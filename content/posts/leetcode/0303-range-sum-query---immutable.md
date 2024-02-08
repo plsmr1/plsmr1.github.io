@@ -284,8 +284,8 @@ class NumArray {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 typedef struct {
     int* s;
 } NumArray;

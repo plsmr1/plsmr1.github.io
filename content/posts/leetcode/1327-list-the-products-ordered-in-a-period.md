@@ -112,7 +112,6 @@ Products with product_id = 5 is ordered in February a total of (50 + 50) = 100.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT product_name, SUM(unit) AS unit
 FROM

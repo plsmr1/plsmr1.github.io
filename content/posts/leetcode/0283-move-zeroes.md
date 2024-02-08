@@ -171,8 +171,8 @@ var moveZeroes = function (nums) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 void moveZeroes(int* nums, int numsSize) {
     int i = 0;
     for (int j = 0; j < numsSize; j++) {

@@ -88,7 +88,6 @@ Product 3 is sold in Shop and Souq with prices of 1000 and 1900.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 CREATE PROCEDURE UnpivotProducts()
 BEGIN
     # Write your MySQL query statement below.

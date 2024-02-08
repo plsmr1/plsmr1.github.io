@@ -99,7 +99,6 @@ Sales table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT buyer_id
 FROM

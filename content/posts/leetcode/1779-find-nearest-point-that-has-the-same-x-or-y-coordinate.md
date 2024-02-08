@@ -188,8 +188,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int nearestValidPoint(int x, int y, int** points, int pointsSize, int* pointsColSize) {
     int ans = -1;
     int min = INT_MAX;

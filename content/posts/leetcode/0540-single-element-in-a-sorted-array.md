@@ -158,8 +158,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int singleNonDuplicate(int* nums, int numsSize) {
     int left = 0;
     int right = numsSize - 1;

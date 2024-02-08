@@ -98,7 +98,6 @@ def order_scores(scores: pd.DataFrame) -> pd.DataFrame:
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     score,
@@ -114,7 +113,6 @@ FROM Scores;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 SELECT
     Score,
     CONVERT(rk, SIGNED) `Rank`

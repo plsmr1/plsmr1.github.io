@@ -106,7 +106,6 @@ We can use an equi-join to join the `Users` table and the `Transactions` table o
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     name,

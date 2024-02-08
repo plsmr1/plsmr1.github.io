@@ -86,7 +86,6 @@ On the platform &quot;Web&quot;, we had two &quot;Reading&quot; experiments and 
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     P AS (

@@ -87,7 +87,6 @@ In March, one matryoshka was sold.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     t AS (

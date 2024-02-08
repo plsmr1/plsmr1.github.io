@@ -257,8 +257,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

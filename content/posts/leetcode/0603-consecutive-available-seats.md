@@ -76,7 +76,6 @@ We can use a self-join to join the `Seat` table with itself, and then filter out
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT DISTINCT a.seat_id
 FROM
@@ -95,7 +94,6 @@ We can use the `LAG` and `LEAD` functions (or `SUM() OVER(ROWS BETWEEN 1 PRECEDI
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -118,7 +116,6 @@ WHERE a = 2 OR b = 2;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

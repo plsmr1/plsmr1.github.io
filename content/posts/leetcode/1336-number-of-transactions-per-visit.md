@@ -125,7 +125,6 @@ Transactions table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH RECURSIVE
     S AS (

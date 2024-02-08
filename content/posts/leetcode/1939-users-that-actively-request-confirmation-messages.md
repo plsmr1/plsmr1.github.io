@@ -106,7 +106,6 @@ User 7 requested two messages within 24 hours and 1 second of each other, so we 
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 SELECT DISTINCT user_id
 FROM
     Confirmations AS c1

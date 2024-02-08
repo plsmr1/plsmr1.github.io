@@ -199,8 +199,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int minimumLength(char* s) {
     int n = strlen(s);
     int start = 0;

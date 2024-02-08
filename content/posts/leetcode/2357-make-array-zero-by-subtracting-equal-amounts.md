@@ -147,8 +147,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int minimumOperations(int* nums, int numsSize) {
     int vis[101] = {0};
     vis[0] = 1;

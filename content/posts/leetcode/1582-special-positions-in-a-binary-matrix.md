@@ -213,8 +213,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int numSpecial(int** mat, int matSize, int* matColSize) {
     int m = matSize;
     int n = *matColSize;

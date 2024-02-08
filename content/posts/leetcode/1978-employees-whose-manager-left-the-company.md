@@ -80,7 +80,6 @@ We can use a left join to connect the employee table with itself, and then filte
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT e1.employee_id
 FROM
@@ -100,7 +99,6 @@ We can also use a subquery to first find all the managers who have left the comp
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT employee_id
 FROM Employees

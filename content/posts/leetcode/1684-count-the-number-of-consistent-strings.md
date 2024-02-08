@@ -195,8 +195,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int countConsistentStrings(char* allowed, char** words, int wordsSize) {
     int n = strlen(allowed);
     int make[26] = {0};
@@ -356,8 +356,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int helper(char* s) {
     int res = 0;
     int n = strlen(s);

@@ -120,7 +120,6 @@ Similarly, we can see that users 2 and 3 listened to songs 10, 11, and 12 on the
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

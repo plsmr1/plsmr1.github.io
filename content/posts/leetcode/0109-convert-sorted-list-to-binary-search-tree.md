@@ -382,8 +382,8 @@ var sortedListToBST = function (head) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 /**
  * Definition for singly-linked list.
  * struct ListNode {

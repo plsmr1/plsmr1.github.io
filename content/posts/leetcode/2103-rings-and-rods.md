@@ -214,8 +214,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int countPoints(char* rings) {
     int d['Z'];
     memset(d, 0, sizeof(d));

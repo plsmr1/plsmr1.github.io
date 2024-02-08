@@ -236,8 +236,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool strongPasswordCheckerII(char* password) {
     int n = strlen(password);
     if (n < 8) {

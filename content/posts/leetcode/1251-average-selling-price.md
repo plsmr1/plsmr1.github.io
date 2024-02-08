@@ -104,7 +104,6 @@ We can use a left join to join the `Prices` table and the `UnitsSold` table on `
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     p.product_id,

@@ -132,7 +132,6 @@ The total for Jerry is 0.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT sp.salesperson_id, name, IFNULL(SUM(price), 0) AS total
 FROM

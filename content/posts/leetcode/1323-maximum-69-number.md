@@ -155,8 +155,8 @@ class Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int maximum69Number(int num) {
     int n = 0;
     int i = 0;

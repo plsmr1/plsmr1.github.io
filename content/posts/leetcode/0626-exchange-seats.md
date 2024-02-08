@@ -77,7 +77,6 @@ Note that if the number of students is odd, there is no need to change the last 
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT s1.id, COALESCE(s2.student, s1.student) AS student
 FROM
@@ -94,7 +93,6 @@ ORDER BY 1;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     id + (
@@ -118,7 +116,6 @@ ORDER BY 1;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     RANK() OVER (ORDER BY (id - 1) ^ 1) AS id,
@@ -134,7 +131,6 @@ FROM Seat;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     CASE

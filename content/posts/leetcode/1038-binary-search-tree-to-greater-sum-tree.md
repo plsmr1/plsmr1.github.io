@@ -291,8 +291,8 @@ var bstToGst = function (root) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -535,8 +535,8 @@ function bstToGst(root: TreeNode | null): TreeNode | null {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

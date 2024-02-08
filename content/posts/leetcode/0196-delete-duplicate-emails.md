@@ -88,7 +88,6 @@ def delete_duplicate_emails(person: pd.DataFrame) -> None:
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 DELETE FROM Person
 WHERE id NOT IN (SELECT MIN(id) FROM (SELECT * FROM Person) AS p GROUP BY email);
@@ -102,7 +101,6 @@ WHERE id NOT IN (SELECT MIN(id) FROM (SELECT * FROM Person) AS p GROUP BY email)
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 DELETE FROM Person
 WHERE
@@ -130,7 +128,6 @@ WHERE
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 DELETE p2
 FROM
     person AS p1

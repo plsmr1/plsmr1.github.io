@@ -209,8 +209,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
 int hardestWorker(int n, int** logs, int logsSize, int* logsColSize) {

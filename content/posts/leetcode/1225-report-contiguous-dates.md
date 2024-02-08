@@ -106,7 +106,6 @@ We can merge the two tables into one table with a field `st` representing the st
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

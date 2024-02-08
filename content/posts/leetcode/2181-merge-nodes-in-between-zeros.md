@@ -251,8 +251,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 /**
  * Definition for singly-linked list.
  * struct ListNode {

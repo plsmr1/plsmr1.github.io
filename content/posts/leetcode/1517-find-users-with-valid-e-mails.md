@@ -87,7 +87,6 @@ The mail of user 7 starts with a period.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT *
 FROM Users

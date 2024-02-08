@@ -161,8 +161,8 @@ var removeDuplicates = function (s) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char* removeDuplicates(char* s) {
     int n = strlen(s);
     char* stack = malloc(sizeof(char) * (n + 1));

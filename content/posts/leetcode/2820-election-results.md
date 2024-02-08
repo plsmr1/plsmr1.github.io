@@ -83,7 +83,6 @@ Note that there may be multiple candidates ranking first in the result set, so w
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (

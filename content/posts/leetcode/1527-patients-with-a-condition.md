@@ -74,7 +74,6 @@ Patients table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 SELECT
     patient_id,
     patient_name,

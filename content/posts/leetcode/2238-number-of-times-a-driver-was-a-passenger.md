@@ -78,7 +78,6 @@ The driver with ID = 11 was never a passenger.
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 WITH T AS (SELECT DISTINCT driver_id FROM Rides)
 SELECT t.driver_id, COUNT(passenger_id) AS cnt

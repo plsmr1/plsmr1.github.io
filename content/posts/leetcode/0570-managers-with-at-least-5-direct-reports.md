@@ -103,7 +103,6 @@ def find_managers(employee: pd.DataFrame) -> pd.DataFrame:
 {{< /terminal >}}
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT name
 FROM

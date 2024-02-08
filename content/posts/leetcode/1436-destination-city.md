@@ -189,8 +189,8 @@ var destCity = function (paths) {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 char* destCity(char*** paths, int pathsSize, int* pathsColSize) {
     for (int i = 0; i < pathsSize; i++) {
         int flag = 1;

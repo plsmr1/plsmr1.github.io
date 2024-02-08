@@ -199,8 +199,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 #define min(a, b) (((a) < (b)) ? (a) : (b))
 
 int rearrangeCharacters(char* s, char* target) {

@@ -171,8 +171,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 bool sumOfNumberAndReverse(int num) {
     for (int i = 0; i <= num; i++) {
         int t = i;

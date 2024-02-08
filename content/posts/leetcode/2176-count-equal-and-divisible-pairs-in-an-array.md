@@ -161,8 +161,8 @@ impl Solution {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 int countPairs(int* nums, int numsSize, int k) {
     int ans = 0;
     for (int i = 0; i < numsSize - 1; i++) {

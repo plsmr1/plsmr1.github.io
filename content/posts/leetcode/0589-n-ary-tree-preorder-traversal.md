@@ -234,8 +234,8 @@ function preorder(root: Node | null): number[] {
 ```
 {{< /terminal >}}
 
+{{< terminal title="C Code" >}}
 ```c
-{{< /terminal >}}
 /**
  * Definition for a Node.
  * struct Node {

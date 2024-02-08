@@ -126,7 +126,6 @@ Items table:
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     u.user_id AS buyer_id,
@@ -146,7 +145,6 @@ GROUP BY user_id;
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     user_id AS buyer_id,

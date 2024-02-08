@@ -78,7 +78,6 @@ Each row includes the user ID, the purchased item, the date of purchase, and the
 <!-- tabs:start -->
 
 ```sql
-{{< /terminal >}}
 # Write your MySQL query statement
 SELECT DISTINCT
     user_id
