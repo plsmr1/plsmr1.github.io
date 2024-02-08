@@ -27,13 +27,13 @@ languages:
       series: series
     menu:
       main:
-        - name: 📂Archive
+        - name: Archive
           url: archives
           weight: 5
-        - name: 🏷️Tags
+        - name: Tags
           url: tags/
           weight: 10
-        - name: 🔍Search
+        - name: Search
           url: search/
           weight: 15
 

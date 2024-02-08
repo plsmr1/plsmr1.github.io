@@ -120,7 +120,7 @@ The Speech Translation Model (STM) orchestrates a series of interconnected proce
 
 1. Clone [this project](https://github.com/SamirPaulb/real-time-voice-translator) and create virtualenv (recommended) and activate virtualenv.
 
-{{< terminal title="Shell Commands to Create Python Virtual environment " >}}
+{{< terminal title="Shell Commands" >}}
 ```bash
 # Create virtualenv
 python -m venv env
