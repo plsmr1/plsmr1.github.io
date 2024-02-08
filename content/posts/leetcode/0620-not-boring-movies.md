@@ -77,6 +77,7 @@ We can use the `WHERE` clause to filter out the records where `description` is n
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT *

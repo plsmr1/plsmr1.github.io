@@ -104,6 +104,7 @@ We can associate each row in the `Expressions` table with two rows in the `Varia
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

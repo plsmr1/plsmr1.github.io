@@ -114,6 +114,7 @@ We can see that the income exceeded the max income in May and July, but not in J
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -145,6 +146,7 @@ ORDER BY s1.tx;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

@@ -86,6 +86,7 @@ First, we use the `DATE_FORMAT` function to format the date in the form of `YYYY
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

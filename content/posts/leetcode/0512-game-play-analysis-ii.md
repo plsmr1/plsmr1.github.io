@@ -76,6 +76,7 @@ We can use `GROUP BY` and `MIN` functions to find the first login date for each 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -101,6 +102,7 @@ We can use the window function `rank()`, which assigns a rank to each login date
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

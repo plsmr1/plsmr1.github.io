@@ -81,6 +81,7 @@ Activity table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT activity_date AS day, COUNT(DISTINCT user_id) AS active_users

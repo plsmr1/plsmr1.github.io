@@ -154,6 +154,7 @@ Both New York University and California University have 1 excellent student.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

@@ -85,6 +85,7 @@ Task 6 was submitted on Sunday.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

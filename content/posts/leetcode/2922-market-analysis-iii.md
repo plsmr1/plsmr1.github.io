@@ -119,6 +119,7 @@ We can use equijoin to connect the `Orders` table and the `Users` table accordin
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

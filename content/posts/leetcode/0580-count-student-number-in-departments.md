@@ -97,6 +97,7 @@ We can use a left join to join the `Department` table and the `Student` table on
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT dept_name, COUNT(student_id) AS student_number

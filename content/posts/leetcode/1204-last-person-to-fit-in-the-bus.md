@@ -86,6 +86,7 @@ Queue table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT a.person_name
@@ -106,6 +107,7 @@ LIMIT 1;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

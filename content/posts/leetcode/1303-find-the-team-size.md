@@ -81,6 +81,7 @@ We can first count the number of people in each team and record it in the `T` ta
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -104,6 +105,7 @@ We can also use a left join to join the `Employee` table with itself based on `t
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT e1.employee_id, COUNT(1) AS team_size

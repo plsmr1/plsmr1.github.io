@@ -76,6 +76,7 @@ Product 2 was ordered one time in 2022. We do not include it in the answer.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -98,6 +99,7 @@ WHERE p1.mark AND p2.mark;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

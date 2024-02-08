@@ -104,6 +104,7 @@ We can see that sessions 1 and 4 had at least one ad. Sessions 2, 3, and 5 did n
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT session_id

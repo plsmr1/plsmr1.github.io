@@ -83,6 +83,7 @@ We can use a subquery to first find the first order of each user, and then calcu
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -105,6 +106,7 @@ We can use the `RANK()` window function to rank the orders of each user in ascen
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

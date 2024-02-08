@@ -82,6 +82,7 @@ Returning table orderd by interval_no in ascending order.</pre>
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -106,6 +107,7 @@ WHERE minute % 6 = 0;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     FLOOR((minute + 5) / 6) AS interval_no,

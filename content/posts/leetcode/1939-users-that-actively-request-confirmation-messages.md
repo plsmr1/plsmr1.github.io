@@ -105,6 +105,7 @@ User 7 requested two messages within 24 hours and 1 second of each other, so we 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT DISTINCT user_id
 FROM

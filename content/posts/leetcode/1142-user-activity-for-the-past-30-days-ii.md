@@ -81,6 +81,7 @@ Activity table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -102,6 +103,7 @@ FROM T;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     IFNULL(

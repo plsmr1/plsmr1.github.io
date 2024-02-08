@@ -102,6 +102,7 @@ Users 102 and 103 spent the same amount and we break the tie by their ID while u
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT user_id, SUM(quantity * price) AS spending

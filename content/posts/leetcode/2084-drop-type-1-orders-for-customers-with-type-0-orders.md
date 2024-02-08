@@ -90,6 +90,7 @@ Customer 4 has two orders of type 1. We return both of them.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH
@@ -110,6 +111,7 @@ WHERE order_type = 0 OR NOT EXISTS (SELECT 1 FROM T AS t WHERE t.customer_id = o
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT DISTINCT
     a.order_id,

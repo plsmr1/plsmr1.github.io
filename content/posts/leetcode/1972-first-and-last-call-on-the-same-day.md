@@ -78,6 +78,7 @@ On 2021-08-11, user 1 and 5 had a call. This call was the only call for both of 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 with s as (

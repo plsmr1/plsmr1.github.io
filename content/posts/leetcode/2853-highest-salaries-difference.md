@@ -77,6 +77,7 @@ We can first calculate the highest salary for each department, and then calculat
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT MAX(s) - MIN(s) AS salary_difference

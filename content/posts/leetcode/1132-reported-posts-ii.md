@@ -106,6 +106,7 @@ Note that the output is only one number and that we do not care about the remove
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

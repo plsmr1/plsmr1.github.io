@@ -108,6 +108,7 @@ def second_highest_salary(employee: pd.DataFrame) -> pd.DataFrame:
 ```
 {{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -126,6 +127,7 @@ SELECT
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT MAX(salary) AS SecondHighestSalary
@@ -140,6 +142,7 @@ WHERE salary < (SELECT MAX(salary) FROM Employee);
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH T AS (SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rk FROM Employee)

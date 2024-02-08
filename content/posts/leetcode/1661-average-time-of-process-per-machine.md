@@ -98,6 +98,7 @@ Note that each machine has $2$ process tasks, so we need to multiply the calcula
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -122,6 +123,7 @@ GROUP BY 1;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

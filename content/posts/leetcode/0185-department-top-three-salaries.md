@@ -138,6 +138,7 @@ def top_three_salaries(
 ```
 {{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     Department.NAME AS Department,
@@ -163,6 +164,7 @@ WHERE
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

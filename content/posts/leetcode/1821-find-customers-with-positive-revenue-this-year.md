@@ -82,6 +82,7 @@ We can directly use the `WHERE` clause to filter out the customers whose `year` 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

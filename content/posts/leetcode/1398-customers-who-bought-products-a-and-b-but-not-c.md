@@ -100,6 +100,7 @@ We can use `LEFT JOIN` to join the `Customers` table and the `Orders` table, the
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT customer_id, customer_name

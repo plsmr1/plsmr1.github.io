@@ -122,6 +122,7 @@ For company C, the rows sorted are as follows:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

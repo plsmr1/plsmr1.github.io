@@ -75,6 +75,7 @@ Product 1 price&#39;s are 70 for store1, 80 for store3 and, it&#39;s not sold in
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

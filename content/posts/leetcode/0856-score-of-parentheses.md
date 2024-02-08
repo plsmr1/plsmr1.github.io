@@ -70,6 +70,7 @@ We use $d$ to maintain the current depth of parentheses. For each `(`, we increa
 
 Let's take `(()(()))` as an example. We first find the two closed parentheses `()` inside, and then add the corresponding $2^d$ to the score. In fact, we are calculating the score of `(()) + ((()))`.
 
+{{< terminal title="Bash Code" >}}
 ```bash
 ( ( ) ( ( ) ) )
   ^ ^   ^ ^

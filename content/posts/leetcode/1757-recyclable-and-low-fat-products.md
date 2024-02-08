@@ -86,6 +86,7 @@ def find_products(products: pd.DataFrame) -> pd.DataFrame:
 ```
 {{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     product_id

@@ -75,6 +75,7 @@ For this problem, we can directly use the `CHAR_LENGTH` function to get the leng
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

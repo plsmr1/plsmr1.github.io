@@ -99,6 +99,7 @@ We can use an equi-join to join the `Employee` table and the `Department` table 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT d.name AS department, e.name AS employee, salary
@@ -122,6 +123,7 @@ We can use an equi-join to join the `Employee` table and the `Department` table 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

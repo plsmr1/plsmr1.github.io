@@ -83,6 +83,7 @@ We can use the window function `RANK()`, which assigns a rank to each transactio
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

@@ -100,6 +100,7 @@ We return only product 1 as it is the product that was only sold in the spring o
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT product_id, product_name

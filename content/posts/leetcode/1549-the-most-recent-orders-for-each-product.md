@@ -136,6 +136,7 @@ We can use an equi-join to join the `Orders` table and the `Products` table base
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

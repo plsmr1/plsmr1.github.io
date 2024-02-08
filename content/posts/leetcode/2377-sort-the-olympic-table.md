@@ -85,6 +85,7 @@ Israel comes before Egypt because it has more bronze medals.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT *

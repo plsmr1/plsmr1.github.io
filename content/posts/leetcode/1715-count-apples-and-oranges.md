@@ -108,6 +108,7 @@ Total number of oranges = 15 + 25 + 8 + 28 + 15 + 15 + 17 = 123
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

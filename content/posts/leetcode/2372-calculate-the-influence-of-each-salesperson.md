@@ -131,6 +131,7 @@ The total for Jerry is 0.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT sp.salesperson_id, name, IFNULL(SUM(price), 0) AS total

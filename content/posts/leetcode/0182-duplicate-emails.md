@@ -84,6 +84,7 @@ def duplicate_emails(person: pd.DataFrame) -> pd.DataFrame:
 ```
 {{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT email
@@ -101,6 +102,7 @@ We can use a self-join to join the `Person` table with itself, and then filter o
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT DISTINCT p1.email
 FROM

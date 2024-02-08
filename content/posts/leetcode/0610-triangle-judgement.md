@@ -70,6 +70,7 @@ The condition for whether three sides can form a triangle is that the sum of any
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

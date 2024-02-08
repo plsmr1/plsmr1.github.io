@@ -119,6 +119,7 @@ Finally, we sort the result by points in descending order, and if the points are
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

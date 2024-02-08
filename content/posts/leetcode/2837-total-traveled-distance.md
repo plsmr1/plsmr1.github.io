@@ -105,6 +105,7 @@ We can use a left join to connect the two tables, and then use group by sum to c
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT user_id, name, IFNULL(SUM(distance), 0) AS 'traveled distance'

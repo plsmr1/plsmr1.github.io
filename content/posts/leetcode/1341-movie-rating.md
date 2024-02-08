@@ -129,6 +129,7 @@ Frozen 2 and Joker have a rating average of 3.5 in February but Frozen 2 is smal
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 (

@@ -86,6 +86,7 @@ The mail of user 7 starts with a period.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT *

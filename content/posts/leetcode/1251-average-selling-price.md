@@ -103,6 +103,7 @@ We can use a left join to join the `Prices` table and the `UnitsSold` table on `
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

@@ -77,6 +77,7 @@ Bob only has one record, we just take that one.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     username,

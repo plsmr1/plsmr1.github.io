@@ -76,6 +76,7 @@ Note that if the number of students is odd, there is no need to change the last 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT s1.id, COALESCE(s2.student, s1.student) AS student
@@ -92,6 +93,7 @@ ORDER BY 1;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -115,6 +117,7 @@ ORDER BY 1;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -130,6 +133,7 @@ FROM Seat;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

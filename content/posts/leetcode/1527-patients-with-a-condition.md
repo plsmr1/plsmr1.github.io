@@ -73,6 +73,7 @@ Patients table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT
     patient_id,

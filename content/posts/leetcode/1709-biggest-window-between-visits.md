@@ -87,6 +87,7 @@ We can use the window function `LEAD` to obtain the date of the next visit for e
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

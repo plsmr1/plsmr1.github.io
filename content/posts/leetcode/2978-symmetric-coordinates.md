@@ -78,6 +78,7 @@ We can use the window function `ROW_NUMBER()` to add an auto-incrementing sequen
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

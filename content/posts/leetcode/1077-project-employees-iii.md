@@ -100,6 +100,7 @@ We can first perform an inner join between the `Project` table and the `Employee
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

@@ -79,6 +79,7 @@ In total, the highest number of consecutive transactions is 3, achieved by custo
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

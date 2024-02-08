@@ -84,6 +84,7 @@ def find_employees(employee: pd.DataFrame) -> pd.DataFrame:
 ```
 {{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 SELECT Name AS Employee
 FROM Employee AS Curr
@@ -102,6 +103,7 @@ WHERE
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

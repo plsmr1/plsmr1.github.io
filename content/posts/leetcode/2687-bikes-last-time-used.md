@@ -80,6 +80,7 @@ Returning output in order by the bike that were most recently used.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

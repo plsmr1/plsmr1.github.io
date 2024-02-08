@@ -141,6 +141,7 @@ John doesn&#39;t have any contacts.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

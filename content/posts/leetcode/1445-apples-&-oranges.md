@@ -83,6 +83,7 @@ We can group the data by date, and then use the `sum` function to calculate the 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

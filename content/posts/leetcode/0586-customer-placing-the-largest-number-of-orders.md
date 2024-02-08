@@ -76,6 +76,7 @@ We can use `GROUP BY` to group the data by `customer_number`, and then sort the 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT
@@ -93,6 +94,7 @@ LIMIT 1;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 /* Write your T-SQL query statement below */
 SELECT TOP 1

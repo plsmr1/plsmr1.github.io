@@ -100,6 +100,7 @@ User 11 did not subscribe in 2021.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT COUNT(sub.account_id) AS accounts_count

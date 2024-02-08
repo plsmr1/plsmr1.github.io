@@ -121,6 +121,7 @@ Note that it is okay to have one word that expresses more than one topic.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

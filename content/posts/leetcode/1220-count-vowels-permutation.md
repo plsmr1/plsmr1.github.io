@@ -68,6 +68,7 @@ math: true
 
 Based on the problem description, we can list the possible subsequent vowels for each vowel:
 
+{{< terminal title="Bash Code" >}}
 ```bash
 a [e]
 e [a|i]
@@ -79,6 +80,7 @@ u [a]
 
 From this, we can deduce the possible preceding vowels for each vowel:
 
+{{< terminal title="Bash Code" >}}
 ```bash
 [e|i|u]	a
 [a|i]	e

@@ -75,6 +75,7 @@ We can use the `sum` function to count the number of instant orders, and then di
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

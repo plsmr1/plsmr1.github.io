@@ -100,6 +100,7 @@ We can use the window function `LAG() OVER()` to calculate the difference in day
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

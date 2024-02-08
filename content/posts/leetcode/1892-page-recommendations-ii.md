@@ -134,6 +134,7 @@ You can recommend pages for users 2, 3, 4, and 5 using a similar process.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

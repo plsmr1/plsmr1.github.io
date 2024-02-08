@@ -113,6 +113,7 @@ Luis did not received any transfer, credit = $800
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

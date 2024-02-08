@@ -85,6 +85,7 @@ On the platform &quot;Web&quot;, we had two &quot;Reading&quot; experiments and 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

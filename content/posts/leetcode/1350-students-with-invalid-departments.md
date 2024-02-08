@@ -105,6 +105,7 @@ We can directly use a subquery to find all students who are not in the `Departme
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT id, name
@@ -121,6 +122,7 @@ We can also use a left join to join the `Students` table with the `Departments` 
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT s.id, s.name

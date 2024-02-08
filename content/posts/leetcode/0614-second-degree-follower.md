@@ -81,6 +81,7 @@ User Alice has 1 follower. Alice is not a second-degree follower because she doe
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

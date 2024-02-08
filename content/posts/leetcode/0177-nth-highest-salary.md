@@ -100,6 +100,7 @@ def nth_highest_salary(employee: pd.DataFrame, N: int) -> pd.DataFrame:
 ```
 {{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN

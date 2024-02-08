@@ -177,6 +177,7 @@ impl Solution {
 
 This is a math problem：
 
+{{< terminal title="Bash Code" >}}
 ```bash
 1 = 1
 4 = 1 + 3

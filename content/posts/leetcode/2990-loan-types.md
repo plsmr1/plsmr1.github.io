@@ -79,6 +79,7 @@ We can group the `Loans` table by `user_id` to find users who have both `Refinan
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT user_id

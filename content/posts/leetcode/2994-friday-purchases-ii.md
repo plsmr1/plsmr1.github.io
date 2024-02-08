@@ -82,6 +82,7 @@ We can generate a table `T` that contains all dates in November 2023 using recur
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 WITH RECURSIVE
     T AS (

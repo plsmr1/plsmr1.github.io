@@ -101,6 +101,7 @@ Singing is performed by 2 friends (Victor J. and Jade W.)
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

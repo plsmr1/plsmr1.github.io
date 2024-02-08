@@ -91,6 +91,7 @@ def gameplay_analysis(activity: pd.DataFrame) -> pd.DataFrame:
 ```
 {{< /terminal >}}
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT ROUND(AVG(b.event_date IS NOT NULL), 2) AS fraction
@@ -113,6 +114,7 @@ We can use the `LEAD` window function to get the next login date of each player.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

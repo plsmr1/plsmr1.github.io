@@ -77,6 +77,7 @@ Salary table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 UPDATE salary
 SET sex = CASE sex
@@ -92,6 +93,7 @@ END;
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 UPDATE Salary

@@ -110,6 +110,7 @@ Exam table:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT school_id, MIN(IFNULL(score, -1)) AS score

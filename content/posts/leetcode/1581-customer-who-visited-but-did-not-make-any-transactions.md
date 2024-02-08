@@ -108,6 +108,7 @@ We can use a subquery to first find all `visit_id`s that have not made any trans
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT customer_id, COUNT(1) AS count_no_trans
@@ -125,6 +126,7 @@ We can also use a left join to join the `Visits` table and the `Transactions` ta
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT customer_id, COUNT(1) AS count_no_trans

@@ -114,6 +114,7 @@ We can hire all three juniors with the remaining budget.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

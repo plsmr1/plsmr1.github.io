@@ -129,6 +129,7 @@ The answer for the user with id 4 is no because the brand of their second sold i
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT

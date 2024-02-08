@@ -86,6 +86,7 @@ customer_id is sorted in ascending order.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

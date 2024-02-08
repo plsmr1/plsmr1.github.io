@@ -86,6 +86,7 @@ So, the result is the sum of tiv_2016 of the first and last record, which is 45.
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 WITH

@@ -82,6 +82,7 @@ Teacher 2:
 
 <!-- tabs:start -->
 
+{{< terminal title="SQL Code" >}}
 ```sql
 # Write your MySQL query statement below
 SELECT teacher_id, COUNT(DISTINCT subject_id) AS cnt
