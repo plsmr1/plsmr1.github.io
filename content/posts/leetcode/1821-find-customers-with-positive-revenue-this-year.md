@@ -83,12 +83,14 @@ We can directly use the `WHERE` clause to filter out the customers whose `year` 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     customer_id
 FROM Customers
 WHERE year = '2021' AND revenue > 0;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

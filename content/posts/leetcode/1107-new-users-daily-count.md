@@ -85,6 +85,7 @@ The user with id 5 first logged in on 2019-03-01 so he&#39;s not counted on 2019
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -99,6 +100,7 @@ FROM T
 WHERE DATEDIFF('2019-06-30', login_date) <= 90
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

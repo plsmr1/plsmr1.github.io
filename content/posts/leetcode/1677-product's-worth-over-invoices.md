@@ -111,6 +111,7 @@ Invoice table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     name,
@@ -124,6 +125,7 @@ FROM
 GROUP BY product_id
 ORDER BY name;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

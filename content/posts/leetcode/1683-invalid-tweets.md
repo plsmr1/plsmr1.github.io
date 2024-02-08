@@ -76,12 +76,14 @@ For this problem, we can directly use the `CHAR_LENGTH` function to get the leng
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     tweet_id
 FROM Tweets
 WHERE CHAR_LENGTH(content) > 15;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

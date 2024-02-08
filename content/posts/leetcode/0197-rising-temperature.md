@@ -75,6 +75,7 @@ We can use self-join to compare each row in the `Weather` table with its previou
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -85,8 +86,10 @@ def rising_temperature(weather: pd.DataFrame) -> pd.DataFrame:
         (weather.temperature.diff() > 0) & (weather.recordDate.diff().dt.days == 1)
     ][["id"]]
 ```
+{{< /terminal >}}
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT w1.id
 FROM
@@ -94,6 +97,7 @@ FROM
     JOIN Weather AS w2
         ON DATEDIFF(w1.recordDate, w2.recordDate) = 1 AND w1.temperature > w2.temperature;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -102,6 +106,7 @@ FROM
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT w1.id
 FROM
@@ -109,6 +114,7 @@ FROM
     JOIN Weather AS w2
         ON SUBDATE(w1.recordDate, 1) = w2.recordDate AND w1.temperature > w2.temperature;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

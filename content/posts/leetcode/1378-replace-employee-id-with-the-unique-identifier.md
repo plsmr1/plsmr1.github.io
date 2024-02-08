@@ -102,12 +102,14 @@ The unique ID of Jonathan is 1.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT unique_id, name
 FROM
     Employees
     LEFT JOIN EmployeeUNI USING (id);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

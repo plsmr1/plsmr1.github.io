@@ -107,6 +107,7 @@ The airports with the most traffic are airports 1, 2, 3, and 4.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -123,6 +124,7 @@ SELECT departure_airport AS airport_id
 FROM P
 WHERE cnt = (SELECT MAX(cnt) FROM P);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

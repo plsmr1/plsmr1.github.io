@@ -79,6 +79,7 @@ We can use the window function `ROW_NUMBER()` to add an auto-incrementing sequen
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     P AS (
@@ -96,6 +97,7 @@ FROM
     JOIN P AS p2 ON p1.x = p2.y AND p1.y = p2.x AND p1.x <= p1.y AND p1.id != p2.id
 ORDER BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

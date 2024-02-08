@@ -83,6 +83,7 @@ Employee table:
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -105,8 +106,10 @@ def second_highest_salary(employee: pd.DataFrame) -> pd.DataFrame:
 
     return result_df
 ```
+{{< /terminal >}}
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     (
@@ -116,6 +119,7 @@ SELECT
         LIMIT 1, 1
     ) AS SecondHighestSalary;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -124,11 +128,13 @@ SELECT
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT MAX(salary) AS SecondHighestSalary
 FROM Employee
 WHERE salary < (SELECT MAX(salary) FROM Employee);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -137,10 +143,12 @@ WHERE salary < (SELECT MAX(salary) FROM Employee);
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH T AS (SELECT salary, DENSE_RANK() OVER (ORDER BY salary DESC) AS rk FROM Employee)
 SELECT (SELECT DISTINCT salary FROM T WHERE rk = 2) AS SecondHighestSalary;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

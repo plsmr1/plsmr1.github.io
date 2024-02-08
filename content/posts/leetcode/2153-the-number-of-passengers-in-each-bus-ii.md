@@ -110,6 +110,7 @@ Passengers table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -131,6 +132,7 @@ FROM T
 WHERE bus_id > 0
 ORDER BY bus_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

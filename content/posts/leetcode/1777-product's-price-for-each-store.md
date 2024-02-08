@@ -76,6 +76,7 @@ Product 1 price&#39;s are 70 for store1, 80 for store3 and, it&#39;s not sold in
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     product_id,
@@ -85,6 +86,7 @@ SELECT
 FROM Products
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

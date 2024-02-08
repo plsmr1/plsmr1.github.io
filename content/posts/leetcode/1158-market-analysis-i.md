@@ -126,6 +126,7 @@ Items table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     u.user_id AS buyer_id,
@@ -136,6 +137,7 @@ FROM
     LEFT JOIN Orders AS o ON u.user_id = o.buyer_id AND YEAR(order_date) = 2019
 GROUP BY user_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -144,6 +146,7 @@ GROUP BY user_id;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     user_id AS buyer_id,
@@ -154,6 +157,7 @@ FROM
     LEFT JOIN Orders AS o ON u.user_id = buyer_id
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -76,6 +76,7 @@ We can use a self-join to join the `Seat` table with itself, and then filter out
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT DISTINCT a.seat_id
 FROM
@@ -83,6 +84,7 @@ FROM
     JOIN Cinema AS b ON ABS(a.seat_id - b.seat_id) = 1 AND a.free AND b.free
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -93,6 +95,7 @@ We can use the `LAG` and `LEAD` functions (or `SUM() OVER(ROWS BETWEEN 1 PRECEDI
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -106,6 +109,7 @@ SELECT seat_id
 FROM T
 WHERE a = 2 OR b = 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -114,6 +118,7 @@ WHERE a = 2 OR b = 2;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -130,6 +135,7 @@ FROM T
 WHERE free = 1 AND cnt > 1
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -79,6 +79,7 @@ Output table is ordered by user_id in ascending order.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -106,6 +107,7 @@ SELECT user_id, spend AS third_transaction_spend, transaction_date AS third_tran
 FROM T
 WHERE rk = 3 AND st = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

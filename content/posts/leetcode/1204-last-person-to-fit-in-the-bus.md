@@ -87,6 +87,7 @@ Queue table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT a.person_name
 FROM
@@ -98,6 +99,7 @@ HAVING SUM(b.weight) <= 1000
 ORDER BY a.turn DESC
 LIMIT 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -106,6 +108,7 @@ LIMIT 1;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -120,6 +123,7 @@ WHERE s <= 1000
 ORDER BY s DESC
 LIMIT 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

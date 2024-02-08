@@ -84,6 +84,7 @@ We can group the data by date, and then use the `sum` function to calculate the 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     sale_date,
@@ -92,6 +93,7 @@ FROM Sales
 GROUP BY 1
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

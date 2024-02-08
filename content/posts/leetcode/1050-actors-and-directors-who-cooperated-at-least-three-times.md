@@ -75,12 +75,14 @@ We can use the `GROUP BY` statement to group the data by the `actor_id` and `dir
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT actor_id, director_id
 FROM ActorDirector
 GROUP BY 1, 2
 HAVING COUNT(1) >= 3;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

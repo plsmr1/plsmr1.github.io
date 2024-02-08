@@ -78,12 +78,14 @@ We can use the `WHERE` clause to filter out the records where `description` is n
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT *
 FROM Cinema
 WHERE description != 'boring' AND id & 1 = 1
 ORDER BY 4 DESC;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

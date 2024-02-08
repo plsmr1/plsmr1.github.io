@@ -68,6 +68,7 @@ Users table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 SELECT
     user_id,
     CONCAT(UPPER(LEFT(name, 1)), LOWER(SUBSTRING(name, 2))) AS name
@@ -76,6 +77,7 @@ FROM
 ORDER BY
     user_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -84,6 +86,7 @@ ORDER BY
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 SELECT
     user_id,
     CONCAT(
@@ -95,6 +98,7 @@ FROM
 ORDER BY
     user_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

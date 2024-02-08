@@ -115,6 +115,7 @@ Dortmund is the first team in the table. Ajax and Arsenal have the same points, 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     Scores AS (
@@ -153,6 +154,7 @@ FROM
 GROUP BY s.team_id
 ORDER BY points DESC, goal_diff DESC, team_name;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

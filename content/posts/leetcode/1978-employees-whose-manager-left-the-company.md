@@ -80,6 +80,7 @@ We can use a left join to connect the employee table with itself, and then filte
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT e1.employee_id
 FROM
@@ -88,6 +89,7 @@ FROM
 WHERE e1.salary < 30000 AND e1.manager_id IS NOT NULL AND e2.employee_id IS NULL
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -98,12 +100,14 @@ We can also use a subquery to first find all the managers who have left the comp
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT employee_id
 FROM Employees
 WHERE salary < 30000 AND manager_id NOT IN (SELECT employee_id FROM Employees)
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -105,6 +105,7 @@ We can see that sessions 1 and 4 had at least one ad. Sessions 2, 3, and 5 did n
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT session_id
 FROM Playback
@@ -117,6 +118,7 @@ WHERE
                 ON p.customer_id = a.customer_id AND a.timestamp BETWEEN p.start_time AND p.end_time
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -116,6 +116,7 @@ Terms table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -139,6 +140,7 @@ SELECT
     CONCAT(GROUP_CONCAT(it ORDER BY power DESC SEPARATOR ""), '=0') AS equation
 FROM T;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

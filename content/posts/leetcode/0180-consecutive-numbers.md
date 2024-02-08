@@ -76,6 +76,7 @@ First, we perform a self-join with the condition `l1.num = l2.num` and `l1.id = 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -91,8 +92,10 @@ def consecutive_numbers(logs: pd.DataFrame) -> pd.DataFrame:
         .rename(columns={"num": "ConsecutiveNums"})
     )
 ```
+{{< /terminal >}}
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT DISTINCT l2.num AS ConsecutiveNums
 FROM
@@ -100,6 +103,7 @@ FROM
     JOIN Logs AS l2 ON l1.id = l2.id - 1 AND l1.num = l2.num
     JOIN Logs AS l3 ON l2.id = l3.id - 1 AND l2.num = l3.num;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -112,6 +116,7 @@ We can also group the numbers by using the `IF` function to determine whether th
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -125,6 +130,7 @@ SELECT DISTINCT num AS ConsecutiveNums
 FROM T
 WHERE a = num AND b = num;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -133,6 +139,7 @@ WHERE a = num AND b = num;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -150,6 +157,7 @@ FROM S
 GROUP BY p
 HAVING COUNT(1) >= 3;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

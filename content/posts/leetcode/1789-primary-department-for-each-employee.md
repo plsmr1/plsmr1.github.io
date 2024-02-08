@@ -87,6 +87,7 @@ We can first query all employees who already have a direct department, and then 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT employee_id, department_id
 FROM Employee
@@ -97,6 +98,7 @@ FROM Employee
 GROUP BY 1
 HAVING COUNT(1) = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

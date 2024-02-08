@@ -82,6 +82,7 @@ We can first count the number of people in each team and record it in the `T` ta
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -94,6 +95,7 @@ FROM
     Employee
     JOIN T USING (team_id);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -104,6 +106,7 @@ We can also use a left join to join the `Employee` table with itself based on `t
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT e1.employee_id, COUNT(1) AS team_size
 FROM
@@ -111,6 +114,7 @@ FROM
     LEFT JOIN Employee AS e2 USING (team_id)
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

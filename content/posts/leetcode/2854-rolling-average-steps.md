@@ -101,6 +101,7 @@ We can use the window function `LAG() OVER()` to calculate the difference in day
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -132,6 +133,7 @@ FROM T
 WHERE st = 1
 ORDER BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

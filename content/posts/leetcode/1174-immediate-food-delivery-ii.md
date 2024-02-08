@@ -84,6 +84,7 @@ We can use a subquery to first find the first order of each user, and then calcu
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     ROUND(AVG(order_date = customer_pref_delivery_date) * 100, 2) AS immediate_percentage
@@ -95,6 +96,7 @@ WHERE
         GROUP BY 1
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -105,6 +107,7 @@ We can use the `RANK()` window function to rank the orders of each user in ascen
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -121,6 +124,7 @@ SELECT
 FROM T
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

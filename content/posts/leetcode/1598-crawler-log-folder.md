@@ -79,6 +79,7 @@ math: true
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 class Solution:
     def minOperations(self, logs: List[str]) -> int:
@@ -90,7 +91,9 @@ class Solution:
                 ans += 1
         return ans
 ```
+{{< /terminal >}}
 
+{{< terminal title="Java Code" >}}
 ```java
 class Solution {
     public int minOperations(String[] logs) {
@@ -106,7 +109,9 @@ class Solution {
     }
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="C++ Code" >}}
 ```cpp
 class Solution {
 public:
@@ -123,7 +128,9 @@ public:
     }
 };
 ```
+{{< /terminal >}}
 
+{{< terminal title="Go Code" >}}
 ```go
 func minOperations(logs []string) int {
 	ans := 0
@@ -139,7 +146,9 @@ func minOperations(logs []string) int {
 	return ans
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="TypeScript Code" >}}
 ```ts
 function minOperations(logs: string[]): number {
     let depth = 0;
@@ -153,7 +162,9 @@ function minOperations(logs: string[]): number {
     return depth;
 }
 ```
+{{< /terminal >}}
 
+{{< terminal title="Rust Code" >}}
 ```rust
 impl Solution {
     pub fn min_operations(logs: Vec<String>) -> i32 {
@@ -169,8 +180,10 @@ impl Solution {
     }
 }
 ```
+{{< /terminal >}}
 
 ```c
+{{< /terminal >}}
 #define max(a, b) (((a) > (b)) ? (a) : (b))
 
 int minOperations(char** logs, int logsSize) {
@@ -186,6 +199,7 @@ int minOperations(char** logs, int logsSize) {
     return depth;
 }
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

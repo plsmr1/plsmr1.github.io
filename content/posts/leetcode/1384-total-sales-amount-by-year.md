@@ -104,6 +104,7 @@ LC Keychain was sold for the period of 2019-12-01 to 2020-01-31, and there are 3
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     s.product_id,
@@ -143,6 +144,7 @@ ORDER BY
     s.product_id,
     y.YEAR
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

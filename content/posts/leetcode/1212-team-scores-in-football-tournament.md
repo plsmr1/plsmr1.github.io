@@ -120,6 +120,7 @@ Finally, we sort the result by points in descending order, and if the points are
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     team_id,
@@ -140,6 +141,7 @@ FROM
 GROUP BY 1
 ORDER BY 3 DESC, 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -125,6 +125,7 @@ Transactions table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH RECURSIVE
     S AS (
@@ -161,6 +162,7 @@ FROM
 GROUP BY n
 ORDER BY n;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

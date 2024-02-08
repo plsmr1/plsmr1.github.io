@@ -87,6 +87,7 @@ We did not include the friendship of users 2 and 3 because they only have two co
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     t AS (
@@ -111,6 +112,7 @@ WHERE t3.user2_id = t2.user2_id AND t1.user1_id < t1.user2_id
 GROUP BY t1.user1_id, t1.user2_id
 HAVING COUNT(1) >= 3;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

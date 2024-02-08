@@ -137,6 +137,7 @@ We can use an equi-join to join the `Orders` table and the `Products` table base
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -155,6 +156,7 @@ FROM T
 WHERE rk = 1
 ORDER BY 1, 2, 3;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

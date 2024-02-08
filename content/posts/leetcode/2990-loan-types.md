@@ -80,6 +80,7 @@ We can group the `Loans` table by `user_id` to find users who have both `Refinan
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT user_id
 FROM Loans
@@ -87,6 +88,7 @@ GROUP BY 1
 HAVING SUM(loan_type = 'Refinance') > 0 AND SUM(loan_type = 'Mortgage') > 0
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

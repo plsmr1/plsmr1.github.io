@@ -87,6 +87,7 @@ Account 2:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     account_id,
@@ -98,6 +99,7 @@ SELECT
 FROM Transactions
 ORDER BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

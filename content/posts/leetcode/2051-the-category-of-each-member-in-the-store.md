@@ -144,6 +144,7 @@ Purchases table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     m.member_id,
@@ -160,6 +161,7 @@ FROM
     LEFT JOIN Purchases AS p ON v.visit_id = p.visit_id
 GROUP BY member_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

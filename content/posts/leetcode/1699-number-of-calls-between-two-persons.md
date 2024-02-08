@@ -82,6 +82,7 @@ We can use the `if` function or the `least` and `greatest` functions to convert 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     IF(from_id < to_id, from_id, to_id) AS person1,
@@ -91,6 +92,7 @@ SELECT
 FROM Calls
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -99,6 +101,7 @@ GROUP BY 1, 2;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     LEAST(from_id, to_id) AS person1,
@@ -108,6 +111,7 @@ SELECT
 FROM Calls
 GROUP BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

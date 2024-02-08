@@ -76,6 +76,7 @@ We can first count the number of direct subordinates for each manager, and then 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -99,8 +100,10 @@ def find_managers(employee: pd.DataFrame) -> pd.DataFrame:
 
     return result
 ```
+{{< /terminal >}}
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT name
 FROM
@@ -113,6 +116,7 @@ FROM
     ) AS t
         USING (id);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

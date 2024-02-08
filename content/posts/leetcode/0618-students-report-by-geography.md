@@ -75,6 +75,7 @@ Student table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -93,6 +94,7 @@ SELECT
 FROM T
 GROUP BY rk;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -92,6 +92,7 @@ Juan&#39;s salary of 6100 is not included in the ranking because they are not on
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     S AS (
@@ -110,6 +111,7 @@ FROM
     JOIN T AS t ON e.salary = t.salary
 ORDER BY 4, 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

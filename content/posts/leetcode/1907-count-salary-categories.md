@@ -85,6 +85,7 @@ We can first create a temporary table containing all salary categories, and then
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     S AS (
@@ -110,6 +111,7 @@ FROM
     S
     LEFT JOIN T USING (category);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -120,6 +122,7 @@ We can filter out the number of bank accounts for each salary category separatel
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT 'Low Salary' AS category, IFNULL(SUM(income < 20000), 0) AS accounts_count FROM Accounts
 UNION
@@ -130,6 +133,7 @@ FROM Accounts
 UNION
 SELECT 'High Salary' AS category, IFNULL(SUM(income > 50000), 0) AS accounts_count FROM Accounts;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

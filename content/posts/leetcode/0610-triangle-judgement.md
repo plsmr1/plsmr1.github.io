@@ -71,12 +71,14 @@ The condition for whether three sides can form a triangle is that the sum of any
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     *,
     IF(x + y > z AND x + z > y AND y + z > x, 'Yes', 'No') AS triangle
 FROM Triangle;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

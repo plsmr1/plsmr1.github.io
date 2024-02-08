@@ -83,6 +83,7 @@ We can first count the number of employees in each department, denoted as table 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -97,6 +98,7 @@ FROM
 WHERE cnt = (SELECT MAX(cnt) FROM T)
 ORDER BY 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -83,6 +83,7 @@ For Department 2:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     student_id,
@@ -101,6 +102,7 @@ SELECT
     ) AS percentage
 FROM Students;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

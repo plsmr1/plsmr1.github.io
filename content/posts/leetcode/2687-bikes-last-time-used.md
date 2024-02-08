@@ -81,6 +81,7 @@ Returning output in order by the bike that were most recently used.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     bike_number,
@@ -89,6 +90,7 @@ FROM Bikes
 GROUP BY bike_number
 ORDER BY end_time DESC;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -81,6 +81,7 @@ We can use the `IF` statement to determine the calculation method of the bonus, 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     employee_id,
@@ -94,6 +95,7 @@ FROM
     employees
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

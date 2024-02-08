@@ -113,6 +113,7 @@ There are 4 unique accepted requests, and there are 5 requests in total. So the 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     ROUND(
@@ -126,6 +127,7 @@ SELECT
         2
     ) AS accept_rate;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

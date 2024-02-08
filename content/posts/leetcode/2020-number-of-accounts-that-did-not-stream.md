@@ -101,6 +101,7 @@ User 11 did not subscribe in 2021.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT COUNT(sub.account_id) AS accounts_count
 FROM
@@ -111,6 +112,7 @@ WHERE
     AND YEAR(end_date) >= 2021
     AND (YEAR(stream_date) != 2021 OR stream_date > end_date);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

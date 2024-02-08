@@ -82,6 +82,7 @@ Activity table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -94,6 +95,7 @@ WITH
 SELECT IFNULL(ROUND(AVG(sessions), 2), 0) AS average_sessions_per_user
 FROM T;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -102,6 +104,7 @@ FROM T;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 SELECT
     IFNULL(
         ROUND(COUNT(DISTINCT session_id) / COUNT(DISTINCT user_id), 2),
@@ -110,6 +113,7 @@ SELECT
 FROM Activity
 WHERE DATEDIFF('2019-07-27', activity_date) < 30;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

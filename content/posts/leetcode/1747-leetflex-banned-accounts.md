@@ -88,6 +88,7 @@ We can use a self-join to find out the cases where each account logs in from dif
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT DISTINCT
     a.account_id
@@ -98,6 +99,7 @@ FROM
         AND a.ip_address != b.ip_address
         AND a.login BETWEEN b.login AND b.logout;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

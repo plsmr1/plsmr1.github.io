@@ -81,6 +81,7 @@ The business with id=1 has 7 &#39;reviews&#39; events (more than 5) and 11 &#39;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT business_id
 FROM
@@ -97,6 +98,7 @@ WHERE t1.occurences > t2.occurences
 GROUP BY business_id
 HAVING COUNT(1) > 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -105,6 +107,7 @@ HAVING COUNT(1) > 1;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -119,6 +122,7 @@ WHERE mark = 1
 GROUP BY 1
 HAVING COUNT(1) > 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

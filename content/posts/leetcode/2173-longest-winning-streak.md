@@ -96,6 +96,7 @@ The longest winning streak was 1 match.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     S AS (
@@ -119,6 +120,7 @@ SELECT player_id, MAX(s) AS longest_streak
 FROM T
 GROUP BY player_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

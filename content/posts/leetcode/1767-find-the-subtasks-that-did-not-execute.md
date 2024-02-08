@@ -103,6 +103,7 @@ We can generate a table recursively that contains all pairs of (parent task, chi
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH RECURSIVE
     T(task_id, subtask_id) AS (
@@ -124,6 +125,7 @@ FROM
     LEFT JOIN Executed USING (task_id, subtask_id)
 WHERE Executed.subtask_id IS NULL;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

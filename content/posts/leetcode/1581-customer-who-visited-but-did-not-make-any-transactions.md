@@ -109,12 +109,14 @@ We can use a subquery to first find all `visit_id`s that have not made any trans
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT customer_id, COUNT(1) AS count_no_trans
 FROM Visits
 WHERE visit_id NOT IN (SELECT visit_id FROM Transactions)
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -125,6 +127,7 @@ We can also use a left join to join the `Visits` table and the `Transactions` ta
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT customer_id, COUNT(1) AS count_no_trans
 FROM
@@ -133,6 +136,7 @@ FROM
 WHERE amount IS NULL
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

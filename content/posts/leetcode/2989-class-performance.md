@@ -82,6 +82,7 @@ We can use the `MAX` and `MIN` functions to get the maximum and minimum sums of 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     MAX(assignment1 + assignment2 + assignment3) - MIN(
@@ -89,6 +90,7 @@ SELECT
     ) AS difference_in_score
 FROM Scores;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

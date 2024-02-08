@@ -71,12 +71,14 @@ We can use a self-join to join each point in the table with the larger points, a
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT MIN(p2.x - p1.x) AS shortest
 FROM
     Point AS p1
     JOIN Point AS p2 ON p1.x < p2.x;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -87,12 +89,14 @@ We can use a window function to sort the points in the table by their $x$ values
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT x - LAG(x) OVER (ORDER BY x) AS shortest
 FROM Point
 ORDER BY 1
 LIMIT 1, 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

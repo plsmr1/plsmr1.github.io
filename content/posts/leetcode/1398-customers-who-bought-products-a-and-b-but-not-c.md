@@ -101,6 +101,7 @@ We can use `LEFT JOIN` to join the `Customers` table and the `Orders` table, the
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT customer_id, customer_name
 FROM
@@ -110,6 +111,7 @@ GROUP BY 1
 HAVING SUM(product_name = 'A') > 0 AND SUM(product_name = 'B') > 0 AND SUM(product_name = 'C') = 0
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

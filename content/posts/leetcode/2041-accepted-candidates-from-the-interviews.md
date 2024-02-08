@@ -109,6 +109,7 @@ Rounds table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT candidate_id
 FROM
@@ -118,6 +119,7 @@ WHERE years_of_exp >= 2
 GROUP BY c.interview_id
 HAVING SUM(score) > 15;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

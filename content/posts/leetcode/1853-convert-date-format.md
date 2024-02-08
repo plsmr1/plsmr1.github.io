@@ -69,9 +69,11 @@ Days table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT DATE_FORMAT(day, '%W, %M %e, %Y') AS day FROM Days;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

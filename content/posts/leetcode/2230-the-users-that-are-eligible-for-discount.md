@@ -81,6 +81,7 @@ Out of the three users, only User 3 is eligible for a discount.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 CREATE PROCEDURE getUserIDs(startDate DATE, endDate DATE, minAmount INT)
 BEGIN
     # Write your MySQL query statement below.
@@ -90,6 +91,7 @@ BEGIN
     ORDER BY user_id;
 END;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

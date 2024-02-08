@@ -74,6 +74,7 @@ Data table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     S AS (
@@ -93,6 +94,7 @@ FROM
     S
     JOIN T USING (rk);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -87,6 +87,7 @@ First, we use the `DATE_FORMAT` function to format the date in the form of `YYYY
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     CEIL(DAYOFMONTH(purchase_date) / 7) AS week_of_month,
@@ -97,6 +98,7 @@ WHERE DATE_FORMAT(purchase_date, '%Y%m') = '202311' AND DAYOFWEEK(purchase_date)
 GROUP BY 2
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

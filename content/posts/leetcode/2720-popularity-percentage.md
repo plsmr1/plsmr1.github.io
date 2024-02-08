@@ -92,6 +92,7 @@ user1 is sorted in ascending order.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     F AS (
@@ -109,6 +110,7 @@ SELECT DISTINCT
 FROM F
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

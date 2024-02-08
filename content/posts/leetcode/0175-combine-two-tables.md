@@ -97,6 +97,7 @@ We can use a left join to join the `Person` table with the `Address` table on th
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -106,14 +107,17 @@ def combine_two_tables(person: pd.DataFrame, address: pd.DataFrame) -> pd.DataFr
         ["firstName", "lastName", "city", "state"]
     ]
 ```
+{{< /terminal >}}
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT firstName, lastName, city, state
 FROM
     Person
     LEFT JOIN Address USING (personId);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

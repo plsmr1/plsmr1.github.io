@@ -115,6 +115,7 @@ Employee 3:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -130,6 +131,7 @@ FROM
     LEFT JOIN T USING (employee_id)
 WHERE IFNULL(tot, 0) < needed_hours;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

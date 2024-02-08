@@ -132,6 +132,7 @@ Let us see all the possible triplets.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     a.student_name AS member_A,
@@ -149,6 +150,7 @@ WHERE
     AND a.student_id != c.student_id
     AND b.student_id != c.student_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

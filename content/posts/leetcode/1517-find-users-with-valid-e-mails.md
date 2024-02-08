@@ -87,11 +87,13 @@ The mail of user 7 starts with a period.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT *
 FROM Users
 WHERE mail REGEXP '^[a-zA-Z][a-zA-Z0-9_.-]*@leetcode[.]com$';
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

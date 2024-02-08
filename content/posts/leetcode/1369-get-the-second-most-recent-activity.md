@@ -78,6 +78,7 @@ Bob only has one record, we just take that one.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 SELECT
     username,
     activity,
@@ -96,6 +97,7 @@ FROM
     ) AS a
 WHERE a.rk = 2 OR a.cnt = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

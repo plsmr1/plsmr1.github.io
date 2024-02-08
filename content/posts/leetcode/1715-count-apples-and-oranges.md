@@ -109,6 +109,7 @@ Total number of oranges = 15 + 25 + 8 + 28 + 15 + 15 + 17 = 123
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     SUM(IFNULL(b.apple_count, 0) + IFNULL(c.apple_count, 0)) AS apple_count,
@@ -117,6 +118,7 @@ FROM
     Boxes AS b
     LEFT JOIN Chests AS c ON b.chest_id = c.chest_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

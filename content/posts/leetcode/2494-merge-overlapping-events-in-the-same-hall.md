@@ -83,6 +83,7 @@ Hall 3:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     S AS (
@@ -122,6 +123,7 @@ SELECT hall_id, MIN(start_day) AS start_day, MAX(end_day) AS end_day
 FROM P
 GROUP BY hall_id, gid;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

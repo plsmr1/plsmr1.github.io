@@ -84,6 +84,7 @@ We can use the window function `RANK()`, which assigns a rank to each transactio
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -100,6 +101,7 @@ FROM T
 WHERE rk = 1
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

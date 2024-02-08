@@ -83,6 +83,7 @@ Note that there may be multiple candidates ranking first in the result set, so w
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -108,6 +109,7 @@ FROM P
 WHERE rk = 1
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -70,6 +70,7 @@ We can use the `GROUP BY` statement to group the data by the `email` field, and 
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -81,14 +82,17 @@ def duplicate_emails(person: pd.DataFrame) -> pd.DataFrame:
 
     return results.drop_duplicates()
 ```
+{{< /terminal >}}
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT email
 FROM Person
 GROUP BY 1
 HAVING COUNT(1) > 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -99,12 +103,14 @@ We can use a self-join to join the `Person` table with itself, and then filter o
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 SELECT DISTINCT p1.email
 FROM
     person AS p1,
     person AS p2
 WHERE p1.id != p2.id AND p1.email = p2.email;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

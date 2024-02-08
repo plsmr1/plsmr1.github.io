@@ -86,6 +86,7 @@ There are two ways to implement grouping:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -104,6 +105,7 @@ SELECT MIN(log_id) AS start_id, MAX(log_id) AS end_id
 FROM T
 GROUP BY pid;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -112,6 +114,7 @@ GROUP BY pid;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -124,6 +127,7 @@ SELECT MIN(log_id) AS start_id, MAX(log_id) AS end_id
 FROM T
 GROUP BY pid;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

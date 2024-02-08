@@ -77,11 +77,13 @@ We can directly filter out the customer names whose `referee_id` is not `2`. Not
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT name
 FROM Customer
 WHERE IFNULL(referee_id, 0) != 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -86,6 +86,7 @@ In January 2021 we have two orders from 2 different customers, but only one of t
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     DATE_FORMAT(order_date, '%Y-%m') AS month,
@@ -95,6 +96,7 @@ FROM Orders
 WHERE invoice > 20
 GROUP BY month;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

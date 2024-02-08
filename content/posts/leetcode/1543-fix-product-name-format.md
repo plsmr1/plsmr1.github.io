@@ -87,6 +87,7 @@ In March, one matryoshka was sold.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     t AS (
@@ -100,6 +101,7 @@ FROM t
 GROUP BY 1, 2
 ORDER BY 1, 2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

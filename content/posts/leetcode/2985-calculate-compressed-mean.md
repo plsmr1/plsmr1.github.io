@@ -74,6 +74,7 @@ We use the `SUM` function to calculate the total quantity of products and the to
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     ROUND(
@@ -82,6 +83,7 @@ SELECT
     ) AS average_items_per_order
 FROM Orders;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

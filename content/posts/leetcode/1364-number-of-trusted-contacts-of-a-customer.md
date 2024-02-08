@@ -142,6 +142,7 @@ John doesn&#39;t have any contacts.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     invoice_id,
@@ -157,6 +158,7 @@ FROM
 GROUP BY invoice_id
 ORDER BY invoice_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

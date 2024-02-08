@@ -78,6 +78,7 @@ Each row includes the user ID, the purchased item, the date of purchase, and the
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement
 SELECT DISTINCT
     user_id
@@ -100,6 +101,7 @@ WHERE
         WHERE DATEDIFF(created_at, prev_created_at) <= 7
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

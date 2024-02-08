@@ -120,6 +120,7 @@ There are no sales of T-shirts.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     item_category AS category,
@@ -136,6 +137,7 @@ FROM
 GROUP BY category
 ORDER BY category;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

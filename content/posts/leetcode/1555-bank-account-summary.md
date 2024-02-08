@@ -114,6 +114,7 @@ Luis did not received any transfer, credit = $800
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     t.user_id,
@@ -131,6 +132,7 @@ FROM
     JOIN Users AS u ON t.user_id = u.user_id
 GROUP BY t.user_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

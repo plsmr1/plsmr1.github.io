@@ -128,6 +128,7 @@ So the cumulative salary summary for this employee is:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     id,
@@ -148,6 +149,7 @@ WHERE
     )
 ORDER BY id, month DESC;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -156,6 +158,7 @@ ORDER BY id, month DESC;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -178,6 +181,7 @@ FROM T
 WHERE rk > 1
 ORDER BY 1, 2 DESC;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

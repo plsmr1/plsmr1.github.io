@@ -106,11 +106,13 @@ We can directly use a subquery to find all students who are not in the `Departme
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT id, name
 FROM Students
 WHERE department_id NOT IN (SELECT id FROM Departments);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -121,6 +123,7 @@ We can also use a left join to join the `Students` table with the `Departments` 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT s.id, s.name
 FROM
@@ -128,6 +131,7 @@ FROM
     LEFT JOIN Departments AS d ON s.department_id = d.id
 WHERE d.id IS NULL;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

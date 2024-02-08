@@ -135,6 +135,7 @@ You can recommend pages for users 2, 3, 4, and 5 using a similar process.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     S AS (
@@ -154,6 +155,7 @@ WHERE
     )
 GROUP BY user1_id, page_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

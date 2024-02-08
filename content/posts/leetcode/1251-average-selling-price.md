@@ -104,6 +104,7 @@ We can use a left join to join the `Prices` table and the `UnitsSold` table on `
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     p.product_id,
@@ -114,6 +115,7 @@ FROM
         ON p.product_id = u.product_id AND purchase_date BETWEEN start_date AND end_date
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

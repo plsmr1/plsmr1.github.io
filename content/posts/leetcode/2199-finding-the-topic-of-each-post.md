@@ -122,6 +122,7 @@ Note that it is okay to have one word that expresses more than one topic.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     post_id,
@@ -131,6 +132,7 @@ FROM
     LEFT JOIN Keywords ON INSTR(CONCAT(' ', content, ' '), CONCAT(' ', word, ' ')) > 0
 GROUP BY post_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -79,6 +79,7 @@ Question 285 has the highest answer rate.</pre>
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT question_id AS survey_log
 FROM SurveyLog
@@ -86,6 +87,7 @@ GROUP BY 1
 ORDER BY SUM(action = 'answer') / SUM(action = 'show') DESC, 1
 LIMIT 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -94,6 +96,7 @@ LIMIT 1;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 WITH
     T AS (
         SELECT
@@ -108,6 +111,7 @@ FROM T
 ORDER BY ratio DESC, 1
 LIMIT 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

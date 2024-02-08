@@ -94,6 +94,7 @@ List all customer IDs of existing orders, and use `NOT IN` to find customers who
 
 <!-- tabs:start -->
 
+{{< terminal title="Python Code" >}}
 ```python
 import pandas as pd
 
@@ -107,8 +108,10 @@ def find_customers(customers: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFram
 
     return df
 ```
+{{< /terminal >}}
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT name AS Customers
 FROM Customers
@@ -118,6 +121,7 @@ WHERE
         FROM Orders
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -128,6 +132,7 @@ Use `LEFT JOIN` to join the tables and return the data where `CustomerId` is `NU
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT name AS Customers
 FROM
@@ -135,6 +140,7 @@ FROM
     LEFT JOIN Orders AS o ON c.id = o.customerId
 WHERE o.id IS NULL;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

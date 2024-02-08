@@ -106,6 +106,7 @@ Matches table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     s AS (
@@ -138,6 +139,7 @@ SELECT group_id, player_id
 FROM p
 WHERE rk = 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

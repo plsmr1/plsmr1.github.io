@@ -77,6 +77,7 @@ Product 2 was ordered one time in 2022. We do not include it in the answer.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     P AS (
@@ -90,6 +91,7 @@ FROM
     JOIN P AS p2 ON p1.y = p2.y - 1 AND p1.product_id = p2.product_id
 WHERE p1.mark AND p2.mark;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -98,6 +100,7 @@ WHERE p1.mark AND p2.mark;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     P AS (
@@ -111,6 +114,7 @@ FROM
     P AS p1
     JOIN P AS p2 ON p1.y = p2.y - 1 AND p1.product_id = p2.product_id;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

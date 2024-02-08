@@ -73,6 +73,7 @@ The maximum customer_id present in the table is 5, so in the range [1,5], IDs 2 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH RECURSIVE
     t AS (
@@ -99,6 +100,7 @@ WHERE
         FROM Customers
     );
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

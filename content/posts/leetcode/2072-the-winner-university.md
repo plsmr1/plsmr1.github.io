@@ -155,6 +155,7 @@ Both New York University and California University have 1 excellent student.
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     CASE
@@ -166,6 +167,7 @@ FROM
     (SELECT COUNT(1) AS cnt FROM NewYork WHERE score >= 90) AS n1,
     (SELECT COUNT(1) AS cnt FROM California WHERE score >= 90) AS n2;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -83,12 +83,14 @@ We can first filter out the login records in 2020, and then group by `user_id`, 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT user_id, MAX(time_stamp) AS last_stamp
 FROM Logins
 WHERE YEAR(time_stamp) = 2020
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -78,12 +78,14 @@ Salary table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 UPDATE salary
 SET sex = CASE sex
     WHEN 'm' THEN 'f'
     ELSE 'm'
 END;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -92,10 +94,12 @@ END;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 UPDATE Salary
 SET sex = IF(sex = 'f', 'm', 'f');
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

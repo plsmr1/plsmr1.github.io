@@ -114,6 +114,7 @@ We can use a left join to join the `Users` table with the `Rides` table on the c
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT name, IFNULL(SUM(distance), 0) AS travelled_distance
 FROM
@@ -122,6 +123,7 @@ FROM
 GROUP BY u.id
 ORDER BY 2 DESC, 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

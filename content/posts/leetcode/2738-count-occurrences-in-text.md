@@ -76,6 +76,7 @@ Files table:
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT 'bull' AS word, COUNT(*) AS count
 FROM Files
@@ -85,6 +86,7 @@ SELECT 'bear' AS word, COUNT(*) AS count
 FROM Files
 WHERE content LIKE '% bear %';
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -101,6 +101,7 @@ We can use `UNION ALL` to merge all player IDs who won Grand Slam titles into a 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -122,6 +123,7 @@ FROM
     JOIN Players USING (player_id)
 GROUP BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
@@ -130,6 +132,7 @@ GROUP BY 1;
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT
     player_id,
@@ -163,6 +166,7 @@ FROM
 GROUP BY player_id
 HAVING grand_slams_count > 0;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

@@ -88,6 +88,7 @@ We can use the window function `LEAD` to obtain the date of the next visit for e
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     T AS (
@@ -107,6 +108,7 @@ FROM T
 GROUP BY 1
 ORDER BY 1;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

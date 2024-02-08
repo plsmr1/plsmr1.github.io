@@ -102,6 +102,7 @@ Orders 1 and 3 are imbalanced because they have a maximum quantity that exceeds 
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 WITH
     t AS (
@@ -116,6 +117,7 @@ SELECT order_id
 FROM t
 WHERE max_quantity > (SELECT MAX(avg_quantity) FROM t);
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 

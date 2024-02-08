@@ -133,6 +133,7 @@ We can use a left join to join the `SalesPerson` table with the `Orders` table o
 <!-- tabs:start -->
 
 ```sql
+{{< /terminal >}}
 # Write your MySQL query statement below
 SELECT s.name
 FROM
@@ -142,6 +143,7 @@ FROM
 GROUP BY sales_id
 HAVING IFNULL(SUM(c.name = 'RED'), 0) = 0;
 ```
+{{< /terminal >}}
 
 <!-- tabs:end -->
 
