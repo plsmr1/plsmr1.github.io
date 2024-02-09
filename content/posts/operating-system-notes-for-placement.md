@@ -21,7 +21,6 @@ cover:
 <hr>
 
 <h3><a href="https://github.com/github/docs/files/12329707/OS-All-Notes.pdf" target="_blank">Download PDF Notes🔗</a></h3>
-
 <iframe loading="lazy" src="https://drive.google.com/file/d/1YNgtbnzqRrCOZ5afiwv2GgW7o55FeYZj/preview" width="100%" height="600" allow="autoplay"></iframe>
 
 **Operating Systems** :
