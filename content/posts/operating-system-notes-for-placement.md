@@ -9,7 +9,7 @@ sitemap: true
 keywords: ["Operating System Notes For Placement", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/operating-system-notes-for-placement"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Operating System Notes For Placement/og-image.webp
+  image: https://spcdn.pages.dev/blog/os.webp
   alt: Operating System Notes For Placement
   hiddenInList: true
   hiddenInSingle: false

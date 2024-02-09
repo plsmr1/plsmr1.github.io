@@ -14,6 +14,7 @@ cover:
   alt: SQL Joins
   hiddenInList: true
   hiddenInSingle: false
+TocOpen: false
 ---
 
 

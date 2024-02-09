@@ -13,6 +13,7 @@ cover:
   alt: Open External Links in a New Window Using JavaScript
   hiddenInList: true
   hiddenInSingle: false
+TocOpen: false
 ---
 
 

@@ -66,7 +66,7 @@ params:
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
-  TocOpen: false
+  TocOpen: true
   comments: true
   hidemeta: false
   hideFooter: false

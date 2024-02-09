@@ -13,6 +13,7 @@ cover:
   alt: Embed MusicApp
   hiddenInList: true
   hiddenInSingle: false
+TocOpen: false
 ---
 
 

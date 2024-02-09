@@ -13,7 +13,9 @@ cover:
   alt: dsalgo
   hiddenInList: false
   hiddenInSingle: false
+TocOpen: false
 ---
+
      
 <b>Repository Link: [https://github.com/SamirPaulb/DSAlgo](https://github.com/SamirPaulb/DSAlgo)</b>
 

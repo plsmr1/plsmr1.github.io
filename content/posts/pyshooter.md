@@ -9,7 +9,7 @@ sitemap: true
 keywords: ["PyShooter Python Game", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/pyshooter", "/pyshooter"]
 cover:
-  image: https://github.com/SamirPaulb/PyShooter/assets/77569653/8ef26361-6886-42d6-b4c3-61896b61b9a1
+  image: https://spcdn.pages.dev/pyshooter.webp
   alt: PyShooter Python Game
   hiddenInList: true
   hiddenInSingle: false
