@@ -26,9 +26,23 @@ In the backend, using the ```PDFNetPython``` library that file gets reduced and 
 
 ## Video Demo: 
 
-<iframe title="Video Demo" src="https://user-images.githubusercontent.com/77569653/172896703-9e4998c1-40da-46ae-810e-780e47a391f9.mp4" loading="lazy" width="100%" height = "380" autoplay="autoplay" loop="loop" frameborder="0" allowfullscreen></iframe>
-
-
+<script defer loading="lazy" src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<div>
+<video width="100%" id="video" controls>
+<source loading="lazy" src="https://user-images.githubusercontent.com/77569653/172896703-9e4998c1-40da-46ae-810e-780e47a391f9.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+<script type="text/javascript">
+$( document ).ready(function() {
+$('#videoUrl').on('change', function(e) {
+  var video = $('#video');
+  video.children('source').attr('src', $(this).val());
+  video[0].load();
+  video[0].play();
+});
+});
+</script>
 
 
 - Landing Page:
