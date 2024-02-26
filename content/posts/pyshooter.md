@@ -16,7 +16,7 @@ cover:
 ---
 
  
-[![Language](https://img.shields.io/badge/language-python-blue.svg?style=flat)](https://www.python.org)
+[![Language](https://github.com/SamirPaulb/DSAlgo/assets/77569653/030fb10d-3def-4a4c-8beb-2eb9b111c1fb)](https://www.python.org)
 [![Module](https://img.shields.io/badge/module-pygame-brightgreen.svg?style=flat)](https://www.pygame.org/news.html)
 
 PyShooter is a two-dimensional shooter game in which the player runs horizontally and fires at enemies.
@@ -27,10 +27,24 @@ PyShooter is a two-dimensional shooter game in which the player runs horizontall
 
 
 <iframe width="100%" height="420" src="https://www.youtube.com/embed/rg-49OTHZVY" loading="lazy" title="PyShooter - Samir Paul - YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
- 
 
-<iframe title="Video Demo" src="https://user-images.githubusercontent.com/77569653/214920668-ef657089-b71f-43c8-8011-a202a09f5531.mp4" loading="lazy" width="100%" height = "500" autoplay="autoplay" loop="loop" frameborder="0" allowfullscreen></iframe>
-
+<script defer loading="lazy" src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+<div>
+<video width="100%" id="video" controls>
+<source loading="lazy" src="https://user-images.githubusercontent.com/77569653/214920668-ef657089-b71f-43c8-8011-a202a09f5531.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+<script type="text/javascript">
+$( document ).ready(function() {
+$('#videoUrl').on('change', function(e) {
+  var video = $('#video');
+  video.children('source').attr('src', $(this).val());
+  video[0].load();
+  video[0].play();
+});
+});
+</script>
 
 Vimeo: [https://vimeo.com/809728956](https://vimeo.com/809728956)
 
