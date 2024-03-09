@@ -34,11 +34,13 @@ GitHubActivity.feed({
 </script>
 
 ### X/Twitter
-<a class="twitter-timeline" href="https://twitter.com/SamirPaulb" target="_blank">Tweets by @SamirPaulb</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<div class='sk-ww-twitter-feed' data-embed-id='25378610'></div><script src='https://widgets.sociablekit.com/twitter-feed/widget.js' async defer></script>
+
+# LinkedIn
+<div class='sk-ww-linkedin-profile-post' data-embed-id='25378599'></div><script src='https://widgets.sociablekit.com/linkedin-profile-posts/widget.js' async defer></script>
 
 ### YouTube
-<script defer loading="lazy" src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-28bd375b-d3b4-498e-b808-9c4a01978a66" data-elfsight-app-lazy></div>
+<div class='sk-ww-youtube-channel-videos' data-embed-id='25378612'></div><script src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js' async defer></script>
 
 
 
