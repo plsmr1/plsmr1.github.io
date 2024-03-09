@@ -36,7 +36,7 @@ GitHubActivity.feed({
 ### X/Twitter
 <div class='sk-ww-twitter-feed' data-embed-id='25378610'></div><script src='https://widgets.sociablekit.com/twitter-feed/widget.js' async defer></script>
 
-# LinkedIn
+### LinkedIn
 <div class='sk-ww-linkedin-profile-post' data-embed-id='25378599'></div><script src='https://widgets.sociablekit.com/linkedin-profile-posts/widget.js' async defer></script>
 
 ### YouTube
