@@ -14,7 +14,7 @@ displayFullLangName: false
 ShowBreadCrumbs: false
 author: " "
 cover:
-  image: https://spcdn.pages.dev/feeds.webp
+  image: https://spcdn.pages.dev/thin-line.webp
   alt: Social Feeds
   hidden: true
   hiddenInList: false

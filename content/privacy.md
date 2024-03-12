@@ -13,7 +13,7 @@ displayFullLangName: false
 ShowBreadCrumbs: false
 author: " "
 cover:
-  image: https://spcdn.pages.dev/privacy.webp
+  image: https://spcdn.pages.dev/thin-line.webp
   alt: Privacy Policy
   hidden: true
   hiddenInList: false

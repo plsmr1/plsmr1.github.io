@@ -13,7 +13,7 @@ displayFullLangName: false
 ShowBreadCrumbs: false
 author: " "
 cover:
-  image: https://spcdn.pages.dev/contact.webp
+  image: https://spcdn.pages.dev/thin-line.webp
   alt: Contact Me
   hidden: true
   hiddenInList: false
