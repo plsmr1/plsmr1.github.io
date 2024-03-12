@@ -16,6 +16,7 @@ author: " "
 cover:
   image: https://spcdn.pages.dev/about.webp
   alt: About Me
+  hidden: true
   hiddenInList: false
   hiddenInSingle: false
 ---

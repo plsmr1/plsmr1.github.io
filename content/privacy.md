@@ -15,6 +15,7 @@ author: " "
 cover:
   image: https://spcdn.pages.dev/privacy.webp
   alt: Privacy Policy
+  hidden: true
   hiddenInList: false
   hiddenInSingle: false
 ---

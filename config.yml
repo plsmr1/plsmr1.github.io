@@ -70,7 +70,7 @@ params:
   comments: true
   hidemeta: false
   hideFooter: false
-  images: ["/screenshot.png",]
+  images: ["/screenshot.png"]
 
   profileMode:
     enabled: false
@@ -147,8 +147,8 @@ params:
       hiddenInList: true # hide on list pages and home
       hiddenInSingle: false # hide on single page
       linkFullImages: false
-      image: "https://scdn.netlify.app/blog-featured-image-samirpaul-in-blog.webp"
-      alt: "blog-featured-image"
+      image: "/screenshot.png"
+      alt: "blog og image"
       caption: "Technical blog"
 
   # fuseOpts:

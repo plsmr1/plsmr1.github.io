@@ -15,6 +15,7 @@ author: " "
 cover:
   image: https://spcdn.pages.dev/contact.webp
   alt: Contact Me
+  hidden: true
   hiddenInList: false
   hiddenInSingle: false
 ---

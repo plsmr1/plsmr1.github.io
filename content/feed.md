@@ -16,6 +16,7 @@ author: " "
 cover:
   image: https://spcdn.pages.dev/feeds.webp
   alt: Social Feeds
+  hidden: true
   hiddenInList: false
   hiddenInSingle: false
 ---

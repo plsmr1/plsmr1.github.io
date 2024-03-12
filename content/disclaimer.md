@@ -15,6 +15,7 @@ author: " "
 cover:
   image: https://spcdn.pages.dev/disclaimer.webp
   alt: Content Disclaimer
+  hidden: true
   hiddenInList: false
   hiddenInSingle: false
 ---

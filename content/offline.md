@@ -16,6 +16,7 @@ author: " "
 cover:
   image: https://spcdn.pages.dev/offline.webp
   alt: Offline
+  hidden: true
   hiddenInList: false
   hiddenInSingle: false
 ---
