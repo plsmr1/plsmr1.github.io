@@ -13,6 +13,11 @@ ShowWordCount: false
 displayFullLangName: false
 ShowBreadCrumbs: false
 author: " "
+cover:
+  image: https://spcdn.pages.dev/about.webp
+  alt: About Me
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
  

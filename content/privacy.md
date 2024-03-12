@@ -12,6 +12,11 @@ ShowWordCount: false
 displayFullLangName: false
 ShowBreadCrumbs: false
 author: " "
+cover:
+  image: https://spcdn.pages.dev/privacy.webp
+  alt: Privacy Policy
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 

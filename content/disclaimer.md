@@ -1,6 +1,6 @@
 ---
 title: Content Disclaimer
-url: /disclaimer
+url: "/disclaimer/"
 summary: Content Disclaimer
 ShowShareButtons: false
 disableShare: true
@@ -12,6 +12,11 @@ ShowWordCount: false
 displayFullLangName: false
 ShowBreadCrumbs: false
 author: " "
+cover:
+  image: https://spcdn.pages.dev/disclaimer.webp
+  alt: Content Disclaimer
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 

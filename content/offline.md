@@ -13,6 +13,11 @@ ShowWordCount: false
 displayFullLangName: false
 ShowBreadCrumbs: false
 author: " "
+cover:
+  image: https://spcdn.pages.dev/offline.webp
+  alt: Offline
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 **Please check your network connection**, then <button class="comment-button" type="button" onClick="window.location.reload()"><b>Reload Page ⟳</b></button>

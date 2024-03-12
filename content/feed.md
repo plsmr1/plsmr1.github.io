@@ -1,7 +1,7 @@
 ---
 title: Feeds
 layout: page
-url: /feed
+url: "/feed/"
 summary: Website, Social Media Feeds
 ShowShareButtons: false
 disableShare: true
@@ -13,6 +13,11 @@ ShowWordCount: false
 displayFullLangName: false
 ShowBreadCrumbs: false
 author: " "
+cover:
+  image: https://spcdn.pages.dev/feeds.webp
+  alt: Social Feeds
+  hiddenInList: false
+  hiddenInSingle: false
 ---
 
 ### Website
