@@ -3,7 +3,7 @@ title: "Search"
 placeholder: Search this website with full text fuzzy search ...
 layout: "search"
 cover:
-  image: https://spcdn.pages.dev/thin-line.webp
+  image: https://spcdn.pages.dev/rainbow-superthin.webp
   alt: Search Blog Posts
   hidden: true
   hiddenInList: false

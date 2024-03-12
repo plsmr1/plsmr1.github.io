@@ -4,7 +4,7 @@ layout: "archives"
 url: "/archives"
 summary: "archives"
 cover:
-  image: https://spcdn.pages.dev/thin-line.webp
+  image: https://spcdn.pages.dev/rainbow-superthin.webp
   alt: Blog Archive
   hidden: true
   hiddenInList: false
