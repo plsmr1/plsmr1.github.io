@@ -9,9 +9,9 @@ sitemap: true
 keywords: ["High-level design", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/high-level-design"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:High-level design/og-image.webp
+  image: https://spcdn.pages.dev/high-level-design.webp
   alt: High-level design
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
 # High-level design (HLD)

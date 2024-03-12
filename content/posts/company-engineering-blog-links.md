@@ -8,9 +8,9 @@ author: ["Samir Paul"]
 keywords: ["Company engineering blog links", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/company-engineering-blog-links"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Company engineering blog links/og-image.webp
+  image: https://spcdn.pages.dev/company-engineering-blog-links.webp
   alt: Company engineering blog links
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
 

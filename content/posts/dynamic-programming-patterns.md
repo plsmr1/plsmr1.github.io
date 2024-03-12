@@ -9,7 +9,7 @@ sitemap: true
 keywords: ["Dynamic Programming Patterns", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/dynamic-programming-patterns"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Dynamic Programming Patterns/og-image.webp
+  image: https://spcdn.pages.dev/dynamic-programming-patterns.webp
   alt: Dynamic Programming Patterns
   hiddenInList: true
   hiddenInSingle: false

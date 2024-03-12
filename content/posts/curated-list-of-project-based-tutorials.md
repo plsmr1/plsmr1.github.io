@@ -11,7 +11,7 @@ aliases: ["/blog/posts/curated-list-of-project-based-tutorials"]
 cover:
   image: https://github.com/github/docs/assets/132539454/05102050-6450-4cf5-bb5c-029670af78d7
   alt: Project Based Tutorials
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
 

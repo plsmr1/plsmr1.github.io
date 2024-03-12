@@ -9,9 +9,9 @@ sitemap: true
 keywords: ["Online PDF Compression Tool", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/online-pdf-compression-tool"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Online PDF Compression Tool/og-image.webp
+  image: https://spcdn.pages.dev/online-pdf-compression-tool.webp
   alt: Online PDF Compression Tool
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
 

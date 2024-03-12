@@ -9,7 +9,7 @@ sitemap: true
 keywords: ["Python Cheat Sheet for Leetcode", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/python-cheat-sheet-for-leetcode"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Python Cheat Sheet for Leetcode/og-image.webp
+  image: https://spcdn.pages.dev/python-cheat-sheet-for-leetcode.webp
   alt: Python Cheat Sheet for Leetcode
   hiddenInList: true
   hiddenInSingle: false

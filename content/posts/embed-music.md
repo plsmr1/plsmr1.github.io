@@ -9,9 +9,9 @@ sitemap: true
 keywords: ["Embed MusicApp", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/embed-music"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Embed MusicApp/og-image.webp
+  image: https://spcdn.pages.dev/embed-music.webp
   alt: Embed MusicApp
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 TocOpen: false
 ---

@@ -9,7 +9,7 @@ sitemap: true
 keywords: ["LeetCode Greedy for Beginners", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/leetcode-greedy-for-beginners"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:LeetCode Greedy for Beginners/og-image.webp
+  image: https://spcdn.pages.dev/leetcode-greedy-for-beginners.webp
   alt: LeetCode Greedy for Beginners
   hiddenInList: true
   hiddenInSingle: false

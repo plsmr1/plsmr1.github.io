@@ -8,9 +8,9 @@ author: ["Samir Paul"]
 keywords: ["Complete Computer Science Study Plan to Become a Software Engineer", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/complete-computer-science-study-plan-to-become-a-software-engineer"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:Complete Computer Science Study Plan to Become a Software Engineer/og-image.webp
+  image: https://spcdn.pages.dev/complete-computer-science-study-plan-to-become-a-software-engineer.webp
   alt: Study Plan
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
 

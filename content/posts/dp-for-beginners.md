@@ -9,9 +9,9 @@ sitemap: true
 keywords: ["DP for Beginners", "Coding blog", "Computer Science"]
 aliases: ["/blog/posts/dp-for-beginners"]
 cover:
-  image: https://res.cloudinary.com/samirpaul/image/upload/w_1100,c_fit,co_rgb:FFFFFF,l_text:Arial_75_bold:DP for Beginners/og-image.webp
+  image: https://spcdn.pages.dev/dp-for-beginners.webp
   alt: DP for Beginners
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
 

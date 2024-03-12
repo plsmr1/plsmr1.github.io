@@ -11,7 +11,7 @@ aliases: ["/blog/posts/computer-networks-notes"]
 cover:
   image: https://spcdn.pages.dev/assets/img/computer-networks-preview-blog-banner.webp
   alt: Computer Networks Notes
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
    
