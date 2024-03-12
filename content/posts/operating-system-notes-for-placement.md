@@ -11,7 +11,7 @@ aliases: ["/blog/posts/operating-system-notes-for-placement"]
 cover:
   image: https://spcdn.pages.dev/blog/os.webp
   alt: Operating System Notes For Placement
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
   

@@ -11,7 +11,7 @@ aliases: ["/blog/posts/text-file-compressor-de-compressor-web-app"]
 cover:
   image: https://spcdn.pages.dev/text-file-compressor-de-compressor-web-app.webp
   alt: Text File Compressor De-compressor Web App
-  hiddenInList: true
+  hiddenInList: false
   hiddenInSingle: false
 ---
   

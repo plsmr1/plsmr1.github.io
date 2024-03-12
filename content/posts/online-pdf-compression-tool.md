@@ -11,7 +11,7 @@ aliases: ["/blog/posts/online-pdf-compression-tool"]
 cover:
   image: https://spcdn.pages.dev/online-pdf-compression-tool.webp
   alt: Online PDF Compression Tool
-  hiddenInList: false
+  hiddenInList: true
   hiddenInSingle: false
 ---
 
