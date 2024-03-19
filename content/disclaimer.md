@@ -12,12 +12,6 @@ ShowWordCount: false
 displayFullLangName: false
 ShowBreadCrumbs: false
 author: " "
-cover:
-  image: https://spcdn.pages.dev/rainbow-superthin.webp
-  alt: Content Disclaimer
-  hidden: true
-  hiddenInList: false
-  hiddenInSingle: false
 ---
 
 
