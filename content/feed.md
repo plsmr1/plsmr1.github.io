@@ -42,6 +42,9 @@ GitHubActivity.feed({
 ### YouTube
 <div class='sk-ww-youtube-channel-videos' data-embed-id='25378612'></div><script src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js' async defer></script>
 
+---
 
-
+<p align="center">
+[![spotify-now-playing](https://spotify-github-profile.vercel.app/api/view?uid=abqd17yu8rqro3ydcfsv8sie6&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false)](#)
+</p>
 
