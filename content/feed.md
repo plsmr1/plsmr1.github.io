@@ -45,5 +45,5 @@ GitHubActivity.feed({
 ---
 
 <p align="center">
-  <a href="https://open.spotify.com/user/abqd17yu8rqro3ydcfsv8sie6" target="_blank"> <img loading="lazy" alt="Spotify Now Playing" cache-control="no-cache" src="https://spotify-github-profile.vercel.app/api/view?uid=abqd17yu8rqro3ydcfsv8sie6&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=false"/> </a>
+  <a href="https://open.spotify.com/user/abqd17yu8rqro3ydcfsv8sie6" target="_blank"> <img loading="lazy" alt="Spotify Now Playing" cache-control="no-cache" src="https://spotify-github-profile.vercel.app/api/view?uid=abqd17yu8rqro3ydcfsv8sie6&cover_image=true&theme=default&show_offline=true&background_color=121212&interchange=true"/> </a>
 </p>
