@@ -1,24 +1,3 @@
-{{ if .IsHome }}
-<script type="application/ld+json">
-    {
-      "@context" : "https://schema.org",
-      "@type" : "WebSite",
-      "name" : "Samir Paul",
-      "alternateName" : "Samir's Blog",
-      "url" : "https://samirpaul.in/",
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://samirpaul.in/search/#gsc.q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    }
-  </script>
-{{ end }}
-
-
 <link rel="manifest" href="/manifest.json">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="/index.xml" />
@@ -59,8 +38,8 @@
 <link href="https://www.googletagservices.com" rel="preconnect"/>
 <link href="https://www.googletagservices.com" rel="dns-prefetch"/>
 
-<link href="https://cse.google.com" rel="preconnect"/>
-<link href="https://cse.google.com" rel="dns-prefetch"/>
+<!-- <link href="https://cse.google.com" rel="preconnect"/>
+<link href="https://cse.google.com" rel="dns-prefetch"/> -->
 
 <link href="https://pagead2.googlesyndication.com" rel="preconnect"/>
 <link href="https://pagead2.googlesyndication.com" rel="dns-prefetch"/>
