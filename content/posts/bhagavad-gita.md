@@ -16,9 +16,9 @@ cover:
 comments: false
 ---
 
-<sub><sup><sup>
-Content Disclaimer: This following content hosted on this webpage is solely intended for my personal reading purposes. It has been converted to WebP image format from a [Bhagavad Gita PDF](https://ebooks.iskcondesiretree.com/pdf/00_-_Srila_Prabhupada/Bhagavad_Gita/Bhagavad_Gita_As_It_Is.pdf). I do not claim any ownership or authorship rights to the content. All copyrights and intellectual property rights remain with ISKCON (International Society for Krishna Consciousness). This webpage does not engage in any commercial or marketing activities, and no products or services are sold through it. If you have any concerns regarding the content, please contact the appropriate owner, ISKCON. Other sources: [link1](https://samirpaulb.github.io/bhagavad-gita-as-it-is.html), [link2](https://sp58.github.io/bhagavad-gita), [link3](https://bhagavad-gita-as-it-is.vercel.app), [link4](https://bhagavad-gita-as-it-is.netlify.app), [link5](https://bhagavad-gita-as-it-is.pages.dev), [PDF](https://github.com/SamirPaul1/assets/blob/main/Bhagavad_Gita_As_It_Is.pdf)
-</sup></sub></sub>
+<sub><sup><sup>Disclaimer: The following content hosted on this webpage is solely intended for my personal reading purposes. It has been converted to WebP image format from a [Bhagavad Gita PDF](https://ebooks.iskcondesiretree.com/pdf/00_-_Srila_Prabhupada/Bhagavad_Gita/Bhagavad_Gita_As_It_Is.pdf). I do not claim any ownership or authorship rights to the content. All copyrights and intellectual property rights remain with ISKCON (International Society for Krishna Consciousness). This webpage does not engage in any commercial or marketing activities, and no products or services are sold through it. If you have any concerns regarding the content, please contact the appropriate owner, ISKCON. Other sources: [link1](https://samirpaulb.github.io/bhagavad-gita-as-it-is.html), [link2](https://sp58.github.io/bhagavad-gita), [link3](https://bhagavad-gita-as-it-is.vercel.app), [link4](https://bhagavad-gita-as-it-is.netlify.app), [link5](https://bhagavad-gita-as-it-is.pages.dev), [PDF](https://github.com/SamirPaul1/assets/blob/main/Bhagavad_Gita_As_It_Is.pdf)</sup></sub></sub>
+
+
 
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1.webp" alt="bhagavad-gita-page-1.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-2.webp" alt="bhagavad-gita-page-2.webp" loading="lazy">
