@@ -17,75 +17,118 @@ comments: false
 ---
 
 <sub><sup>
-Content Disclaimer: This following content hosted on this webpage is solely intended for my personal reading purposes. It has been converted to WebP image format from a Bhagavad Gita PDF (Link: https://ebooks.iskcondesiretree.com/pdf/00_-_Srila_Prabhupada/Bhagavad_Gita/Bhagavad_Gita_As_It_Is.pdf). I, Samir Paul, do not claim any ownership or authorship rights to the content. All copyrights and intellectual property rights remain with ISKCON (International Society for Krishna Consciousness). This webpage does not engage in any commercial or marketing activities, and no products or services are sold through it. If you have any concerns regarding the content, please contact the appropriate owner, ISKCON. Other sources: [link1](https://samirpaulb.github.io/bhagavad-gita-as-it-is.html), [link2](https://sp58.github.io/bhagavad-gita), [link3](https://bhagavad-gita-as-it-is.vercel.app), [link4](https://bhagavad-gita-as-it-is.netlify.app), [link5](https://bhagavad-gita-as-it-is.pages.dev) 
+Content Disclaimer: This following content hosted on this webpage is solely intended for my personal reading purposes. It has been converted to WebP image format from a Bhagavad Gita PDF ([Link](https://ebooks.iskcondesiretree.com/pdf/00_-_Srila_Prabhupada/Bhagavad_Gita/Bhagavad_Gita_As_It_Is.pdf)). I, Samir Paul, do not claim any ownership or authorship rights to the content. All copyrights and intellectual property rights remain with ISKCON (International Society for Krishna Consciousness). This webpage does not engage in any commercial or marketing activities, and no products or services are sold through it. If you have any concerns regarding the content, please contact the appropriate owner, ISKCON. Other sources: [link1](https://samirpaulb.github.io/bhagavad-gita-as-it-is.html), [link2](https://sp58.github.io/bhagavad-gita), [link3](https://bhagavad-gita-as-it-is.vercel.app), [link4](https://bhagavad-gita-as-it-is.netlify.app), [link5](https://bhagavad-gita-as-it-is.pages.dev) 
 </sup></sub>
 
-
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1.webp" alt="bhagavad-gita-page-1.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-2.webp" alt="bhagavad-gita-page-2.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-3.webp" alt="bhagavad-gita-page-3.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-4.webp" alt="bhagavad-gita-page-4.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-5.webp" alt="bhagavad-gita-page-5.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-6.webp" alt="bhagavad-gita-page-6.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-7.webp" alt="bhagavad-gita-page-7.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-8.webp" alt="bhagavad-gita-page-8.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-9.webp" alt="bhagavad-gita-page-9.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-10.webp" alt="bhagavad-gita-page-10.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-11.webp" alt="bhagavad-gita-page-11.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-12.webp" alt="bhagavad-gita-page-12.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-13.webp" alt="bhagavad-gita-page-13.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-14.webp" alt="bhagavad-gita-page-14.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-15.webp" alt="bhagavad-gita-page-15.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-16.webp" alt="bhagavad-gita-page-16.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-17.webp" alt="bhagavad-gita-page-17.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-18.webp" alt="bhagavad-gita-page-18.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-19.webp" alt="bhagavad-gita-page-19.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-20.webp" alt="bhagavad-gita-page-20.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-21.webp" alt="bhagavad-gita-page-21.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-22.webp" alt="bhagavad-gita-page-22.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-23.webp" alt="bhagavad-gita-page-23.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-24.webp" alt="bhagavad-gita-page-24.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-25.webp" alt="bhagavad-gita-page-25.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-26.webp" alt="bhagavad-gita-page-26.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-27.webp" alt="bhagavad-gita-page-27.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-28.webp" alt="bhagavad-gita-page-28.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-29.webp" alt="bhagavad-gita-page-29.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-30.webp" alt="bhagavad-gita-page-30.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-31.webp" alt="bhagavad-gita-page-31.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-32.webp" alt="bhagavad-gita-page-32.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-33.webp" alt="bhagavad-gita-page-33.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-34.webp" alt="bhagavad-gita-page-34.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-35.webp" alt="bhagavad-gita-page-35.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-36.webp" alt="bhagavad-gita-page-36.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-37.webp" alt="bhagavad-gita-page-37.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-38.webp" alt="bhagavad-gita-page-38.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-39.webp" alt="bhagavad-gita-page-39.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-40.webp" alt="bhagavad-gita-page-40.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-41.webp" alt="bhagavad-gita-page-41.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-42.webp" alt="bhagavad-gita-page-42.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-43.webp" alt="bhagavad-gita-page-43.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-44.webp" alt="bhagavad-gita-page-44.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-45.webp" alt="bhagavad-gita-page-45.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-46.webp" alt="bhagavad-gita-page-46.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-47.webp" alt="bhagavad-gita-page-47.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-48.webp" alt="bhagavad-gita-page-48.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-49.webp" alt="bhagavad-gita-page-49.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-50.webp" alt="bhagavad-gita-page-50.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-51.webp" alt="bhagavad-gita-page-51.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-52.webp" alt="bhagavad-gita-page-52.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-53.webp" alt="bhagavad-gita-page-53.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-54.webp" alt="bhagavad-gita-page-54.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-55.webp" alt="bhagavad-gita-page-55.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-56.webp" alt="bhagavad-gita-page-56.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-57.webp" alt="bhagavad-gita-page-57.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-58.webp" alt="bhagavad-gita-page-58.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-59.webp" alt="bhagavad-gita-page-59.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-60.webp" alt="bhagavad-gita-page-60.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-61.webp" alt="bhagavad-gita-page-61.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-62.webp" alt="bhagavad-gita-page-62.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-63.webp" alt="bhagavad-gita-page-63.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-64.webp" alt="bhagavad-gita-page-64.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-65.webp" alt="bhagavad-gita-page-65.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-66.webp" alt="bhagavad-gita-page-66.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-67.webp" alt="bhagavad-gita-page-67.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-68.webp" alt="bhagavad-gita-page-68.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-69.webp" alt="bhagavad-gita-page-69.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-70.webp" alt="bhagavad-gita-page-70.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-71.webp" alt="bhagavad-gita-page-71.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-72.webp" alt="bhagavad-gita-page-72.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-73.webp" alt="bhagavad-gita-page-73.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-74.webp" alt="bhagavad-gita-page-74.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-75.webp" alt="bhagavad-gita-page-75.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-76.webp" alt="bhagavad-gita-page-76.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-77.webp" alt="bhagavad-gita-page-77.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-78.webp" alt="bhagavad-gita-page-78.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-79.webp" alt="bhagavad-gita-page-79.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-80.webp" alt="bhagavad-gita-page-80.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-81.webp" alt="bhagavad-gita-page-81.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-82.webp" alt="bhagavad-gita-page-82.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-83.webp" alt="bhagavad-gita-page-83.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-84.webp" alt="bhagavad-gita-page-84.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-85.webp" alt="bhagavad-gita-page-85.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-86.webp" alt="bhagavad-gita-page-86.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-87.webp" alt="bhagavad-gita-page-87.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-88.webp" alt="bhagavad-gita-page-88.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-89.webp" alt="bhagavad-gita-page-89.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-90.webp" alt="bhagavad-gita-page-90.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-91.webp" alt="bhagavad-gita-page-91.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-92.webp" alt="bhagavad-gita-page-92.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-93.webp" alt="bhagavad-gita-page-93.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-94.webp" alt="bhagavad-gita-page-94.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-95.webp" alt="bhagavad-gita-page-95.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-96.webp" alt="bhagavad-gita-page-96.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-97.webp" alt="bhagavad-gita-page-97.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-98.webp" alt="bhagavad-gita-page-98.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-99.webp" alt="bhagavad-gita-page-99.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-100.webp" alt="bhagavad-gita-page-100.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1000.webp" alt="bhagavad-gita-page-1000.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1001.webp" alt="bhagavad-gita-page-1001.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1002.webp" alt="bhagavad-gita-page-1002.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1003.webp" alt="bhagavad-gita-page-1003.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1004.webp" alt="bhagavad-gita-page-1004.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1005.webp" alt="bhagavad-gita-page-1005.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1006.webp" alt="bhagavad-gita-page-1006.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1007.webp" alt="bhagavad-gita-page-1007.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1008.webp" alt="bhagavad-gita-page-1008.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1009.webp" alt="bhagavad-gita-page-1009.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-101.webp" alt="bhagavad-gita-page-101.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1010.webp" alt="bhagavad-gita-page-1010.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1011.webp" alt="bhagavad-gita-page-1011.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1012.webp" alt="bhagavad-gita-page-1012.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1013.webp" alt="bhagavad-gita-page-1013.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1014.webp" alt="bhagavad-gita-page-1014.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1015.webp" alt="bhagavad-gita-page-1015.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1016.webp" alt="bhagavad-gita-page-1016.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1017.webp" alt="bhagavad-gita-page-1017.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1018.webp" alt="bhagavad-gita-page-1018.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1019.webp" alt="bhagavad-gita-page-1019.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-102.webp" alt="bhagavad-gita-page-102.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1020.webp" alt="bhagavad-gita-page-1020.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1021.webp" alt="bhagavad-gita-page-1021.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1022.webp" alt="bhagavad-gita-page-1022.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1023.webp" alt="bhagavad-gita-page-1023.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1024.webp" alt="bhagavad-gita-page-1024.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1025.webp" alt="bhagavad-gita-page-1025.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1026.webp" alt="bhagavad-gita-page-1026.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1027.webp" alt="bhagavad-gita-page-1027.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1028.webp" alt="bhagavad-gita-page-1028.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1029.webp" alt="bhagavad-gita-page-1029.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-103.webp" alt="bhagavad-gita-page-103.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1030.webp" alt="bhagavad-gita-page-1030.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1031.webp" alt="bhagavad-gita-page-1031.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1032.webp" alt="bhagavad-gita-page-1032.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1033.webp" alt="bhagavad-gita-page-1033.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1034.webp" alt="bhagavad-gita-page-1034.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1035.webp" alt="bhagavad-gita-page-1035.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1036.webp" alt="bhagavad-gita-page-1036.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1037.webp" alt="bhagavad-gita-page-1037.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1038.webp" alt="bhagavad-gita-page-1038.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1039.webp" alt="bhagavad-gita-page-1039.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-104.webp" alt="bhagavad-gita-page-104.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1040.webp" alt="bhagavad-gita-page-1040.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1041.webp" alt="bhagavad-gita-page-1041.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1042.webp" alt="bhagavad-gita-page-1042.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1043.webp" alt="bhagavad-gita-page-1043.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1044.webp" alt="bhagavad-gita-page-1044.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1045.webp" alt="bhagavad-gita-page-1045.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1046.webp" alt="bhagavad-gita-page-1046.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1047.webp" alt="bhagavad-gita-page-1047.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1048.webp" alt="bhagavad-gita-page-1048.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1049.webp" alt="bhagavad-gita-page-1049.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-105.webp" alt="bhagavad-gita-page-105.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1050.webp" alt="bhagavad-gita-page-1050.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1051.webp" alt="bhagavad-gita-page-1051.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-106.webp" alt="bhagavad-gita-page-106.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-107.webp" alt="bhagavad-gita-page-107.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-108.webp" alt="bhagavad-gita-page-108.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-109.webp" alt="bhagavad-gita-page-109.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-11.webp" alt="bhagavad-gita-page-11.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-110.webp" alt="bhagavad-gita-page-110.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-111.webp" alt="bhagavad-gita-page-111.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-112.webp" alt="bhagavad-gita-page-112.webp" loading="lazy">
@@ -96,7 +139,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-117.webp" alt="bhagavad-gita-page-117.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-118.webp" alt="bhagavad-gita-page-118.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-119.webp" alt="bhagavad-gita-page-119.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-12.webp" alt="bhagavad-gita-page-12.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-120.webp" alt="bhagavad-gita-page-120.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-121.webp" alt="bhagavad-gita-page-121.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-122.webp" alt="bhagavad-gita-page-122.webp" loading="lazy">
@@ -107,7 +149,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-127.webp" alt="bhagavad-gita-page-127.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-128.webp" alt="bhagavad-gita-page-128.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-129.webp" alt="bhagavad-gita-page-129.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-13.webp" alt="bhagavad-gita-page-13.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-130.webp" alt="bhagavad-gita-page-130.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-131.webp" alt="bhagavad-gita-page-131.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-132.webp" alt="bhagavad-gita-page-132.webp" loading="lazy">
@@ -118,7 +159,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-137.webp" alt="bhagavad-gita-page-137.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-138.webp" alt="bhagavad-gita-page-138.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-139.webp" alt="bhagavad-gita-page-139.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-14.webp" alt="bhagavad-gita-page-14.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-140.webp" alt="bhagavad-gita-page-140.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-141.webp" alt="bhagavad-gita-page-141.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-142.webp" alt="bhagavad-gita-page-142.webp" loading="lazy">
@@ -129,7 +169,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-147.webp" alt="bhagavad-gita-page-147.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-148.webp" alt="bhagavad-gita-page-148.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-149.webp" alt="bhagavad-gita-page-149.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-15.webp" alt="bhagavad-gita-page-15.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-150.webp" alt="bhagavad-gita-page-150.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-151.webp" alt="bhagavad-gita-page-151.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-152.webp" alt="bhagavad-gita-page-152.webp" loading="lazy">
@@ -140,7 +179,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-157.webp" alt="bhagavad-gita-page-157.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-158.webp" alt="bhagavad-gita-page-158.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-159.webp" alt="bhagavad-gita-page-159.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-16.webp" alt="bhagavad-gita-page-16.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-160.webp" alt="bhagavad-gita-page-160.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-161.webp" alt="bhagavad-gita-page-161.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-162.webp" alt="bhagavad-gita-page-162.webp" loading="lazy">
@@ -151,7 +189,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-167.webp" alt="bhagavad-gita-page-167.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-168.webp" alt="bhagavad-gita-page-168.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-169.webp" alt="bhagavad-gita-page-169.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-17.webp" alt="bhagavad-gita-page-17.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-170.webp" alt="bhagavad-gita-page-170.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-171.webp" alt="bhagavad-gita-page-171.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-172.webp" alt="bhagavad-gita-page-172.webp" loading="lazy">
@@ -162,7 +199,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-177.webp" alt="bhagavad-gita-page-177.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-178.webp" alt="bhagavad-gita-page-178.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-179.webp" alt="bhagavad-gita-page-179.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-18.webp" alt="bhagavad-gita-page-18.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-180.webp" alt="bhagavad-gita-page-180.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-181.webp" alt="bhagavad-gita-page-181.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-182.webp" alt="bhagavad-gita-page-182.webp" loading="lazy">
@@ -173,7 +209,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-187.webp" alt="bhagavad-gita-page-187.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-188.webp" alt="bhagavad-gita-page-188.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-189.webp" alt="bhagavad-gita-page-189.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-19.webp" alt="bhagavad-gita-page-19.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-190.webp" alt="bhagavad-gita-page-190.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-191.webp" alt="bhagavad-gita-page-191.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-192.webp" alt="bhagavad-gita-page-192.webp" loading="lazy">
@@ -184,8 +219,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-197.webp" alt="bhagavad-gita-page-197.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-198.webp" alt="bhagavad-gita-page-198.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-199.webp" alt="bhagavad-gita-page-199.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-2.webp" alt="bhagavad-gita-page-2.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-20.webp" alt="bhagavad-gita-page-20.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-200.webp" alt="bhagavad-gita-page-200.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-201.webp" alt="bhagavad-gita-page-201.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-202.webp" alt="bhagavad-gita-page-202.webp" loading="lazy">
@@ -196,7 +229,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-207.webp" alt="bhagavad-gita-page-207.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-208.webp" alt="bhagavad-gita-page-208.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-209.webp" alt="bhagavad-gita-page-209.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-21.webp" alt="bhagavad-gita-page-21.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-210.webp" alt="bhagavad-gita-page-210.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-211.webp" alt="bhagavad-gita-page-211.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-212.webp" alt="bhagavad-gita-page-212.webp" loading="lazy">
@@ -207,7 +239,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-217.webp" alt="bhagavad-gita-page-217.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-218.webp" alt="bhagavad-gita-page-218.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-219.webp" alt="bhagavad-gita-page-219.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-22.webp" alt="bhagavad-gita-page-22.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-220.webp" alt="bhagavad-gita-page-220.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-221.webp" alt="bhagavad-gita-page-221.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-222.webp" alt="bhagavad-gita-page-222.webp" loading="lazy">
@@ -218,7 +249,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-227.webp" alt="bhagavad-gita-page-227.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-228.webp" alt="bhagavad-gita-page-228.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-229.webp" alt="bhagavad-gita-page-229.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-23.webp" alt="bhagavad-gita-page-23.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-230.webp" alt="bhagavad-gita-page-230.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-231.webp" alt="bhagavad-gita-page-231.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-232.webp" alt="bhagavad-gita-page-232.webp" loading="lazy">
@@ -229,7 +259,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-237.webp" alt="bhagavad-gita-page-237.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-238.webp" alt="bhagavad-gita-page-238.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-239.webp" alt="bhagavad-gita-page-239.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-24.webp" alt="bhagavad-gita-page-24.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-240.webp" alt="bhagavad-gita-page-240.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-241.webp" alt="bhagavad-gita-page-241.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-242.webp" alt="bhagavad-gita-page-242.webp" loading="lazy">
@@ -240,7 +269,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-247.webp" alt="bhagavad-gita-page-247.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-248.webp" alt="bhagavad-gita-page-248.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-249.webp" alt="bhagavad-gita-page-249.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-25.webp" alt="bhagavad-gita-page-25.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-250.webp" alt="bhagavad-gita-page-250.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-251.webp" alt="bhagavad-gita-page-251.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-252.webp" alt="bhagavad-gita-page-252.webp" loading="lazy">
@@ -251,7 +279,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-257.webp" alt="bhagavad-gita-page-257.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-258.webp" alt="bhagavad-gita-page-258.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-259.webp" alt="bhagavad-gita-page-259.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-26.webp" alt="bhagavad-gita-page-26.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-260.webp" alt="bhagavad-gita-page-260.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-261.webp" alt="bhagavad-gita-page-261.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-262.webp" alt="bhagavad-gita-page-262.webp" loading="lazy">
@@ -262,7 +289,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-267.webp" alt="bhagavad-gita-page-267.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-268.webp" alt="bhagavad-gita-page-268.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-269.webp" alt="bhagavad-gita-page-269.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-27.webp" alt="bhagavad-gita-page-27.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-270.webp" alt="bhagavad-gita-page-270.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-271.webp" alt="bhagavad-gita-page-271.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-272.webp" alt="bhagavad-gita-page-272.webp" loading="lazy">
@@ -273,7 +299,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-277.webp" alt="bhagavad-gita-page-277.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-278.webp" alt="bhagavad-gita-page-278.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-279.webp" alt="bhagavad-gita-page-279.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-28.webp" alt="bhagavad-gita-page-28.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-280.webp" alt="bhagavad-gita-page-280.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-281.webp" alt="bhagavad-gita-page-281.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-282.webp" alt="bhagavad-gita-page-282.webp" loading="lazy">
@@ -284,7 +309,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-287.webp" alt="bhagavad-gita-page-287.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-288.webp" alt="bhagavad-gita-page-288.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-289.webp" alt="bhagavad-gita-page-289.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-29.webp" alt="bhagavad-gita-page-29.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-290.webp" alt="bhagavad-gita-page-290.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-291.webp" alt="bhagavad-gita-page-291.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-292.webp" alt="bhagavad-gita-page-292.webp" loading="lazy">
@@ -295,8 +319,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-297.webp" alt="bhagavad-gita-page-297.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-298.webp" alt="bhagavad-gita-page-298.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-299.webp" alt="bhagavad-gita-page-299.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-3.webp" alt="bhagavad-gita-page-3.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-30.webp" alt="bhagavad-gita-page-30.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-300.webp" alt="bhagavad-gita-page-300.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-301.webp" alt="bhagavad-gita-page-301.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-302.webp" alt="bhagavad-gita-page-302.webp" loading="lazy">
@@ -307,7 +329,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-307.webp" alt="bhagavad-gita-page-307.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-308.webp" alt="bhagavad-gita-page-308.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-309.webp" alt="bhagavad-gita-page-309.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-31.webp" alt="bhagavad-gita-page-31.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-310.webp" alt="bhagavad-gita-page-310.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-311.webp" alt="bhagavad-gita-page-311.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-312.webp" alt="bhagavad-gita-page-312.webp" loading="lazy">
@@ -318,7 +339,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-317.webp" alt="bhagavad-gita-page-317.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-318.webp" alt="bhagavad-gita-page-318.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-319.webp" alt="bhagavad-gita-page-319.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-32.webp" alt="bhagavad-gita-page-32.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-320.webp" alt="bhagavad-gita-page-320.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-321.webp" alt="bhagavad-gita-page-321.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-322.webp" alt="bhagavad-gita-page-322.webp" loading="lazy">
@@ -329,7 +349,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-327.webp" alt="bhagavad-gita-page-327.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-328.webp" alt="bhagavad-gita-page-328.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-329.webp" alt="bhagavad-gita-page-329.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-33.webp" alt="bhagavad-gita-page-33.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-330.webp" alt="bhagavad-gita-page-330.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-331.webp" alt="bhagavad-gita-page-331.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-332.webp" alt="bhagavad-gita-page-332.webp" loading="lazy">
@@ -340,7 +359,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-337.webp" alt="bhagavad-gita-page-337.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-338.webp" alt="bhagavad-gita-page-338.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-339.webp" alt="bhagavad-gita-page-339.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-34.webp" alt="bhagavad-gita-page-34.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-340.webp" alt="bhagavad-gita-page-340.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-341.webp" alt="bhagavad-gita-page-341.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-342.webp" alt="bhagavad-gita-page-342.webp" loading="lazy">
@@ -351,7 +369,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-347.webp" alt="bhagavad-gita-page-347.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-348.webp" alt="bhagavad-gita-page-348.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-349.webp" alt="bhagavad-gita-page-349.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-35.webp" alt="bhagavad-gita-page-35.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-350.webp" alt="bhagavad-gita-page-350.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-351.webp" alt="bhagavad-gita-page-351.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-352.webp" alt="bhagavad-gita-page-352.webp" loading="lazy">
@@ -362,7 +379,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-357.webp" alt="bhagavad-gita-page-357.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-358.webp" alt="bhagavad-gita-page-358.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-359.webp" alt="bhagavad-gita-page-359.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-36.webp" alt="bhagavad-gita-page-36.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-360.webp" alt="bhagavad-gita-page-360.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-361.webp" alt="bhagavad-gita-page-361.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-362.webp" alt="bhagavad-gita-page-362.webp" loading="lazy">
@@ -373,7 +389,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-367.webp" alt="bhagavad-gita-page-367.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-368.webp" alt="bhagavad-gita-page-368.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-369.webp" alt="bhagavad-gita-page-369.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-37.webp" alt="bhagavad-gita-page-37.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-370.webp" alt="bhagavad-gita-page-370.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-371.webp" alt="bhagavad-gita-page-371.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-372.webp" alt="bhagavad-gita-page-372.webp" loading="lazy">
@@ -384,7 +399,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-377.webp" alt="bhagavad-gita-page-377.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-378.webp" alt="bhagavad-gita-page-378.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-379.webp" alt="bhagavad-gita-page-379.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-38.webp" alt="bhagavad-gita-page-38.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-380.webp" alt="bhagavad-gita-page-380.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-381.webp" alt="bhagavad-gita-page-381.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-382.webp" alt="bhagavad-gita-page-382.webp" loading="lazy">
@@ -395,7 +409,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-387.webp" alt="bhagavad-gita-page-387.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-388.webp" alt="bhagavad-gita-page-388.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-389.webp" alt="bhagavad-gita-page-389.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-39.webp" alt="bhagavad-gita-page-39.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-390.webp" alt="bhagavad-gita-page-390.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-391.webp" alt="bhagavad-gita-page-391.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-392.webp" alt="bhagavad-gita-page-392.webp" loading="lazy">
@@ -406,8 +419,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-397.webp" alt="bhagavad-gita-page-397.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-398.webp" alt="bhagavad-gita-page-398.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-399.webp" alt="bhagavad-gita-page-399.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-4.webp" alt="bhagavad-gita-page-4.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-40.webp" alt="bhagavad-gita-page-40.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-400.webp" alt="bhagavad-gita-page-400.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-401.webp" alt="bhagavad-gita-page-401.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-402.webp" alt="bhagavad-gita-page-402.webp" loading="lazy">
@@ -418,7 +429,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-407.webp" alt="bhagavad-gita-page-407.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-408.webp" alt="bhagavad-gita-page-408.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-409.webp" alt="bhagavad-gita-page-409.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-41.webp" alt="bhagavad-gita-page-41.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-410.webp" alt="bhagavad-gita-page-410.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-411.webp" alt="bhagavad-gita-page-411.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-412.webp" alt="bhagavad-gita-page-412.webp" loading="lazy">
@@ -429,7 +439,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-417.webp" alt="bhagavad-gita-page-417.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-418.webp" alt="bhagavad-gita-page-418.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-419.webp" alt="bhagavad-gita-page-419.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-42.webp" alt="bhagavad-gita-page-42.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-420.webp" alt="bhagavad-gita-page-420.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-421.webp" alt="bhagavad-gita-page-421.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-422.webp" alt="bhagavad-gita-page-422.webp" loading="lazy">
@@ -440,7 +449,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-427.webp" alt="bhagavad-gita-page-427.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-428.webp" alt="bhagavad-gita-page-428.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-429.webp" alt="bhagavad-gita-page-429.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-43.webp" alt="bhagavad-gita-page-43.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-430.webp" alt="bhagavad-gita-page-430.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-431.webp" alt="bhagavad-gita-page-431.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-432.webp" alt="bhagavad-gita-page-432.webp" loading="lazy">
@@ -451,7 +459,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-437.webp" alt="bhagavad-gita-page-437.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-438.webp" alt="bhagavad-gita-page-438.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-439.webp" alt="bhagavad-gita-page-439.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-44.webp" alt="bhagavad-gita-page-44.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-440.webp" alt="bhagavad-gita-page-440.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-441.webp" alt="bhagavad-gita-page-441.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-442.webp" alt="bhagavad-gita-page-442.webp" loading="lazy">
@@ -462,7 +469,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-447.webp" alt="bhagavad-gita-page-447.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-448.webp" alt="bhagavad-gita-page-448.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-449.webp" alt="bhagavad-gita-page-449.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-45.webp" alt="bhagavad-gita-page-45.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-450.webp" alt="bhagavad-gita-page-450.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-451.webp" alt="bhagavad-gita-page-451.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-452.webp" alt="bhagavad-gita-page-452.webp" loading="lazy">
@@ -473,7 +479,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-457.webp" alt="bhagavad-gita-page-457.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-458.webp" alt="bhagavad-gita-page-458.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-459.webp" alt="bhagavad-gita-page-459.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-46.webp" alt="bhagavad-gita-page-46.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-460.webp" alt="bhagavad-gita-page-460.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-461.webp" alt="bhagavad-gita-page-461.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-462.webp" alt="bhagavad-gita-page-462.webp" loading="lazy">
@@ -484,7 +489,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-467.webp" alt="bhagavad-gita-page-467.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-468.webp" alt="bhagavad-gita-page-468.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-469.webp" alt="bhagavad-gita-page-469.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-47.webp" alt="bhagavad-gita-page-47.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-470.webp" alt="bhagavad-gita-page-470.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-471.webp" alt="bhagavad-gita-page-471.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-472.webp" alt="bhagavad-gita-page-472.webp" loading="lazy">
@@ -495,7 +499,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-477.webp" alt="bhagavad-gita-page-477.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-478.webp" alt="bhagavad-gita-page-478.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-479.webp" alt="bhagavad-gita-page-479.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-48.webp" alt="bhagavad-gita-page-48.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-480.webp" alt="bhagavad-gita-page-480.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-481.webp" alt="bhagavad-gita-page-481.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-482.webp" alt="bhagavad-gita-page-482.webp" loading="lazy">
@@ -506,7 +509,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-487.webp" alt="bhagavad-gita-page-487.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-488.webp" alt="bhagavad-gita-page-488.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-489.webp" alt="bhagavad-gita-page-489.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-49.webp" alt="bhagavad-gita-page-49.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-490.webp" alt="bhagavad-gita-page-490.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-491.webp" alt="bhagavad-gita-page-491.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-492.webp" alt="bhagavad-gita-page-492.webp" loading="lazy">
@@ -517,8 +519,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-497.webp" alt="bhagavad-gita-page-497.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-498.webp" alt="bhagavad-gita-page-498.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-499.webp" alt="bhagavad-gita-page-499.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-5.webp" alt="bhagavad-gita-page-5.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-50.webp" alt="bhagavad-gita-page-50.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-500.webp" alt="bhagavad-gita-page-500.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-501.webp" alt="bhagavad-gita-page-501.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-502.webp" alt="bhagavad-gita-page-502.webp" loading="lazy">
@@ -529,7 +529,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-507.webp" alt="bhagavad-gita-page-507.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-508.webp" alt="bhagavad-gita-page-508.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-509.webp" alt="bhagavad-gita-page-509.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-51.webp" alt="bhagavad-gita-page-51.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-510.webp" alt="bhagavad-gita-page-510.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-511.webp" alt="bhagavad-gita-page-511.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-512.webp" alt="bhagavad-gita-page-512.webp" loading="lazy">
@@ -540,7 +539,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-517.webp" alt="bhagavad-gita-page-517.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-518.webp" alt="bhagavad-gita-page-518.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-519.webp" alt="bhagavad-gita-page-519.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-52.webp" alt="bhagavad-gita-page-52.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-520.webp" alt="bhagavad-gita-page-520.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-521.webp" alt="bhagavad-gita-page-521.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-522.webp" alt="bhagavad-gita-page-522.webp" loading="lazy">
@@ -551,7 +549,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-527.webp" alt="bhagavad-gita-page-527.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-528.webp" alt="bhagavad-gita-page-528.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-529.webp" alt="bhagavad-gita-page-529.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-53.webp" alt="bhagavad-gita-page-53.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-530.webp" alt="bhagavad-gita-page-530.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-531.webp" alt="bhagavad-gita-page-531.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-532.webp" alt="bhagavad-gita-page-532.webp" loading="lazy">
@@ -562,7 +559,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-537.webp" alt="bhagavad-gita-page-537.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-538.webp" alt="bhagavad-gita-page-538.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-539.webp" alt="bhagavad-gita-page-539.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-54.webp" alt="bhagavad-gita-page-54.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-540.webp" alt="bhagavad-gita-page-540.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-541.webp" alt="bhagavad-gita-page-541.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-542.webp" alt="bhagavad-gita-page-542.webp" loading="lazy">
@@ -573,7 +569,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-547.webp" alt="bhagavad-gita-page-547.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-548.webp" alt="bhagavad-gita-page-548.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-549.webp" alt="bhagavad-gita-page-549.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-55.webp" alt="bhagavad-gita-page-55.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-550.webp" alt="bhagavad-gita-page-550.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-551.webp" alt="bhagavad-gita-page-551.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-552.webp" alt="bhagavad-gita-page-552.webp" loading="lazy">
@@ -584,7 +579,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-557.webp" alt="bhagavad-gita-page-557.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-558.webp" alt="bhagavad-gita-page-558.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-559.webp" alt="bhagavad-gita-page-559.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-56.webp" alt="bhagavad-gita-page-56.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-560.webp" alt="bhagavad-gita-page-560.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-561.webp" alt="bhagavad-gita-page-561.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-562.webp" alt="bhagavad-gita-page-562.webp" loading="lazy">
@@ -595,7 +589,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-567.webp" alt="bhagavad-gita-page-567.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-568.webp" alt="bhagavad-gita-page-568.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-569.webp" alt="bhagavad-gita-page-569.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-57.webp" alt="bhagavad-gita-page-57.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-570.webp" alt="bhagavad-gita-page-570.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-571.webp" alt="bhagavad-gita-page-571.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-572.webp" alt="bhagavad-gita-page-572.webp" loading="lazy">
@@ -606,7 +599,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-577.webp" alt="bhagavad-gita-page-577.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-578.webp" alt="bhagavad-gita-page-578.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-579.webp" alt="bhagavad-gita-page-579.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-58.webp" alt="bhagavad-gita-page-58.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-580.webp" alt="bhagavad-gita-page-580.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-581.webp" alt="bhagavad-gita-page-581.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-582.webp" alt="bhagavad-gita-page-582.webp" loading="lazy">
@@ -617,7 +609,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-587.webp" alt="bhagavad-gita-page-587.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-588.webp" alt="bhagavad-gita-page-588.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-589.webp" alt="bhagavad-gita-page-589.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-59.webp" alt="bhagavad-gita-page-59.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-590.webp" alt="bhagavad-gita-page-590.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-591.webp" alt="bhagavad-gita-page-591.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-592.webp" alt="bhagavad-gita-page-592.webp" loading="lazy">
@@ -628,8 +619,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-597.webp" alt="bhagavad-gita-page-597.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-598.webp" alt="bhagavad-gita-page-598.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-599.webp" alt="bhagavad-gita-page-599.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-6.webp" alt="bhagavad-gita-page-6.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-60.webp" alt="bhagavad-gita-page-60.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-600.webp" alt="bhagavad-gita-page-600.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-601.webp" alt="bhagavad-gita-page-601.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-602.webp" alt="bhagavad-gita-page-602.webp" loading="lazy">
@@ -640,7 +629,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-607.webp" alt="bhagavad-gita-page-607.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-608.webp" alt="bhagavad-gita-page-608.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-609.webp" alt="bhagavad-gita-page-609.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-61.webp" alt="bhagavad-gita-page-61.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-610.webp" alt="bhagavad-gita-page-610.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-611.webp" alt="bhagavad-gita-page-611.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-612.webp" alt="bhagavad-gita-page-612.webp" loading="lazy">
@@ -651,7 +639,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-617.webp" alt="bhagavad-gita-page-617.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-618.webp" alt="bhagavad-gita-page-618.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-619.webp" alt="bhagavad-gita-page-619.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-62.webp" alt="bhagavad-gita-page-62.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-620.webp" alt="bhagavad-gita-page-620.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-621.webp" alt="bhagavad-gita-page-621.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-622.webp" alt="bhagavad-gita-page-622.webp" loading="lazy">
@@ -662,7 +649,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-627.webp" alt="bhagavad-gita-page-627.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-628.webp" alt="bhagavad-gita-page-628.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-629.webp" alt="bhagavad-gita-page-629.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-63.webp" alt="bhagavad-gita-page-63.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-630.webp" alt="bhagavad-gita-page-630.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-631.webp" alt="bhagavad-gita-page-631.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-632.webp" alt="bhagavad-gita-page-632.webp" loading="lazy">
@@ -673,7 +659,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-637.webp" alt="bhagavad-gita-page-637.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-638.webp" alt="bhagavad-gita-page-638.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-639.webp" alt="bhagavad-gita-page-639.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-64.webp" alt="bhagavad-gita-page-64.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-640.webp" alt="bhagavad-gita-page-640.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-641.webp" alt="bhagavad-gita-page-641.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-642.webp" alt="bhagavad-gita-page-642.webp" loading="lazy">
@@ -684,7 +669,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-647.webp" alt="bhagavad-gita-page-647.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-648.webp" alt="bhagavad-gita-page-648.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-649.webp" alt="bhagavad-gita-page-649.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-65.webp" alt="bhagavad-gita-page-65.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-650.webp" alt="bhagavad-gita-page-650.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-651.webp" alt="bhagavad-gita-page-651.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-652.webp" alt="bhagavad-gita-page-652.webp" loading="lazy">
@@ -695,7 +679,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-657.webp" alt="bhagavad-gita-page-657.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-658.webp" alt="bhagavad-gita-page-658.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-659.webp" alt="bhagavad-gita-page-659.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-66.webp" alt="bhagavad-gita-page-66.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-660.webp" alt="bhagavad-gita-page-660.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-661.webp" alt="bhagavad-gita-page-661.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-662.webp" alt="bhagavad-gita-page-662.webp" loading="lazy">
@@ -706,7 +689,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-667.webp" alt="bhagavad-gita-page-667.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-668.webp" alt="bhagavad-gita-page-668.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-669.webp" alt="bhagavad-gita-page-669.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-67.webp" alt="bhagavad-gita-page-67.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-670.webp" alt="bhagavad-gita-page-670.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-671.webp" alt="bhagavad-gita-page-671.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-672.webp" alt="bhagavad-gita-page-672.webp" loading="lazy">
@@ -717,7 +699,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-677.webp" alt="bhagavad-gita-page-677.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-678.webp" alt="bhagavad-gita-page-678.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-679.webp" alt="bhagavad-gita-page-679.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-68.webp" alt="bhagavad-gita-page-68.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-680.webp" alt="bhagavad-gita-page-680.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-681.webp" alt="bhagavad-gita-page-681.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-682.webp" alt="bhagavad-gita-page-682.webp" loading="lazy">
@@ -728,7 +709,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-687.webp" alt="bhagavad-gita-page-687.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-688.webp" alt="bhagavad-gita-page-688.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-689.webp" alt="bhagavad-gita-page-689.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-69.webp" alt="bhagavad-gita-page-69.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-690.webp" alt="bhagavad-gita-page-690.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-691.webp" alt="bhagavad-gita-page-691.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-692.webp" alt="bhagavad-gita-page-692.webp" loading="lazy">
@@ -739,8 +719,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-697.webp" alt="bhagavad-gita-page-697.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-698.webp" alt="bhagavad-gita-page-698.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-699.webp" alt="bhagavad-gita-page-699.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-7.webp" alt="bhagavad-gita-page-7.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-70.webp" alt="bhagavad-gita-page-70.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-700.webp" alt="bhagavad-gita-page-700.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-701.webp" alt="bhagavad-gita-page-701.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-702.webp" alt="bhagavad-gita-page-702.webp" loading="lazy">
@@ -751,7 +729,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-707.webp" alt="bhagavad-gita-page-707.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-708.webp" alt="bhagavad-gita-page-708.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-709.webp" alt="bhagavad-gita-page-709.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-71.webp" alt="bhagavad-gita-page-71.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-710.webp" alt="bhagavad-gita-page-710.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-711.webp" alt="bhagavad-gita-page-711.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-712.webp" alt="bhagavad-gita-page-712.webp" loading="lazy">
@@ -762,7 +739,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-717.webp" alt="bhagavad-gita-page-717.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-718.webp" alt="bhagavad-gita-page-718.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-719.webp" alt="bhagavad-gita-page-719.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-72.webp" alt="bhagavad-gita-page-72.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-720.webp" alt="bhagavad-gita-page-720.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-721.webp" alt="bhagavad-gita-page-721.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-722.webp" alt="bhagavad-gita-page-722.webp" loading="lazy">
@@ -773,7 +749,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-727.webp" alt="bhagavad-gita-page-727.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-728.webp" alt="bhagavad-gita-page-728.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-729.webp" alt="bhagavad-gita-page-729.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-73.webp" alt="bhagavad-gita-page-73.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-730.webp" alt="bhagavad-gita-page-730.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-731.webp" alt="bhagavad-gita-page-731.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-732.webp" alt="bhagavad-gita-page-732.webp" loading="lazy">
@@ -784,7 +759,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-737.webp" alt="bhagavad-gita-page-737.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-738.webp" alt="bhagavad-gita-page-738.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-739.webp" alt="bhagavad-gita-page-739.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-74.webp" alt="bhagavad-gita-page-74.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-740.webp" alt="bhagavad-gita-page-740.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-741.webp" alt="bhagavad-gita-page-741.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-742.webp" alt="bhagavad-gita-page-742.webp" loading="lazy">
@@ -795,7 +769,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-747.webp" alt="bhagavad-gita-page-747.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-748.webp" alt="bhagavad-gita-page-748.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-749.webp" alt="bhagavad-gita-page-749.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-75.webp" alt="bhagavad-gita-page-75.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-750.webp" alt="bhagavad-gita-page-750.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-751.webp" alt="bhagavad-gita-page-751.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-752.webp" alt="bhagavad-gita-page-752.webp" loading="lazy">
@@ -806,7 +779,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-757.webp" alt="bhagavad-gita-page-757.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-758.webp" alt="bhagavad-gita-page-758.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-759.webp" alt="bhagavad-gita-page-759.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-76.webp" alt="bhagavad-gita-page-76.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-760.webp" alt="bhagavad-gita-page-760.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-761.webp" alt="bhagavad-gita-page-761.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-762.webp" alt="bhagavad-gita-page-762.webp" loading="lazy">
@@ -817,7 +789,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-767.webp" alt="bhagavad-gita-page-767.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-768.webp" alt="bhagavad-gita-page-768.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-769.webp" alt="bhagavad-gita-page-769.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-77.webp" alt="bhagavad-gita-page-77.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-770.webp" alt="bhagavad-gita-page-770.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-771.webp" alt="bhagavad-gita-page-771.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-772.webp" alt="bhagavad-gita-page-772.webp" loading="lazy">
@@ -828,7 +799,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-777.webp" alt="bhagavad-gita-page-777.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-778.webp" alt="bhagavad-gita-page-778.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-779.webp" alt="bhagavad-gita-page-779.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-78.webp" alt="bhagavad-gita-page-78.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-780.webp" alt="bhagavad-gita-page-780.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-781.webp" alt="bhagavad-gita-page-781.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-782.webp" alt="bhagavad-gita-page-782.webp" loading="lazy">
@@ -839,7 +809,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-787.webp" alt="bhagavad-gita-page-787.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-788.webp" alt="bhagavad-gita-page-788.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-789.webp" alt="bhagavad-gita-page-789.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-79.webp" alt="bhagavad-gita-page-79.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-790.webp" alt="bhagavad-gita-page-790.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-791.webp" alt="bhagavad-gita-page-791.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-792.webp" alt="bhagavad-gita-page-792.webp" loading="lazy">
@@ -850,8 +819,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-797.webp" alt="bhagavad-gita-page-797.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-798.webp" alt="bhagavad-gita-page-798.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-799.webp" alt="bhagavad-gita-page-799.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-8.webp" alt="bhagavad-gita-page-8.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-80.webp" alt="bhagavad-gita-page-80.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-800.webp" alt="bhagavad-gita-page-800.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-801.webp" alt="bhagavad-gita-page-801.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-802.webp" alt="bhagavad-gita-page-802.webp" loading="lazy">
@@ -862,7 +829,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-807.webp" alt="bhagavad-gita-page-807.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-808.webp" alt="bhagavad-gita-page-808.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-809.webp" alt="bhagavad-gita-page-809.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-81.webp" alt="bhagavad-gita-page-81.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-810.webp" alt="bhagavad-gita-page-810.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-811.webp" alt="bhagavad-gita-page-811.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-812.webp" alt="bhagavad-gita-page-812.webp" loading="lazy">
@@ -873,7 +839,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-817.webp" alt="bhagavad-gita-page-817.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-818.webp" alt="bhagavad-gita-page-818.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-819.webp" alt="bhagavad-gita-page-819.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-82.webp" alt="bhagavad-gita-page-82.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-820.webp" alt="bhagavad-gita-page-820.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-821.webp" alt="bhagavad-gita-page-821.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-822.webp" alt="bhagavad-gita-page-822.webp" loading="lazy">
@@ -884,7 +849,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-827.webp" alt="bhagavad-gita-page-827.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-828.webp" alt="bhagavad-gita-page-828.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-829.webp" alt="bhagavad-gita-page-829.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-83.webp" alt="bhagavad-gita-page-83.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-830.webp" alt="bhagavad-gita-page-830.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-831.webp" alt="bhagavad-gita-page-831.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-832.webp" alt="bhagavad-gita-page-832.webp" loading="lazy">
@@ -895,7 +859,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-837.webp" alt="bhagavad-gita-page-837.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-838.webp" alt="bhagavad-gita-page-838.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-839.webp" alt="bhagavad-gita-page-839.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-84.webp" alt="bhagavad-gita-page-84.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-840.webp" alt="bhagavad-gita-page-840.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-841.webp" alt="bhagavad-gita-page-841.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-842.webp" alt="bhagavad-gita-page-842.webp" loading="lazy">
@@ -906,7 +869,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-847.webp" alt="bhagavad-gita-page-847.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-848.webp" alt="bhagavad-gita-page-848.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-849.webp" alt="bhagavad-gita-page-849.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-85.webp" alt="bhagavad-gita-page-85.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-850.webp" alt="bhagavad-gita-page-850.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-851.webp" alt="bhagavad-gita-page-851.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-852.webp" alt="bhagavad-gita-page-852.webp" loading="lazy">
@@ -917,7 +879,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-857.webp" alt="bhagavad-gita-page-857.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-858.webp" alt="bhagavad-gita-page-858.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-859.webp" alt="bhagavad-gita-page-859.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-86.webp" alt="bhagavad-gita-page-86.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-860.webp" alt="bhagavad-gita-page-860.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-861.webp" alt="bhagavad-gita-page-861.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-862.webp" alt="bhagavad-gita-page-862.webp" loading="lazy">
@@ -928,7 +889,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-867.webp" alt="bhagavad-gita-page-867.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-868.webp" alt="bhagavad-gita-page-868.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-869.webp" alt="bhagavad-gita-page-869.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-87.webp" alt="bhagavad-gita-page-87.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-870.webp" alt="bhagavad-gita-page-870.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-871.webp" alt="bhagavad-gita-page-871.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-872.webp" alt="bhagavad-gita-page-872.webp" loading="lazy">
@@ -939,7 +899,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-877.webp" alt="bhagavad-gita-page-877.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-878.webp" alt="bhagavad-gita-page-878.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-879.webp" alt="bhagavad-gita-page-879.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-88.webp" alt="bhagavad-gita-page-88.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-880.webp" alt="bhagavad-gita-page-880.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-881.webp" alt="bhagavad-gita-page-881.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-882.webp" alt="bhagavad-gita-page-882.webp" loading="lazy">
@@ -950,7 +909,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-887.webp" alt="bhagavad-gita-page-887.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-888.webp" alt="bhagavad-gita-page-888.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-889.webp" alt="bhagavad-gita-page-889.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-89.webp" alt="bhagavad-gita-page-89.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-890.webp" alt="bhagavad-gita-page-890.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-891.webp" alt="bhagavad-gita-page-891.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-892.webp" alt="bhagavad-gita-page-892.webp" loading="lazy">
@@ -961,8 +919,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-897.webp" alt="bhagavad-gita-page-897.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-898.webp" alt="bhagavad-gita-page-898.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-899.webp" alt="bhagavad-gita-page-899.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-9.webp" alt="bhagavad-gita-page-9.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-90.webp" alt="bhagavad-gita-page-90.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-900.webp" alt="bhagavad-gita-page-900.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-901.webp" alt="bhagavad-gita-page-901.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-902.webp" alt="bhagavad-gita-page-902.webp" loading="lazy">
@@ -973,7 +929,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-907.webp" alt="bhagavad-gita-page-907.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-908.webp" alt="bhagavad-gita-page-908.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-909.webp" alt="bhagavad-gita-page-909.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-91.webp" alt="bhagavad-gita-page-91.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-910.webp" alt="bhagavad-gita-page-910.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-911.webp" alt="bhagavad-gita-page-911.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-912.webp" alt="bhagavad-gita-page-912.webp" loading="lazy">
@@ -984,7 +939,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-917.webp" alt="bhagavad-gita-page-917.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-918.webp" alt="bhagavad-gita-page-918.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-919.webp" alt="bhagavad-gita-page-919.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-92.webp" alt="bhagavad-gita-page-92.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-920.webp" alt="bhagavad-gita-page-920.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-921.webp" alt="bhagavad-gita-page-921.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-922.webp" alt="bhagavad-gita-page-922.webp" loading="lazy">
@@ -995,7 +949,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-927.webp" alt="bhagavad-gita-page-927.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-928.webp" alt="bhagavad-gita-page-928.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-929.webp" alt="bhagavad-gita-page-929.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-93.webp" alt="bhagavad-gita-page-93.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-930.webp" alt="bhagavad-gita-page-930.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-931.webp" alt="bhagavad-gita-page-931.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-932.webp" alt="bhagavad-gita-page-932.webp" loading="lazy">
@@ -1006,7 +959,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-937.webp" alt="bhagavad-gita-page-937.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-938.webp" alt="bhagavad-gita-page-938.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-939.webp" alt="bhagavad-gita-page-939.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-94.webp" alt="bhagavad-gita-page-94.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-940.webp" alt="bhagavad-gita-page-940.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-941.webp" alt="bhagavad-gita-page-941.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-942.webp" alt="bhagavad-gita-page-942.webp" loading="lazy">
@@ -1017,7 +969,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-947.webp" alt="bhagavad-gita-page-947.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-948.webp" alt="bhagavad-gita-page-948.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-949.webp" alt="bhagavad-gita-page-949.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-95.webp" alt="bhagavad-gita-page-95.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-950.webp" alt="bhagavad-gita-page-950.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-951.webp" alt="bhagavad-gita-page-951.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-952.webp" alt="bhagavad-gita-page-952.webp" loading="lazy">
@@ -1028,7 +979,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-957.webp" alt="bhagavad-gita-page-957.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-958.webp" alt="bhagavad-gita-page-958.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-959.webp" alt="bhagavad-gita-page-959.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-96.webp" alt="bhagavad-gita-page-96.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-960.webp" alt="bhagavad-gita-page-960.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-961.webp" alt="bhagavad-gita-page-961.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-962.webp" alt="bhagavad-gita-page-962.webp" loading="lazy">
@@ -1039,7 +989,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-967.webp" alt="bhagavad-gita-page-967.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-968.webp" alt="bhagavad-gita-page-968.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-969.webp" alt="bhagavad-gita-page-969.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-97.webp" alt="bhagavad-gita-page-97.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-970.webp" alt="bhagavad-gita-page-970.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-971.webp" alt="bhagavad-gita-page-971.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-972.webp" alt="bhagavad-gita-page-972.webp" loading="lazy">
@@ -1050,7 +999,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-977.webp" alt="bhagavad-gita-page-977.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-978.webp" alt="bhagavad-gita-page-978.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-979.webp" alt="bhagavad-gita-page-979.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-98.webp" alt="bhagavad-gita-page-98.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-980.webp" alt="bhagavad-gita-page-980.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-981.webp" alt="bhagavad-gita-page-981.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-982.webp" alt="bhagavad-gita-page-982.webp" loading="lazy">
@@ -1061,7 +1009,6 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-987.webp" alt="bhagavad-gita-page-987.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-988.webp" alt="bhagavad-gita-page-988.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-989.webp" alt="bhagavad-gita-page-989.webp" loading="lazy">
-<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-99.webp" alt="bhagavad-gita-page-99.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-990.webp" alt="bhagavad-gita-page-990.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-991.webp" alt="bhagavad-gita-page-991.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-992.webp" alt="bhagavad-gita-page-992.webp" loading="lazy">
@@ -1072,3 +1019,55 @@ Content Disclaimer: This following content hosted on this webpage is solely inte
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-997.webp" alt="bhagavad-gita-page-997.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-998.webp" alt="bhagavad-gita-page-998.webp" loading="lazy">
 <img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-999.webp" alt="bhagavad-gita-page-999.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1000.webp" alt="bhagavad-gita-page-1000.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1001.webp" alt="bhagavad-gita-page-1001.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1002.webp" alt="bhagavad-gita-page-1002.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1003.webp" alt="bhagavad-gita-page-1003.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1004.webp" alt="bhagavad-gita-page-1004.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1005.webp" alt="bhagavad-gita-page-1005.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1006.webp" alt="bhagavad-gita-page-1006.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1007.webp" alt="bhagavad-gita-page-1007.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1008.webp" alt="bhagavad-gita-page-1008.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1009.webp" alt="bhagavad-gita-page-1009.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1010.webp" alt="bhagavad-gita-page-1010.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1011.webp" alt="bhagavad-gita-page-1011.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1012.webp" alt="bhagavad-gita-page-1012.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1013.webp" alt="bhagavad-gita-page-1013.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1014.webp" alt="bhagavad-gita-page-1014.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1015.webp" alt="bhagavad-gita-page-1015.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1016.webp" alt="bhagavad-gita-page-1016.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1017.webp" alt="bhagavad-gita-page-1017.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1018.webp" alt="bhagavad-gita-page-1018.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1019.webp" alt="bhagavad-gita-page-1019.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1020.webp" alt="bhagavad-gita-page-1020.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1021.webp" alt="bhagavad-gita-page-1021.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1022.webp" alt="bhagavad-gita-page-1022.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1023.webp" alt="bhagavad-gita-page-1023.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1024.webp" alt="bhagavad-gita-page-1024.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1025.webp" alt="bhagavad-gita-page-1025.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1026.webp" alt="bhagavad-gita-page-1026.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1027.webp" alt="bhagavad-gita-page-1027.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1028.webp" alt="bhagavad-gita-page-1028.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1029.webp" alt="bhagavad-gita-page-1029.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1030.webp" alt="bhagavad-gita-page-1030.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1031.webp" alt="bhagavad-gita-page-1031.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1032.webp" alt="bhagavad-gita-page-1032.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1033.webp" alt="bhagavad-gita-page-1033.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1034.webp" alt="bhagavad-gita-page-1034.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1035.webp" alt="bhagavad-gita-page-1035.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1036.webp" alt="bhagavad-gita-page-1036.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1037.webp" alt="bhagavad-gita-page-1037.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1038.webp" alt="bhagavad-gita-page-1038.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1039.webp" alt="bhagavad-gita-page-1039.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1040.webp" alt="bhagavad-gita-page-1040.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1041.webp" alt="bhagavad-gita-page-1041.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1042.webp" alt="bhagavad-gita-page-1042.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1043.webp" alt="bhagavad-gita-page-1043.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1044.webp" alt="bhagavad-gita-page-1044.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1045.webp" alt="bhagavad-gita-page-1045.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1046.webp" alt="bhagavad-gita-page-1046.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1047.webp" alt="bhagavad-gita-page-1047.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1048.webp" alt="bhagavad-gita-page-1048.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1049.webp" alt="bhagavad-gita-page-1049.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1050.webp" alt="bhagavad-gita-page-1050.webp" loading="lazy">
+<img src="https://bhagavad-gita-as-it-is.vercel.app/webp/bhagavad-gita-page-1051.webp" alt="bhagavad-gita-page-1051.webp" loading="lazy">
