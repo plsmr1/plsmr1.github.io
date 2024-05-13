@@ -606,7 +606,7 @@ Comparison client-server and P2P.
 The server must transmit one copy of the file to *N* peers, thus it transmits *NF *bits. The time to distribute the file is at least **NF/u_s**.
 Denote $d_min = min\{ d_i \}$ the link with the slowest download rate cannot obtain all *F* bits in less than $F/d_min$ seconds
 Therefore:
-$$ D_{cs} \geq \max \left\{ \frac{NF}{u_s} , \frac{F}{d_min} \right\} $$
+       D_{cs} \geq \max \left\{ \frac{NF}{u_s} , \frac{F}{d_min} \right\}       
 
 #### P2P
 When a peer receives some file data, it can use its own upload capacity to redistribute the data to other peers.
@@ -616,7 +616,7 @@ When a peer receives some file data, it can use its own upload capacity to redis
  - The total upload capacity of the system is equal to the summation of the upload rates of the server and of all the peers. The system must upload *F* bits to *N* peers, thus delivering a total of *NF* bits which can't be done faster that $u_total$.
 
 We obtain:
-$$ D_{P2P} = \max \left\{ \frac{F}{u_s} , \frac{F}{d_{min}} , \frac{NF}{u_s + \sum_{i=1}^N u_j} \right\} $$
+       D_{P2P} = \max \left\{ \frac{F}{u_s} , \frac{F}{d_{min}} , \frac{NF}{u_s + \sum_{i=1}^N u_j} \right\}       
 
 #### BitTorrent
 In BitTorrent the collection of all peers participating in the distribution of a particular file is called a *torrent*. Peers in a torrent download equal-size *chunks* of the file from one another with a typical chunk size of 256 KBytes.
@@ -783,7 +783,7 @@ We will only consider the case of **unidirectional data transfer** that is data 
 ### 3.4.2 Pipelined Reliable Data Transfer Protocols
 In today's high-speed networks stop-and-wait protocols are simply not tolerable: we  cannot send one packet and wait for the ACK and then send the second one, it is inefficient as we can see computing the **utilization of the channel**:
 
-$$ U = \frac{L/R}{RTT+ L/R} $$
+       U = \frac{L/R}{RTT+ L/R}       
 
 The solution is simple: rather than operate in a stop-and-wait manner, the sender is allowed to send multiple packets without waiting for acknowledgements. Since the many in-transit send-to-receiver packets can be visualized as filling a pipeline, this technique is known as **pipelining**.
 
