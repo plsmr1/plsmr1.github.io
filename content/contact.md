@@ -14,7 +14,7 @@ ShowBreadCrumbs: false
 author: " "
 ---
 
-*Do you have a project in mind? Want to hire me? or simply wanna chat? Feel free to connect with me on*:&nbsp;<a href="https://www.linkedin.com/in/SamirPaul" target="_blank"><img loading="lazy" alt="LinkedIn" src="/linkedin.svg"></a> &nbsp;<a href="https://github.com/SamirPaulb" target="_blank"><img loading="lazy" alt="GitHub" src="/github.svg"></a> &nbsp;<a href="https://twitter.com/SamirPaulb" target="_blank"><img loading="lazy" alt="X/Twitter" src="/x.svg"></a> &nbsp;<a href="https://instagram.com/SamirPaulb" target="_blank"><img loading="lazy" alt="Instagram" src="/instagram.svg"></a> &nbsp;*You can email me at:*&nbsp;```samirpaulb [at] gmail [dot] com``` *or*&nbsp;<b><em><a href="" onclick="Calendly.initPopupWidget({url:'https://calendly.com/samirpaulb/meet?hide_gdpr_banner=1'});return false;">schedule a meeting🗓️</a></em></b>
+*Do you have a project in mind? Want to hire me? or simply wanna chat? Feel free to connect with me on*:&nbsp;<em><a href="https://www.linkedin.com/in/SamirPaul" target="_blank">LinkedIn</a></em>,&nbsp;<em><a href="https://github.com/SamirPaulb" target="_blank">GitHub</a></em>,&nbsp;<em><a href="https://x.com/SamirPaulb" target="_blank">X/Twitter</a></em>,&nbsp;<em><a href="https://instagram.com/SamirPaulb" target="_blank">Instagram</a></em>. *You can email me at:*&nbsp;```samirpaulb [at] gmail [dot] com``` *or*&nbsp;<b><em><a href="" onclick="Calendly.initPopupWidget({url:'https://calendly.com/samirpaulb/meet?hide_gdpr_banner=1'});return false;">schedule a meeting🗓️</a></em></b>
 
 <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfGcMMU8znqdQIasXOZp0huyxZ9Y5x0YoSr2BQY0AACS_dXKg/viewform?embedded=true"
 			title="Contact form"
