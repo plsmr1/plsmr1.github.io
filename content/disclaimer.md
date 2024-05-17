@@ -59,4 +59,7 @@ The Operator is not liable for any direct, indirect, incidental, consequential, 
 The Operator reserves the right to modify this Disclaimer at any time without prior notice. You are encouraged to review this Disclaimer periodically for any updates. Your continued use of the Website following any modifications to this Disclaimer constitutes your acceptance of the revised Disclaimer.
 
 **Contact Information**
-If you have any questions or concerns about this Disclaimer, please contact the Operator here: [samirpaulb.github.io/contact](https://samirpaulb.github.io/contact).
+If you have any questions or concerns about this Disclaimer, please contact the Operator here: [contact](/contact).
+
+
+<script defer loading="lazy" type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>

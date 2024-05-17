@@ -95,3 +95,6 @@ We may update or change this privacy policy from time to time to reflect changes
 ## Contact Us
 
 If there are any questions or concerns regarding this Privacy Policy, visitors may contact us through the [contact form](https://samirpaulb.github.io/contact) on our website.
+
+
+<script defer loading="lazy" type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>

@@ -129,11 +129,9 @@
 <link href="https://assets.calendly.com" rel="dns-prefetch"/> -->
 
 
-
-<!-- MathJax Support -->
+<!-- KaTeX Support -->
 {{ if or .Params.math .Site.Params.math }}
-<script type="module" defer loading="lazy" src="/mathjax/mathjax-config.js"></script>
-<script type="module" id="MathJax-script" defer loading="lazy" src="/mathjax/es5/tex-mml-chtml.js"></script>
+{{ partial "math.html" . }}
 {{ end }}
 
 <!-- MediumZoom Images -->
