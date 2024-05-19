@@ -77,7 +77,7 @@ After traversing the string $s$, we return $ans$.
 
 The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is the length of the string $s$.
 
-#### Approach 1:
+#### Approach 1
 The below can be used in [***Basic Calculator III***](https://samirpaulb.github.io/posts/basic-calculator-iii)
 
 {{< terminal title="Python Code: Approach 1" >}}

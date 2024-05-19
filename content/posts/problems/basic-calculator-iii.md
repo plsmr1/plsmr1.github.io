@@ -64,7 +64,7 @@ math: true
 
 Read: [***Solving Basic Calculator I, II, III on leetcode***](https://medium.com/@CalvinChankf/solving-basic-calculator-i-ii-iii-on-leetcode-74d926732437)
 
-### Approach 1: 
+### Approach 1  
 SAME as [***Basic Calculator I: Approach 1***](https://samirpaulb.github.io/posts/basic-calculator/#approach-1)
 
 {{< terminal title="Python Code" >}}
