@@ -105,6 +105,5 @@ class Solution:
 ```
 {{< /terminal >}}
 
-**Time**: $O(n)$
-
+**Time**: $O(n)$ 
 **Space**: $O(n)$
