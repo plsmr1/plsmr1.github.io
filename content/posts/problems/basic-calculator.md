@@ -77,7 +77,45 @@ After traversing the string $s$, we return $ans$.
 
 The time complexity is $O(n)$, and the space complexity is $O(n)$, where $n$ is the length of the string $s$.
 
-<!-- tabs:start -->
+#### Approach 1:
+**The below can be used in Basic Calculator III**
+
+{{< terminal title="Python Code" >}}
+```python
+import collections
+class Solution:
+    def calculate(self, s: str) -> int:
+        def helper(q):
+            stack = []
+            sign = '+'
+            num = 0
+            while q:
+                c = q.popleft()
+                if c.isdigit():
+                    num = num*10 + int(c)
+                if c == '(':
+                    num = helper(q)
+                if c in '+-)' or not q:
+                    if sign == '+':
+                        stack.append(num)
+                    elif sign == '-':
+                        stack.append(-num)
+                    sign = c
+                    num = 0
+                    if c == ')':
+                        break
+            return sum(stack)
+
+        q = collections.deque()
+        for c in s:
+            q.append(c)
+
+        return helper(q)
+```
+{{< /terminal >}}
+
+**Time**: O(N)
+**Space**: O(N)
 
 {{< terminal title="Python Code" >}}
 ```python
