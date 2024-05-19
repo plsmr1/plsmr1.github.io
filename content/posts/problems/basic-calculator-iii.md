@@ -17,7 +17,7 @@ math: true
 
 # [772. Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii)
 
-[Solve on LintCode](https://www.lintcode.com/problem/849/)
+[**Solve on LintCode**](https://www.lintcode.com/problem/849/)
 
 ## Description
 
@@ -62,10 +62,10 @@ math: true
 
 ## Solutions
 
-[**Read: Solving Basic Calculator I, II, III on leetcode**](https://medium.com/@CalvinChankf/solving-basic-calculator-i-ii-iii-on-leetcode-74d926732437)
+Read: [***Solving Basic Calculator I, II, III on leetcode***](https://medium.com/@CalvinChankf/solving-basic-calculator-i-ii-iii-on-leetcode-74d926732437)
 
 ### Approach 1: 
-[SAME as Basic Calculator I Approach 1](/posts/basic-calculator/#Approach 1)
+SAME as [***Basic Calculator I: Approach 1***](https://samirpaulb.github.io/posts/basic-calculator/#approach-1)
 
 {{< terminal title="Python Code" >}}
 ```python
@@ -105,5 +105,6 @@ class Solution:
 ```
 {{< /terminal >}}
 
-**Time**: O(N)
-**Space**: O(N)
+**Time**: $O(n)$
+
+**Space**: $O(n)$
