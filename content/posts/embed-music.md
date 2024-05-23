@@ -17,7 +17,7 @@ TocOpen: false
 ---
 
 
-Embed [<b>samirpaul.in/music/embed</b>](https://samirpaulb.github.io/music/embed) music player(Lofi Study Music) to any website:
+Embed [<b>samirpaulb.github.io/music/embed</b>](https://samirpaulb.github.io/music/embed) music player(Lofi Study Music) to any website:
 
 ### Demo:
 
